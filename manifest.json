@@ -1,150 +1,66 @@
 {
-  "name": "be850-distillery",
-  "version": "0.1.0",
-  "description": "Ogden Basic English 850 corpus and resource index for agent distillation",
-  "author": "Ogden: Charles K. Ogden (1930); corpus curated for agent use",
-  "license": "See docs/copyright.md — mixed sources",
+  "name": "OgdenBasicEnglish",
+  "version": "0.2.0",
+  "description": "Ogden Basic English 850 — structured learning corpus and resource index for human study and agent distillation",
   "updated": "2026-06-08",
   "core_concept": {
     "vocabulary_size": 850,
-    "core_verbs": 18,
-    "claim": "850 words cover ~90% of everyday concepts when combined with simple operators"
+    "operator_verbs": 18,
+    "classes": ["operations(100)", "things_general(400)", "things_picturable(200)", "qualities_general(100)", "qualities_opposites(50)"],
+    "claim": "850 words + operators + affixes + compounds cover ~90% of everyday concepts",
+    "multipliers": ["operator+direction (phrasal verbs)", "operator+noun", "affixes (-S/-ER/-ING/-ED/-LY/UN-)", "compounds"]
+  },
+  "structure": {
+    "00-START-HERE.md": "master overview + 4-week path + core focus points",
+    "01-foundations/": "skeleton: 18 operators, directions/prepositions, grammar rules",
+    "02-vocabulary/": "850 words in priority tiers + lists + pdf",
+    "03-composition/": "phrasal verbs, affixes, compounds (the multiplier)",
+    "04-practice/": "picture->sentence, reading list, ETP pdf",
+    "05-distill/": "JSONL schema + prompt targets for agents",
+    "reference/": "1937 pamphlet, Chinese survey, copyright, raw HTML mirrors"
   },
   "local_files": {
-    "vocabulary": [
-      {
-        "path": "corpus/vocabulary/basic-english-850.txt",
-        "format": "txt",
-        "description": "850 words, one per line (alphabetic, from ChristopherA/iambic-mnemonic)",
-        "license": "word list; source ogden.basic-english.org"
-      },
-      {
-        "path": "corpus/vocabulary/words-ogden-order.md",
-        "format": "markdown",
-        "description": "850 words in Ogden's original five categories"
-      },
-      {
-        "path": "corpus/vocabulary/words-ogden-order.html",
-        "format": "html",
-        "description": "Mirror snapshot from zbenglish.net"
-      },
-      {
-        "path": "corpus/vocabulary/words-alphabetic.html",
-        "format": "html",
-        "description": "Alphabetic list mirror snapshot"
-      },
-      {
-        "path": "downloads/ogdens-basic-english-850.pdf",
-        "format": "pdf",
-        "description": "850-word PDF (Ogden order)",
-        "size_mb": 0.07
-      }
+    "foundations": [
+      "01-foundations/operators-18.md",
+      "01-foundations/directions-prepositions.md",
+      "01-foundations/grammar-rules.md"
     ],
-    "grammar": [
-      {
-        "path": "corpus/grammar/begr-1937.html",
-        "format": "html",
-        "description": "Basic English and Grammatical Reform (1937) — full text, no-copyright pamphlet",
-        "priority": "high"
-      },
-      {
-        "path": "corpus/grammar/begr-1937.md",
-        "format": "markdown",
-        "description": "Agent-friendly excerpt and index of begr-1937"
-      }
+    "vocabulary": [
+      {"path": "02-vocabulary/tier-guide.md", "desc": "learning-priority tiers"},
+      {"path": "02-vocabulary/words-ogden-order.md", "desc": "authoritative 850 taxonomy"},
+      {"path": "02-vocabulary/basic-english-850.txt", "desc": "flat flashcard list"},
+      {"path": "02-vocabulary/ogdens-basic-english-850.pdf", "desc": "printable word list"}
+    ],
+    "composition": [
+      "03-composition/phrasal-verbs.md",
+      "03-composition/derivation-affixes.md",
+      "03-composition/compounds.md"
     ],
     "practice": [
-      {
-        "path": "downloads/english-through-pictures-book1.pdf",
-        "format": "pdf",
-        "description": "English Through Pictures Book 1 (Richards & Gibson) — aligned pedagogy, not strict 850-word limit",
-        "size_mb": 3.4,
-        "license": "check archive.org item metadata before redistribution"
-      }
+      {"path": "04-practice/reading-list.md", "desc": "constrained-input reading"},
+      {"path": "04-practice/english-through-pictures-book1.pdf", "desc": "Richards ETP Book 1; verify Archive terms before redistribution"}
     ],
-    "guides": [
-      {
-        "path": "corpus/guides/basiceng-index.html",
-        "format": "html",
-        "description": "ZbEnglish mirror index page"
-      },
-      {
-        "path": "corpus/guides/books-catalog.html",
-        "format": "html",
-        "description": "Ogden Basic English book catalog"
-      },
-      {
-        "path": "docs/survey-zh.md",
-        "format": "markdown",
-        "description": "Chinese resource survey (2026-06-08)"
-      },
-      {
-        "path": "docs/learning-path.md",
-        "format": "markdown",
-        "description": "Free-first 4-week study path"
-      }
+    "distill": ["05-distill/schema.md"],
+    "reference": [
+      {"path": "reference/begr-1937.md", "desc": "1937 pamphlet index (verified sections)"},
+      {"path": "reference/begr-1937.html", "desc": "full text, no-copyright pamphlet"},
+      {"path": "reference/survey-zh.md", "desc": "Chinese resource survey 2026-06-08"},
+      {"path": "reference/copyright.md", "desc": "redistribution notes"},
+      {"path": "reference/mirrors/", "desc": "raw HTML snapshots from zbenglish.net"}
     ]
   },
   "remote_only": [
-    {
-      "title": "ZbEnglish mirror (primary hub)",
-      "url": "https://zbenglish.net/sites/basic/basiceng.html",
-      "status": "active",
-      "notes": "Replaces dead ogden.basic-english.org"
-    },
-    {
-      "title": "Wiktionary 850-word appendix",
-      "url": "https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list",
-      "status": "active"
-    },
-    {
-      "title": "Learning Basic English (1945) — Archive",
-      "url": "https://archive.org/details/in.ernet.dli.2015.166025",
-      "status": "borrow",
-      "notes": "Not bundled; run scripts/fetch.sh --archive to attempt download"
-    },
-    {
-      "title": "Basic English: General Introduction (1930)",
-      "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha102944655",
-      "status": "preview_or_borrow",
-      "notes": "No stable free full PDF"
-    },
-    {
-      "title": "The ABC of Basic English (1932)",
-      "url": "https://books.google.com/books?id=Q-AtAAAAYAAJ",
-      "status": "preview",
-      "notes": "Google Books preview only"
-    },
-    {
-      "title": "850 words Chinese?? (??)",
-      "url": "https://www.jianshu.com/p/eec638be62f6",
-      "status": "active",
-      "notes": "Community translation, not official"
-    },
-    {
-      "title": "Bible in Basic English",
-      "url": "https://archive.org/details/BBEFreePDFBibleinBasicEnglish",
-      "status": "active",
-      "notes": "US public domain; extended ~1000-word vocabulary"
-    }
+    {"title": "ZbEnglish mirror (primary hub)", "url": "https://zbenglish.net/sites/basic/basiceng.html", "status": "active"},
+    {"title": "Wiktionary 850-word appendix", "url": "https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list", "status": "active"},
+    {"title": "Learning Basic English (1945)", "url": "https://archive.org/details/in.ernet.dli.2015.166025", "status": "borrow"},
+    {"title": "Basic English: General Introduction (1930)", "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha102944655", "status": "preview_or_borrow"},
+    {"title": "The ABC of Basic English (1932)", "url": "https://books.google.com/books?id=Q-AtAAAAYAAJ", "status": "preview"},
+    {"title": "850 words Chinese?? (??)", "url": "https://www.jianshu.com/p/eec638be62f6", "status": "active"},
+    {"title": "Bible in Basic English", "url": "https://archive.org/details/BBEFreePDFBibleinBasicEnglish", "status": "active_public_domain"}
   ],
-  "dead_links": [
-    "http://ogden.basic-english.org/",
-    "https://basic-english.org/"
-  ],
+  "dead_links": ["http://ogden.basic-english.org/", "https://basic-english.org/"],
   "agent_usage": {
-    "distill_priority": [
-      "corpus/vocabulary/words-ogden-order.md",
-      "corpus/grammar/begr-1937.md",
-      "docs/survey-zh.md",
-      "manifest.json"
-    ],
-    "read_order": [
-      "AGENTS.md",
-      "manifest.json",
-      "corpus/vocabulary/words-ogden-order.md",
-      "corpus/grammar/begr-1937.md",
-      "docs/learning-path.md"
-    ]
+    "read_order": ["AGENTS.md", "manifest.json", "00-START-HERE.md", "01-foundations/operators-18.md", "01-foundations/grammar-rules.md", "02-vocabulary/words-ogden-order.md", "03-composition/phrasal-verbs.md"],
+    "distill_targets": "05-distill/schema.md"
   }
 }

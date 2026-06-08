@@ -1,57 +1,55 @@
-# Agent instructions — be850-distillery
+# Agent instructions — OgdenBasicEnglish
 
-Corpus for distilling **Ogden's Basic English (BE850)**: a 1930 simplified-English system using **850 core words** and **18 operator verbs**.
+Structured corpus for distilling **Ogden's Basic English (BE850)**: 1930 simplified English,
+**850 core words** + **18 operator verbs**, extended by affixes and compounds.
 
-## What this repo is
+## Read order
 
-- **Indexed** resource survey + **local mirrors** of free, agent-readable material
-- **Not** a complete Ogden textbook dump (1930/1932 core books have no stable legal full-PDF)
-- **Goal**: feed RAG / fine-tune / prompt distillation with structured vocabulary + grammar rules + pedagogy pointers
+1. `00-START-HERE.md` — the system in one page + learning path
+2. `manifest.json` — file inventory, remote links, distill targets
+3. `01-foundations/` — operators, directions, grammar rules (the skeleton)
+4. `02-vocabulary/words-ogden-order.md` — authoritative 850 taxonomy
+5. `03-composition/` — phrasal verbs / affixes / compounds (the multiplier)
+6. `reference/begr-1937.md` — Ogden's rationale (why verb-elimination)
 
-## Read first
+## The model to keep in mind
 
-1. `manifest.json` — file inventory and remote URLs
-2. `corpus/vocabulary/words-ogden-order.md` — canonical 850-word taxonomy
-3. `corpus/grammar/begr-1937.md` — grammar rules summary (full HTML in `corpus/grammar/begr-1937.html`)
-4. `docs/survey-zh.md` — what's free vs borrow-only (Chinese)
+```
+850 roots  ×  (operators+directions, operator+noun, affixes, compounds)  =  everyday English
+```
+Do not treat BE850 as a flat word list. The combination rules in `03-composition/` are the point.
 
-## Distillation targets
+## Distillation targets ? `05-distill/schema.md`
 
-| Layer | Source | Output idea |
-|-------|--------|-------------|
-| Lexicon | `words-ogden-order.md`, `basic-english-850.txt` | JSONL: `{word, category, operators_compatible}` |
-| Grammar | `begr-1937.html` | Rule cards: plural, comparison, operators, compounds |
-| Pedagogy | `docs/learning-path.md`, ETP PDF | Stage prompts: picture ? sentence ? operator compounds |
-| Gaps | `manifest.json` ? `remote_only` | Fetch scripts or human borrow list |
+| Artifact | From |
+|----------|------|
+| vocabulary.jsonl (850) | `02-vocabulary/words-ogden-order.md` |
+| operators.jsonl (~120) | `03-composition/phrasal-verbs.md` |
+| grammar_rules.jsonl | `01-foundations/grammar-rules.md` |
+| affixes.jsonl | `03-composition/derivation-affixes.md` |
+| prompts/ (tutor, reducer, validator) | whole corpus |
 
-## Operator verbs (18)
+## Folder map
 
-`come, get, give, go, keep, let, make, put, seem, take, be, do, have, say, see, send, may, will`
-
-Complex verbs are built by composition: e.g. `put together` ? assemble, `make up` ? invent.
-
-## Word categories (Ogden order)
-
-1. **Operations** — 100 (verbs, pronouns, prepositions, conjunctions, adverbs)
-2. **Things — general** — 400
-3. **Things — picturable** — 200
-4. **Qualities — general** — 100
-5. **Qualities — opposites** — 50
-
-## Copyright caution
-
-- `begr-1937` pamphlet: originally marked no copyright; mirror OK for study
-- Ogden 1930–1932 books: **do not** assume public domain globally; link-only in repo
-- `downloads/*.pdf`: verify Archive.org / mirror terms before republishing
-
-## Refresh corpus
-
-```bash
-./scripts/fetch.sh
+```
+00-START-HERE.md      overview + path
+01-foundations/       operators-18 · directions-prepositions · grammar-rules
+02-vocabulary/        tier-guide · words-ogden-order(.md) · 850.txt · 850.pdf
+03-composition/       phrasal-verbs · derivation-affixes · compounds
+04-practice/          reading-list · english-through-pictures-book1.pdf
+05-distill/           schema (jsonl + prompt targets)
+reference/            begr-1937(.md/.html) · survey-zh · copyright · mirrors/
+scripts/fetch.sh      refresh mirrors
 ```
 
-## Do not confuse
+## Copyright
 
-- **Actor ??** (Jonathan Kos-Read) — unrelated; viral Douyin clips often mix Ogden BE850 with other creators
-- **Betty Azar "Basic English Grammar"** — standard ESL grammar, **not** Ogden 850
-- **??? / Chris Lonsdale** — different method (6-month / 5 principles)
+- `begr-1937`: original no-copyright pamphlet; mirror OK for study.
+- Ogden 1930–1932 textbooks: **not** assumed public domain; link-only (see `reference/copyright.md`).
+- PDFs in repo: verify source terms before republishing.
+
+## Do not confuse BE850 with
+
+- Actor ?? / Jonathan Kos-Read — unrelated; viral clips mix him with BE850.
+- Betty Azar "Basic English Grammar" — standard ESL, not Ogden.
+- ??? / Chris Lonsdale "6 months" — different method.
