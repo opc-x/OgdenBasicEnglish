@@ -1,0 +1,150 @@
+{
+  "name": "be850-distillery",
+  "version": "0.1.0",
+  "description": "Ogden Basic English 850 corpus and resource index for agent distillation",
+  "author": "Ogden: Charles K. Ogden (1930); corpus curated for agent use",
+  "license": "See docs/copyright.md — mixed sources",
+  "updated": "2026-06-08",
+  "core_concept": {
+    "vocabulary_size": 850,
+    "core_verbs": 18,
+    "claim": "850 words cover ~90% of everyday concepts when combined with simple operators"
+  },
+  "local_files": {
+    "vocabulary": [
+      {
+        "path": "corpus/vocabulary/basic-english-850.txt",
+        "format": "txt",
+        "description": "850 words, one per line (alphabetic, from ChristopherA/iambic-mnemonic)",
+        "license": "word list; source ogden.basic-english.org"
+      },
+      {
+        "path": "corpus/vocabulary/words-ogden-order.md",
+        "format": "markdown",
+        "description": "850 words in Ogden's original five categories"
+      },
+      {
+        "path": "corpus/vocabulary/words-ogden-order.html",
+        "format": "html",
+        "description": "Mirror snapshot from zbenglish.net"
+      },
+      {
+        "path": "corpus/vocabulary/words-alphabetic.html",
+        "format": "html",
+        "description": "Alphabetic list mirror snapshot"
+      },
+      {
+        "path": "downloads/ogdens-basic-english-850.pdf",
+        "format": "pdf",
+        "description": "850-word PDF (Ogden order)",
+        "size_mb": 0.07
+      }
+    ],
+    "grammar": [
+      {
+        "path": "corpus/grammar/begr-1937.html",
+        "format": "html",
+        "description": "Basic English and Grammatical Reform (1937) — full text, no-copyright pamphlet",
+        "priority": "high"
+      },
+      {
+        "path": "corpus/grammar/begr-1937.md",
+        "format": "markdown",
+        "description": "Agent-friendly excerpt and index of begr-1937"
+      }
+    ],
+    "practice": [
+      {
+        "path": "downloads/english-through-pictures-book1.pdf",
+        "format": "pdf",
+        "description": "English Through Pictures Book 1 (Richards & Gibson) — aligned pedagogy, not strict 850-word limit",
+        "size_mb": 3.4,
+        "license": "check archive.org item metadata before redistribution"
+      }
+    ],
+    "guides": [
+      {
+        "path": "corpus/guides/basiceng-index.html",
+        "format": "html",
+        "description": "ZbEnglish mirror index page"
+      },
+      {
+        "path": "corpus/guides/books-catalog.html",
+        "format": "html",
+        "description": "Ogden Basic English book catalog"
+      },
+      {
+        "path": "docs/survey-zh.md",
+        "format": "markdown",
+        "description": "Chinese resource survey (2026-06-08)"
+      },
+      {
+        "path": "docs/learning-path.md",
+        "format": "markdown",
+        "description": "Free-first 4-week study path"
+      }
+    ]
+  },
+  "remote_only": [
+    {
+      "title": "ZbEnglish mirror (primary hub)",
+      "url": "https://zbenglish.net/sites/basic/basiceng.html",
+      "status": "active",
+      "notes": "Replaces dead ogden.basic-english.org"
+    },
+    {
+      "title": "Wiktionary 850-word appendix",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list",
+      "status": "active"
+    },
+    {
+      "title": "Learning Basic English (1945) — Archive",
+      "url": "https://archive.org/details/in.ernet.dli.2015.166025",
+      "status": "borrow",
+      "notes": "Not bundled; run scripts/fetch.sh --archive to attempt download"
+    },
+    {
+      "title": "Basic English: General Introduction (1930)",
+      "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha102944655",
+      "status": "preview_or_borrow",
+      "notes": "No stable free full PDF"
+    },
+    {
+      "title": "The ABC of Basic English (1932)",
+      "url": "https://books.google.com/books?id=Q-AtAAAAYAAJ",
+      "status": "preview",
+      "notes": "Google Books preview only"
+    },
+    {
+      "title": "850 words Chinese?? (??)",
+      "url": "https://www.jianshu.com/p/eec638be62f6",
+      "status": "active",
+      "notes": "Community translation, not official"
+    },
+    {
+      "title": "Bible in Basic English",
+      "url": "https://archive.org/details/BBEFreePDFBibleinBasicEnglish",
+      "status": "active",
+      "notes": "US public domain; extended ~1000-word vocabulary"
+    }
+  ],
+  "dead_links": [
+    "http://ogden.basic-english.org/",
+    "https://basic-english.org/"
+  ],
+  "agent_usage": {
+    "distill_priority": [
+      "corpus/vocabulary/words-ogden-order.md",
+      "corpus/grammar/begr-1937.md",
+      "docs/survey-zh.md",
+      "manifest.json"
+    ],
+    "read_order": [
+      "AGENTS.md",
+      "manifest.json",
+      "corpus/vocabulary/words-ogden-order.md",
+      "corpus/grammar/begr-1937.md",
+      "docs/learning-path.md"
+    ]
+  }
+}
