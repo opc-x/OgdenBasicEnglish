@@ -165,15 +165,15 @@ const QUAL_WORDS =
 const OPP_WORDS =
   "awake, bad, bent, bitter, blue, certain, cold, complete, cruel, dark, dead, dear, delicate, different, dirty, dry, false, feeble, female, foolish, future, green, ill, last, late, left, loose, loud, low, mixed, narrow, old, opposite, public, rough, sad, safe, secret, short, shut, simple, slow, small, soft, solid, special, strange, thin, white, wrong";
 
-const split = (s: string, t: Tier): Word[] =>
-  s.split(",").map((w) => ({ w: w.trim(), t }));
+const split = (s: string, t: Tier, link?: string): Word[] =>
+  s.split(",").map((w) => ({ w: w.trim(), t, link }));
 
 const BASE_WORDS: Word[] = [
   ...OPS,
-  ...split(PIC_WORDS, "pic"),
-  ...split(THINGS_WORDS, "things"),
-  ...split(QUAL_WORDS, "qual"),
-  ...split(OPP_WORDS, "opp"),
+  ...split(PIC_WORDS, "pic", "tier-guide"),
+  ...split(THINGS_WORDS, "things", "tier-guide"),
+  ...split(QUAL_WORDS, "qual", "tier-guide"),
+  ...split(OPP_WORDS, "opp", "tier-guide"),
 ];
 
 const ANNOTATIONS_DATA = ANNOTATIONS as Record<string, { ipa?: string; cn?: string }>;

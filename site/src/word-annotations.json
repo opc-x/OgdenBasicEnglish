@@ -2460,702 +2460,934 @@
     "cn": "我"
   },
   "he": {
-    "cn": "他"
+    "cn": "他",
+    "ipa": "hi"
   },
   "you": {
-    "cn": "你"
+    "cn": "你",
+    "ipa": "jʉː"
   },
   "who": {
-    "cn": "谁"
+    "cn": "谁",
+    "ipa": "huː"
   },
   "and": {
     "cn": "和"
   },
   "because": {
-    "cn": "因为"
+    "cn": "因为",
+    "ipa": "bɪˈkɒz"
   },
   "but": {
-    "cn": "但是"
+    "cn": "但是",
+    "ipa": "bʊt"
   },
   "or": {
-    "cn": "或者"
+    "cn": "或者",
+    "ipa": "ɔː(ɹ)"
   },
   "if": {
-    "cn": "如果"
+    "cn": "如果",
+    "ipa": "ɪf"
   },
   "though": {
-    "cn": "虽然"
+    "cn": "虽然",
+    "ipa": "ðəʊ"
   },
   "while": {
-    "cn": "当"
+    "cn": "当",
+    "ipa": "waɪl"
   },
   "how": {
-    "cn": "如何"
+    "cn": "如何",
+    "ipa": "hæŏ"
   },
   "when": {
-    "cn": "什么时候"
+    "cn": "什么时候",
+    "ipa": "ʍɛn"
   },
   "where": {
-    "cn": "在哪里"
+    "cn": "在哪里",
+    "ipa": "wɛə(ɹ)"
   },
   "why": {
-    "cn": "为什么"
+    "cn": "为什么",
+    "ipa": "waɪ"
   },
   "again": {
-    "cn": "再次"
+    "cn": "再次",
+    "ipa": "əˈɡeɪn"
   },
   "ever": {
-    "cn": "曾经"
+    "cn": "曾经",
+    "ipa": "ˈɛvə"
   },
   "far": {
-    "cn": "远"
+    "cn": "远",
+    "ipa": "fɑː"
   },
   "forward": {
-    "cn": "向前"
+    "cn": "向前",
+    "ipa": "ˈfoːwəd"
   },
   "here": {
-    "cn": "这里"
+    "cn": "这里",
+    "ipa": "hiːɹ"
   },
   "near": {
-    "cn": "附近"
+    "cn": "附近",
+    "ipa": "nɪə(ɹ)"
   },
   "now": {
-    "cn": "现在"
+    "cn": "现在",
+    "ipa": "naʊ"
   },
   "out": {
-    "cn": "外面"
+    "cn": "外面",
+    "ipa": "æɔt"
   },
   "still": {
-    "cn": "仍然"
+    "cn": "仍然",
+    "ipa": "stɪl"
   },
   "then": {
-    "cn": "然后"
+    "cn": "然后",
+    "ipa": "ðen"
   },
   "there": {
-    "cn": "那里"
+    "cn": "那里",
+    "ipa": "ðeː(ɹ)"
   },
   "together": {
-    "cn": "在一起"
+    "cn": "在一起",
+    "ipa": "təˈɡɛð.ə(ɹ)"
   },
   "well": {
-    "cn": "好"
+    "cn": "好",
+    "ipa": "wɛl"
   },
   "almost": {
-    "cn": "几乎"
+    "cn": "几乎",
+    "ipa": "ɔːl.ˈməʊst"
   },
   "enough": {
-    "cn": "足够"
+    "cn": "足够",
+    "ipa": "iˈnʌf"
   },
   "cloth": {
-    "cn": "布"
+    "cn": "布",
+    "ipa": "klɑθ"
   },
   "coal": {
-    "cn": "煤炭"
+    "cn": "煤炭",
+    "ipa": "kɔʊl"
   },
   "colour": {
-    "cn": "颜色"
+    "cn": "颜色",
+    "ipa": "ˈkʌl.ə(ɹ)"
   },
   "comfort": {
-    "cn": "舒适"
+    "cn": "舒适",
+    "ipa": "ˈkʊm.fət"
   },
   "committee": {
-    "cn": "委员会"
+    "cn": "委员会",
+    "ipa": "kəˈmɪt.i"
   },
   "company": {
-    "cn": "公司"
+    "cn": "公司",
+    "ipa": "ˈkʌmp(ə)ni"
   },
   "comparison": {
-    "cn": "比较"
+    "cn": "比较",
+    "ipa": "kəmˈpæɹɪsən"
   },
   "competition": {
-    "cn": "竞赛"
+    "cn": "竞赛",
+    "ipa": "ˌkɒmpəˈtɪʃən"
   },
   "condition": {
-    "cn": "状况"
+    "cn": "状况",
+    "ipa": "kənˈdɪʃən"
   },
   "connection": {
-    "cn": "联系"
+    "cn": "联系",
+    "ipa": "kəˈnɛkʃən"
   },
   "control": {
-    "cn": "控制"
+    "cn": "控制",
+    "ipa": "kənˈtɹəʊl"
   },
   "cook": {
-    "cn": "厨师"
+    "cn": "厨师",
+    "ipa": "kuːk"
   },
   "copper": {
-    "cn": "铜"
+    "cn": "铜",
+    "ipa": "ˈkɔp.ə"
   },
   "copy": {
-    "cn": "复制"
+    "cn": "复制",
+    "ipa": "ˈkɒpi"
   },
   "cork": {
-    "cn": "软木"
+    "cn": "软木",
+    "ipa": "kɔːk"
   },
   "cotton": {
-    "cn": "棉布"
+    "cn": "棉布",
+    "ipa": "ˈkɒt.n̩"
   },
   "cough": {
-    "cn": "咳嗽"
+    "cn": "咳嗽",
+    "ipa": "kɑf"
   },
   "country": {
-    "cn": "国家"
+    "cn": "国家",
+    "ipa": "ˈkɐntɹi"
   },
   "cover": {
-    "cn": "封面"
+    "cn": "封面",
+    "ipa": "ˈkʌvə"
   },
   "crack": {
-    "cn": "裂缝"
+    "cn": "裂缝",
+    "ipa": "kɹæk"
   },
   "credit": {
-    "cn": "信用"
+    "cn": "信用",
+    "ipa": "ˈkɹɛdɪt"
   },
   "crime": {
-    "cn": "罪案"
+    "cn": "罪案",
+    "ipa": "kɹaɪm"
   },
   "crush": {
-    "cn": "压碎"
+    "cn": "压碎",
+    "ipa": "kɹʌʃ"
   },
   "cry": {
-    "cn": "哭"
+    "cn": "哭",
+    "ipa": "kɹaɪ̯"
   },
   "current": {
-    "cn": "当前的"
+    "cn": "当前的",
+    "ipa": "ˈkʌɹənt"
   },
   "curve": {
-    "cn": "曲线"
+    "cn": "曲线",
+    "ipa": "kɜːv"
   },
   "damage": {
-    "cn": "损害"
+    "cn": "损害",
+    "ipa": "ˈdæmɪdʒ"
   },
   "danger": {
-    "cn": "危险"
+    "cn": "危险",
+    "ipa": "ˈdeɪn.dʒə(ɹ)"
   },
   "daughter": {
-    "cn": "女儿"
+    "cn": "女儿",
+    "ipa": "ˈdɑ.tɚ"
   },
   "error": {
-    "cn": "错误"
+    "cn": "错误",
+    "ipa": "ˈɛɹə(ɹ)"
   },
   "increase": {
-    "cn": "增加"
+    "cn": "增加",
+    "ipa": "ˈɪn.kriːs"
   },
   "look": {
-    "cn": "看"
+    "cn": "看",
+    "ipa": "lʊk"
   },
   "meeting": {
-    "cn": "会议"
+    "cn": "会议",
+    "ipa": "ˈmiːtɪŋ"
   },
   "memory": {
-    "cn": "记忆"
+    "cn": "记忆",
+    "ipa": "ˈmɛm(ə)ɹi"
   },
   "metal": {
-    "cn": "金属"
+    "cn": "金属",
+    "ipa": "ˈmɛtəl"
   },
   "middle": {
-    "cn": "中间"
+    "cn": "中间",
+    "ipa": "ˈmɪdəl"
   },
   "milk": {
-    "cn": "牛奶"
+    "cn": "牛奶",
+    "ipa": "[mɛlk]"
   },
   "mind": {
-    "cn": "头脑"
+    "cn": "头脑",
+    "ipa": "maɪnd"
   },
   "mine": {
-    "cn": "矿"
+    "cn": "矿",
+    "ipa": "maɪn"
   },
   "minute": {
-    "cn": "分钟"
+    "cn": "分钟",
+    "ipa": "ˈmɪnɪt"
   },
   "mist": {
-    "cn": "薄雾"
+    "cn": "薄雾",
+    "ipa": "mɪst"
   },
   "money": {
-    "cn": "钱"
+    "cn": "钱",
+    "ipa": "ˈmʌni"
   },
   "month": {
-    "cn": "月"
+    "cn": "月",
+    "ipa": "mʌnθ"
   },
   "morning": {
-    "cn": "早晨"
+    "cn": "早晨",
+    "ipa": "ˈmɔːnɪŋ"
   },
   "mother": {
-    "cn": "母亲"
+    "cn": "母亲",
+    "ipa": "ˈmʌðə(ɹ)"
   },
   "motion": {
-    "cn": "运动"
+    "cn": "运动",
+    "ipa": "ˈməʊʃən"
   },
   "mountain": {
-    "cn": "山"
+    "cn": "山",
+    "ipa": "ˈmaʊntɪn"
   },
   "move": {
-    "cn": "移动"
+    "cn": "移动",
+    "ipa": "muːv"
   },
   "music": {
-    "cn": "音乐"
+    "cn": "音乐",
+    "ipa": "ˈmjuːzɪk"
   },
   "name": {
-    "cn": "姓名"
+    "cn": "姓名",
+    "ipa": "neɪm"
   },
   "nation": {
-    "cn": "国家"
+    "cn": "国家",
+    "ipa": "ˈneɪ.ʃən"
   },
   "need": {
-    "cn": "需要"
+    "cn": "需要",
+    "ipa": "niːd"
   },
   "news": {
-    "cn": "消息"
+    "cn": "消息",
+    "ipa": "njuːz"
   },
   "night": {
-    "cn": "夜晚"
+    "cn": "夜晚",
+    "ipa": "naɪt"
   },
   "noise": {
-    "cn": "噪音"
+    "cn": "噪音",
+    "ipa": "nɔɪz"
   },
   "note": {
-    "cn": "笔记"
+    "cn": "笔记",
+    "ipa": "nəʊt"
   },
   "number": {
-    "cn": "数字"
+    "cn": "数字",
+    "ipa": "ˈnʌmbə"
   },
   "observation": {
-    "cn": "观察"
+    "cn": "观察",
+    "ipa": "ˌɒbzəˈveɪʃ(ə)n"
   },
   "offer": {
-    "cn": "提供"
+    "cn": "提供",
+    "ipa": "ˈɑfɚ"
   },
   "oil": {
-    "cn": "油"
+    "cn": "油",
+    "ipa": "ɔɪl"
   },
   "operation": {
-    "cn": "手术"
+    "cn": "手术",
+    "ipa": "ˌɒpəˈɹeɪʃən"
   },
   "opinion": {
-    "cn": "观点"
+    "cn": "观点",
+    "ipa": "əˈpɪnjən"
   },
   "scale": {
-    "cn": "规模"
+    "cn": "规模",
+    "ipa": "skeɪl"
   },
   "science": {
-    "cn": "科学"
+    "cn": "科学",
+    "ipa": "ˈsaɪəns"
   },
   "sea": {
-    "cn": "海"
+    "cn": "海",
+    "ipa": "siː"
   },
   "seat": {
-    "cn": "座位"
+    "cn": "座位",
+    "ipa": "siːt"
   },
   "secretary": {
-    "cn": "秘书"
+    "cn": "秘书",
+    "ipa": "ˈsɛk.ɹə.tɹi"
   },
   "selection": {
-    "cn": "选择"
+    "cn": "选择",
+    "ipa": "səˈlɛkʃən"
   },
   "self": {
-    "cn": "自己"
+    "cn": "自己",
+    "ipa": "sɛlf"
   },
   "sense": {
-    "cn": "感觉"
+    "cn": "感觉",
+    "ipa": "sɛn(t)s"
   },
   "servant": {
-    "cn": "仆人"
+    "cn": "仆人",
+    "ipa": "ˈsɜːvənt"
   },
   "sex": {
-    "cn": "性别"
+    "cn": "性别",
+    "ipa": "sɛks"
   },
   "shade": {
-    "cn": "阴影"
+    "cn": "阴影",
+    "ipa": "ʃeɪd"
   },
   "shake": {
-    "cn": "摇"
+    "cn": "摇",
+    "ipa": "ˈʃeɪk"
   },
   "shame": {
-    "cn": "耻辱"
+    "cn": "耻辱",
+    "ipa": "ʃeɪm"
   },
   "shock": {
-    "cn": "震惊"
+    "cn": "震惊",
+    "ipa": "ʃɒk"
   },
   "side": {
-    "cn": "边"
+    "cn": "边",
+    "ipa": "saɪd"
   },
   "sign": {
-    "cn": "符号"
+    "cn": "符号",
+    "ipa": "saɪn"
   },
   "silk": {
-    "cn": "丝绸"
+    "cn": "丝绸",
+    "ipa": "sɪlk"
   },
   "silver": {
-    "cn": "银"
+    "cn": "银",
+    "ipa": "ˈsɪl.və"
   },
   "sister": {
-    "cn": "姐姐"
+    "cn": "姐姐",
+    "ipa": "ˈsɪs.tə"
   },
   "size": {
-    "cn": "尺寸"
+    "cn": "尺寸",
+    "ipa": "saɪz"
   },
   "sky": {
-    "cn": "天空"
+    "cn": "天空",
+    "ipa": "skaɪ"
   },
   "sleep": {
-    "cn": "睡觉"
+    "cn": "睡觉",
+    "ipa": "sliːp"
   },
   "slip": {
-    "cn": "滑"
+    "cn": "滑",
+    "ipa": "slɪp"
   },
   "slope": {
-    "cn": "坡"
+    "cn": "坡",
+    "ipa": "sləʊp"
   },
   "smash": {
-    "cn": "粉碎"
+    "cn": "粉碎",
+    "ipa": "smæʃ"
   },
   "smell": {
-    "cn": "闻"
+    "cn": "闻",
+    "ipa": "smɛl"
   },
   "smile": {
-    "cn": "微笑"
+    "cn": "微笑",
+    "ipa": "ˈsmaɪ.əl"
   },
   "smoke": {
-    "cn": "抽烟"
+    "cn": "抽烟",
+    "ipa": "sməʊk"
   },
   "sneeze": {
-    "cn": "喷嚏"
+    "cn": "喷嚏",
+    "ipa": "sniːz"
   },
   "snow": {
-    "cn": "雪"
+    "cn": "雪",
+    "ipa": "snəʊ"
   },
   "touch": {
-    "cn": "触碰"
+    "cn": "触碰",
+    "ipa": "tʌtʃ"
   },
   "transport": {
-    "cn": "运输"
+    "cn": "运输",
+    "ipa": "ˈtræn.spɔːt"
   },
   "use": {
-    "cn": "使用"
+    "cn": "使用",
+    "ipa": "juːs"
   },
   "army": {
-    "cn": "军队"
+    "cn": "军队",
+    "ipa": "ˈɑː.miː"
   },
   "baby": {
-    "cn": "婴儿"
+    "cn": "婴儿",
+    "ipa": "ˈbeɪbi"
   },
   "bag": {
-    "cn": "袋子"
+    "cn": "袋子",
+    "ipa": "ˈbæːɡ"
   },
   "ball": {
-    "cn": "球"
+    "cn": "球",
+    "ipa": "bɔːl"
   },
   "band": {
-    "cn": "乐队"
+    "cn": "乐队",
+    "ipa": "bænd"
   },
   "basin": {
-    "cn": "盆地"
+    "cn": "盆地",
+    "ipa": "ˈbeɪsɪn"
   },
   "basket": {
-    "cn": "篮子"
+    "cn": "篮子",
+    "ipa": "ˈbaːskət"
   },
   "bath": {
-    "cn": "洗澡"
+    "cn": "洗澡",
+    "ipa": "bɐːθ"
   },
   "bed": {
-    "cn": "床"
+    "cn": "床",
+    "ipa": "bed"
   },
   "bee": {
-    "cn": "蜜蜂"
+    "cn": "蜜蜂",
+    "ipa": "ˈbiː"
   },
   "bell": {
-    "cn": "铃铛"
+    "cn": "铃铛",
+    "ipa": "bɛl"
   },
   "berry": {
-    "cn": "浆果"
+    "cn": "浆果",
+    "ipa": "ˈbɛɹi"
   },
   "bird": {
-    "cn": "鸟"
+    "cn": "鸟",
+    "ipa": "bɜd"
   },
   "blade": {
-    "cn": "刀刃"
+    "cn": "刀刃",
+    "ipa": "bleɪd"
   },
   "board": {
-    "cn": "木板"
+    "cn": "木板",
+    "ipa": "bɔːd"
   },
   "boat": {
-    "cn": "船"
+    "cn": "船",
+    "ipa": "bəʊt"
   },
   "bone": {
-    "cn": "骨"
+    "cn": "骨",
+    "ipa": "bəʉn"
   },
   "book": {
-    "cn": "书"
+    "cn": "书",
+    "ipa": "buːk"
   },
   "cushion": {
-    "cn": "软垫"
+    "cn": "软垫",
+    "ipa": "ˈkʊʃən"
   },
   "door": {
-    "cn": "门"
+    "cn": "门",
+    "ipa": "dɔː"
   },
   "drain": {
-    "cn": "流走"
+    "cn": "流走",
+    "ipa": "dɹeɪn"
   },
   "drawer": {
-    "cn": "抽屉"
+    "cn": "抽屉",
+    "ipa": "dɹɔː(ɹ)"
   },
   "dress": {
-    "cn": "裙子"
+    "cn": "裙子",
+    "ipa": "dɹɛs"
   },
   "drop": {
-    "cn": "降低"
+    "cn": "降低",
+    "ipa": "dɹɒp"
   },
   "ear": {
-    "cn": "耳朵"
+    "cn": "耳朵",
+    "ipa": "ɪə̯"
   },
   "egg": {
-    "cn": "蛋"
+    "cn": "蛋",
+    "ipa": "eɪɡ"
   },
   "engine": {
-    "cn": "引擎"
+    "cn": "引擎",
+    "ipa": "end͡ʒən"
   },
   "eye": {
-    "cn": "眼睛"
+    "cn": "眼睛",
+    "ipa": "aɪ"
   },
   "face": {
-    "cn": "脸"
+    "cn": "脸",
+    "ipa": "feɪs"
   },
   "farm": {
-    "cn": "农场"
+    "cn": "农场",
+    "ipa": "fɑːɹm"
   },
   "knife": {
-    "cn": "刀"
+    "cn": "刀",
+    "ipa": "naɪf"
   },
   "knot": {
-    "cn": "结"
+    "cn": "结",
+    "ipa": "nɒt"
   },
   "leaf": {
-    "cn": "叶子"
+    "cn": "叶子",
+    "ipa": "liːf"
   },
   "leg": {
-    "cn": "腿"
+    "cn": "腿",
+    "ipa": "leɪɡ"
   },
   "library": {
-    "cn": "图书馆"
+    "cn": "图书馆",
+    "ipa": "ˈlaɪbɹi"
   },
   "line": {
-    "cn": "线"
+    "cn": "线",
+    "ipa": "laɪn"
   },
   "lip": {
-    "cn": "唇"
+    "cn": "唇",
+    "ipa": "lɪp"
   },
   "lock": {
-    "cn": "锁"
+    "cn": "锁",
+    "ipa": "lɒk"
   },
   "map": {
-    "cn": "地图"
+    "cn": "地图",
+    "ipa": "mæp"
   },
   "match": {
-    "cn": "匹配"
+    "cn": "匹配",
+    "ipa": "mæt͡ʃ"
   },
   "monkey": {
-    "cn": "猴"
+    "cn": "猴",
+    "ipa": "ˈmʌŋki"
   },
   "moon": {
-    "cn": "月亮"
+    "cn": "月亮",
+    "ipa": "muːn"
   },
   "mouth": {
-    "cn": "嘴"
+    "cn": "嘴",
+    "ipa": "mʌʊθ"
   },
   "muscle": {
-    "cn": "肌肉"
+    "cn": "肌肉",
+    "ipa": "ˈmʌs.əl"
   },
   "nail": {
-    "cn": "指甲"
+    "cn": "指甲",
+    "ipa": "neɪl"
   },
   "neck": {
-    "cn": "脖子"
+    "cn": "脖子",
+    "ipa": "nɛk"
   },
   "net": {
-    "cn": "网"
+    "cn": "网",
+    "ipa": "net"
   },
   "sock": {
-    "cn": "短袜"
+    "cn": "短袜",
+    "ipa": "sɒk"
   },
   "spade": {
-    "cn": "铲"
+    "cn": "铲",
+    "ipa": "speɪd"
   },
   "sponge": {
-    "cn": "海绵"
+    "cn": "海绵",
+    "ipa": "spʌnd͡ʒ"
   },
   "spoon": {
-    "cn": "勺子"
+    "cn": "勺子",
+    "ipa": "spuːn"
   },
   "spring": {
-    "cn": "春天"
+    "cn": "春天",
+    "ipa": "spɹɪŋ"
   },
   "square": {
-    "cn": "正方形"
+    "cn": "正方形",
+    "ipa": "skwɛə(ɹ)"
   },
   "stamp": {
-    "cn": "邮票"
+    "cn": "邮票",
+    "ipa": "stæmp"
   },
   "star": {
-    "cn": "星星"
+    "cn": "星星",
+    "ipa": "stɑː(ɹ)"
   },
   "station": {
-    "cn": "车站"
+    "cn": "车站",
+    "ipa": "ˈsteɪʃən"
   },
   "stem": {
-    "cn": "干"
+    "cn": "干",
+    "ipa": "stɛm"
   },
   "stick": {
-    "cn": "戳"
+    "cn": "戳",
+    "ipa": "stɪk"
   },
   "stocking": {
-    "cn": "袜"
+    "cn": "袜",
+    "ipa": "ˈstɒkɪŋ"
   },
   "stomach": {
-    "cn": "胃"
+    "cn": "胃",
+    "ipa": "ˈstʌmək"
   },
   "store": {
-    "cn": "店铺"
+    "cn": "店铺",
+    "ipa": "stɔː"
   },
   "angry": {
-    "cn": "生气的"
+    "cn": "生气的",
+    "ipa": "ˈæŋ.ɡɹi"
   },
   "automatic": {
-    "cn": "自动的"
+    "cn": "自动的",
+    "ipa": "ˌɔːtəˈmætɪk"
   },
   "beautiful": {
-    "cn": "美丽的"
+    "cn": "美丽的",
+    "ipa": "ˈbjuːtɪfəl"
   },
   "black": {
-    "cn": "黑色的"
+    "cn": "黑色的",
+    "ipa": "blak"
   },
   "boiling": {
-    "cn": "沸腾的"
+    "cn": "沸腾的",
+    "ipa": "ˈbɔɪlɪŋ"
   },
   "bright": {
-    "cn": "明亮的"
+    "cn": "明亮的",
+    "ipa": "bɹaɪt"
   },
   "broken": {
-    "cn": "破碎的"
+    "cn": "破碎的",
+    "ipa": "ˈbɹəʊkən"
   },
   "brown": {
-    "cn": "棕色的"
+    "cn": "棕色的",
+    "ipa": "bɹaʊn"
   },
   "cheap": {
-    "cn": "便宜的"
+    "cn": "便宜的",
+    "ipa": "t͡ʃiːp"
   },
   "chemical": {
-    "cn": "化学的"
+    "cn": "化学的",
+    "ipa": "ˈkɛmɪkəl"
   },
   "chief": {
-    "cn": "主要的"
+    "cn": "主要的",
+    "ipa": "tʃiːf"
   },
   "clean": {
-    "cn": "干净的"
+    "cn": "干净的",
+    "ipa": "kleːn"
   },
   "clear": {
-    "cn": "清晰的"
+    "cn": "清晰的",
+    "ipa": "klɪə(ɹ)"
   },
   "common": {
-    "cn": "常见的"
+    "cn": "常见的",
+    "ipa": "ˈkɒmən"
   },
   "complex": {
-    "cn": "复杂的"
+    "cn": "复杂的",
+    "ipa": "ˈkɒm.pleks"
   },
   "conscious": {
-    "cn": "有意识的"
+    "cn": "有意识的",
+    "ipa": "ˈkɒn.ʃəs"
   },
   "cut": {
-    "cn": "切割的"
+    "cn": "切割的",
+    "ipa": "kʌt"
   },
   "deep": {
-    "cn": "深的"
+    "cn": "深的",
+    "ipa": "diːp"
   },
   "dependent": {
-    "cn": "依赖的"
+    "cn": "依赖的",
+    "ipa": "dɪˈpɛndənt"
   },
   "early": {
-    "cn": "早的"
+    "cn": "早的",
+    "ipa": "ˈɜː.li"
   },
   "quiet": {
-    "cn": "安静的"
+    "cn": "安静的",
+    "ipa": "ˈkwaɪ.ət"
   },
   "ready": {
-    "cn": "准备好的"
+    "cn": "准备好的",
+    "ipa": "ˈɹɛdi"
   },
   "red": {
-    "cn": "红色的"
+    "cn": "红色的",
+    "ipa": "ɹɛd"
   },
   "regular": {
-    "cn": "规则的"
+    "cn": "规则的",
+    "ipa": "ˈɹɛɡjʊlə"
   },
   "responsible": {
-    "cn": "负责任的"
+    "cn": "负责任的",
+    "ipa": "ɹɪˈspɒnsəbl̩"
   },
   "right": {
-    "cn": "正确的"
+    "cn": "正确的",
+    "ipa": "ˈɹaɪt"
   },
   "round": {
-    "cn": "圆的"
+    "cn": "圆的",
+    "ipa": "ˈɹaʊnd"
   },
   "same": {
-    "cn": "相同的"
+    "cn": "相同的",
+    "ipa": "seɪm"
   },
   "second": {
-    "cn": "第二的"
+    "cn": "第二的",
+    "ipa": "ˈsɛkɪnd"
   },
   "separate": {
-    "cn": "分离的"
+    "cn": "分离的",
+    "ipa": "ˈsɛpəɹət"
   },
   "serious": {
-    "cn": "严肃的"
+    "cn": "严肃的",
+    "ipa": "ˈsɪə.ɹi.əs"
   },
   "tight": {
-    "cn": "紧的"
+    "cn": "紧的",
+    "ipa": "taɪt"
   },
   "dirty": {
-    "cn": "脏的"
+    "cn": "脏的",
+    "ipa": "ˈdɜːti"
   },
   "dry": {
-    "cn": "干的"
+    "cn": "干的",
+    "ipa": "dɹaɪ"
   },
   "false": {
-    "cn": "错误的"
+    "cn": "错误的",
+    "ipa": "fɒls"
   },
   "feeble": {
-    "cn": "无力的"
+    "cn": "无力的",
+    "ipa": "ˈfiːbəl"
   },
   "female": {
-    "cn": "女性的"
+    "cn": "女性的",
+    "ipa": "ˈfiː.meɪl"
   },
   "foolish": {
-    "cn": "愚蠢的"
+    "cn": "愚蠢的",
+    "ipa": "ˈfuː.lɪʃ"
   },
   "future": {
-    "cn": "未来的"
+    "cn": "未来的",
+    "ipa": "ˈfjuːt͡ʃə"
   },
   "green": {
-    "cn": "绿色的"
+    "cn": "绿色的",
+    "ipa": "ɡɹiːn"
   },
   "ill": {
-    "cn": "生病的"
+    "cn": "生病的",
+    "ipa": "ɪl"
   },
   "last": {
-    "cn": "最后的"
+    "cn": "最后的",
+    "ipa": "last"
   },
   "late": {
-    "cn": "晚的"
+    "cn": "晚的",
+    "ipa": "leɪt"
   },
   "left": {
-    "cn": "左边的"
+    "cn": "左边的",
+    "ipa": "lɛft"
   },
   "loose": {
-    "cn": "松的"
+    "cn": "松的",
+    "ipa": "luːs"
   },
   "loud": {
-    "cn": "大声的"
+    "cn": "大声的",
+    "ipa": "laʊd"
   },
   "low": {
-    "cn": "低的"
+    "cn": "低的",
+    "ipa": "ləʊ"
   },
   "mixed": {
-    "cn": "混合的"
+    "cn": "混合的",
+    "ipa": "mɪkst"
   }
 }

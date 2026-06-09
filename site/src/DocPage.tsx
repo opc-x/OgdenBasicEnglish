@@ -9,6 +9,7 @@ import MultiplyMore from "./MultiplyMore";
 import WordExplorer from "./WordExplorer";
 import OperatorsGrid from "./OperatorsGrid";
 import PlaybookPlay from "./PlaybookPlay";
+import DirectionsVisual from "./DirectionsVisual";
 import {
   NAV,
   PATH_TO_ASSET,
@@ -31,6 +32,7 @@ function rewriteLinks(md: string): string {
 const DOC_VISUALS: Record<string, ReactNode> = {
   start: <PlaybookPlay />,
   operators: <OperatorsGrid />,
+  directions: <DirectionsVisual />,
   phrasal: <WordMachine />,
   "tier-guide": <TierBreakdown />,
   words: <WordExplorer />,
