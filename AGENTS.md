@@ -53,3 +53,8 @@ scripts/fetch.sh      refresh mirrors
 - Actor ?? / Jonathan Kos-Read — unrelated; viral clips mix him with BE850.
 - Betty Azar "Basic English Grammar" — standard ESL, not Ogden.
 - ??? / Chris Lonsdale "6 months" — different method.
+
+## Deployment Guidelines
+
+- **Automatic Production Deployment**: After any feature completion, bug fix, or UI refinement, the agent MUST run the deployment command (`npx vercel --prod --yes` in the root directory) to deploy the site to production. This ensures that the user can immediately perform online inspection and acceptance.
+
