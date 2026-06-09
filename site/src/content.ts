@@ -4,6 +4,8 @@ export type NavItem = {
   slug: string;
   phaseId: string;
   badge?: string;
+  /** 非文档页路由，如 /words */
+  href?: string;
 };
 
 export type NavPhase = {
@@ -32,10 +34,17 @@ export const LEARNING_PHASES: NavPhase[] = [
     subtitle: "搞懂 Ogden 在干什么",
   },
   {
+    id: "core",
+    step: "★",
+    title: "核心必背",
+    subtitle: "18 operator + 850 词表",
+    formula: "先背熟这 18 个",
+  },
+  {
     id: "skeleton",
     step: "1",
     title: "搭骨架",
-    subtitle: "没有普通动词，动作靠 operator 拼",
+    subtitle: "方向词 + 语法规则",
     formula: "operator × 方向 → 短语动词",
   },
   {
@@ -78,7 +87,8 @@ export const LEARNING_PHASES: NavPhase[] = [
 export const NAV: NavItem[] = [
   { phaseId: "map", title: "从这里开始", path: "00-START-HERE.md", slug: "start", badge: "第 1 步" },
   { phaseId: "map", title: "原始材料出处", path: "reference/sources.md", slug: "sources", badge: "核对" },
-  { phaseId: "skeleton", title: "18 个 Operator", path: "01-foundations/operators-18.md", slug: "operators" },
+  { phaseId: "core", title: "18 个 Operator（必背）", path: "01-foundations/operators-18.md", slug: "operators", badge: "重点" },
+  { phaseId: "core", title: "850 词随时查", path: "", slug: "words", href: "/words", badge: "查询" },
   { phaseId: "skeleton", title: "方向词与介词", path: "01-foundations/directions-prepositions.md", slug: "directions" },
   { phaseId: "skeleton", title: "语法规则卡", path: "01-foundations/grammar-rules.md", slug: "grammar" },
   { phaseId: "roots", title: "分层学习指南", path: "02-vocabulary/tier-guide.md", slug: "tier-guide" },
@@ -94,7 +104,7 @@ export const NAV: NavItem[] = [
 ];
 
 /** 主路径（不含参考库 / Agent）用于首页学习地图 */
-export const MAIN_PHASE_IDS = ["map", "skeleton", "roots", "multiply", "practice"];
+export const MAIN_PHASE_IDS = ["map", "core", "skeleton", "roots", "multiply", "practice"];
 
 export const MAIN_NAV = NAV.filter((n) => MAIN_PHASE_IDS.includes(n.phaseId));
 

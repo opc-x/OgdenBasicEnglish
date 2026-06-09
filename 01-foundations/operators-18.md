@@ -14,72 +14,72 @@
 ## 18 个动词的 8 类物理手势与空间矢量
 
 ### 1. 空间位移 (Movement)
-*身体在物理三维空间中的移动，是所有抽象动作的基础。*
+*身体在物理空间中的位移移动。*
 
-* **come** (来) : 朝向说话人/观察点移动 $(\rightarrow \bullet)$
-  * *come back* (回来 = return) · *come out* (出来 = emerge)
-* **go** (去) : 偏离说话人/观察点移动 $(\bullet \rightarrow)$
-  * *go on* (继续 = continue) · *go off* (离开 = depart)
+* **come** (来) : → ⬤ (朝向自己靠近)
+  * *come in* (进来) · *come back* (回来) · *come out* (出来)
+* **go** (去) : ⬤ → (背离自己离去)
+  * *go in* (进去) · *go out* (出去) · *go back* (回去)
 
 ### 2. 手部操作 (Hand Action)
-*手对物理世界物体的直接掌控。*
+*手对物体的物理放开与抓取。*
 
-* **put** (放) : 手部放开/向外推 $(\downarrow)$
-  * *put off* (推迟 = postpone) · *put together* (组装 = assemble)
-* **take** (拿) : 手部握住/向内拉 $(\uparrow)$
-  * *take off* (脱掉/起飞 = remove/depart) · *take over* (接管 = assume)
+* **put** (放) : ↓ (手部松开并放下)
+  * *put in* (放进去) · *put on* (穿上) · *put down* (放下)
+* **take** (拿) : ↑ (手部握住并拿起)
+  * *take in* (拿进来) · *take out* (拿出去) · *take down* (拿下来)
 
-### 3. 所有权转移 (Transfer)
-*物品所有权在不同角色之间的传递或发送。*
+### 3. 人际传递 (Transfer)
+*所有权或物品在人与人之间的流动。*
 
-* **give** (给) : 所有权移出 $(\rightarrow \text{对方})$
-  * *give up* (放弃 = surrender) · *give in* (屈服 = yield)
-* **get** (得) : 所有权移入 $(\text{对方} \rightarrow)$
-  * *get back* (收回 = recover) · *get off* (下车 = dismount)
-* **send** (送) : 远程投递/非手部递交 $(\Rightarrow)$
-  * *send out* (发出 = emit) · *send off* (邮寄 = dispatch)
+* **give** (给) : → (物品交出去)
+  * *give back* (归还) · *give out* (分发) · *give to* (给...)
+* **get** (得) : ← (物品拿进来)
+  * *get in* (进来) · *get out* (出去) · *get back* (取回/回来)
+* **send** (送) : ➦ (远程送出)
+  * *send out* (发出) · *send back* (退回) · *send away* (送走)
 
 ### 4. 状态控制 (Control)
-*控制力的收与放：维持原位还是任其自由移动。*
+*维持原样不动或任其移动的控制收放。*
 
-* **keep** (保持) : 画圈圈限制、锁定状态 $(\circlearrowleft)$
-  * *keep off* (别碰 = stay away) · *keep on* (继续 = persist)
-* **let** (让) : 撤销围栏，放手允许 $(\rightarrow \dots)$
-  * *let in* (允许进入 = admit) · *let off* (免除 = release)
+* **keep** (保持) : ↺ (锁在边界里)
+  * *keep in* (留在里面) · *keep out* (留在外面) · *keep back* (阻挡)
+* **let** (让) : ⇢ (撤销边界放行)
+  * *let in* (放进来) · *let out* (放出去) · *let go* (放手/松开)
 
 ### 5. 创制与执行 (Action)
-*对现实世界的改造与操作过程。*
+*对现实物理世界的改变与纯动作执行。*
 
-* **make** (制造) : 无中生有、塑造成型 $(\text{⚒})$
-  * *make up* (编造 = invent) · *make out* (看清/辨认 = discern)
-* **do** (做) : 动作过程本身的转动 $(\text{⚙})$
-  * *do well* (做好) · *do without* (没有也行 = dispense with)
+* **make** (做/造) : ⚒ (无中生有制成)
+  * *make ready* (准备好) · *make clean* (弄干净) · *make a hole* (打洞)
+* **do** (做/行) : ⚙ (动作过程旋转)
+  * *do work* (做工作) · *do well* (做好) · *do again* (再做一次)
 
 ### 6. 感知与交流 (Perception)
-*信息的输入与输出。*
+*物理信息的获取与语言输出。*
 
-* **see** (看) : 视觉光线射入眼睛/脑中看清 $(\text{👁})$
-  * *see through* (看穿 = penetrate) · *see to* (负责处理 = attend to)
-* **say** (说) : 语言向外单向传播 $(\text{🗣})$
-  * *say again* (重复) · *have a say* (有发言权)
+* **see** (看) : 👁 (接收光线/看清)
+  * *see clearly* (看清) · *see a picture* (看画) · *see a friend* (见朋友)
+* **say** (说) : 🗣 (发出声音传播)
+  * *say yes* (说好) · *say again* (再说一次) · *say a word* (说个词)
 
 ### 7. 存在与所有 (State)
-*描述非动静态的纯存在或归属关系。*
+*静态不动的存在关系与客观状态。*
 
-* **be** (是/在) : 静态存在的原点 $(\bullet)$
-  * *be off* (走了) · *be up to* (取决于)
-* **have** (有) : 静态所有权的外框 $(\text{⎔})$
-  * *have on* (穿着 = wear) · *have to* (不得不 = must)
-* **seem** (似乎) : 视觉感知的虚像 $(\text{░})$
-  * *seem like* (看起来像 = resemble)
+* **be** (是/在) : ⬤ (静态原点)
+  * *be in* (在里面) · *be out* (在外面) · *be back* (回来了)
+* **have** (有/持有) : ⎔ (占有线框)
+  * *have a book* (有书) · *have a look* (看一眼) · *have a talk* (谈话)
+* **seem** (似乎) : ░ (折射虚像)
+  * *seem like* (看起来像) · *seem good* (看似不错)
 
-### 8. 时态与意愿 (Auxiliary)
-*为核心操作注入“可能性”与“未来时间轴”的两个推进器。*
+### 8. 时态与许可 (Auxiliary)
+*时空的推手，表示可能性与将来时间线。*
 
-* **may** (可以/也许) : 分支可能性 $(\text{⤳})$
-  * *may be* (也许是)
-* **will** (将/愿意) : 坚定的前向时间矢 $(\rightarrow)$
-  * *will do* (将要做)
+* **may** (也许/可以) : ⤳ (可能的分支)
+  * *may be* (也许是) · *may do* (可以做)
+* **will** (将要/愿意) : ➔ (指向未来的推力)
+  * *will go* (将去) · *will do* (将做)
 
 ---
 
@@ -87,12 +87,12 @@
 
 在 Basic English 中，动作是一场**乘法**而非加法：
 
-$$\text{16 个 Operator} \times \text{20 个方向 (Directions)} \times \text{名词} \approx \text{取代普通英语的 4000 个复杂动词}$$
+> **16 个 Operator × 20 个物理方向 (Directions) × 名词 ≈ 取代普通英语的 4000 个复杂动词**
 
-* `make a decision` $\rightarrow$ 代替 **decide**
-* `give an answer` $\rightarrow$ 代替 **answer**
-* `get up` $\rightarrow$ 代替 **rise**
-* `put off` $\rightarrow$ 代替 **postpone**
+* `make a decision` → 代替 **decide** (做决定)
+* `give an answer` → 代替 **answer** (给回答)
+* `get up` → 代替 **rise** (起来)
+* `put off` → 代替 **postpone** (推迟)
 
 ---
 

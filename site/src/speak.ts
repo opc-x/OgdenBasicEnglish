@@ -1,53 +1,118 @@
-/** 用浏览器内置 TTS 朗读英文单词；优先选柔和女声（如 macOS 的 Samantha）。 */
+/** 发音：edge-tts MP3（en-GB-SoniaNeural）优先；仅无音频时回退英式 TTS */
 
-let cachedVoice: SpeechSynthesisVoice | null = null;
-let triedLoad = false;
+const AUDIO_BASE = "/assets/audio";
+const VOICE_ID = "en-GB-SoniaNeural";
 
-const FEMALE_HINTS = /samantha|victoria|karen|moira|tessa|fiona|serena|zira|female|woman|allison|ava|susan/i;
+let currentAudio: HTMLAudioElement | null = null;
+let voicesReady: Promise<SpeechSynthesisVoice[]> | null = null;
 
-function pickVoice(): SpeechSynthesisVoice | null {
-  if (typeof window === "undefined" || !window.speechSynthesis) return null;
-  const voices = window.speechSynthesis.getVoices();
-  if (!voices.length) return null;
-  const en = voices.filter((v) => /^en(-|_|$)/i.test(v.lang));
-  const pool = en.length ? en : voices;
+function slug(word: string): string {
+  const s = word.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return s.slice(0, 60) || "word";
+}
+
+export function audioUrl(word: string): string {
+  return `${AUDIO_BASE}/${slug(word)}.mp3`;
+}
+
+function stop(): void {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
+  }
+  if (typeof window !== "undefined" && window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+  }
+}
+
+function loadVoices(): Promise<SpeechSynthesisVoice[]> {
+  if (typeof window === "undefined" || !window.speechSynthesis) {
+    return Promise.resolve([]);
+  }
+  if (!voicesReady) {
+    voicesReady = new Promise((resolve) => {
+      const pick = () => resolve(window.speechSynthesis.getVoices());
+      pick();
+      window.speechSynthesis.onvoiceschanged = () => {
+        pick();
+        window.speechSynthesis.onvoiceschanged = null;
+      };
+    });
+  }
+  return voicesReady;
+}
+
+function pickBritishVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undefined {
+  const gb = voices.filter((v) => /^en-GB/i.test(v.lang));
   return (
-    pool.find((v) => FEMALE_HINTS.test(v.name)) ||
-    pool.find((v) => /en-US/i.test(v.lang)) ||
-    pool[0] ||
-    null
+    gb.find((v) => /sonia/i.test(v.name)) ??
+    gb.find((v) => /kate|serena|martha|fiona|female/i.test(v.name)) ??
+    gb[0] ??
+    voices.find((v) => /^en-GB/i.test(v.lang))
   );
 }
 
-function ensureVoice(): SpeechSynthesisVoice | null {
-  if (cachedVoice) return cachedVoice;
-  cachedVoice = pickVoice();
-  if (!triedLoad && typeof window !== "undefined" && window.speechSynthesis) {
-    triedLoad = true;
-    window.speechSynthesis.onvoiceschanged = () => {
-      cachedVoice = pickVoice();
-    };
-  }
-  return cachedVoice;
-}
-
-export function isSpeechSupported(): boolean {
-  return typeof window !== "undefined" && "speechSynthesis" in window;
-}
-
-export function speak(word: string): void {
-  if (!isSpeechSupported()) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(word);
-  u.lang = "en-US";
-  u.rate = 0.82; // 稍慢，柔和清晰
-  u.pitch = 1.08; // 略高，更温柔
-  const v = ensureVoice();
-  if (v) u.voice = v;
+async function speakWithBrowser(text: string): Promise<void> {
+  if (typeof window === "undefined" || !window.speechSynthesis) return;
+  const voices = await loadVoices();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-GB";
+  u.rate = 0.92;
+  const voice = pickBritishVoice(voices);
+  if (voice) u.voice = voice;
   window.speechSynthesis.speak(u);
 }
 
-// 预热：页面加载后让浏览器尽早加载语音列表
-if (typeof window !== "undefined" && window.speechSynthesis) {
-  ensureVoice();
+function playMp3(url: string): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const audio = new Audio(url);
+    currentAudio = audio;
+    audio.preload = "auto";
+    const done = () => {
+      audio.removeEventListener("ended", done);
+      resolve();
+    };
+    audio.addEventListener("ended", done);
+    audio.onerror = () => reject(new Error("audio error"));
+    audio.play().catch(reject);
+  });
 }
+
+export function isSpeechSupported(): boolean {
+  return typeof window !== "undefined" && ("Audio" in window || "speechSynthesis" in window);
+}
+
+/** 是否有预生成 Sonia MP3（HEAD 探测，结果缓存） */
+const audioCache = new Map<string, boolean>();
+
+export async function hasSoniaAudio(word: string): Promise<boolean> {
+  const key = slug(word);
+  if (audioCache.has(key)) return audioCache.get(key)!;
+  if (typeof window === "undefined") return false;
+  try {
+    const res = await fetch(audioUrl(word), { method: "HEAD" });
+    const ok = res.ok;
+    audioCache.set(key, ok);
+    return ok;
+  } catch {
+    audioCache.set(key, false);
+    return false;
+  }
+}
+
+export async function speak(word: string): Promise<void> {
+  if (typeof window === "undefined") return;
+  stop();
+  const url = audioUrl(word);
+  try {
+    if (await hasSoniaAudio(word)) {
+      await playMp3(url);
+      return;
+    }
+  } catch {
+    /* fall through */
+  }
+  await speakWithBrowser(word);
+}
+
+export { VOICE_ID };

@@ -79,7 +79,7 @@ export default function Home() {
 
       {/* ── 850 词表浏览器（核心卖点）── */}
       <section className="reveal">
-        <WordExplorer />
+        <WordExplorer defaultFilter="all" />
       </section>
 
       {/* ── 词缀 + 复合倍增 ── */}

@@ -19,174 +19,174 @@ type OpGroup = {
 const OP_GROUPS: OpGroup[] = [
   {
     name: "空间位移 (Movement)",
-    desc: "人体的物理空间移动，是所有抽象动作的基础",
+    desc: "身体在物理空间中的位移移动",
     ops: [
       {
-        op: "come", cn: "来", vector: "朝向说话者 (→ ⬤)",
-        concept: "身体向观察点或说话人靠近。动作重点在「终点在眼前」。",
+        op: "come", cn: "来", vector: "→ ⬤ (朝向自己)",
+        concept: "身体朝说话人或当前观察点移动。动作重点在于「向我靠近」。",
         equation: "come + in = 进来 (enter)",
-        examples: ["come back (回来)", "come out (发生/出版)", "come to (共计)"],
+        examples: ["come in (进来)", "come back (回来)", "come out (出来)"],
         svgType: "come"
       },
       {
-        op: "go", cn: "去", vector: "背离说话者 (⬤ →)",
-        concept: "身体离开当前位置。动作重点在「起点在眼前，终点在别处」。",
-        equation: "go + on = 继续 (continue)",
-        examples: ["go out (熄灭/出去)", "go through (经历/穿过)", "go off (离开/爆炸)"],
+        op: "go", cn: "去", vector: "⬤ → (背离自己)",
+        concept: "身体离开当前位置向外移动。动作重点在于「向外离去」。",
+        equation: "go + out = 出去 (exit)",
+        examples: ["go in (进去)", "go out (出去)", "go back (回去)"],
         svgType: "go"
       }
     ]
   },
   {
     name: "手部操作 (Hand Action)",
-    desc: "手的放开与抓取，构成对物体最基础的控制",
+    desc: "手对物体的物理放开与抓取",
     ops: [
       {
-        op: "put", cn: "放", vector: "手部放开/向外推 (↓)",
-        concept: "手持物体并使其在某处落下或安放。动作倾向为「向下、向外」。",
-        equation: "put + off = 推迟 (postpone)",
-        examples: ["put together (组装)", "put on (穿上)", "put out (熄灭)"],
+        op: "put", cn: "放", vector: "↓ (手部松开并放下)",
+        concept: "手持物体并使其在某处落下或安放。物理动作为「松手放下」。",
+        equation: "put + down = 放下 (deposit)",
+        examples: ["put in (放进去)", "put on (穿上)", "put down (放下)"],
         svgType: "put"
       },
       {
-        op: "take", cn: "拿", vector: "手部抓取/向内拉 (↑)",
-        concept: "伸手握住物体并使之脱离原位。动作倾向为「向上、向内」。",
-        equation: "take + off = 脱掉/起飞 (remove)",
-        examples: ["take in (吸收/欺骗)", "take up (占据/开始)", "take over (接管)"],
+        op: "take", cn: "拿", vector: "↑ (手部握住并拿起)",
+        concept: "伸手握住物体并使之脱离原位。物理动作为「抓取拿来」。",
+        equation: "take + down = 拿下来 (remove)",
+        examples: ["take in (拿进来)", "take out (拿出去)", "take down (拿下来)"],
         svgType: "take"
       }
     ]
   },
   {
-    name: "所有人际传递 (Transfer)",
-    desc: "物品所有权的流转或远程发送",
+    name: "人际传递 (Transfer)",
+    desc: "所有权或物品在人与人之间的流动",
     ops: [
       {
-        op: "give", cn: "给", vector: "所有权移出 (→ ⎔)",
-        concept: "将自己持有的东西交到他人手中，方向一定是指向「对方 (to)」。",
-        equation: "give + up = 放弃 (surrender)",
-        examples: ["give back (归还)", "give in (让步/屈服)", "give out (分发)"],
+        op: "give", cn: "给", vector: "→ (物品交出去)",
+        concept: "将自己持有的东西传递给对方。物理动作为「递给对方」。",
+        equation: "give + back = 归还 (return)",
+        examples: ["give back (归还)", "give out (分发)", "give to (给...)"],
         svgType: "give"
       },
       {
-        op: "get", cn: "得", vector: "所有权移入 (⎔ →)",
-        concept: "通过各种方式获得、接收某物，或身体/状态转换到某处。",
-        equation: "get + up = 起来 (rise)",
-        examples: ["get back (收回)", "get out (出去)", "get off (下车)"],
+        op: "get", cn: "得", vector: "← (物品拿进来)",
+        concept: "接收、得到、拿到某物，或者身体/状态移动到某处。",
+        equation: "get + in = 进来 (enter)",
+        examples: ["get in (进来)", "get out (出去)", "get back (取回/回来)"],
         svgType: "get"
       },
       {
-        op: "send", cn: "送", vector: "非手部的远程投递 (⤳)",
-        concept: "不需要手部亲自递交，通过中介或推力将物体送往某处。",
+        op: "send", cn: "送", vector: "➦ (远程送出)",
+        concept: "无需自己手递手交付，借助中介或推力将物品投递过去。",
         equation: "send + out = 发出 (emit)",
-        examples: ["send off (邮寄/送别)", "send back (退回)", "send for (派人去请)"],
+        examples: ["send out (发出)", "send back (退回)", "send away (送走)"],
         svgType: "send"
       }
     ]
   },
   {
     name: "状态控制 (Control)",
-    desc: "控制力的收放：维持原样或任其流转",
+    desc: "维持原样不动或任其移动的控制收放",
     ops: [
       {
-        op: "keep", cn: "保持", vector: "画圈锁定/限制在内 (↺)",
-        concept: "维持物体的当前位置或状态不改变，阻止其逃逸。",
-        equation: "keep + off = 别碰 (stay away)",
-        examples: ["keep back (阻挡)", "keep on (继续)", "keep up (维持/不落后)"],
+        op: "keep", cn: "保持", vector: "↺ (锁在边界里)",
+        concept: "锁住或抓住人/物，维持其现有状态不跑掉。物理动作为「守住」。",
+        equation: "keep + out = 挡在外面 (exclude)",
+        examples: ["keep in (留在里面)", "keep out (留在外面)", "keep back (阻挡)"],
         svgType: "keep"
       },
       {
-        op: "let", cn: "允许/让", vector: "松开界限/流出 (⇢)",
-        concept: "撤除屏障或控制，允许人或物移动或改变状态。",
-        equation: "let + in = 允许进入 (admit)",
-        examples: ["let off (放过/免除)", "let out (放出/泄露)", "let down (使失望/放下)"],
+        op: "let", cn: "让/允许", vector: "⇢ (撤销边界放行)",
+        concept: "撤销拦截阻碍，松开控制屏障，放任其通行。",
+        equation: "let + in = 放进来 (admit)",
+        examples: ["let in (放进来)", "let out (放出去)", "let go (放手/松开)"],
         svgType: "let"
       }
     ]
   },
   {
     name: "创制与执行 (Action)",
-    desc: "对现实物理世界的改动和事务处理",
+    desc: "对现实物理世界的改变与纯动作执行",
     ops: [
       {
-        op: "make", cn: "制造", vector: "无中生有/塑造成型 (⚒)",
-        concept: "动手改变原材料，生产或塑造出一个全新的事物。",
-        equation: "make + up = 编造/和好 (invent)",
-        examples: ["make out (看清/理解)", "make off (逃走)", "make ready (准备好)"],
+        op: "make", cn: "做/造", vector: "⚒ (无中生有制成)",
+        concept: "动手改造原材料，从而塑造出或生产出一个原本没有的东西。",
+        equation: "make + ready = 准备好 (prepare)",
+        examples: ["make ready (准备好)", "make clean (弄干净)", "make a hole (打洞)"],
         svgType: "make"
       },
       {
-        op: "do", cn: "做", vector: "纯动作过程/空转 (⚙)",
-        concept: "指代任何动作的执行过程。不强调结果产物，只强调「动起来」。",
-        equation: "do + again = 重做 (repeat)",
-        examples: ["do well (做得好)", "do without (没有...也行)", "do up (整理/系扣)"],
+        op: "do", cn: "做/行", vector: "⚙ (动作过程旋转)",
+        concept: "执行某项活动的过程，不强调最终产物，只关注「在做某事」。",
+        equation: "do + again = 再做一次 (repeat)",
+        examples: ["do work (做工作)", "do well (做好)", "do again (再做一次)"],
         svgType: "do"
       }
     ]
   },
   {
     name: "感知与交流 (Perception)",
-    desc: "信息的接收和言语的输出",
+    desc: "物理信息的获取与语言输出",
     ops: [
       {
-        op: "see", cn: "看", vector: "光线射入眼睛/洞察 (👁)",
-        concept: "眼睛接收图像的物理感知，延伸为脑中「理解、看清真相」。",
-        equation: "see + through = 看穿 (penetrate)",
-        examples: ["see to (负责处理)", "see off (送行)", "see about (考虑/办理)"],
+        op: "see", cn: "看", vector: "👁 (接收光线/看清)",
+        concept: "光线照进眼睛接收到画面，抽象引申为「看懂、看清事实」。",
+        equation: "see + clearly = 看得清 (discern)",
+        examples: ["see clearly (看清)", "see a picture (看画)", "see a friend (见朋友)"],
         svgType: "see"
       },
       {
-        op: "say", cn: "说", vector: "声波流出 (🗣)",
-        concept: "发出声音表达意图，将思维用语言表达出来的单向输出。",
-        equation: "say + again = 重说 (repeat)",
-        examples: ["say to himself (自言自语)", "say yes (同意)", "have a say (有发言权)"],
+        op: "say", cn: "说", vector: "🗣 (发出声音传播)",
+        concept: "嘴部发声，将脑中的思想转化为声波的单向输出。",
+        equation: "say + again = 再说一次 (repeat)",
+        examples: ["say yes (说好)", "say again (再说一次)", "say a word (说个词)"],
         svgType: "say"
       }
     ]
   },
   {
     name: "存在与所有 (State)",
-    desc: "不包含动作的静态客观状态",
+    desc: "静态不动的存在关系与客观状态",
     ops: [
       {
-        op: "be", cn: "是/在", vector: "静止不动的主体 (⬤)",
-        concept: "纯粹的客观存在状态，或者位于某个特定的空间/时间里。",
-        equation: "be + in = 在家/参与 (present)",
-        examples: ["be off (走了)", "be up to (取决于/胜任)", "be out (不在家/熄灭)"],
+        op: "be", cn: "是/在", vector: "⬤ (静止原点)",
+        concept: "静态地存在于某处，或者属于某种身份/性质。",
+        equation: "be + in = 在里面/在家 (present)",
+        examples: ["be in (在里面)", "be out (在外面)", "be back (回来了)"],
         svgType: "be"
       },
       {
-        op: "have", cn: "有", vector: "闭合线框包含主体 (⎔)",
-        concept: "将某物视为自己所属，静态占有，或者身体经历某种体验。",
-        equation: "have + on = 穿着 (wear)",
-        examples: ["have to (不得不)", "have a talk (谈话)", "have a look (看一眼)"],
+        op: "have", cn: "有/持有", vector: "⎔ (占有线框)",
+        concept: "自己持有或静态占有某物，或者身体正经历某种状态。",
+        equation: "have + a look = 看一眼 (glance)",
+        examples: ["have a book (有书)", "have a look (看一眼)", "have a talk (谈话)"],
         svgType: "have"
       },
       {
-        op: "seem", cn: "似乎", vector: "折射/虚线反射 (░)",
-        concept: "感官呈现出的样子，不一定代表物理真实情况（“虚像”）。",
-        equation: "seem + like = 看起来像 (resemble)",
-        examples: ["seem good (看似不错)", "it seems that (似乎...)", "seem to be (好像是)"],
+        op: "seem", cn: "似乎", vector: "░ (折射虚像)",
+        concept: "感官呈现出的样子，类似于镜子里反射出的投影（不代表实情）。",
+        equation: "seem + like = 好像 (resemble)",
+        examples: ["seem like (看起来像)", "seem good (看似不错)"],
         svgType: "seem"
       }
     ]
   },
   {
     name: "时态与许可 (Auxiliary)",
-    desc: "赋予主语动作时空维度的两只推手",
+    desc: "时空的推手，表示可能性与将来时间线",
     ops: [
       {
-        op: "may", cn: "可以", vector: "分支选择 (⤳)",
-        concept: "表示许可（你可以做）或者可能性（也许会发生）。",
-        equation: "may + do = 可以做",
-        examples: ["may be (也许/可能)", "as you may see (正如你可能看到的)"],
+        op: "may", cn: "也许/可以", vector: "⤳ (可能的分支)",
+        concept: "表示许可（你可以做）或者推测事情也许会发生。",
+        equation: "may + do = 也许/可以做",
+        examples: ["may be (也许是/可能)", "may do (可以做)"],
         svgType: "may"
       },
       {
-        op: "will", cn: "将", vector: "指向未来的箭头 (➔)",
-        concept: "表示意志（一定要做）或者客观的未来时间线。",
+        op: "will", cn: "将要/愿意", vector: "➔ (指向未来的推力)",
+        concept: "表示将要发生的主观意愿，或者客观时间线上的将来状态。",
         equation: "will + do = 将要做",
-        examples: ["will go (将去)", "good will (善意/意志)"],
+        examples: ["will go (将去)", "will do (将做)"],
         svgType: "will"
       }
     ]

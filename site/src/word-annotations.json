@@ -922,5 +922,908 @@
   },
   "wrong": {
     "ipa": "ɹɒŋ"
+  },
+  "by": {
+    "ipa": "baɪ"
+  },
+  "down": {
+    "ipa": "daʊn"
+  },
+  "from": {
+    "ipa": "fɹɒm"
+  },
+  "in": {
+    "ipa": "ɪn"
+  },
+  "off": {
+    "ipa": "ɒf"
+  },
+  "on": {
+    "ipa": "ɒn"
+  },
+  "over": {
+    "ipa": "ˈəʊ.və(ɹ)"
+  },
+  "through": {
+    "ipa": "θɹuː"
+  },
+  "to": {
+    "ipa": "tʉː"
+  },
+  "under": {
+    "ipa": "ˈʊndə"
+  },
+  "up": {
+    "ipa": "ap"
+  },
+  "of": {
+    "ipa": "ɒv"
+  },
+  "till": {
+    "ipa": "tɪl"
+  },
+  "than": {
+    "ipa": "ðæn"
+  },
+  "a": {
+    "ipa": "æɪ"
+  },
+  "the": {
+    "ipa": "ði"
+  },
+  "all": {
+    "ipa": "ɔːl"
+  },
+  "any": {
+    "ipa": "ˈæni"
+  },
+  "no": {
+    "ipa": "nəʊ"
+  },
+  "other": {
+    "ipa": "ʊðə"
+  },
+  "some": {
+    "ipa": "sɐm"
+  },
+  "such": {
+    "ipa": "sʌt͡ʃ"
+  },
+  "that": {
+    "ipa": "ˈðæt"
+  },
+  "this": {
+    "ipa": "ðəs"
+  },
+  "even": {
+    "ipa": "ˈiːvən"
+  },
+  "little": {
+    "ipa": "ˈlɪtəl"
+  },
+  "attempt": {
+    "ipa": "əˈtɛmpt"
+  },
+  "attention": {
+    "ipa": "əˈtɛn.ʃən"
+  },
+  "attraction": {
+    "ipa": "əˈtɹækʃən"
+  },
+  "authority": {
+    "ipa": "ɔːˈθɒɹəti"
+  },
+  "back": {
+    "ipa": "bæk"
+  },
+  "balance": {
+    "ipa": "ˈbæləns"
+  },
+  "base": {
+    "ipa": "beɪs"
+  },
+  "behaviour": {
+    "ipa": "bɪˈheɪvjə"
+  },
+  "belief": {
+    "ipa": "bəˈliːf"
+  },
+  "birth": {
+    "ipa": "bɜːθ"
+  },
+  "bit": {
+    "ipa": "bɪt"
+  },
+  "bite": {
+    "ipa": "bʌɪt"
+  },
+  "blood": {
+    "ipa": "blʌd"
+  },
+  "blow": {
+    "ipa": "bləʊ"
+  },
+  "body": {
+    "ipa": "ˈbɒdi"
+  },
+  "brass": {
+    "ipa": "bɹɑːs"
+  },
+  "bread": {
+    "ipa": "bɹɛd"
+  },
+  "breath": {
+    "ipa": "bɹɛθ"
+  },
+  "brother": {
+    "ipa": "ˈbɹʌðə(ɹ)"
+  },
+  "building": {
+    "ipa": "ˈbɪl.dɪŋ"
+  },
+  "burn": {
+    "ipa": "bɜːn"
+  },
+  "burst": {
+    "ipa": "bɜːst"
+  },
+  "business": {
+    "ipa": "ˈbɪd.nəs"
+  },
+  "butter": {
+    "ipa": "ˈbʊtə"
+  },
+  "canvas": {
+    "ipa": "ˈkæn.vəs"
+  },
+  "care": {
+    "ipa": "kɛə"
+  },
+  "cause": {
+    "ipa": "kɔːz"
+  },
+  "chalk": {
+    "ipa": "t͡ʃɔːk"
+  },
+  "chance": {
+    "ipa": "tʃʰɑːns"
+  },
+  "change": {
+    "ipa": "tʃeɪndʒ"
+  },
+  "event": {
+    "ipa": "əˈvɛnt"
+  },
+  "example": {
+    "ipa": "ɪɡˈzɑːmpl̩"
+  },
+  "exchange": {
+    "ipa": "ɛksˈtʃeɪndʒ"
+  },
+  "existence": {
+    "ipa": "ɛɡ.ˈzɪs.təns"
+  },
+  "expansion": {
+    "ipa": "ɪkˈspænʃən"
+  },
+  "experience": {
+    "ipa": "ɪkˈspɪə.ɹɪəns"
+  },
+  "expert": {
+    "ipa": "ˈɛkspəːt"
+  },
+  "fact": {
+    "ipa": "fækt"
+  },
+  "fall": {
+    "ipa": "fɔːl"
+  },
+  "family": {
+    "ipa": "ˈfæm(ɪ)li"
+  },
+  "father": {
+    "ipa": "ˈfɑːðə(ɹ)"
+  },
+  "fear": {
+    "ipa": "fɪə"
+  },
+  "feeling": {
+    "ipa": "ˈfiːlɪŋ"
+  },
+  "fiction": {
+    "ipa": "ˈfɪk.ʃən"
+  },
+  "field": {
+    "ipa": "fiːld"
+  },
+  "fight": {
+    "ipa": "faɪt"
+  },
+  "fire": {
+    "ipa": "ˈfaɪə(ɹ)"
+  },
+  "flame": {
+    "ipa": "fleɪm"
+  },
+  "flight": {
+    "ipa": "flaɪt"
+  },
+  "flower": {
+    "ipa": "ˈflaʊ.ə"
+  },
+  "fold": {
+    "ipa": "fəʊld"
+  },
+  "food": {
+    "ipa": "fuːd"
+  },
+  "force": {
+    "ipa": "fɔːs"
+  },
+  "form": {
+    "ipa": "fɔːm"
+  },
+  "friend": {
+    "ipa": "fɹɛnd"
+  },
+  "front": {
+    "ipa": "fɹʌnt"
+  },
+  "fruit": {
+    "ipa": "fɹuːt"
+  },
+  "glass": {
+    "ipa": "ɡlɑːs"
+  },
+  "gold": {
+    "ipa": "ɡɒʊld"
+  },
+  "government": {
+    "ipa": "ˈɡʌvə(n)mənt"
+  },
+  "grain": {
+    "ipa": "ɡɹeɪn"
+  },
+  "grass": {
+    "ipa": "ɡɹ̠ɑːs"
+  },
+  "grip": {
+    "ipa": "ɡɹɪp"
+  },
+  "group": {
+    "ipa": "ɡɹuːp"
+  },
+  "growth": {
+    "ipa": "ɡɹəʊθ"
+  },
+  "guide": {
+    "ipa": "ɡaɪd"
+  },
+  "harbour": {
+    "ipa": "ˈhɑːbə"
+  },
+  "harmony": {
+    "ipa": "ˈhɑːməni"
+  },
+  "hate": {
+    "ipa": "heɪt"
+  },
+  "hearing": {
+    "ipa": "ˈhɪəɹ.ɪŋ"
+  },
+  "heat": {
+    "ipa": "hit"
+  },
+  "help": {
+    "ipa": "hɛlp"
+  },
+  "history": {
+    "ipa": "ˈhɪst(ə)ɹi"
+  },
+  "hole": {
+    "ipa": "həʊl"
+  },
+  "hope": {
+    "ipa": "həʊp"
+  },
+  "hour": {
+    "ipa": "ˈaʊə(ɹ)"
+  },
+  "humour": {
+    "ipa": "ˈhjuː.mə(ɹ)"
+  },
+  "ice": {
+    "ipa": "ʌɪs"
+  },
+  "idea": {
+    "ipa": "aɪˈdɪə"
+  },
+  "impulse": {
+    "ipa": "ˈɪmpʌls"
+  },
+  "industry": {
+    "ipa": "ˈɪndəstɹi"
+  },
+  "ink": {
+    "ipa": "ɪŋk"
+  },
+  "insect": {
+    "ipa": "ˈɪnsɛkt"
+  },
+  "instrument": {
+    "ipa": "ˈɪnstɹəmənt"
+  },
+  "insurance": {
+    "ipa": "ɪn.ˈʃɔː.ɹəns"
+  },
+  "liquid": {
+    "ipa": "ˈlɪkwɪd"
+  },
+  "list": {
+    "ipa": "lɪst"
+  },
+  "loss": {
+    "ipa": "lɒs"
+  },
+  "love": {
+    "ipa": "lʌv"
+  },
+  "machine": {
+    "ipa": "məˈʃin"
+  },
+  "man": {
+    "ipa": "mæn"
+  },
+  "manager": {
+    "ipa": "ˈmæn.ɪ.dʒə"
+  },
+  "mark": {
+    "ipa": "mɑɹk"
+  },
+  "market": {
+    "ipa": "ˈmɑːkɪt"
+  },
+  "mass": {
+    "ipa": "mæs"
+  },
+  "meal": {
+    "ipa": "miːl"
+  },
+  "measure": {
+    "ipa": "ˈmɛʒə"
+  },
+  "meat": {
+    "ipa": "miːt"
+  },
+  "order": {
+    "ipa": "ˈɔːdə"
+  },
+  "organization": {
+    "ipa": "ˌɔɹɡənaɪˈzeɪʃən"
+  },
+  "ornament": {
+    "ipa": "ˈɔː(ɹ)nəmənt"
+  },
+  "owner": {
+    "ipa": "ˈəʊnə"
+  },
+  "page": {
+    "ipa": "peɪd͡ʒ"
+  },
+  "pain": {
+    "ipa": "peɪn"
+  },
+  "paint": {
+    "ipa": "peɪnt"
+  },
+  "paper": {
+    "ipa": "ˈpeɪpə"
+  },
+  "part": {
+    "ipa": "pɑːt"
+  },
+  "paste": {
+    "ipa": "peɪst"
+  },
+  "payment": {
+    "ipa": "ˈpeɪmənt"
+  },
+  "peace": {
+    "ipa": "piːs"
+  },
+  "person": {
+    "ipa": "ˈpɜːsən"
+  },
+  "place": {
+    "ipa": "pleɪs"
+  },
+  "plant": {
+    "ipa": "plɑːnt"
+  },
+  "regret": {
+    "ipa": "ɹiˈɡɹɛt"
+  },
+  "relation": {
+    "ipa": "ɹɪˈleɪʃən"
+  },
+  "religion": {
+    "ipa": "ɹɪˈlɪdʒən"
+  },
+  "representative": {
+    "ipa": "ˌɹɛpɹɪˈzɛnt(ət)ɪv"
+  },
+  "request": {
+    "ipa": "ɹɪˈkwɛst"
+  },
+  "respect": {
+    "ipa": "ɹɪˈspɛkt"
+  },
+  "rest": {
+    "ipa": "ɹɛst"
+  },
+  "reward": {
+    "ipa": "ɹəˈwɔːd"
+  },
+  "rhythm": {
+    "ipa": "ˈɹɪ.ð(ə)m"
+  },
+  "rice": {
+    "ipa": "ɹaɪs"
+  },
+  "river": {
+    "ipa": "ˈɹɪvə"
+  },
+  "road": {
+    "ipa": "ɹəʊd"
+  },
+  "roll": {
+    "ipa": "ɹəʊl"
+  },
+  "room": {
+    "ipa": "ɹuːm"
+  },
+  "rub": {
+    "ipa": "ɹʌb"
+  },
+  "rule": {
+    "ipa": "ɹuːl"
+  },
+  "run": {
+    "ipa": "ɹʊn"
+  },
+  "salt": {
+    "ipa": "sɒlt"
+  },
+  "sand": {
+    "ipa": "sænd"
+  },
+  "soap": {
+    "ipa": "səʊp"
+  },
+  "society": {
+    "ipa": "səˈsaɪ.ə.ti"
+  },
+  "son": {
+    "ipa": "sɒn"
+  },
+  "song": {
+    "ipa": "sɒŋ"
+  },
+  "sort": {
+    "ipa": "sɔːt"
+  },
+  "sound": {
+    "ipa": "saʊnd"
+  },
+  "soup": {
+    "ipa": "suːp"
+  },
+  "space": {
+    "ipa": "speɪs"
+  },
+  "stage": {
+    "ipa": "steɪd͡ʒ"
+  },
+  "start": {
+    "ipa": "stɑːt"
+  },
+  "statement": {
+    "ipa": "ˈsteɪtm(ə)nt"
+  },
+  "steam": {
+    "ipa": "stiːm"
+  },
+  "trick": {
+    "ipa": "tɹɪk"
+  },
+  "trouble": {
+    "ipa": "ˈtɹʌb(ə)l"
+  },
+  "turn": {
+    "ipa": "tɜːn"
+  },
+  "twist": {
+    "ipa": "twɪst"
+  },
+  "unit": {
+    "ipa": "ˈjuː.nɪt"
+  },
+  "value": {
+    "ipa": "ˈvæljuː"
+  },
+  "verse": {
+    "ipa": "ˈvɜːs"
+  },
+  "vessel": {
+    "ipa": "ˈvɛs.l̩"
+  },
+  "view": {
+    "ipa": "vjuː"
+  },
+  "voice": {
+    "ipa": "vɔɪs"
+  },
+  "walk": {
+    "ipa": "wɔːk"
+  },
+  "war": {
+    "ipa": "wɔː"
+  },
+  "wash": {
+    "ipa": "wɒʃ"
+  },
+  "waste": {
+    "ipa": "weɪst"
+  },
+  "water": {
+    "ipa": "ˈwɔːtə"
+  },
+  "wave": {
+    "ipa": "weɪv"
+  },
+  "wax": {
+    "ipa": "wæks"
+  },
+  "way": {
+    "ipa": "weɪ"
+  },
+  "weather": {
+    "ipa": "ˈwɛðə"
+  },
+  "week": {
+    "ipa": "wiːk"
+  },
+  "weight": {
+    "ipa": "weɪt"
+  },
+  "wind": {
+    "ipa": "ˈwaɪnd"
+  },
+  "wine": {
+    "ipa": "waɪn"
+  },
+  "winter": {
+    "ipa": "ˈwɪntɚ"
+  },
+  "woman": {
+    "ipa": "ˈwʊmən"
+  },
+  "wood": {
+    "ipa": "wʊd"
+  },
+  "wool": {
+    "ipa": "wʊl"
+  },
+  "word": {
+    "ipa": "wɜːd"
+  },
+  "work": {
+    "ipa": "wɜːk"
+  },
+  "wound": {
+    "ipa": "wuːnd"
+  },
+  "writing": {
+    "ipa": "ˈɹaɪtɪŋ"
+  },
+  "year": {
+    "ipa": "jɪə"
+  },
+  "angle": {
+    "ipa": "ˈæŋ.ɡəl"
+  },
+  "ant": {
+    "ipa": "ɑːnt"
+  },
+  "apple": {
+    "ipa": "ˈæp.əl"
+  },
+  "arch": {
+    "ipa": "ɑːt͡ʃ"
+  },
+  "arm": {
+    "ipa": "ɑːm"
+  },
+  "feather": {
+    "ipa": "ˈfɛð.ə(ɹ)"
+  },
+  "finger": {
+    "ipa": "ˈfɪŋəɹ"
+  },
+  "fish": {
+    "ipa": "fɪʃ"
+  },
+  "flag": {
+    "ipa": "flæɡ"
+  },
+  "floor": {
+    "ipa": "flɔː"
+  },
+  "fly": {
+    "ipa": "flaɪ"
+  },
+  "foot": {
+    "ipa": "fɵʔt"
+  },
+  "fork": {
+    "ipa": "fɔːk"
+  },
+  "fowl": {
+    "ipa": "faʊl"
+  },
+  "frame": {
+    "ipa": "fɹeɪm"
+  },
+  "garden": {
+    "ipa": "ˈɡɑːdn̩"
+  },
+  "girl": {
+    "ipa": "ɡɵːl"
+  },
+  "glove": {
+    "ipa": "ɡlʌv"
+  },
+  "goat": {
+    "ipa": "ɡɐ̟ʉt"
+  },
+  "gun": {
+    "ipa": "ɡʌn"
+  },
+  "hair": {
+    "ipa": "hɛə"
+  },
+  "hammer": {
+    "ipa": "ˈhæm.ə(ɹ)"
+  },
+  "hand": {
+    "ipa": "hænd"
+  },
+  "hat": {
+    "ipa": "hat"
+  },
+  "head": {
+    "ipa": "hɛd"
+  },
+  "heart": {
+    "ipa": "hɑːt"
+  },
+  "hook": {
+    "ipa": "huːk"
+  },
+  "horn": {
+    "ipa": "hɔːn"
+  },
+  "horse": {
+    "ipa": "hɔːs"
+  },
+  "hospital": {
+    "ipa": "ˈhɒs.pɪ.tl̩"
+  },
+  "house": {
+    "ipa": "haʊs"
+  },
+  "island": {
+    "ipa": "ˈaɪ̯lənd"
+  },
+  "jewel": {
+    "ipa": "dʒul"
+  },
+  "kettle": {
+    "ipa": "ˈkɛ.təl"
+  },
+  "key": {
+    "ipa": "kiː"
+  },
+  "knee": {
+    "ipa": "niː"
+  },
+  "street": {
+    "ipa": "stɹiːt"
+  },
+  "sun": {
+    "ipa": "sʌn"
+  },
+  "table": {
+    "ipa": "ˈteɪbəl"
+  },
+  "tail": {
+    "ipa": "teɪl"
+  },
+  "thread": {
+    "ipa": "θɾ̪̊ɛd"
+  },
+  "throat": {
+    "ipa": "ˈθɹəʊt"
+  },
+  "thumb": {
+    "ipa": "θʌm"
+  },
+  "ticket": {
+    "ipa": "ˈtɪkɪt"
+  },
+  "toe": {
+    "ipa": "təʊ"
+  },
+  "tongue": {
+    "ipa": "tɒŋɡ"
+  },
+  "tooth": {
+    "ipa": "tuːθ"
+  },
+  "town": {
+    "ipa": "taʊn"
+  },
+  "train": {
+    "ipa": "tɹeɪn"
+  },
+  "tray": {
+    "ipa": "tɹeɪ"
+  },
+  "tree": {
+    "ipa": "tɹiː"
+  },
+  "trousers": {
+    "ipa": "ˈtɹaʊzəz"
+  },
+  "umbrella": {
+    "ipa": "ʌmˈbɹɛlə"
+  },
+  "wall": {
+    "ipa": "wɔːl"
+  },
+  "watch": {
+    "ipa": "wɒt͡ʃ"
+  },
+  "wheel": {
+    "ipa": "ʍiːl"
+  },
+  "whip": {
+    "ipa": "wɪp"
+  },
+  "whistle": {
+    "ipa": "wɪsl̩"
+  },
+  "window": {
+    "ipa": "ˈwɪndəʊ"
+  },
+  "wing": {
+    "ipa": "wɪŋ"
+  },
+  "wire": {
+    "ipa": "waɪə(ɹ)"
+  },
+  "worm": {
+    "ipa": "wɜːm"
+  },
+  "able": {
+    "ipa": "ˈeɪ.bl̩"
+  },
+  "acid": {
+    "ipa": "ˈæs.ɪd"
+  },
+  "sharp": {
+    "ipa": "ʃɑːp"
+  },
+  "smooth": {
+    "ipa": "smuːð"
+  },
+  "sticky": {
+    "ipa": "ˈstɪki"
+  },
+  "stiff": {
+    "ipa": "stɪf"
+  },
+  "straight": {
+    "ipa": "stɹeɪt"
+  },
+  "strong": {
+    "ipa": "stɹɒŋ"
+  },
+  "sudden": {
+    "ipa": "ˈsʌdən"
+  },
+  "sweet": {
+    "ipa": "swiːt"
+  },
+  "tall": {
+    "ipa": "tɔːl"
+  },
+  "thick": {
+    "ipa": "θɪk"
+  },
+  "tired": {
+    "ipa": "taɪəd"
+  },
+  "true": {
+    "ipa": "tɹuː"
+  },
+  "violent": {
+    "ipa": "ˈvaɪ(ə)lənt"
+  },
+  "waiting": {
+    "ipa": "ˈweɪ̯ɾɪŋ"
+  },
+  "warm": {
+    "ipa": "wɔːm"
+  },
+  "wet": {
+    "ipa": "wɛt"
+  },
+  "wide": {
+    "ipa": "waɪd"
+  },
+  "wise": {
+    "ipa": "waɪz"
+  },
+  "yellow": {
+    "ipa": "ˈjɛl.əʊ"
+  },
+  "young": {
+    "ipa": "jʌŋ"
+  },
+  "awake": {
+    "ipa": "əˈweɪk"
+  },
+  "bad": {
+    "ipa": "bæd"
+  },
+  "bent": {
+    "ipa": "bɛnt"
+  },
+  "bitter": {
+    "ipa": "ˈbɪtə"
+  },
+  "blue": {
+    "ipa": "bluː"
+  },
+  "certain": {
+    "ipa": "ˈsɝtn̩"
+  },
+  "cold": {
+    "ipa": "kɔʊld"
+  },
+  "complete": {
+    "ipa": "kəmˈpliːt"
+  },
+  "cruel": {
+    "ipa": "kɹuː(ə)l"
+  },
+  "dark": {
+    "ipa": "dɑːk"
+  },
+  "dead": {
+    "ipa": "diːd"
+  },
+  "dear": {
+    "ipa": "dɪə"
+  },
+  "delicate": {
+    "ipa": "ˈdɛlɪkət"
+  },
+  "different": {
+    "ipa": "ˈdɪf.(ə)ɹ.ənt"
+  },
+  "dog": {
+    "ipa": "dɒɡ"
   }
 }

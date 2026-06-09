@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
-import FormulaBar from "./FormulaBar";
+import SidebarWordSearch from "./SidebarWordSearch";
 import SiteBrand from "./SiteBrand";
 import { PHASE_COLORS, PhaseIcon, SlugIcon } from "./navIcons";
 import {
   LEARNING_PHASES,
-  NAV,
   getPhaseItems,
-  getStepIndex,
   type NavPhase,
 } from "./content";
 
@@ -20,10 +18,11 @@ export default function Layout() {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
   const isHome = pathname === "/";
-  const activeSlug = pathname.startsWith("/doc/") ? pathname.replace("/doc/", "") : null;
-  const globalStep = activeSlug ? getStepIndex(activeSlug) + 1 : 0;
-  const progressPct = globalStep > 0 ? Math.round((globalStep / NAV.length) * 100) : 0;
-
+  const activeSlug = pathname.startsWith("/doc/")
+    ? pathname.replace("/doc/", "")
+    : pathname === "/words"
+      ? "words"
+      : null;
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>(() => {
     const init: Record<string, boolean> = {};
     for (const p of LEARNING_PHASES) {
@@ -56,35 +55,12 @@ export default function Layout() {
       </button>
 
       <aside className={`sidebar ${open ? "open" : ""}`}>
-        <div className="sidebar-brand-group">
-          <Link className="brand-header-link" to="/" onClick={close} title="返回首页">
+        <div className="sidebar-header">
+          <Link className="sidebar-brand-link" to="/" onClick={close} title="返回首页">
             <SiteBrand compact />
           </Link>
-          <div className="brand-divider" />
-          <Link className="brand-formula-link" to="/doc/start" onClick={close} title="学习地图">
-            <div className="brand-formula-head">
-              <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M7 7l10 10M17 7L7 17" />
-              </svg>
-              核心公式
-            </div>
-            <FormulaBar compact />
-          </Link>
+          <SidebarWordSearch />
         </div>
-
-        {globalStep > 0 && (
-          <div className="sidebar-progress" aria-live="polite">
-            <div className="sidebar-progress-head">
-              <span>学习进度</span>
-              <strong>
-                {globalStep}/{NAV.length}
-              </strong>
-            </div>
-            <div className="sidebar-progress-track">
-              <span className="sidebar-progress-fill" style={{ width: `${progressPct}%` }} />
-            </div>
-          </div>
-        )}
 
         <nav className="side-nav" aria-label="学习路径">
           {LEARNING_PHASES.map((phase) => {
@@ -123,7 +99,9 @@ export default function Layout() {
                       <PhaseIcon id={phase.id} />
                     </span>
                     <div className="nav-phase-copy">
-                      <span className="nav-phase-step">第 {phase.step} 步</span>
+                      <span className="nav-phase-step">
+                        {phase.step === "★" ? "核心" : `第 ${phase.step} 步`}
+                      </span>
                       <span className="nav-phase-title">{phase.title}</span>
                     </div>
                   </div>
@@ -134,9 +112,9 @@ export default function Layout() {
                     {items.map((item) => (
                       <li key={item.slug}>
                         <NavLink
-                          to={`/doc/${item.slug}`}
+                          to={item.href ?? `/doc/${item.slug}`}
                           className={({ isActive }) =>
-                            `nav-phase-link${isActive ? " nav-phase-link--active" : ""}`
+                            `nav-phase-link${isActive ? " nav-phase-link--active" : ""}${item.badge === "重点" ? " nav-phase-link--hot" : ""}`
                           }
                           onClick={close}
                         >

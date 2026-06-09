@@ -18,6 +18,11 @@ export const PHASE_ICONS: Record<string, (p: IconProps) => ReactNode> = {
       <circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none" />
     </Svg>
   ),
+  core: (p) => (
+    <Svg {...p}>
+      <path d="M13 3L5 14h6l-1 7 9-12h-6l1-6z" />
+    </Svg>
+  ),
   skeleton: (p) => (
     <Svg {...p}>
       <path d="M4 18V6l8-3 8 3v12" />
@@ -91,8 +96,8 @@ export const SLUG_ICONS: Record<string, (p: IconProps) => ReactNode> = {
   ),
   words: (p) => (
     <Svg {...p}>
-      <path d="M8 6h8M8 10h8M8 14h5" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <circle cx="11" cy="11" r="6" />
+      <path d="M16 16l4 4" />
     </Svg>
   ),
   phrasal: (p) => (
@@ -147,6 +152,7 @@ export const SLUG_ICONS: Record<string, (p: IconProps) => ReactNode> = {
 
 export const PHASE_COLORS: Record<string, string> = {
   map: "#b45309",
+  core: "#d97706",
   skeleton: "#0369a1",
   roots: "#15803d",
   multiply: "#c2410c",

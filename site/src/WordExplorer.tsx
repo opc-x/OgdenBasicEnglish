@@ -1,11 +1,12 @@
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import { WORDS, TIER_META, ANNOTATED_COUNT, type Tier, type Word } from "./words850";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { WORDS, TIER_META, ANNOTATED_COUNT, isOperator, type Tier, type Word } from "./words850";
 import { speak, isSpeechSupported } from "./speak";
 
-type Filter = Tier | "all";
+type Filter = Tier | "all" | "op18";
 
 const TABS: { id: Filter; label: string }[] = [
+  { id: "op18", label: "18 Operator" },
   { id: "all", label: "全部 850" },
   { id: "ops", label: "运作词 100" },
   { id: "pic", label: "看得见 200" },
@@ -17,15 +18,19 @@ const TABS: { id: Filter; label: string }[] = [
 function WordCard({ word }: { word: Word }) {
   const meta = TIER_META[word.t];
   const speakable = isSpeechSupported();
+  const op = isOperator(word.w);
   return (
-    <div className="word-card" style={{ ["--seg" as string]: meta.color }}>
+    <div
+      className={`word-card${op ? " word-card--operator" : ""}`}
+      style={{ ["--seg" as string]: meta.color }}
+    >
       <button
         type="button"
         className="word-speak"
         aria-label={`朗读 ${word.w}`}
         disabled={!speakable}
-        onClick={() => speak(word.w)}
-        title="点击发音"
+        onClick={() => void speak(word.w)}
+        title="点击发音（Sonia 英式女声）"
       >
         <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden>
           <path
@@ -36,6 +41,7 @@ function WordCard({ word }: { word: Word }) {
       </button>
       <div className="word-main">
         <span className="word-en">{word.w}</span>
+        {op && <span className="word-op-badge">operator</span>}
         {word.ipa ? (
           <span className="word-ipa">/{word.ipa}/</span>
         ) : (
@@ -52,14 +58,24 @@ function WordCard({ word }: { word: Word }) {
   );
 }
 
-export default function WordExplorer() {
-  const [filter, setFilter] = useState<Filter>("ops");
-  const [q, setQ] = useState("");
+export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter?: Filter }) {
+  const [params, setParams] = useSearchParams();
+  const qParam = params.get("q") ?? "";
+  const [filter, setFilter] = useState<Filter>(
+    (params.get("tab") as Filter) || defaultFilter
+  );
+  const [q, setQ] = useState(qParam);
+
+  useEffect(() => {
+    setQ(qParam);
+  }, [qParam]);
 
   const list = useMemo(() => {
     const query = q.trim().toLowerCase();
     return WORDS.filter((word) => {
-      if (filter !== "all" && word.t !== filter) return false;
+      if (filter === "op18") {
+        if (!isOperator(word.w)) return false;
+      } else if (filter !== "all" && word.t !== filter) return false;
       if (!query) return true;
       return (
         word.w.toLowerCase().includes(query) ||
@@ -68,27 +84,33 @@ export default function WordExplorer() {
     });
   }, [filter, q]);
 
+  const onSearch = (value: string) => {
+    setQ(value);
+    const next = new URLSearchParams(params);
+    if (value.trim()) next.set("q", value.trim());
+    else next.delete("q");
+    setParams(next, { replace: true });
+  };
+
+  const onTab = (id: Filter) => {
+    setFilter(id);
+    const next = new URLSearchParams(params);
+    if (id === defaultFilter) next.delete("tab");
+    else next.set("tab", id);
+    setParams(next, { replace: true });
+  };
+
   return (
     <div className="explorer">
       <div className="explorer-head">
         <span className="explorer-kicker">核心 · 850 词表</span>
         <h3>这 850 个词，就是你要学的全部</h3>
         <p>
-          点
-          <span className="speak-demo" aria-hidden>
-            <svg viewBox="0 0 24 24" width="12" height="12">
-              <path
-                fill="currentColor"
-                d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"
-              />
-            </svg>
-          </span>
-          听发音、看音标和中文，
-          运作词可直接跳到讲解。<strong>{ANNOTATED_COUNT} / 850</strong> 已配齐音标+中文，其余分层补全中。
+          点喇叭听 <strong>Sonia</strong> 英式女声（en-GB-SoniaNeural）。
+          运作词可跳讲解。<strong>{ANNOTATED_COUNT} / 850</strong> 已配英式音标。
         </p>
       </div>
 
-      {/* 分类标签 */}
       <div className="explorer-tabs" role="tablist">
         {TABS.map((t) => (
           <button
@@ -96,20 +118,19 @@ export default function WordExplorer() {
             type="button"
             role="tab"
             aria-selected={filter === t.id}
-            className={`explorer-tab${filter === t.id ? " active" : ""}`}
+            className={`explorer-tab${filter === t.id ? " active" : ""}${t.id === "op18" ? " explorer-tab--hot" : ""}`}
             style={
-              t.id !== "all"
+              t.id !== "all" && t.id !== "op18"
                 ? ({ ["--seg" as string]: TIER_META[t.id as Tier].color } as React.CSSProperties)
                 : undefined
             }
-            onClick={() => setFilter(t.id)}
+            onClick={() => onTab(t.id)}
           >
             {t.label}
           </button>
         ))}
       </div>
 
-      {/* 搜索 */}
       <div className="explorer-search">
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden>
           <path
@@ -120,14 +141,13 @@ export default function WordExplorer() {
         <input
           type="search"
           value={q}
-          onChange={(e) => setQ(e.target.value)}
+          onChange={(e) => onSearch(e.target.value)}
           placeholder="搜单词或中文，如 come / 来 / dog"
           aria-label="搜索单词"
         />
         <span className="explorer-count">{list.length} 个</span>
       </div>
 
-      {/* 词卡网格 */}
       {list.length ? (
         <div className="word-grid">
           {list.map((word) => (

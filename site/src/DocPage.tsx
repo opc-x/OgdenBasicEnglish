@@ -90,6 +90,27 @@ export default function DocPage() {
                 <table {...props}>{children}</table>
               </div>
             ),
+            img: ({ src, alt, ...props }) => {
+              const isConcept = alt?.includes("Concept");
+              return (
+                <img
+                  src={src}
+                  alt={alt}
+                  style={{
+                    maxWidth: "100%",
+                    width: isConcept ? "480px" : "auto",
+                    display: "block",
+                    margin: "1.5rem auto",
+                    borderRadius: "12px",
+                    border: "1px solid var(--border-soft)",
+                    boxShadow: "var(--shadow-sm)",
+                    background: "var(--bg-card)",
+                    padding: "0.5rem",
+                  }}
+                  {...props}
+                />
+              );
+            },
           }}>{body}</ReactMarkdown>
         </div>
         <SourcesPanel slug={slug} />

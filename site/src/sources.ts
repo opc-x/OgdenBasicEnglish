@@ -52,6 +52,24 @@ export const PAGE_SOURCES: Record<string, SourceLink[]> = {
   sources: GLOBAL_SOURCES,
 };
 
+/** 仅在这些页展示侧边栏出处面板（其余页可到 /doc/sources 或首页条带查看） */
+export const SOURCE_PANEL_SLUGS = new Set([
+  "start",
+  "operators",
+  "grammar",
+  "tier-guide",
+  "words",
+  "phrasal",
+  "affixes",
+  "compounds",
+  "practice",
+  "begr",
+]);
+
 export function getPageSources(slug: string): SourceLink[] {
   return PAGE_SOURCES[slug] ?? [];
+}
+
+export function shouldShowSourcesPanel(slug: string): boolean {
+  return SOURCE_PANEL_SLUGS.has(slug) && getPageSources(slug).length > 0;
 }

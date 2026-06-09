@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { GLOBAL_SOURCES, getPageSources, type SourceLink } from "./sources";
+import { getPageSources, shouldShowSourcesPanel, type SourceLink } from "./sources";
 
 function SourceList({ items }: { items: SourceLink[] }) {
   return (
@@ -20,14 +20,13 @@ function SourceList({ items }: { items: SourceLink[] }) {
 
 export default function SourcesPanel({ slug }: { slug: string }) {
   const pageSources = getPageSources(slug);
-  if (slug === "sources") return null;
+  if (!shouldShowSourcesPanel(slug)) return null;
   return (
     <aside className="sources-panel">
       <h2>原始材料出处</h2>
       <p className="sources-disclaimer">本站为学习整理，非 Ogden 官方出版物。请对照下方链接核对原文。</p>
-      {pageSources.length > 0 && (<><h3>本页相关</h3><SourceList items={pageSources} /></>)}
-      <h3>通用参考</h3>
-      <SourceList items={GLOBAL_SOURCES.filter((s) => s.url !== "/doc/sources")} />
+      <h3>本页相关</h3>
+      <SourceList items={pageSources} />
       <p className="sources-more"><Link to="/doc/sources">查看完整出处索引 →</Link></p>
     </aside>
   );

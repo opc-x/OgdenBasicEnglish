@@ -3,16 +3,12 @@ export default function SiteBrand({ compact = false }: { compact?: boolean }) {
   if (compact) {
     return (
       <div className="site-brand site-brand--sidebar">
-        <span className="brand-mark" aria-hidden>
-          850
-        </span>
-        <div className="site-brand-body">
-          <p className="site-brand-title">
-            Ogden
-            <em>Basic English</em>
-          </p>
-          <p className="site-brand-meta-line">C.K. Ogden · 1930</p>
-        </div>
+        <p className="site-brand-lockup">
+          <span className="site-brand-ogden">Ogden</span>
+          <em>Basic English</em>
+        </p>
+        <p className="site-brand-slogan">850 词根，拼出日常九成语境</p>
+        <p className="site-brand-eyebrow">C.K. Ogden · 1930</p>
       </div>
     );
   }

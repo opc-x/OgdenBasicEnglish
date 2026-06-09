@@ -2373,6 +2373,10 @@ a:hover { color: var(--accent-deep); }
 }
 
 .doc-body {
+  display: block;
+}
+
+.doc-body.has-sources {
   display: grid;
   grid-template-columns: 1fr 260px;
   gap: 2.5rem;
@@ -2669,7 +2673,7 @@ a:hover { color: var(--accent-deep); }
 
 /* ── 响应式：≤1200px 文档侧栏折叠 ───────────────────── */
 @media (max-width: 1200px) {
-  .doc-body { grid-template-columns: 1fr; }
+  .doc-body.has-sources { grid-template-columns: 1fr; }
   .sources-panel { position: static; order: -1; }
 }
 
@@ -3049,5 +3053,16 @@ a:hover { color: var(--accent-deep); }
   .op-chip { padding: 0.25rem 0.45rem; }
   .op-chip-en { font-size: 0.78rem; }
   .op-chip-cn { font-size: 0.65rem; }
+}
+
+.prose img[alt*="Concept"] {
+  max-width: min(100%, 540px);
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-card);
+  padding: 0.5rem;
 }
 
