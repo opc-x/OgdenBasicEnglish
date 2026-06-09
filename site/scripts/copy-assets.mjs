@@ -11,6 +11,7 @@ const copies = [
   ["04-practice/english-through-pictures-book1.pdf", "english-through-pictures-book1.pdf"],
   ["reference/begr-1937.html", "begr-1937.html"],
   ["01-foundations/operators_spatial_concept.png", "operators_spatial_concept.png"],
+  ["01-foundations/playbook_roadmap.png", "playbook_roadmap.png"],
 ];
 
 function copyDir(srcDir, destDir) {

@@ -1,60 +1,46 @@
-# Ogden Basic English — 从这里开始
+# Ogden Basic English — 视觉学习 Playbook
 
-> 850 个词 + 18 个 operator，能说出日常约 90% 的内容（Ogden 原话）。
-> C.K. Ogden，1930。本站为**中国人学习**整理，每步可对照 [原始出处](reference/sources.md)。
+> **850 个核心词 × 18个动作构件 (Operators) × 组合规则 ≈ 覆盖 90% 日常交流。**
+> C.K. Ogden 1930年经典设计。本站专为中文学习者重构，每一步均有学术与文献对照。
 
-## 一个核心想法
+---
 
-Basic English **不是**「背 850 个常用词」，而是一台**造句机器**：
+## 🧭 4周通关核心攻略图 (Learning Roadmap)
 
-```
-850 词根  ×  operator  ×  方向  ×  词缀  ×  复合  =  日常英语
-```
+![Playbook Roadmap Guide](/assets/playbook_roadmap.png)
 
-先学**骨架**（operator + 方向词），再装**词根**（名词/形容词），最后用**组合规则**把它们乘起来。
+---
 
-## 学习顺序（和左侧导航一致）
+## 🎯 攻略必读：Basic English 五项基本原则
 
-| 步 | 阶段 | 学什么 | 为什么这个顺序 |
-|----|------|--------|----------------|
-| ◎ | 先看地图 | 本页 + 出处核对 | 知道在学什么、从哪核对 |
-| ① | 搭骨架 | operator · 方向词 · 语法 | 没有普通动词，句子靠拼 |
-| ② | 装词根 | 850 五类分层 · 词表 | 不是平铺死背 |
-| ③ | 开倍增 | 短语动词 · 词缀 · 复合 | BE850 的灵魂 |
-| ④ | 练输出 | 阅读与练习 | 在约束集里流利 |
-| 参 | 参考库 | begr-1937 等 | 对照原文，非主路径 |
+1. **消灭普通动词**：Basic English 中没有 *enter, decide, arise* 等数千个复杂动词。一切动作均还原为身体的物理运动。
+   * 示例：`enter the room` ➔ `go in the room` (走入房间)
+2. **动词 + 方向 = 短语动词**：Operators（如 come, go, put, take）结合物理方向介词（如 in, out, up, down）可替代 4000+ 传统词汇。
+   * 🚀 攻略直达：[18个 Operator 详解](01-foundations/operators-18.md)
+3. **850 词分层掌握**：先掌握能用图片画出来的实体词（Picturable 200词），再掌握抽象词（General 400词）。
+   * 🚀 攻略直达：[词表分层指南](02-vocabulary/tier-guide.md)
+4. **词缀不占词根**：通过 `-s`（复数/三单）、`-er`（人/物）、`-ing`/`-ed`（状态）、`-ly`（副词）、`un-`（相反）和 `more/most` 进行词汇自我繁殖，且不增加词根负担。
+   * 🚀 攻略直达：[词缀倍增规则](03-composition/derivation-affixes.md)
+5. **语法即“减法”**：语法规则和标准英语完全一致，只是扣除了普通动词的变形干扰，学习负担减少 90%。
+   * 🚀 攻略直达：[语法规则速查](01-foundations/grammar-rules.md)
 
-## 五个核心（全程记住）
+---
 
-1. **18 个 operator 扛起全部动作**，没有 read、decide 这类普通动词 → [`operators-18.md`](01-foundations/operators-18.md)
-2. **operator + 方向 = 短语动词**，如 `put together`（组装）→ [`phrasal-verbs.md`](03-composition/phrasal-verbs.md)
-3. **850 词分五类**，先学可画图的 picturable，最早背 Operations → [`tier-guide.md`](02-vocabulary/tier-guide.md)
-4. **词缀不增词根**：-S / -ER / -ING / -ED / -LY / UN- / MORE·MOST → [`derivation-affixes.md`](03-composition/derivation-affixes.md)
-5. **语法 = 正常英语减普通动词**，听起来仍是标准英语 → [`grammar-rules.md`](01-foundations/grammar-rules.md)
+## 📅 4周学习行动建议 (Action Plan)
 
-## 建议四周路径（全免费）
+### 🗓️ 第 1 周：搭建动作骨架 (Build the Skeleton)
+- [ ] 背熟并掌握 [18个 Operator (必背)](01-foundations/operators-18.md) 的物理手势与空间矢量定义。
+- [ ] 掌握 [20个物理方向与介词](01-foundations/directions-prepositions.md) 的空间指向。
+- [ ] 阅读 [3张语法规则卡](01-foundations/grammar-rules.md)，理解动作消灭后的句子拼装模式。
 
-```
-第 1 周  骨架
-        operators-18.md          背熟 18 个 + may/will
-        directions-prepositions.md
-        grammar-rules.md         读一遍，当速查卡
+### 🗓️ 第 2 周：分层装载词根 (Load the Roots)
+- [ ] 细读 [850词分层学习指南](02-vocabulary/tier-guide.md)，搞懂不同词性的记忆优先级。
+- [ ] 配合 [850词随时查](/words) 页面，优先学习 200 个可画图词（Picturable），形成物理直觉。
 
-第 2 周  词根（Operations 已学 + 200 可画图词）
-        tier-guide.md
-        刷 basic-english-850.txt
+### 🗓️ 第 3 周：启动组合倍增 (Multiply Expressive Power)
+- [ ] 集中演练 [100组常用短语动词](03-composition/phrasal-verbs.md)（如 *put in, get out, keep back* 等）。
+- [ ] 吃透 [衍生词缀](03-composition/derivation-affixes.md) 和 [复合词拼接逻辑](03-composition/compounds.md)。
 
-第 3 周  倍增
-        phrasal-verbs.md           练 100 组 operator+方向
-        derivation-affixes.md
-        compounds.md
-
-第 4 周  收尾 + 练习
-        400 抽象名词 + 150 性质词
-        english-through-pictures-book1.pdf
-        reading-list.md
-```
-
-## 给 Agent 用
-
-见 `AGENTS.md`、`manifest.json`；蒸馏 schema 在 [`05-distill/schema.md`](05-distill/schema.md)。
+### 🗓️ 第 4 周：实战流利度 (Fluency Practice)
+- [ ] 精读 [阅读与练习推荐](04-practice/reading-list.md)，利用绘本 *English Through Pictures (Book 1)* 进行情境输入。
+- [ ] 尝试使用 850 词约束集写日记、做口语陈述，摆脱对高级动词的心理依赖。

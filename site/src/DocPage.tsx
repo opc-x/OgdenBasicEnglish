@@ -8,6 +8,7 @@ import TierBreakdown from "./TierBreakdown";
 import MultiplyMore from "./MultiplyMore";
 import WordExplorer from "./WordExplorer";
 import OperatorsGrid from "./OperatorsGrid";
+import PlaybookPlay from "./PlaybookPlay";
 import {
   NAV,
   PATH_TO_ASSET,
@@ -28,6 +29,7 @@ function rewriteLinks(md: string): string {
 
 /** 把首页的交互可视化复用到对应 doc 页，作为「先看图，再读细节」的引子。 */
 const DOC_VISUALS: Record<string, ReactNode> = {
+  start: <PlaybookPlay />,
   operators: <OperatorsGrid />,
   phrasal: <WordMachine />,
   "tier-guide": <TierBreakdown />,
