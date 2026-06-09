@@ -140,23 +140,65 @@ a:hover { color: var(--accent-deep); }
 .sidebar::-webkit-scrollbar { width: 4px; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
-.brand {
+.sidebar-brand-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.15rem;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  overflow: hidden;
+}
+.sidebar-brand-group:hover {
+  border-color: rgba(180, 83, 9, 0.35);
+  box-shadow: 0 4px 16px rgba(180, 83, 9, 0.1);
+  transform: translateY(-1px);
+}
+.brand-header-link {
   display: block;
   text-decoration: none;
   color: var(--ink);
-  padding: 0.5rem 0.55rem;
-  margin: 0 0.15rem;
-  border-radius: 14px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  padding: 0.65rem 0.65rem 0.55rem;
+  transition: background 0.15s;
 }
-.brand:hover {
-  border-color: rgba(180, 83, 9, 0.35);
-  box-shadow: 0 4px 16px rgba(180, 83, 9, 0.1);
-  color: var(--ink);
-  transform: translateY(-1px);
+.brand-header-link:hover {
+  background: rgba(180, 83, 9, 0.02);
+}
+.brand-divider {
+  height: 1px;
+  border-top: 1px dashed var(--border-soft);
+  margin: 0 0.65rem;
+}
+.brand-formula-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.55rem 0.65rem 0.65rem;
+  transition: background 0.15s;
+}
+.brand-formula-link:hover {
+  background: rgba(180, 83, 9, 0.02);
+}
+.brand-formula-head {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  padding-left: 0.15rem;
+}
+.brand-formula-link .formula-bar {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
 .brand-mark {
@@ -277,33 +319,7 @@ a:hover { color: var(--accent-deep); }
   border-radius: 10px;
 }
 
-.sidebar-formula {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  margin: 0 0.15rem;
-  transition: transform 0.15s;
-}
-.sidebar-formula-label {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  margin: 0 0 0.35rem 0.35rem;
-  font-family: var(--mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  font-weight: 600;
-}
-.sidebar-formula:hover {
-  color: inherit;
-  transform: translateY(-1px);
-}
-.sidebar-formula:hover .formula-bar {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(180, 83, 9, 0.07);
-}
+/* sidebar-formula styles removed - merged into sidebar-brand-group */
 
 .formula-cell {
   display: inline-flex;

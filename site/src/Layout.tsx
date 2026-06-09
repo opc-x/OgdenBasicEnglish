@@ -56,19 +56,21 @@ export default function Layout() {
       </button>
 
       <aside className={`sidebar ${open ? "open" : ""}`}>
-        <Link className="brand" to="/" onClick={close}>
-          <SiteBrand compact />
-        </Link>
-
-        <Link className="sidebar-formula" to="/doc/start" onClick={close} title="学习地图">
-          <span className="sidebar-formula-label">
-            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M7 7l10 10M17 7L7 17" />
-            </svg>
-            核心公式
-          </span>
-          <FormulaBar compact />
-        </Link>
+        <div className="sidebar-brand-group">
+          <Link className="brand-header-link" to="/" onClick={close} title="返回首页">
+            <SiteBrand compact />
+          </Link>
+          <div className="brand-divider" />
+          <Link className="brand-formula-link" to="/doc/start" onClick={close} title="学习地图">
+            <div className="brand-formula-head">
+              <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden fill="none" stroke="currentColor" strokeWidth="2.5">
+                <path d="M7 7l10 10M17 7L7 17" />
+              </svg>
+              核心公式
+            </div>
+            <FormulaBar compact />
+          </Link>
+        </div>
 
         {globalStep > 0 && (
           <div className="sidebar-progress" aria-live="polite">
