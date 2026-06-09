@@ -19,95 +19,59 @@ function WordCard({ word }: { word: Word }) {
   const meta = TIER_META[word.t];
   const speakable = isSpeechSupported();
   const op = isOperator(word.w);
-  const hasImg = !!word.img;
-
-  if (hasImg) {
-    return (
-      <div
-        className={`word-card word-card--has-img${op ? " word-card--operator" : ""}`}
-        style={{ ["--seg" as string]: meta.color }}
-      >
-        <div className="word-card-img-wrapper">
-          <img
-            src={word.img}
-            alt={word.w}
-            className="word-card-img"
-            loading="lazy"
-          />
-        </div>
-        <div className="word-card-body">
-          <div className="word-card-header-line">
-            <button
-              type="button"
-              className="word-speak"
-              aria-label={`朗读 ${word.w}`}
-              disabled={!speakable}
-              onClick={() => void speak(word.w)}
-              title="点击发音（Sonia 英式女声）"
-            >
-              <svg viewBox="0 0 24 24" width="11" height="11" aria-hidden>
-                <path
-                  fill="currentColor"
-                  d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
-                />
-              </svg>
-            </button>
-            <span className="word-en">{word.w}</span>
-            {op && <span className="word-op-badge">operator</span>}
-          </div>
-          <div className="word-card-meta-line">
-            {word.ipa ? (
-              <span className="word-ipa">/{word.ipa}/</span>
-            ) : (
-              <span className="word-ipa word-ipa-todo">音标补全中</span>
-            )}
-            {word.link && (
-              <Link className="word-link" to={`/doc/${word.link}`} title="跳到知识讲解">
-                讲解 →
-              </Link>
-            )}
-          </div>
-          <div className="word-cn">{word.cn ?? "—"}</div>
-        </div>
-      </div>
-    );
-  }
+  const isSvg = word.img?.startsWith("data:image/svg+xml") ?? false;
 
   return (
     <div
-      className={`word-card${op ? " word-card--operator" : ""}`}
+      className={`word-card word-card--has-img${op ? " word-card--operator" : ""}`}
       style={{ ["--seg" as string]: meta.color }}
     >
-      <button
-        type="button"
-        className="word-speak"
-        aria-label={`朗读 ${word.w}`}
-        disabled={!speakable}
-        onClick={() => void speak(word.w)}
-        title="点击发音（Sonia 英式女声）"
-      >
-        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden>
-          <path
-            fill="currentColor"
-            d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
+      <div className="word-card-img-wrapper">
+        {word.img ? (
+          <img
+            src={word.img}
+            alt={word.w}
+            className={`word-card-img${isSvg ? " word-card-img--svg" : ""}`}
+            loading="lazy"
           />
-        </svg>
-      </button>
-      <div className="word-main">
-        <span className="word-en">{word.w}</span>
-        {op && <span className="word-op-badge">operator</span>}
-        {word.ipa ? (
-          <span className="word-ipa">/{word.ipa}/</span>
         ) : (
-          <span className="word-ipa word-ipa-todo">音标补全中</span>
+          <span className="word-card-img-fallback" aria-hidden>{word.w}</span>
         )}
       </div>
-      <span className="word-cn">{word.cn ?? "—"}</span>
-      {word.link && (
-        <Link className="word-link" to={`/doc/${word.link}`} title="跳到知识讲解">
-          讲解 →
-        </Link>
-      )}
+      <div className="word-card-body">
+        <div className="word-card-header-line">
+          <button
+            type="button"
+            className="word-speak"
+            aria-label={`朗读 ${word.w}`}
+            disabled={!speakable}
+            onClick={() => void speak(word.w)}
+            title="点击发音（Sonia 英式女声）"
+          >
+            <svg viewBox="0 0 24 24" width="11" height="11" aria-hidden>
+              <path
+                fill="currentColor"
+                d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
+              />
+            </svg>
+          </button>
+          <span className="word-en">{word.w}</span>
+          {op && <span className="word-op-badge">operator</span>}
+        </div>
+        <div className="word-card-meta-line">
+          {word.ipa ? (
+            <span className="word-ipa">/{word.ipa}/</span>
+          ) : (
+            <span className="word-ipa word-ipa-todo">音标补全中</span>
+          )}
+          {word.link && (
+            <Link className="word-link" to={`/doc/${word.link}`} title="跳到知识讲解">
+              讲解 →
+            </Link>
+          )}
+        </div>
+        <div className="word-cn">{word.cn ?? "—"}</div>
+      </div>
     </div>
   );
 }
@@ -160,8 +124,8 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
         <span className="explorer-kicker">核心 · 850 词表</span>
         <h3>这 850 个词，就是你要学的全部</h3>
         <p>
-          点喇叭听 <strong>Sonia</strong> 英式女声（en-GB-SoniaNeural）。
-          运作词可跳讲解。<strong>{ANNOTATED_COUNT} / 850</strong> 已配英式音标。
+          点喇叭听 <strong>Sonia</strong> 英式女声；每个词都有配图（实物照片或 SVG 示意）。
+          <strong>{ANNOTATED_COUNT} / 850</strong> 已配英式音标。
         </p>
       </div>
 

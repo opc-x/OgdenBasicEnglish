@@ -7,6 +7,7 @@
     "predev": "node scripts/copy-assets.mjs",
     "dev": "vite",
     "prebuild": "node scripts/copy-assets.mjs",
+    "fetch-images": "node scripts/fetch-word-images.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
