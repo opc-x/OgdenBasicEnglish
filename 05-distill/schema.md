@@ -1,46 +1,49 @@
-# Distillation schema � outputs for agents
+# Agent 蒸馏 Schema（给程序用）
 
-Target artifacts to generate from this corpus for RAG / fine-tune / a BE850 tutor agent.
+> 普通人学 BE850 **不用看本页**。这是从本仓库生成 JSONL / prompt 的规格说明。
 
-## 1. vocabulary.jsonl (850 rows)
+## 1. vocabulary.jsonl（850 行）
 
 ```json
-{"word": "dog", "class": "things_picturable", "tier": 2, "zh": "?"}
+{"word": "dog", "class": "things_picturable", "tier": 2, "zh": "狗"}
 {"word": "put", "class": "operations", "tier": 1, "role": "operator"}
 {"word": "good", "class": "qualities_general", "tier": 4, "opposite": "bad"}
 ```
-- `class` ? operations | things_general | things_picturable | qualities_general | qualities_opposites
-- `tier` per `../02-vocabulary/tier-guide.md`
 
-## 2. operators.jsonl (~120 rows)
+- `class`：operations | things_general | things_picturable | qualities_general | qualities_opposites
+- `tier`：见 [`tier-guide.md`](../02-vocabulary/tier-guide.md)
+
+## 2. operators.jsonl（约 120 行）
 
 ```json
 {"base": "put", "particle": "together", "gloss": "assemble", "type": "phrasal"}
 {"base": "make", "particle": "a decision", "gloss": "decide", "type": "operator_noun"}
 ```
 
-## 3. grammar_rules.jsonl (~10 rows)
+## 3. grammar_rules.jsonl（约 10 行）
 
 ```json
-{"id": "plural_s", "rule": "add -S for plural", "example": "dog?dogs", "exception": "glass?glasses"}
+{"id": "plural_s", "rule": "add -S for plural", "example": "dog→dogs", "exception": "glass→glasses"}
 {"id": "degree", "rule": "use MORE/MOST not -er/-est", "example": "more complex"}
 ```
 
 ## 4. affixes.jsonl
 
 ```json
-{"affix": "-er", "applies_to": "noun", "makes": "agent/instrument", "example": "work?worker"}
+{"affix": "-er", "applies_to": "noun", "makes": "agent/instrument", "example": "work→worker"}
 ```
 
-## 5. prompts/ (system prompts)
+## 5. prompts/（系统提示词）
 
-- `tutor.md` � staged tutor (foundations ? vocab ? composition)
-- `reducer.md` � rewrite arbitrary English into strict BE850
-- `validator.md` � check whether a text stays inside BE850 (roots + affixes + compounds)
+| 文件 | 用途 |
+|------|------|
+| `tutor.md` | 分阶段家教（骨架→词汇→组合） |
+| `reducer.md` | 把任意英语改写成严格 BE850 |
+| `validator.md` | 检查文本是否仍在 BE850 内 |
 
-## Build hints
+## 生成提示
 
-- Source roots: `../02-vocabulary/words-ogden-order.md` (authoritative) and `basic-english-850.txt`.
-- Grammar/affixes: `../01-foundations/grammar-rules.md`, `../03-composition/*`.
-- Generate a **recognition lexicon** (roots � allowed affixes) for the validator.
-- Keep provenance: cite Ogden 1930; see `../reference/copyright.md`.
+- 词根来源：[`words-ogden-order.md`](../02-vocabulary/words-ogden-order.md)
+- 规则来源：[`grammar-rules.md`](../01-foundations/grammar-rules.md)、[`03-composition/`](../03-composition/)
+- 校验器需生成「识别用词典」（词根 × 允许词缀）
+- 版权：[`copyright.md`](../reference/copyright.md)

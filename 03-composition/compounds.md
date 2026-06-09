@@ -1,34 +1,35 @@
-# Compounds: joining roots
+# 复合词：把词根粘在一起
 
-Basic English lets you join existing words into compounds rather than learning new roots.
+不背新词根，把 850 里已有的词**组合**成新词。
 
-## Productive patterns
+## 常见模式
 
-| Pattern | Examples |
-|---------|----------|
-| any/every/no/some + one/thing/where/body | anyone, everything, nowhere, somebody |
-| time compounds | week-end, day-light, to-day, to-morrow |
-| person/agent | milkman, postman, fireman |
-| place/object | bedroom, doorway, sunlight, railway |
-| body/material | fingerprint, footstep, snowball |
+| 模式 | 例 | 中文提示 |
+|------|-----|----------|
+| any/every/no/some + one/thing/where/body | anyone, everything | 某人/一切/无处 |
+| 时间 | week-end, to-day, to-morrow | 周末/今天/明天 |
+| 人/职业 | milkman, postman | 送奶工/邮递员 |
+| 物/场所 | bedroom, sunlight, railway | 卧室/阳光/铁路 |
+| 身/材 | fingerprint, footstep | 指纹/脚步 |
 
-## Rules
+## 规则
 
-- Only join **listed 850 words** (plus allowed affixes).
-- Meaning must be transparent from the parts (`sun + light` = sunlight).
-- Hyphen or solid form both acceptable; prefer the conventional one.
+- 只用**词表内的 850 词**（加允许的词缀）
+- 意思要从部件能看出来（`sun + light` = 阳光）
+- 连字符或连写均可，用常见写法
 
-## Why it matters
-
-Compounds + phrasal verbs + affixes are the three multipliers. Together they let 850 roots
-express the everyday range of 15,000�20,000 words. When stuck for a word:
+## 卡住时按这个顺序想
 
 ```
-1. Is there an operator + direction?     ? put together
-2. Can I use operator + noun?            ? make a decision
-3. Can I compound two roots?             ? sun + light
-4. Can I add an affix?                   ? work + er
-5. Is it an international word / name?    ? radio, taxi, Beijing
+1. 能 operator + 方向吗？     → put together
+2. 能 operator + 名词吗？     → make a decision
+3. 能两个词根复合吗？         → sun + light
+4. 能加词缀吗？               → work + er
+5. 是国际词/专名吗？          → radio, taxi, Beijing
 ```
 
-If none fit, the concept is outside everyday BE850 � rephrase more simply.
+都不行 → 概念可能超出日常 BE850，换更简单的说法。
+
+## 出处
+
+- [zbenglish rules.html](https://zbenglish.net/sites/basic/rules.html) 第 8 条
