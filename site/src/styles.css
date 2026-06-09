@@ -1937,15 +1937,50 @@ a:hover { color: var(--accent-deep); }
   margin: 0;
   padding: 0;
 }
-.word-detail-examples li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.55rem 0;
+.word-detail-examples li.word-sentence {
+  display: block;
+  padding: 0.7rem 0;
   border-bottom: 1px solid var(--border);
-  font-size: 1.05rem;
 }
-.word-detail-examples li:last-child { border-bottom: none; }
+.word-detail-examples li.word-sentence:last-child { border-bottom: none; }
+.word-sentence-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.7rem;
+}
+.word-role-chip {
+  font-size: 0.72rem;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  color: var(--role);
+  background: color-mix(in srgb, var(--role) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--role) 35%, transparent);
+}
+.word-sentence-en {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
+}
+.word-chunk {
+  padding: 0.1rem 0.35rem;
+  border-radius: 6px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--role) 10%, transparent);
+  border-bottom: 2.5px solid var(--role);
+  line-height: 1.5;
+}
+.word-chunk--misc {
+  background: transparent;
+  border-bottom-color: transparent;
+}
+.word-sentence-cn {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+}
 .word-detail-combine-text {
   font-size: 1.05rem;
   margin: 0 0 0.5rem;

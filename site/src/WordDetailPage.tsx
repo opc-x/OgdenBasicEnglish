@@ -2,7 +2,7 @@ import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom"
 import { getWord, normalizeWordKey, TIER_META, isOperator } from "./words850";
 import { speak, isSpeechSupported } from "./speak";
 import { OGDEN_TIER, fixImageUrl, ogdenSourceLinks } from "./wordSources";
-import { getWordGuide } from "./wordGuides";
+import { getWordGuide, ROLE_META } from "./wordGuides";
 import { getOperatorEntry } from "./operatorData";
 import OperatorVisual from "./OperatorVisual";
 
@@ -120,20 +120,43 @@ export default function WordDetailPage() {
 
           {guide.sentences.length > 0 && (
             <section className="word-detail-examples">
-              <h2>BE850 例句</h2>
+              <h2>BE850 例句 · 语义解析</h2>
+              <div className="word-sentence-legend">
+                {(["op", "dir", "n", "adj", "pron", "conj", "neg"] as const)
+                  .filter((r) =>
+                    guide.sentences.some((s) => s.parts.some(([, role]) => role === r)),
+                  )
+                  .map((r) => (
+                    <span key={r} className="word-role-chip" style={{ ["--role" as string]: ROLE_META[r].color }}>
+                      {ROLE_META[r].label}
+                    </span>
+                  ))}
+              </div>
               <ul>
                 {guide.sentences.map((s) => (
-                  <li key={s}>
-                    <span>{s}</span>
-                    <button
-                      type="button"
-                      className="word-speak word-speak--sm"
-                      aria-label={`朗读 ${s}`}
-                      disabled={!isSpeechSupported()}
-                      onClick={() => void speak(s)}
-                    >
-                      听
-                    </button>
+                  <li key={s.en} className="word-sentence">
+                    <div className="word-sentence-en">
+                      {s.parts.map(([chunk, role], i) => (
+                        <span
+                          key={`${chunk}-${i}`}
+                          className={`word-chunk word-chunk--${role}`}
+                          style={{ ["--role" as string]: ROLE_META[role].color }}
+                          title={ROLE_META[role].label || undefined}
+                        >
+                          {chunk}
+                        </span>
+                      ))}
+                      <button
+                        type="button"
+                        className="word-speak word-speak--sm"
+                        aria-label={`朗读 ${s.en}`}
+                        disabled={!isSpeechSupported()}
+                        onClick={() => void speak(s.en)}
+                      >
+                        听
+                      </button>
+                    </div>
+                    <p className="word-sentence-cn">{s.cn}</p>
                   </li>
                 ))}
               </ul>
