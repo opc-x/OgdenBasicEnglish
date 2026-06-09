@@ -35,9 +35,15 @@ Richards 的 *English Through Pictures* 就是围绕这类词 → 配合 [`engli
 | 29–33 | 第 4 层 qualities | 20 词 |
 | 34–36 | 第 5 层 opposites | 17 词 |
 
-## 词表文件
-
-- 五类原序：[`words-ogden-order.md`](words-ogden-order.md)
+- 五类分层细节与原序：[850 词表 (Ogden 原序)](/doc/words)
 - 字母序刷词：[`basic-english-850.txt`](basic-english-850.txt)
 - 打印版 PDF：`ogdens-basic-english-850.pdf`
 - 中文释义（社区）：见 [`survey-zh.md`](../reference/survey-zh.md)
+
+---
+
+### 🎯 下一步学习
+
+本页是分层分类的**概念指引**。要开始背诵和查看全部 850 词的释义、音标、配图及发音等**细节**，请点击下方链接进入细节页面：
+
+👉 [**查看 850 词表（分层与细节） →**](/doc/words)

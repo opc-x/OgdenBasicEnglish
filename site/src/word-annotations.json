@@ -665,307 +665,383 @@
   },
   "boot": {
     "ipa": "buːt",
-    "cn": "启动"
+    "cn": "启动",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Boot.agr.jpg/120px-Boot.agr.jpg"
   },
   "bottle": {
     "ipa": "ˈbɒ.təl",
-    "cn": "瓶子"
+    "cn": "瓶子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bottle.agr.jpg/120px-Bottle.agr.jpg"
   },
   "box": {
     "ipa": "bɒks",
-    "cn": "盒子"
+    "cn": "盒子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Box.agr.jpg/120px-Box.agr.jpg"
   },
   "boy": {
     "ipa": "bɔːə",
-    "cn": "男孩"
+    "cn": "男孩",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Babasteve-three_boys.jpg/120px-Babasteve-three_boys.jpg"
   },
   "brain": {
     "ipa": "bɹeɪn",
-    "cn": "脑"
+    "cn": "脑",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Human_brain_NIH.jpg/120px-Human_brain_NIH.jpg"
   },
   "brake": {
     "ipa": "bɹeɪk",
-    "cn": "制动"
+    "cn": "制动",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Brake.agr.jpg/120px-Brake.agr.jpg"
   },
   "branch": {
     "ipa": "bɹɑːntʃ",
-    "cn": "分支"
+    "cn": "分支",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Branch.agr.jpg/120px-Branch.agr.jpg"
   },
   "brick": {
     "ipa": "bɹɪk",
-    "cn": "砖"
+    "cn": "砖",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Brick.jpg/120px-Brick.jpg"
   },
   "bridge": {
     "ipa": "bɹɪd͡ʒ",
-    "cn": "桥"
+    "cn": "桥",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Maslenica_Bridge_%28D_8%29%2C_Croatia.JPG/120px-Maslenica_Bridge_%28D_8%29%2C_Croatia.JPG"
   },
   "brush": {
     "ipa": "bɹʌʃ",
-    "cn": "刷子"
+    "cn": "刷子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hairbrush.jpg/120px-Hairbrush.jpg"
   },
   "bucket": {
     "ipa": "ˈbʌkɪt",
-    "cn": "桶"
+    "cn": "桶",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Bucket.agr.jpg/120px-Bucket.agr.jpg"
   },
   "bulb": {
     "ipa": "bʌlb",
-    "cn": "电灯泡"
+    "cn": "电灯泡",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bulb.jpg/120px-Bulb.jpg"
   },
   "button": {
     "ipa": "ˈbʌtn̩",
-    "cn": "按钮"
+    "cn": "按钮",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Buttons.jpg/120px-Buttons.jpg"
   },
   "cake": {
     "ipa": "keɪk",
-    "cn": "蛋糕"
+    "cn": "蛋糕",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ACJziegfeld_cake.jpg/120px-ACJziegfeld_cake.jpg"
   },
   "camera": {
     "ipa": "ˈkæməɹə",
-    "cn": "相机"
+    "cn": "相机",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Canon_Digital_Ixus_430.jpg/120px-Canon_Digital_Ixus_430.jpg"
   },
   "card": {
     "ipa": "kɑːd",
-    "cn": "卡片"
+    "cn": "卡片",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Christopher_Columbus_whaleback_tintedPostcard_ebay_back.jpg/120px-Christopher_Columbus_whaleback_tintedPostcard_ebay_back.jpg"
   },
   "cart": {
     "ipa": "kɑːt",
-    "cn": "大车"
+    "cn": "大车",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australian_cart.jpg/120px-Australian_cart.jpg"
   },
   "carriage": {
     "ipa": "ˈkæɹɪdʒ",
-    "cn": "运输"
+    "cn": "运输",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wroclaw_rynek_kon_2005.jpg/120px-Wroclaw_rynek_kon_2005.jpg"
   },
   "cat": {
     "ipa": "kat",
-    "cn": "猫"
+    "cn": "猫",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Image.svg/120px-Image.svg.png"
   },
   "chain": {
     "ipa": "ˈt͡ʃeɪn",
-    "cn": "链"
+    "cn": "链",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chaine.jpg/120px-Chaine.jpg"
   },
   "cheese": {
     "ipa": "t͡ʃiz",
-    "cn": "奶酪"
+    "cn": "奶酪",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Emmentaler.jpg/120px-Emmentaler.jpg"
   },
   "chest": {
     "ipa": "t͡ʃɛst",
-    "cn": "胸部"
+    "cn": "胸部",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chest.agr.jpg/120px-Chest.agr.jpg"
   },
   "chin": {
     "ipa": "tʃɪn",
-    "cn": "下巴"
+    "cn": "下巴",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Stubbly_face.jpg/120px-Stubbly_face.jpg"
   },
   "church": {
     "ipa": "t͡ʃɜːt͡ʃ",
-    "cn": "教堂"
+    "cn": "教堂",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Church_nove_zvolani_2.jpg/120px-Church_nove_zvolani_2.jpg"
   },
   "circle": {
     "ipa": "ˈsɜɹkəl",
-    "cn": "圆圈"
+    "cn": "圆圈",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/120px-Circle_-_black_simple.svg.png"
   },
   "clock": {
     "ipa": "klɒk",
-    "cn": "时钟"
+    "cn": "时钟",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/RelojDespertador.jpg/120px-RelojDespertador.jpg"
   },
   "cloud": {
     "ipa": "klaʊd",
-    "cn": "云"
+    "cn": "云",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cumulus_cloud_above_Lechtaler_Alps_at_tannheim%2C_Austria.jpg/120px-Cumulus_cloud_above_Lechtaler_Alps_at_tannheim%2C_Austria.jpg"
   },
   "coat": {
     "ipa": "kəʊt",
-    "cn": "外套"
+    "cn": "外套",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Parka1.JPG/120px-Parka1.JPG"
   },
   "collar": {
     "ipa": "ˈkɒl.ə",
-    "cn": "衣领"
+    "cn": "衣领",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Collar.agr.jpg/120px-Collar.agr.jpg"
   },
   "comb": {
     "ipa": "kəʊm",
-    "cn": "梳子"
+    "cn": "梳子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Comb.png/120px-Comb.png"
   },
   "cord": {
     "ipa": "kɔːd",
-    "cn": "绳索"
+    "cn": "绳索",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cord.agr.jpg/120px-Cord.agr.jpg"
   },
   "cow": {
     "ipa": "kaʊ",
-    "cn": "母牛"
+    "cn": "母牛",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/120px-Cow_female_black_white.jpg"
   },
   "cup": {
     "ipa": "kʌp",
-    "cn": "杯子"
+    "cn": "杯子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tasse_Gr_99.jpg/120px-Tasse_Gr_99.jpg"
   },
   "curtain": {
     "ipa": "ˈkɜːtn̩",
-    "cn": "窗帘"
+    "cn": "窗帘",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Curtain.agr.jpg/120px-Curtain.agr.jpg"
   },
   "needle": {
     "ipa": "ˈniː.dl",
-    "cn": "针"
+    "cn": "针",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Needles_%28for_sewing%29.jpg/120px-Needles_%28for_sewing%29.jpg"
   },
   "nerve": {
     "ipa": "nɛɾv",
-    "cn": "神经"
+    "cn": "神经",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nerve.nida.jpg/120px-Nerve.nida.jpg"
   },
   "nose": {
     "ipa": "nəʊz",
-    "cn": "鼻子"
+    "cn": "鼻子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Human-nose.jpg/120px-Human-nose.jpg"
   },
   "nut": {
     "ipa": "nɐt",
-    "cn": "坚果"
+    "cn": "坚果",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hazelnuts.jpg/120px-Hazelnuts.jpg"
   },
   "office": {
     "ipa": "ˈɑfɪs",
-    "cn": "办公室"
+    "cn": "办公室",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/OvalOffice.whitehouse.jpg/120px-OvalOffice.whitehouse.jpg"
   },
   "orange": {
     "ipa": "ˈɔɹɪ̈nd͡ʒ",
-    "cn": "橙子"
+    "cn": "橙子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/120px-Ambersweet_oranges.jpg"
   },
   "oven": {
     "ipa": "ˈʌ.vn̩",
-    "cn": "烤箱"
+    "cn": "烤箱",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Oven.agr.jpg/120px-Oven.agr.jpg"
   },
   "parcel": {
     "ipa": "ˈpʰaː.səɫ",
-    "cn": "包裹"
+    "cn": "包裹",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Parcel.fbi.jpg/120px-Parcel.fbi.jpg"
   },
   "pen": {
     "ipa": "pɛn",
-    "cn": "笔"
+    "cn": "笔",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three-pens-six-nibs.jpg/120px-Three-pens-six-nibs.jpg"
   },
   "pencil": {
     "ipa": "ˈpɛnsɪl",
-    "cn": "铅笔"
+    "cn": "铅笔",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pencil.jpg/120px-Pencil.jpg"
   },
   "picture": {
     "ipa": "ˈpɪktʃə",
-    "cn": "图片"
+    "cn": "图片",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/LastSupper-GardenOfFineArtKyoto.jpg/120px-LastSupper-GardenOfFineArtKyoto.jpg"
   },
   "pig": {
     "ipa": "ˈpɪɡ",
-    "cn": "猪"
+    "cn": "猪",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sow_with_piglet.jpg/120px-Sow_with_piglet.jpg"
   },
   "pin": {
     "ipa": "pɪn",
-    "cn": "别针"
+    "cn": "别针",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pin.agr.jpg/120px-Pin.agr.jpg"
   },
   "pipe": {
     "ipa": "paɪp",
-    "cn": "管道"
+    "cn": "管道",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Exposed_standpipes_at_Porter_station%2C_August_2005.jpg/120px-Exposed_standpipes_at_Porter_station%2C_August_2005.jpg"
   },
   "plane": {
     "ipa": "pleɪn",
-    "cn": "飞机"
+    "cn": "飞机",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Yellow_Tiger_Moth_G%C3%B3raszka.JPG/120px-Yellow_Tiger_Moth_G%C3%B3raszka.JPG"
   },
   "plate": {
     "ipa": "pleɪt",
-    "cn": "盘子"
+    "cn": "盘子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Assiette_hannong2.JPG/120px-Assiette_hannong2.JPG"
   },
   "plough": {
     "ipa": "plaʊ",
-    "cn": "犁"
+    "cn": "犁",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/04-09-12-Schaupfl%C3%BCgen-Fahrenwalde-RalfR-IMG_1232.jpg/120px-04-09-12-Schaupfl%C3%BCgen-Fahrenwalde-RalfR-IMG_1232.jpg"
   },
   "pocket": {
     "ipa": "ˈpɒkɪt",
-    "cn": "口袋"
+    "cn": "口袋",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pocket.agr.jpg/120px-Pocket.agr.jpg"
   },
   "pot": {
     "ipa": "pɒt",
-    "cn": "锅"
+    "cn": "锅",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pot.agr.jpg/120px-Pot.agr.jpg"
   },
   "potato": {
     "ipa": "pəˈteɪ.təʊ",
-    "cn": "土豆"
+    "cn": "土豆",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Potatoes.jpg/120px-Potatoes.jpg"
   },
   "prison": {
     "ipa": "ˈpɹɪzən",
-    "cn": "监狱"
+    "cn": "监狱",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/SafrikaIMG_8414.JPG/120px-SafrikaIMG_8414.JPG"
   },
   "pump": {
     "ipa": "pʌmp",
-    "cn": "泵"
+    "cn": "泵",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Grosswulkow_Pumpe.jpg/120px-Grosswulkow_Pumpe.jpg"
   },
   "rail": {
     "ipa": "ɹeɪl",
-    "cn": "轨"
+    "cn": "轨",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Geschweisster_schienenstoss.jpeg/120px-Geschweisster_schienenstoss.jpeg"
   },
   "rat": {
     "ipa": "ɹæt",
-    "cn": "鼠"
+    "cn": "鼠",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rattus_norvegicus_1.jpg/120px-Rattus_norvegicus_1.jpg"
   },
   "receipt": {
     "ipa": "ɹɪˈsiːt",
-    "cn": "收据"
+    "cn": "收据",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Receipt.agr.jpg/120px-Receipt.agr.jpg"
   },
   "ring": {
     "ipa": "ɹɪŋ",
-    "cn": "戒指"
+    "cn": "戒指",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pro_patria_ring.jpg/120px-Pro_patria_ring.jpg"
   },
   "rod": {
     "ipa": "ɹɒd",
-    "cn": "杆"
+    "cn": "杆",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rod.agr.jpg/120px-Rod.agr.jpg"
   },
   "roof": {
     "ipa": "ɹuːf",
-    "cn": "屋顶"
+    "cn": "屋顶",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roofes.JPG/120px-Roofes.JPG"
   },
   "root": {
     "ipa": "ɹuːt",
-    "cn": "根"
+    "cn": "根",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pinus_silvestris_roots001xx.jpg/120px-Pinus_silvestris_roots001xx.jpg"
   },
   "sail": {
     "ipa": "seɪl",
-    "cn": "帆"
+    "cn": "帆",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Zaglowiec1MSlup250.jpg/120px-Zaglowiec1MSlup250.jpg"
   },
   "school": {
     "ipa": "skuːl",
-    "cn": "学校"
+    "cn": "学校",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Hutterer-Crystal_Schule2.jpg/120px-Hutterer-Crystal_Schule2.jpg"
   },
   "scissors": {
     "ipa": "ˈsɪzəz",
-    "cn": "剪刀"
+    "cn": "剪刀",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Scissors.jpg/120px-Scissors.jpg"
   },
   "screw": {
     "ipa": "skɹuː",
-    "cn": "拧紧"
+    "cn": "拧紧",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Screw.agr.jpg/120px-Screw.agr.jpg"
   },
   "seed": {
     "ipa": "siːd",
-    "cn": "种子"
+    "cn": "种子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Witlof_Cichorium_intybus_var._foliosum_seeds.jpg/120px-Witlof_Cichorium_intybus_var._foliosum_seeds.jpg"
   },
   "sheep": {
     "ipa": "ʃiːp",
-    "cn": "羊"
+    "cn": "羊",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flock_of_sheep.jpg/120px-Flock_of_sheep.jpg"
   },
   "shelf": {
     "ipa": "ʃɛlf",
-    "cn": "架子"
+    "cn": "架子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Shelf.agr.jpg/120px-Shelf.agr.jpg"
   },
   "ship": {
     "ipa": "ʃɪp",
-    "cn": "船"
+    "cn": "船",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Maersk_Elba.JPG/120px-Maersk_Elba.JPG"
   },
   "shirt": {
     "ipa": "ʃɜːt",
-    "cn": "衬衫"
+    "cn": "衬衫",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blue_Business_Shirt.jpg/120px-Blue_Business_Shirt.jpg"
   },
   "shoe": {
     "ipa": "ʃuː",
-    "cn": "鞋"
+    "cn": "鞋",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Zapato.jpg/120px-Zapato.jpg"
   },
   "skin": {
     "ipa": "skɪn",
-    "cn": "皮肤"
+    "cn": "皮肤",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Skin.agr.jpg/120px-Skin.agr.jpg"
   },
   "skirt": {
     "ipa": "skɜːt",
-    "cn": "裙子"
+    "cn": "裙子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MiniSkirt.jpg/120px-MiniSkirt.jpg"
   },
   "snake": {
     "ipa": "ˈsneɪk",
-    "cn": "蛇"
+    "cn": "蛇",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Snake.usuhs.jpg/120px-Snake.usuhs.jpg"
   },
   "elastic": {
     "ipa": "iˈlæstɪk",
@@ -2041,251 +2117,313 @@
   },
   "angle": {
     "ipa": "ˈæŋ.ɡəl",
-    "cn": "角度"
+    "cn": "角度",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coordonnees_polaires_plan.png/120px-Coordonnees_polaires_plan.png"
   },
   "ant": {
     "ipa": "ɑːnt",
-    "cn": "蚂蚁"
+    "cn": "蚂蚁",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ant_%28Jacob_Eckert%29.svg/120px-Ant_%28Jacob_Eckert%29.svg.png"
   },
   "apple": {
     "ipa": "ˈæp.əl",
-    "cn": "苹果"
+    "cn": "苹果",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/120px-Red_Apple.jpg"
   },
   "arch": {
     "ipa": "ɑːt͡ʃ",
-    "cn": "拱"
+    "cn": "拱",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Northwestern_Arch.jpg/120px-Northwestern_Arch.jpg"
   },
   "arm": {
     "ipa": "ɑːm",
-    "cn": "手臂"
+    "cn": "手臂",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Arm.agr.jpg/120px-Arm.agr.jpg"
   },
   "feather": {
     "ipa": "ˈfɛð.ə(ɹ)",
-    "cn": "羽毛"
+    "cn": "羽毛",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/A_single_white_feather_closeup.jpg/120px-A_single_white_feather_closeup.jpg"
   },
   "finger": {
     "ipa": "ˈfɪŋəɹ",
-    "cn": "手指"
+    "cn": "手指",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Finger.agr.jpg/120px-Finger.agr.jpg"
   },
   "fish": {
     "ipa": "fɪʃ",
-    "cn": "鱼"
+    "cn": "鱼",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Various_sweetwater_fish_with_Finnish_text.jpg/120px-Various_sweetwater_fish_with_Finnish_text.jpg"
   },
   "flag": {
     "ipa": "flæɡ",
-    "cn": "旗帜"
+    "cn": "旗帜",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RedYellowFlag.jpg/120px-RedYellowFlag.jpg"
   },
   "floor": {
     "ipa": "flɔː",
-    "cn": "地面"
+    "cn": "地面",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Floor.agr.jpg/120px-Floor.agr.jpg"
   },
   "fly": {
     "ipa": "flaɪ",
-    "cn": "飞"
+    "cn": "飞",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mouche_verte.jpg/120px-Mouche_verte.jpg"
   },
   "foot": {
     "ipa": "fɵʔt",
-    "cn": "脚"
+    "cn": "脚",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Foot-outside.jpg/120px-Foot-outside.jpg"
   },
   "fork": {
     "ipa": "fɔːk",
-    "cn": "叉"
+    "cn": "叉",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fork.agr.jpg/120px-Fork.agr.jpg"
   },
   "fowl": {
     "ipa": "faʊl",
-    "cn": "鸡"
+    "cn": "鸡",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rooster02.jpg/120px-Rooster02.jpg"
   },
   "frame": {
     "ipa": "fɹeɪm",
-    "cn": "框架"
+    "cn": "框架",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Frame.agr.jpg/120px-Frame.agr.jpg"
   },
   "garden": {
     "ipa": "ˈɡɑːdn̩",
-    "cn": "花园"
+    "cn": "花园",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Lightmatter_Hsi_Lai_Temple_Arhat_Garden.jpg/120px-Lightmatter_Hsi_Lai_Temple_Arhat_Garden.jpg"
   },
   "girl": {
     "ipa": "ɡɵːl",
-    "cn": "女孩"
+    "cn": "女孩",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/PortraitGirl2005-1a.jpg/120px-PortraitGirl2005-1a.jpg"
   },
   "glove": {
     "ipa": "ɡlʌv",
-    "cn": "手套"
+    "cn": "手套",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Disposable_nitrile_glove.jpg/120px-Disposable_nitrile_glove.jpg"
   },
   "goat": {
     "ipa": "ɡɐ̟ʉt",
-    "cn": "山羊"
+    "cn": "山羊",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Billy_goat.jpg/120px-Billy_goat.jpg"
   },
   "gun": {
     "ipa": "ɡʌn",
-    "cn": "枪"
+    "cn": "枪",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Image.svg/120px-Image.svg.png"
   },
   "hair": {
     "ipa": "hɛə",
-    "cn": "头发"
+    "cn": "头发",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hair.jpg/60px-Hair.jpg"
   },
   "hammer": {
     "ipa": "ˈhæm.ə(ɹ)",
-    "cn": "锤"
+    "cn": "锤",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Hammer.jpg/120px-Hammer.jpg"
   },
   "hand": {
     "ipa": "hænd",
-    "cn": "手"
+    "cn": "手",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Raczka4.jpg/120px-Raczka4.jpg"
   },
   "hat": {
     "ipa": "hat",
-    "cn": "帽子"
+    "cn": "帽子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chapeauclaque.jpg/120px-Chapeauclaque.jpg"
   },
   "head": {
     "ipa": "hɛd",
-    "cn": "头"
+    "cn": "头",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Egypte_louvre_284.jpg/120px-Egypte_louvre_284.jpg"
   },
   "heart": {
     "ipa": "hɑːt",
-    "cn": "心"
+    "cn": "心",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Heart_diastole.png/120px-Heart_diastole.png"
   },
   "hook": {
     "ipa": "huːk",
-    "cn": "钩"
+    "cn": "钩",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hook.agr.jpg/120px-Hook.agr.jpg"
   },
   "horn": {
     "ipa": "hɔːn",
-    "cn": "喇叭"
+    "cn": "喇叭",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/French_horn_front.png/120px-French_horn_front.png"
   },
   "horse": {
     "ipa": "hɔːs",
-    "cn": "马"
+    "cn": "马",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Biandintz_eta_zaldiak_-_modified2.jpg/120px-Biandintz_eta_zaldiak_-_modified2.jpg"
   },
   "hospital": {
     "ipa": "ˈhɒs.pɪ.tl̩",
-    "cn": "医院"
+    "cn": "医院",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hospital_room_ubt.jpeg/120px-Hospital_room_ubt.jpeg"
   },
   "house": {
     "ipa": "haʊs",
-    "cn": "房子"
+    "cn": "房子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Droste_Haus.jpg/120px-Droste_Haus.jpg"
   },
   "island": {
     "ipa": "ˈaɪ̯lənd",
-    "cn": "岛"
+    "cn": "岛",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Summit_view.jpg/120px-Summit_view.jpg"
   },
   "jewel": {
     "ipa": "dʒul",
-    "cn": "宝石"
+    "cn": "宝石",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brillanten.jpg/120px-Brillanten.jpg"
   },
   "kettle": {
     "ipa": "ˈkɛ.təl",
-    "cn": "壶"
+    "cn": "壶",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kettle.agr.jpg/120px-Kettle.agr.jpg"
   },
   "key": {
     "ipa": "kiː",
-    "cn": "钥匙"
+    "cn": "钥匙",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Key.agr.jpg/120px-Key.agr.jpg"
   },
   "knee": {
     "ipa": "niː",
-    "cn": "膝盖"
+    "cn": "膝盖",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Knee.female.jpg/120px-Knee.female.jpg"
   },
   "street": {
     "ipa": "stɹiːt",
-    "cn": "街道"
+    "cn": "街道",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Merida-street.jpg/120px-Merida-street.jpg"
   },
   "sun": {
     "ipa": "sʌn",
-    "cn": "太阳"
+    "cn": "太阳",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sun_spot_naked_eye.jpg/120px-Sun_spot_naked_eye.jpg"
   },
   "table": {
     "ipa": "ˈteɪbəl",
-    "cn": "桌子"
+    "cn": "桌子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Table_and_chairs.jpg/120px-Table_and_chairs.jpg"
   },
   "tail": {
     "ipa": "teɪl",
-    "cn": "尾巴"
+    "cn": "尾巴",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tail.emily.jpg/120px-Tail.emily.jpg"
   },
   "thread": {
     "ipa": "θɾ̪̊ɛd",
-    "cn": "线"
+    "cn": "线",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SpoolsOfThread.jpg/120px-SpoolsOfThread.jpg"
   },
   "throat": {
     "ipa": "ˈθɹəʊt",
-    "cn": "喉"
+    "cn": "喉",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Throat.agr.jpg/120px-Throat.agr.jpg"
   },
   "thumb": {
     "ipa": "θʌm",
-    "cn": "拇指"
+    "cn": "拇指",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Thumbs_up.jpg/120px-Thumbs_up.jpg"
   },
   "ticket": {
     "ipa": "ˈtɪkɪt",
-    "cn": "票"
+    "cn": "票",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/JRticket.jpg/120px-JRticket.jpg"
   },
   "toe": {
     "ipa": "təʊ",
-    "cn": "脚趾"
+    "cn": "脚趾",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tenen.jpg/120px-Tenen.jpg"
   },
   "tongue": {
     "ipa": "tɒŋɡ",
-    "cn": "舌头"
+    "cn": "舌头",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/120px-Tongue.agr.jpg"
   },
   "tooth": {
     "ipa": "tuːθ",
-    "cn": "齿"
+    "cn": "齿",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ToothSection.jpg/120px-ToothSection.jpg"
   },
   "town": {
     "ipa": "taʊn",
-    "cn": "镇"
+    "cn": "镇",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Werle.gif/120px-Werle.gif"
   },
   "train": {
     "ipa": "tɹeɪn",
-    "cn": "火车"
+    "cn": "火车",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WCML_freight_train.jpg/120px-WCML_freight_train.jpg"
   },
   "tray": {
     "ipa": "tɹeɪ",
-    "cn": "托盘"
+    "cn": "托盘",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tray.agr.jpg/120px-Tray.agr.jpg"
   },
   "tree": {
     "ipa": "tɹiː",
-    "cn": "树"
+    "cn": "树",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sequoiadendron_giganteum_at_Kenilworth_Castle.jpg/120px-Sequoiadendron_giganteum_at_Kenilworth_Castle.jpg"
   },
   "trousers": {
     "ipa": "ˈtɹaʊzəz",
-    "cn": "裤子"
+    "cn": "裤子",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jeans.jpg/120px-Jeans.jpg"
   },
   "umbrella": {
     "ipa": "ʌmˈbɹɛlə",
-    "cn": "伞"
+    "cn": "伞",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Umbrella.png/120px-Umbrella.png"
   },
   "wall": {
     "ipa": "wɔːl",
-    "cn": "墙"
+    "cn": "墙",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Skogskyrkogarden_CementeryWall1.jpg/120px-Skogskyrkogarden_CementeryWall1.jpg"
   },
   "watch": {
     "ipa": "wɒt͡ʃ",
-    "cn": "手表"
+    "cn": "手表",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pocket_watch_with_chain.jpg/120px-Pocket_watch_with_chain.jpg"
   },
   "wheel": {
     "ipa": "ʍiːl",
-    "cn": "车轮"
+    "cn": "车轮",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Wheel_Iran.jpg/120px-Wheel_Iran.jpg"
   },
   "whip": {
     "ipa": "wɪp",
-    "cn": "鞭"
+    "cn": "鞭",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Martinet.jpg/120px-Martinet.jpg"
   },
   "whistle": {
     "ipa": "wɪsl̩",
-    "cn": "哨"
+    "cn": "哨",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Metal_whistle.jpg/120px-Metal_whistle.jpg"
   },
   "window": {
     "ipa": "ˈwɪndəʊ",
-    "cn": "窗户"
+    "cn": "窗户",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Window.jpg/120px-Window.jpg"
   },
   "wing": {
     "ipa": "wɪŋ",
-    "cn": "翼"
+    "cn": "翼",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Aircraft_wing_flaps_small_dsc06830.jpg/120px-Aircraft_wing_flaps_small_dsc06830.jpg"
   },
   "wire": {
     "ipa": "waɪə(ɹ)",
-    "cn": "金属丝"
+    "cn": "金属丝",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wire.agr.jpg/120px-Wire.agr.jpg"
   },
   "worm": {
     "ipa": "wɜːm",
-    "cn": "蠕虫"
+    "cn": "蠕虫",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Regenwurm1.jpg/120px-Regenwurm1.jpg"
   },
   "able": {
     "ipa": "ˈeɪ.bl̩",
@@ -2433,7 +2571,8 @@
   },
   "dog": {
     "ipa": "dɒɡ",
-    "cn": "狗"
+    "cn": "狗",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/German_Pinscher.JPG/120px-German_Pinscher.JPG"
   },
   "be": {
     "cn": "是"
@@ -2956,247 +3095,308 @@
   },
   "army": {
     "cn": "军队",
-    "ipa": "ˈɑː.miː"
+    "ipa": "ˈɑː.miː",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Army.afnews.jpg/120px-Army.afnews.jpg"
   },
   "baby": {
     "cn": "婴儿",
-    "ipa": "ˈbeɪbi"
+    "ipa": "ˈbeɪbi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Hutchens-baby.jpg/120px-Hutchens-baby.jpg"
   },
   "bag": {
     "cn": "袋子",
-    "ipa": "ˈbæːɡ"
+    "ipa": "ˈbæːɡ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/04-QWSTION-FLAP-TOTE-SMALL-SAND-FRONT.jpg/120px-04-QWSTION-FLAP-TOTE-SMALL-SAND-FRONT.jpg"
   },
   "ball": {
     "cn": "球",
-    "ipa": "bɔːl"
+    "ipa": "bɔːl",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ball.agr.jpg/120px-Ball.agr.jpg"
   },
   "band": {
     "cn": "乐队",
-    "ipa": "bænd"
+    "ipa": "bænd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kante_berlin05_1.JPG/120px-Kante_berlin05_1.JPG"
   },
   "basin": {
     "cn": "盆地",
-    "ipa": "ˈbeɪsɪn"
+    "ipa": "ˈbeɪsɪn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Baptismal_Font_Magdeburg.jpg/120px-Baptismal_Font_Magdeburg.jpg"
   },
   "basket": {
     "cn": "篮子",
-    "ipa": "ˈbaːskət"
+    "ipa": "ˈbaːskət",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Baskets_four_styles.jpg/120px-Baskets_four_styles.jpg"
   },
   "bath": {
     "cn": "洗澡",
-    "ipa": "bɐːθ"
+    "ipa": "bɐːθ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Clawfoot_bathtub.jpg/120px-Clawfoot_bathtub.jpg"
   },
   "bed": {
     "cn": "床",
-    "ipa": "bed"
+    "ipa": "bed",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bed.agr.jpg/120px-Bed.agr.jpg"
   },
   "bee": {
     "cn": "蜜蜂",
-    "ipa": "ˈbiː"
+    "ipa": "ˈbiː",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Apis_mellifera_bi.jpg/120px-Apis_mellifera_bi.jpg"
   },
   "bell": {
     "cn": "铃铛",
-    "ipa": "bɛl"
+    "ipa": "bɛl",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dzwon_z_Jasnej_G%C3%B3ry.jpg/120px-Dzwon_z_Jasnej_G%C3%B3ry.jpg"
   },
   "berry": {
     "cn": "浆果",
-    "ipa": "ˈbɛɹi"
+    "ipa": "ˈbɛɹi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Alaska_wild_berries.jpg/120px-Alaska_wild_berries.jpg"
   },
   "bird": {
     "cn": "鸟",
-    "ipa": "bɜd"
+    "ipa": "bɜd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Thalasseus_maximus_in_flight.jpg/120px-Thalasseus_maximus_in_flight.jpg"
   },
   "blade": {
     "cn": "刀刃",
-    "ipa": "bleɪd"
+    "ipa": "bleɪd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Blade.agr.jpg/120px-Blade.agr.jpg"
   },
   "board": {
     "cn": "木板",
-    "ipa": "bɔːd"
+    "ipa": "bɔːd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Board.agr.jpg/60px-Board.agr.jpg"
   },
   "boat": {
     "cn": "船",
-    "ipa": "bəʊt"
+    "ipa": "bəʊt",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fishing_boat_ORL-3_Gdynia_Poland_2003_ubt.JPG/120px-Fishing_boat_ORL-3_Gdynia_Poland_2003_ubt.JPG"
   },
   "bone": {
     "cn": "骨",
-    "ipa": "bəʉn"
+    "ipa": "bəʉn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Humerus_ant.jpg/40px-Humerus_ant.jpg"
   },
   "book": {
     "cn": "书",
-    "ipa": "buːk"
+    "ipa": "buːk",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Georg_B%C3%BCchmann%2C_Gefl%C3%BCgelte_Worte%2C_19._Auflage%2C_1898.jpg/120px-Georg_B%C3%BCchmann%2C_Gefl%C3%BCgelte_Worte%2C_19._Auflage%2C_1898.jpg"
   },
   "cushion": {
     "cn": "软垫",
-    "ipa": "ˈkʊʃən"
+    "ipa": "ˈkʊʃən",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cushion.agr.jpg/120px-Cushion.agr.jpg"
   },
   "door": {
     "cn": "门",
-    "ipa": "dɔː"
+    "ipa": "dɔː",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/GeorgianischeTuer.JPG/120px-GeorgianischeTuer.JPG"
   },
   "drain": {
     "cn": "流走",
-    "ipa": "dɹeɪn"
+    "ipa": "dɹeɪn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Drain.agr.jpg/120px-Drain.agr.jpg"
   },
   "drawer": {
     "cn": "抽屉",
-    "ipa": "dɹɔː(ɹ)"
+    "ipa": "dɹɔː(ɹ)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Drawer.agr.jpg/120px-Drawer.agr.jpg"
   },
   "dress": {
     "cn": "裙子",
-    "ipa": "dɹɛs"
+    "ipa": "dɹɛs",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Belle_robe_avec_paillettes.jpg/120px-Belle_robe_avec_paillettes.jpg"
   },
   "drop": {
     "cn": "降低",
-    "ipa": "dɹɒp"
+    "ipa": "dɹɒp",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Drop_of_water_2003_03.jpg/120px-Drop_of_water_2003_03.jpg"
   },
   "ear": {
     "cn": "耳朵",
-    "ipa": "ɪə̯"
+    "ipa": "ɪə̯",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ear.jpg/120px-Ear.jpg"
   },
   "egg": {
     "cn": "蛋",
-    "ipa": "eɪɡ"
+    "ipa": "eɪɡ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Egg.jpg/120px-Egg.jpg"
   },
   "engine": {
     "cn": "引擎",
-    "ipa": "end͡ʒən"
+    "ipa": "end͡ʒən",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mazda_rotary_engine_early.jpg/120px-Mazda_rotary_engine_early.jpg"
   },
   "eye": {
     "cn": "眼睛",
-    "ipa": "aɪ"
+    "ipa": "aɪ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Menschliches_auge.jpg/120px-Menschliches_auge.jpg"
   },
   "face": {
     "cn": "脸",
-    "ipa": "feɪs"
+    "ipa": "feɪs",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Face_of_SpooSpa.jpg/120px-Face_of_SpooSpa.jpg"
   },
   "farm": {
     "cn": "农场",
-    "ipa": "fɑːɹm"
+    "ipa": "fɑːɹm",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Farming_near_Klingerstown%2C_Pennsylvania.jpg/120px-Farming_near_Klingerstown%2C_Pennsylvania.jpg"
   },
   "knife": {
     "cn": "刀",
-    "ipa": "naɪf"
+    "ipa": "naɪf",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Paring_Knife.jpg/120px-Paring_Knife.jpg"
   },
   "knot": {
     "cn": "结",
-    "ipa": "nɒt"
+    "ipa": "nɒt",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Alpine_Butterfly_Bend_Final.jpg/120px-Alpine_Butterfly_Bend_Final.jpg"
   },
   "leaf": {
     "cn": "叶子",
-    "ipa": "liːf"
+    "ipa": "liːf",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Leaf_1_web.jpg/120px-Leaf_1_web.jpg"
   },
   "leg": {
     "cn": "腿",
-    "ipa": "leɪɡ"
+    "ipa": "leɪɡ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Legs.jpg/120px-Legs.jpg"
   },
   "library": {
     "cn": "图书馆",
-    "ipa": "ˈlaɪbɹi"
+    "ipa": "ˈlaɪbɹi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Library_book_shelves.jpg/120px-Library_book_shelves.jpg"
   },
   "line": {
     "cn": "线",
-    "ipa": "laɪn"
+    "ipa": "laɪn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Line.agr.jpg/120px-Line.agr.jpg"
   },
   "lip": {
     "cn": "唇",
-    "ipa": "lɪp"
+    "ipa": "lɪp",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Lip.agr.jpg/120px-Lip.agr.jpg"
   },
   "lock": {
     "cn": "锁",
-    "ipa": "lɒk"
+    "ipa": "lɒk",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Image.svg/120px-Image.svg.png"
   },
   "map": {
     "cn": "地图",
-    "ipa": "mæp"
+    "ipa": "mæp",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Arctic.svg/120px-Arctic.svg.png"
   },
   "match": {
     "cn": "匹配",
-    "ipa": "mæt͡ʃ"
+    "ipa": "mæt͡ʃ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Matches.jpg/120px-Matches.jpg"
   },
   "monkey": {
     "cn": "猴",
-    "ipa": "ˈmʌŋki"
+    "ipa": "ˈmʌŋki",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Olive_baboon.jpg/120px-Olive_baboon.jpg"
   },
   "moon": {
     "cn": "月亮",
-    "ipa": "muːn"
+    "ipa": "muːn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moon.jpg/120px-Moon.jpg"
   },
   "mouth": {
     "cn": "嘴",
-    "ipa": "mʌʊθ"
+    "ipa": "mʌʊθ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mouth.jpg/120px-Mouth.jpg"
   },
   "muscle": {
     "cn": "肌肉",
-    "ipa": "ˈmʌs.əl"
+    "ipa": "ˈmʌs.əl",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Arm_muscles_front_superficial.png/120px-Arm_muscles_front_superficial.png"
   },
   "nail": {
     "cn": "指甲",
-    "ipa": "neɪl"
+    "ipa": "neɪl",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Nail.agr.jpg/120px-Nail.agr.jpg"
   },
   "neck": {
     "cn": "脖子",
-    "ipa": "nɛk"
+    "ipa": "nɛk",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Neck.agr.jpg/120px-Neck.agr.jpg"
   },
   "net": {
     "cn": "网",
-    "ipa": "net"
+    "ipa": "net",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Net.gsfc.jpg/120px-Net.gsfc.jpg"
   },
   "sock": {
     "cn": "短袜",
-    "ipa": "sɒk"
+    "ipa": "sɒk",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Fun_socks.png/120px-Fun_socks.png"
   },
   "spade": {
     "cn": "铲",
-    "ipa": "speɪd"
+    "ipa": "speɪd",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Spade.jpg/60px-Spade.jpg"
   },
   "sponge": {
     "cn": "海绵",
-    "ipa": "spʌnd͡ʒ"
+    "ipa": "spʌnd͡ʒ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sponge.noaa.jpg/120px-Sponge.noaa.jpg"
   },
   "spoon": {
     "cn": "勺子",
-    "ipa": "spuːn"
+    "ipa": "spuːn",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Dessert_Spoon.jpg/120px-Dessert_Spoon.jpg"
   },
   "spring": {
     "cn": "春天",
-    "ipa": "spɹɪŋ"
+    "ipa": "spɹɪŋ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ressort_de_compression.jpg/120px-Ressort_de_compression.jpg"
   },
   "square": {
     "cn": "正方形",
-    "ipa": "skwɛə(ɹ)"
+    "ipa": "skwɛə(ɹ)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Geometrie_carre.png/120px-Geometrie_carre.png"
   },
   "stamp": {
     "cn": "邮票",
-    "ipa": "stæmp"
+    "ipa": "stæmp",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Faroe_stamp_011_east_coast_of_vagar_300_oyru.jpg/120px-Faroe_stamp_011_east_coast_of_vagar_300_oyru.jpg"
   },
   "star": {
     "cn": "星星",
-    "ipa": "stɑː(ɹ)"
+    "ipa": "stɑː(ɹ)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Alpheratz.gif/120px-Alpheratz.gif"
   },
   "station": {
     "cn": "车站",
-    "ipa": "ˈsteɪʃən"
+    "ipa": "ˈsteɪʃən",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Copenhagen_H_1.jpg/120px-Copenhagen_H_1.jpg"
   },
   "stem": {
     "cn": "干",
-    "ipa": "stɛm"
+    "ipa": "stɛm",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Stem.agr.jpg/120px-Stem.agr.jpg"
   },
   "stick": {
     "cn": "戳",
-    "ipa": "stɪk"
+    "ipa": "stɪk",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Stick.jpg/120px-Stick.jpg"
   },
   "stocking": {
     "cn": "袜",
-    "ipa": "ˈstɒkɪŋ"
+    "ipa": "ˈstɒkɪŋ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Stockings.agr.jpg/120px-Stockings.agr.jpg"
   },
   "stomach": {
     "cn": "胃",
-    "ipa": "ˈstʌmək"
+    "ipa": "ˈstʌmək",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Stomach.amedd.jpg/120px-Stomach.amedd.jpg"
   },
   "store": {
     "cn": "店铺",
-    "ipa": "stɔː"
+    "ipa": "stɔː",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fortnum%26Mason_Fruit_and_Flowers2.jpg/120px-Fortnum%26Mason_Fruit_and_Flowers2.jpg"
   },
   "angry": {
     "cn": "生气的",

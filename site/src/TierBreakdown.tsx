@@ -65,17 +65,19 @@ const TIERS: Tier[] = [
   },
 ];
 
-export default function TierBreakdown() {
+export default function TierBreakdown({ compact = false }: { compact?: boolean }) {
   const [active, setActive] = useState("ops");
   const tier = TIERS.find((t) => t.id === active)!;
 
   return (
-    <div className="tiers">
-      <div className="tiers-head">
-        <span className="tiers-kicker">看清结构</span>
-        <h3>850 个词，其实只有 5 类</h3>
-        <p>不是平铺死背 850 个。点下面任一块，看它是什么、先学还是后学。</p>
-      </div>
+    <div className={`tiers${compact ? " tiers--compact" : ""}`}>
+      {!compact && (
+        <div className="tiers-head">
+          <span className="tiers-kicker">看清结构</span>
+          <h3>850 个词，其实只有 5 类</h3>
+          <p>不是平铺死背 850 个。点下面任一块，看它是什么、先学还是后学。</p>
+        </div>
+      )}
 
       {/* 比例条 */}
       <div className="tier-bar" role="tablist" aria-label="850 词分层">

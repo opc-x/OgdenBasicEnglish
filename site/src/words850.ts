@@ -14,6 +14,7 @@ export type Word = {
   t: Tier;
   ipa?: string;
   cn?: string;
+  img?: string;
   link?: string; // 相关知识页 slug
 };
 
@@ -176,7 +177,7 @@ const BASE_WORDS: Word[] = [
   ...split(OPP_WORDS, "opp", "tier-guide"),
 ];
 
-const ANNOTATIONS_DATA = ANNOTATIONS as Record<string, { ipa?: string; cn?: string }>;
+const ANNOTATIONS_DATA = ANNOTATIONS as Record<string, { ipa?: string; cn?: string; img?: string }>;
 
 function mergeAnnotation(word: Word): Word {
   const extra = ANNOTATIONS_DATA[word.w];
@@ -185,6 +186,7 @@ function mergeAnnotation(word: Word): Word {
     ...word,
     ipa: word.ipa ?? extra.ipa,
     cn: word.cn ?? extra.cn,
+    img: word.img ?? extra.img,
   };
 }
 

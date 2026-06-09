@@ -36,7 +36,7 @@ const DOC_VISUALS: Record<string, ReactNode> = {
   directions: <DirectionsVisual />,
   grammar: <GrammarVisual />,
   phrasal: <WordMachine />,
-  "tier-guide": <TierBreakdown />,
+  "tier-guide": <TierBreakdown compact />,
   words: <WordExplorer />,
   affixes: <MultiplyMore />,
   compounds: <MultiplyMore />,
@@ -46,6 +46,7 @@ function resolveInternalHref(href: string): string | null {
   if (PATH_TO_ASSET[href]) return PATH_TO_ASSET[href];
   if (PATH_TO_SLUG[href]) return `/doc/${PATH_TO_SLUG[href]}`;
   if (href.startsWith("/doc/")) return href;
+  if (href.startsWith("/words")) return href;
   return null;
 }
 
@@ -86,7 +87,7 @@ export default function DocPage() {
               if (!href) return <a {...props}>{children}</a>;
               const internal = resolveInternalHref(href);
               if (internal) {
-                if (internal.startsWith("/doc/")) return <Link to={internal} {...props}>{children}</Link>;
+                if (internal.startsWith("/doc/") || internal.startsWith("/words")) return <Link to={internal} {...props}>{children}</Link>;
                 return <a href={internal} target="_blank" rel="noreferrer" {...props}>{children}</a>;
               }
               return <a href={href} target="_blank" rel="noreferrer" {...props}>{children}</a>;
