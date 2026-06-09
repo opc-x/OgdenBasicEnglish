@@ -150,6 +150,7 @@ a:hover { color: var(--accent-deep); }
   margin: 0 0.15rem;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .sidebar-brand-group:hover {
   border-color: rgba(180, 83, 9, 0.35);
