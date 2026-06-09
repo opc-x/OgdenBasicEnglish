@@ -25,7 +25,7 @@ export default function WordDetailPage() {
   const meta = TIER_META[word.t];
   const op = isOperator(word.w);
   const img = word.img ? fixImageUrl(word.img) : undefined;
-  const isSvg = img?.startsWith("data:image/svg+xml");
+  const isSvg = img?.startsWith("data:image/svg+xml") || img?.endsWith(".svg");
   const sources = ogdenSourceLinks(word.w, word.t);
 
   const backTo = backTab ? `/doc/words?tab=${backTab}` : "/doc/words";

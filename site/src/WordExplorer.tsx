@@ -21,7 +21,8 @@ function WordCard({ word, tab }: { word: Word; tab: Filter }) {
   const speakable = isSpeechSupported();
   const op = isOperator(word.w);
   const imgSrc = word.img ? fixImageUrl(word.img) : undefined;
-  const isSvg = imgSrc?.startsWith("data:image/svg+xml") ?? false;
+  const isSvg =
+    (imgSrc?.startsWith("data:image/svg+xml") || imgSrc?.endsWith(".svg")) ?? false;
   const detailTo = `/word/${encodeURIComponent(word.w)}${tab !== "op18" && tab !== "all" ? `?tab=${tab}` : tab === "all" ? "?tab=all" : ""}`;
 
   return (

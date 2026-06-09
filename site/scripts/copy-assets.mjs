@@ -41,3 +41,16 @@ for (const [src, dest] of copies) {
 
 const audioN = copyDir(path.join(root, "02-vocabulary/audio"), path.join(out, "audio"));
 if (audioN) console.log(`copied ${audioN} pronunciation mp3 → public/assets/audio/`);
+
+const wordImgSrc = path.join(root, "02-vocabulary/word-img");
+const wordImgDest = path.join(out, "word-img");
+if (fs.existsSync(wordImgSrc)) {
+  fs.mkdirSync(wordImgDest, { recursive: true });
+  let n = 0;
+  for (const name of fs.readdirSync(wordImgSrc)) {
+    if (!/\.(jpg|jpeg|png|svg|webp)$/i.test(name)) continue;
+    fs.copyFileSync(path.join(wordImgSrc, name), path.join(wordImgDest, name));
+    n++;
+  }
+  if (n) console.log(`copied ${n} word images → public/assets/word-img/`);
+}
