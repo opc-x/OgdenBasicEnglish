@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { WORDS, TIER_META, ANNOTATED_COUNT, isOperator, type Tier, type Word } from "./words850";
 import { speak, isSpeechSupported } from "./speak";
+import { fixImageUrl } from "./wordSources";
 
 type Filter = Tier | "all" | "op18";
 
@@ -15,11 +16,13 @@ const TABS: { id: Filter; label: string }[] = [
   { id: "opp", label: "反义 50" },
 ];
 
-function WordCard({ word }: { word: Word }) {
+function WordCard({ word, tab }: { word: Word; tab: Filter }) {
   const meta = TIER_META[word.t];
   const speakable = isSpeechSupported();
   const op = isOperator(word.w);
-  const isSvg = word.img?.startsWith("data:image/svg+xml") ?? false;
+  const imgSrc = word.img ? fixImageUrl(word.img) : undefined;
+  const isSvg = imgSrc?.startsWith("data:image/svg+xml") ?? false;
+  const detailTo = `/word/${encodeURIComponent(word.w)}${tab !== "op18" && tab !== "all" ? `?tab=${tab}` : tab === "all" ? "?tab=all" : ""}`;
 
   return (
     <div
@@ -27,12 +30,16 @@ function WordCard({ word }: { word: Word }) {
       style={{ ["--seg" as string]: meta.color }}
     >
       <div className="word-card-img-wrapper">
-        {word.img ? (
+        {imgSrc ? (
           <img
-            src={word.img}
+            src={imgSrc}
             alt={word.w}
             className={`word-card-img${isSvg ? " word-card-img--svg" : ""}`}
             loading="lazy"
+            onError={(e) => {
+              const el = e.currentTarget;
+              if (el.src.includes("/200px-")) el.src = el.src.replace("/200px-", "/120px-");
+            }}
           />
         ) : (
           <span className="word-card-img-fallback" aria-hidden>{word.w}</span>
@@ -64,11 +71,9 @@ function WordCard({ word }: { word: Word }) {
           ) : (
             <span className="word-ipa word-ipa-todo">音标补全中</span>
           )}
-          {word.link && (
-            <Link className="word-link" to={`/doc/${word.link}`} title="跳到知识讲解">
-              讲解 →
-            </Link>
-          )}
+          <Link className="word-link" to={detailTo} title="Ogden 原文分类与配图讲解">
+            讲解 →
+          </Link>
         </div>
         <div className="word-cn">{word.cn ?? "—"}</div>
       </div>
@@ -169,7 +174,7 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
       {list.length ? (
         <div className="word-grid">
           {list.map((word) => (
-            <WordCard key={`${word.t}-${word.w}`} word={word} />
+            <WordCard key={`${word.t}-${word.w}`} word={word} tab={filter} />
           ))}
         </div>
       ) : (

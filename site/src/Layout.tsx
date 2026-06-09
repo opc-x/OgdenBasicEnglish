@@ -20,9 +20,13 @@ export default function Layout() {
   const isHome = pathname === "/";
   const activeSlug = pathname.startsWith("/doc/")
     ? pathname.replace("/doc/", "")
-    : pathname === "/words"
-      ? "words-search"
-      : null;
+    : pathname.startsWith("/practice/basic-teacher")
+      ? "practice-bt"
+      : pathname.startsWith("/practice/")
+        ? "practice-sbs"
+        : pathname === "/words"
+          ? "words-search"
+          : null;
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>(() => {
     const init: Record<string, boolean> = {};
     for (const p of LEARNING_PHASES) {

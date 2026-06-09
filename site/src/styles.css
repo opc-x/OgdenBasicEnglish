@@ -1787,6 +1787,116 @@ a:hover { color: var(--accent-deep); }
 
 .doc-visual .explorer { margin-bottom: 0; }
 
+/* ════ 单词讲解页（Ogden 原文对照）════ */
+.word-detail {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 0 3rem;
+}
+.word-detail-back-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+.word-detail-eyebrow {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.5rem;
+}
+.word-detail-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.word-detail-title-row h1 {
+  font-family: var(--mono);
+  font-size: 2rem;
+  margin: 0;
+}
+.word-speak--lg {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.word-detail-ipa { color: var(--ink-muted); margin: 0.35rem 0 0; }
+.word-detail-cn { font-size: 1.25rem; margin: 0.25rem 0 0; color: var(--ink); }
+.word-detail-visual {
+  margin: 1.75rem 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: #f7f5f0;
+}
+.word-detail-img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  display: block;
+  background: #f7f5f0;
+}
+.word-detail-img--svg { padding: 1rem; box-sizing: border-box; }
+.word-detail-op-visual {
+  aspect-ratio: 16 / 10;
+  max-height: 280px;
+  padding: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+.word-detail-visual-caption {
+  margin: 0;
+  padding: 0.65rem 1rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  border-top: 1px solid var(--border-soft);
+  background: var(--bg-card);
+}
+.word-detail-ogden,
+.word-detail-sources {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.word-detail-ogden h2,
+.word-detail-sources h2 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.75rem;
+}
+.word-detail-sources-hint {
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+  margin: 0 0 1rem;
+}
+.word-detail-source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.word-detail-source-list a {
+  color: var(--accent);
+  font-weight: 600;
+}
+.word-detail-source-list span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin-top: 0.15rem;
+}
+
 /* ════ 词缀 + 复合倍增 ════ */
 .multiply {
   margin-bottom: 2.5rem;
@@ -3851,6 +3961,402 @@ a:hover { color: var(--accent-deep); }
   }
   .multiplier-showcase {
     flex-direction: column;
+  }
+}
+
+/* ── 练习模块（官方课文站内开练）──────────────────────── */
+.practice-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+  animation: fadeInUp 0.5s var(--ease-out);
+}
+
+.practice-header h1 {
+  font-family: var(--serif);
+  font-size: 1.85rem;
+  font-weight: 400;
+  margin: 0.25rem 0 0.5rem;
+  color: var(--ink);
+}
+
+.practice-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7c3aed;
+  margin: 0;
+}
+
+.practice-sub,
+.practice-source {
+  color: var(--ink-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin: 0.35rem 0;
+}
+
+.practice-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  align-items: start;
+}
+
+.practice-lesson-nav {
+  position: sticky;
+  top: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+}
+
+.practice-nav-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem 0.35rem;
+}
+
+.practice-lesson-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.practice-lesson-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.practice-lesson-link:hover {
+  background: var(--border-soft);
+  color: var(--ink);
+}
+
+.practice-lesson-link--active {
+  background: #ede9fe;
+  color: #5b21b6;
+  font-weight: 600;
+}
+
+.practice-lesson-link--done .practice-lesson-num {
+  color: #15803d;
+}
+
+.practice-lesson-num {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  min-width: 1.25rem;
+}
+
+.practice-lesson-sub {
+  flex: 1;
+}
+
+.practice-done-mark {
+  color: #15803d;
+  font-size: 0.75rem;
+}
+
+.practice-main {
+  min-width: 0;
+}
+
+.practice-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.practice-section h2 {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin: 0 0 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.practice-section h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+.practice-zh {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  font-weight: 500;
+}
+
+.practice-kind {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.practice-kind--structure {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.practice-kind--reading {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.practice-hint {
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  margin: 0 0 0.75rem;
+}
+
+.practice-vocab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.practice-vocab-chip {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-elevated);
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.practice-vocab-chip:hover {
+  border-color: #7c3aed;
+  color: #5b21b6;
+}
+
+.practice-sentences {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.practice-sentences li {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.practice-sentences li:last-child {
+  border-bottom: none;
+}
+
+.practice-sent-idx {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  min-width: 1.25rem;
+  padding-top: 0.15rem;
+}
+
+.practice-sent-btn,
+.practice-read-para {
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+.practice-sent-btn:hover,
+.practice-read-para:hover {
+  color: #5b21b6;
+}
+
+.practice-reading p {
+  margin: 0 0 0.85rem;
+  line-height: 1.65;
+}
+
+.practice-qa-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.practice-qa {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.practice-qa:last-child {
+  border-bottom: none;
+}
+
+.practice-q {
+  margin: 0 0 0.5rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.practice-q-num {
+  font-family: var(--mono);
+  color: var(--ink-faint);
+  margin-right: 0.25rem;
+}
+
+.practice-qa-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.practice-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: var(--sans);
+  background: var(--bg-elevated);
+}
+
+.practice-input:focus {
+  outline: 2px solid #c4b5fd;
+  border-color: #7c3aed;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.82rem;
+}
+
+.practice-feedback {
+  font-size: 0.82rem;
+  margin: 0.4rem 0 0;
+}
+
+.practice-feedback--ok {
+  color: #15803d;
+}
+
+.practice-feedback--no {
+  color: #b45309;
+}
+
+.practice-official {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin: 0.35rem 0 0;
+  padding: 0.4rem 0.55rem;
+  background: var(--bg-elevated);
+  border-radius: 6px;
+}
+
+.practice-speak-inline {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  border: none;
+  background: none;
+  color: #7c3aed;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.practice-blank-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.practice-blank {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.practice-blank-line {
+  font-size: 0.92rem;
+  line-height: 2;
+}
+
+.practice-blank-input {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  padding: 0.2rem 0.35rem;
+  border: none;
+  border-bottom: 2px solid #7c3aed;
+  background: #faf5ff;
+  margin: 0 0.15rem;
+  min-width: 4rem;
+}
+
+.practice-blank--ok .practice-blank-input {
+  border-bottom-color: #15803d;
+  background: #f0fdf4;
+}
+
+.practice-footer {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .practice-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-lesson-nav {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.65rem;
+  }
+
+  .practice-nav-label {
+    width: 100%;
+  }
+
+  .practice-lesson-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    width: 100%;
+  }
+
+  .practice-lesson-link {
+    border: 1px solid var(--border);
   }
 }
 

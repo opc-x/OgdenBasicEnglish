@@ -140,13 +140,14 @@ export default function Home() {
             <span>本站是学习整理，灵魂是 Ogden 的一手材料。有疑问以原文为准。</span>
           </div>
           <div className="sources-strip-links">
-            <a href="/assets/begr-1937.html" target="_blank" rel="noreferrer">
-              <span className="src-mark">HTML</span> begr-1937 全文
-            </a>
-            <a href="/assets/ogdens-basic-english-850.pdf" target="_blank" rel="noreferrer">
-              <span className="src-mark">PDF</span> 850 词表
-            </a>
-            <Link to="/doc/sources">完整出处索引 →</Link>
+            <Link to="/practice/step-by-step/body">
+              <span className="src-mark">练</span> 示范句跟读
+            </Link>
+            <Link to="/practice/basic-teacher/bt1">
+              <span className="src-mark">练</span> Basic Teacher
+            </Link>
+            <Link to="/doc/practice">练习索引 →</Link>
+            <Link to="/doc/sources">出处索引 →</Link>
           </div>
         </div>
       </section>

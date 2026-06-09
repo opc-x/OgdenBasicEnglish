@@ -115,4 +115,11 @@ export async function speak(word: string): Promise<void> {
   await speakWithBrowser(word);
 }
 
+/** 整句朗读（练习模块用） */
+export async function speakText(text: string): Promise<void> {
+  if (typeof window === "undefined") return;
+  stop();
+  await speakWithBrowser(text);
+}
+
 export { VOICE_ID };

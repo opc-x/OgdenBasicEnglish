@@ -6,7 +6,7 @@ function SourceList({ items }: { items: SourceLink[] }) {
     <ul className="source-list">
       {items.map((s) => (
         <li key={s.url + s.label}>
-          {s.url.startsWith("/doc/") ? (
+          {s.url.startsWith("/doc/") || s.url.startsWith("/practice/") ? (
             <Link to={s.url}>{s.label}</Link>
           ) : (
             <a href={s.url} target="_blank" rel="noreferrer">{s.label} ↗</a>

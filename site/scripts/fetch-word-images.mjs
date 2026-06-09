@@ -114,12 +114,30 @@ function operatorSvg(op) {
   return svgData(wrapSvg(ops[op] || ops.be));
 }
 
+const WORD_ICONS = {
+  act: `<circle cx="100" cy="45" r="14" fill="#2c2825"/><path d="M75 120 Q100 70 125 120" fill="#2c2825"/><path d="M55 90 L100 55 L145 90" fill="none" stroke="#b45309" stroke-width="4"/>`,
+  addition: `<rect x="55" y="55" width="28" height="28" fill="#d4cfc4"/><rect x="90" y="55" width="28" height="28" fill="#d4cfc4"/><text x="118" y="78" font-size="28" fill="#b45309">+</text><rect x="72" y="95" width="56" height="28" rx="4" fill="#1d6fa5" opacity="0.5"/>`,
+  adjustment: `<rect x="50" y="70" width="100" height="8" rx="4" fill="#d4cfc4"/><circle cx="115" cy="74" r="14" fill="#1d6fa5"/><path d="M115 60 V50 M108 55 H122" stroke="#2c2825" stroke-width="2"/>`,
+  apparatus: `<rect x="60" y="45" width="80" height="70" rx="6" fill="none" stroke="#2c2825" stroke-width="3"/><circle cx="85" cy="70" r="10" fill="#1d6fa5"/><path d="M110 60 H130 M110 80 H125" stroke="#b45309" stroke-width="3"/>`,
+  approval: `<rect x="55" y="50" width="90" height="55" rx="4" fill="none" stroke="#2c2825" stroke-width="2"/><path d="M70 78 L88 95 L130 58" fill="none" stroke="#15803d" stroke-width="5" stroke-linecap="round"/>`,
+  argument: `<ellipse cx="70" cy="65" rx="35" ry="22" fill="none" stroke="#2c2825" stroke-width="2"/><ellipse cx="130" cy="85" rx="35" ry="22" fill="none" stroke="#be123c" stroke-width="2"/><path d="M95 72 L115 78" stroke="#b45309" stroke-width="2"/>`,
+  account: `<rect x="55" y="45" width="90" height="65" rx="4" fill="none" stroke="#2c2825" stroke-width="2"/><path d="M65 60 H135 M65 75 H120 M65 90 H100" stroke="#d4cfc4" stroke-width="2"/>`,
+  agreement: `<path d="M70 65 L85 80 L130 45" fill="none" stroke="#15803d" stroke-width="4"/><path d="M70 95 L85 110 L130 75" fill="none" stroke="#1d6fa5" stroke-width="4"/>`,
+  amount: `<rect x="60" y="90" width="15" height="25" fill="#1d6fa5"/><rect x="85" y="75" width="15" height="40" fill="#1d6fa5"/><rect x="110" y="55" width="15" height="60" fill="#b45309"/><rect x="135" y="65" width="15" height="50" fill="#1d6fa5"/>`,
+  attention: `<circle cx="100" cy="70" r="30" fill="none" stroke="#b45309" stroke-width="3"/><circle cx="100" cy="70" r="6" fill="#b45309"/><path d="M100 40 V25 M85 30 L100 20 L115 30" stroke="#2c2825" stroke-width="2"/>`,
+};
+
 function conceptSvg(word, cn, tier) {
   const s = "#b45309", m = "#2c2825";
   const tierColors = { ops: "#b45309", pic: "#15803d", things: "#1d6fa5", qual: "#7e22ce", opp: "#be123c" };
   const accent = tierColors[tier] || s;
-  const label = (cn || word).slice(0, 4);
-  // 按中文语义选简单图标
+  const label = (cn || word).slice(0, 6);
+  if (WORD_ICONS[word]) {
+    return svgData(wrapSvg(
+      WORD_ICONS[word] + `<text x="100" y="138" text-anchor="middle" font-size="12" fill="${accent}" font-family="sans-serif">${label}</text>`,
+      "#faf8f4"
+    ));
+  }
   let icon = "";
   const c = cn || "";
   if (/人|他|她|我|谁/.test(c)) icon = `<circle cx="100" cy="55" r="18" fill="${m}"/><path d="M70 120 Q100 80 130 120" fill="${m}"/>`;
@@ -135,7 +153,7 @@ function conceptSvg(word, cn, tier) {
   else if (/声|音|听/.test(c)) icon = `<path d="M70 60 V90 M75 55 Q95 75 75 95" fill="none" stroke="${m}" stroke-width="3"/><path d="M105 65 Q125 75 105 85" fill="none" stroke="${s}" stroke-width="3"/>`;
   else if (/数|量|计/.test(c)) icon = `<text x="100" y="90" text-anchor="middle" font-size="48" fill="${m}" font-family="serif">#</text>`;
   else if (/法|律|规/.test(c)) icon = `<rect x="70" y="40" width="60" height="80" fill="none" stroke="${m}" stroke-width="3"/><path d="M80 55 H120 M80 70 H120 M80 85 H105" stroke="#d4cfc4" stroke-width="2"/>`;
-  else icon = `<circle cx="100" cy="60" r="22" fill="none" stroke="${accent}" stroke-width="3"/><text x="100" y="110" text-anchor="middle" font-size="22" fill="${m}" font-family="Georgia,serif">${word.slice(0, 6)}</text>`;
+  else icon = `<rect x="45" y="35" width="110" height="75" rx="8" fill="none" stroke="${accent}" stroke-width="2"/><text x="100" y="88" text-anchor="middle" font-size="26" font-weight="600" fill="${m}" font-family="Georgia,serif">${word.slice(0, 8)}</text>`;
 
   return svgData(wrapSvg(
     icon + `<text x="100" y="138" text-anchor="middle" font-size="13" fill="${accent}" font-family="sans-serif">${label}</text>`,
@@ -159,7 +177,7 @@ async function wikiThumb(word) {
     if (!r.ok) return null;
     const j = await r.json();
     if (!j.thumbnail?.source) return null;
-    return j.thumbnail.source.replace(/\/(\d+)px-/, "/200px-");
+    return j.thumbnail.source.replace(/\/(\d+)px-/, "/120px-");
   } catch {
     return null;
   }
@@ -193,8 +211,11 @@ function sleep(ms) {
 }
 
 const ann = JSON.parse(readFileSync(ANN_PATH, "utf8"));
-const missing = Object.keys(ann).filter((w) => !ann[w].img);
-console.log(`Missing images: ${missing.length}`);
+const refreshSvg = process.argv.includes("--refresh-svg");
+const missing = refreshSvg
+  ? Object.keys(ann).filter((w) => ann[w].img?.startsWith("data:"))
+  : Object.keys(ann).filter((w) => !ann[w].img);
+console.log(refreshSvg ? `Refreshing ${missing.length} SVG images...` : `Missing images: ${missing.length}`);
 
 const TIER_MAP = {};
 const w850 = readFileSync(join(__dirname, "../src/words850.ts"), "utf8");
@@ -229,7 +250,7 @@ for (let i = 0; i < missing.length; i++) {
     tier === "qual" ||
     tier === "opp";
 
-  if (!onlySvg && !svgFirst && tier === "things") {
+  if (!refreshSvg && !onlySvg && !svgFirst && tier === "things") {
     img = await wikiThumb(word);
     if (img) wiki++;
     else {
@@ -238,7 +259,7 @@ for (let i = 0; i < missing.length; i++) {
       if (img) commons++;
       await sleep(100);
     }
-  } else if (!onlySvg && !svgFirst && tier === "ops") {
+  } else if (!refreshSvg && !onlySvg && !svgFirst && tier === "ops") {
     img = await wikiThumb(word);
     if (img) wiki++;
     await sleep(80);

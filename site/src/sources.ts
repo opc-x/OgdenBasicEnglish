@@ -5,6 +5,8 @@ export type SourceLink = {
 };
 
 export const GLOBAL_SOURCES: SourceLink[] = [
+  { label: "The Basic Teacher（45 课完整训练）", url: "https://zbenglish.net/sites/basic/bt0.html", note: "组句+阅读，首选" },
+  { label: "Basic Step by Step（30 主题示范句）", url: "https://zbenglish.net/sites/basic/bsbs.html", note: "跟读造句" },
   { label: "zbenglish.net 镜像总站", url: "https://zbenglish.net/sites/basic/basiceng.html", note: "原 ogden.basic-english.org 替代" },
   { label: "850 词表（Ogden 原序）", url: "https://zbenglish.net/sites/basic/words.html" },
   { label: "Wiktionary 850 词附录", url: "https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list" },
@@ -13,6 +15,8 @@ export const GLOBAL_SOURCES: SourceLink[] = [
 
 export const PAGE_SOURCES: Record<string, SourceLink[]> = {
   start: [
+    { label: "The Basic Teacher（开练入口）", url: "https://zbenglish.net/sites/basic/bt0.html", note: "45 课组句训练" },
+    { label: "Basic Step by Step", url: "https://zbenglish.net/sites/basic/bsbs.html", note: "30 主题示范句" },
     { label: "Ogden · General Introduction (1930)", url: "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha102944655", note: "理论体系原著" },
     { label: "zbenglish 书目目录", url: "https://zbenglish.net/sites/basic/books.html" },
   ],
@@ -22,6 +26,8 @@ export const PAGE_SOURCES: Record<string, SourceLink[]> = {
   ],
   directions: [{ label: "850 词 Operations", url: "https://zbenglish.net/sites/basic/words.html" }],
   grammar: [
+    { label: "rules.html（十条语法原文）", url: "https://zbenglish.net/sites/basic/rules.html", note: "造句基础" },
+    { label: "The Basic Teacher · Structure 课", url: "https://zbenglish.net/sites/basic/bt0.html", note: "语法+例句练习" },
     { label: "begr-1937 全文", url: "/assets/begr-1937.html", note: "本仓库镜像" },
     { label: "begr-1937 在线", url: "https://zbenglish.net/sites/basic/begr.html" },
   ],
@@ -37,9 +43,24 @@ export const PAGE_SOURCES: Record<string, SourceLink[]> = {
   phrasal: [{ label: "begr-1937 · Verb-Elimination", url: "https://zbenglish.net/sites/basic/begr.html#verb" }],
   affixes: [{ label: "begr-1937 · Orthological Syntax", url: "https://zbenglish.net/sites/basic/begr.html#syntax" }],
   compounds: [{ label: "begr-1937", url: "https://zbenglish.net/sites/basic/begr.html" }],
+  "practice-sbs": [
+    { label: "Basic Step by Step 原文", url: "https://zbenglish.net/sites/basic/bsbs.html", note: "Ogden 1935" },
+    { label: "站内跟读模块", url: "/practice/step-by-step/body", note: "本页交互练习" },
+  ],
+  "practice-bt": [
+    { label: "The Basic Teacher 原文", url: "https://zbenglish.net/sites/basic/bt0.html", note: "Lockhart 1950" },
+    { label: "站内系统课", url: "/practice/basic-teacher/bt1", note: "本页交互练习" },
+  ],
   practice: [
+    { label: "示范句跟读（站内）", url: "/practice/step-by-step/body" },
+    { label: "Basic Teacher（站内）", url: "/practice/basic-teacher/bt1" },
+    { label: "The Basic Teacher（45 课）", url: "https://zbenglish.net/sites/basic/bt0.html", note: "zbenglish 全文" },
+    { label: "Basic Step by Step（30 主题）", url: "https://zbenglish.net/sites/basic/bsbs.html", note: "zbenglish 全文" },
+    { label: "begr-1937 · Translation", url: "https://zbenglish.net/sites/basic/begr.html#trans", note: "降维改写范例" },
+    { label: "zbenglish 改编读物目录", url: "https://zbenglish.net/sites/basic/books.html", note: "小说/剧本全文" },
     { label: "ETP Book 1 PDF", url: "/assets/english-through-pictures-book1.pdf" },
     { label: "Archive · ETP", url: "https://archive.org/details/EnglishThroughPictures_201901" },
+    { label: "Learning Basic English (1945)", url: "https://archive.org/details/in.ernet.dli.2015.166025", note: "Archive 借阅" },
     { label: "Bible in Basic English", url: "https://archive.org/details/BBEFreePDFBibleinBasicEnglish" },
   ],
   distill: [{ label: "manifest.json", url: "https://github.com/opc-x/OgdenBasicEnglish/blob/main/manifest.json", note: "本仓库自编" }],
@@ -63,6 +84,8 @@ export const SOURCE_PANEL_SLUGS = new Set([
   "affixes",
   "compounds",
   "practice",
+  "practice-sbs",
+  "practice-bt",
   "begr",
 ]);
 
