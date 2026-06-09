@@ -41,7 +41,7 @@ export default function PlaybookPlay() {
   const [progress, setProgress] = useState(0);
   const progressTimer = useRef<any>(null);
 
-  const duration = 6000; // 每个场景播放 6 秒
+  const duration = 20000; // 每个场景播放 20 秒
   const stepTime = 30; // 30ms 更新一次进度
 
   useEffect(() => {
