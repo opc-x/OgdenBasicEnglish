@@ -1,0 +1,926 @@
+{
+  "come": {
+    "ipa": "kʌm"
+  },
+  "get": {
+    "ipa": "ɡɛt"
+  },
+  "give": {
+    "ipa": "ɡɪv"
+  },
+  "go": {
+    "ipa": "ɡəʊ"
+  },
+  "keep": {
+    "ipa": "kiːp"
+  },
+  "let": {
+    "ipa": "lɛt"
+  },
+  "make": {
+    "ipa": "meɪk"
+  },
+  "put": {
+    "ipa": "pʊt"
+  },
+  "seem": {
+    "ipa": "siːm"
+  },
+  "take": {
+    "ipa": "teɪk"
+  },
+  "do": {
+    "ipa": "dʉː"
+  },
+  "say": {
+    "ipa": "seɪ"
+  },
+  "see": {
+    "ipa": "siː"
+  },
+  "send": {
+    "ipa": "sɛnd"
+  },
+  "may": {
+    "ipa": "meɪ"
+  },
+  "will": {
+    "ipa": "wɪl"
+  },
+  "about": {
+    "ipa": "əˈbɛʊt"
+  },
+  "across": {
+    "ipa": "əˈkɹɑs"
+  },
+  "after": {
+    "ipa": "ˈæf.tə(ɹ)"
+  },
+  "against": {
+    "ipa": "əˈɡeɪnst"
+  },
+  "among": {
+    "ipa": "əˈmɒŋ"
+  },
+  "before": {
+    "ipa": "bɪˈfɔː"
+  },
+  "between": {
+    "ipa": "bɪˈtwiːn"
+  },
+  "much": {
+    "ipa": "mʌt͡ʃ"
+  },
+  "not": {
+    "ipa": "nɒt"
+  },
+  "only": {
+    "ipa": "ˈəʊn.li"
+  },
+  "quite": {
+    "ipa": "kwaɪt"
+  },
+  "so": {
+    "ipa": "səʊ"
+  },
+  "very": {
+    "ipa": "ˈvɛɹi"
+  },
+  "tomorrow": {
+    "ipa": "təˈmɒɹəʊ"
+  },
+  "yesterday": {
+    "ipa": "ˈjɛstədeɪ"
+  },
+  "north": {
+    "ipa": "nɔːθ"
+  },
+  "south": {
+    "ipa": "saʊθ"
+  },
+  "east": {
+    "ipa": "iːst"
+  },
+  "west": {
+    "ipa": "wɛst"
+  },
+  "please": {
+    "ipa": "pliːz"
+  },
+  "yes": {
+    "ipa": "jɛs"
+  },
+  "account": {
+    "ipa": "ə.ˈkaʊnt"
+  },
+  "act": {
+    "ipa": "æk"
+  },
+  "addition": {
+    "ipa": "æˈdɪʃən"
+  },
+  "adjustment": {
+    "ipa": "əˈdʒʌst.mənt"
+  },
+  "advertisement": {
+    "ipa": "ədˈvɜːtɪsmənt"
+  },
+  "agreement": {
+    "ipa": "əˈɡɹiːmənt"
+  },
+  "air": {
+    "ipa": "ˈɛə"
+  },
+  "amount": {
+    "ipa": "əˈmaʊnt"
+  },
+  "amusement": {
+    "ipa": "əˈmjuzmənt"
+  },
+  "animal": {
+    "ipa": "ˈænɪməl"
+  },
+  "answer": {
+    "ipa": "ˈan.sə"
+  },
+  "apparatus": {
+    "ipa": "æpəˈɹɑːtəs"
+  },
+  "approval": {
+    "ipa": "əˈpɹuːvəl"
+  },
+  "argument": {
+    "ipa": "ˈɑːɡjʊmənt"
+  },
+  "art": {
+    "ipa": "ɑːt"
+  },
+  "attack": {
+    "ipa": "əˈtæk"
+  },
+  "day": {
+    "ipa": "deɪ"
+  },
+  "death": {
+    "ipa": "diːθ"
+  },
+  "debt": {
+    "ipa": "dɛt"
+  },
+  "decision": {
+    "ipa": "dɪˈsɪʒən"
+  },
+  "degree": {
+    "ipa": "dɪˈɡɹiː"
+  },
+  "design": {
+    "ipa": "dɪˈzaɪn"
+  },
+  "desire": {
+    "ipa": "dɪˈzaɪə"
+  },
+  "destruction": {
+    "ipa": "ˌdɪsˈtɹʌkʃən"
+  },
+  "detail": {
+    "ipa": "ˈdiːteɪl"
+  },
+  "development": {
+    "ipa": "dɪˈvɛləpmənt"
+  },
+  "digestion": {
+    "ipa": "daɪˈdʒɛstʃən"
+  },
+  "direction": {
+    "ipa": "d(a)ɪˈɹɛk.ʃən"
+  },
+  "discovery": {
+    "ipa": "dɪsˈkʌvəɹi"
+  },
+  "discussion": {
+    "ipa": "dɪsˈkʊʃən"
+  },
+  "disease": {
+    "ipa": "dɪˈziːz"
+  },
+  "disgust": {
+    "ipa": "dɪsˈɡʌst"
+  },
+  "distance": {
+    "ipa": "ˈdɪs.təns"
+  },
+  "distribution": {
+    "ipa": "ˌdɪstɹəˈbjuːʃən"
+  },
+  "division": {
+    "ipa": "dɪˈvɪʒən"
+  },
+  "doubt": {
+    "ipa": "dʌʊt"
+  },
+  "drink": {
+    "ipa": "dɹɪŋk"
+  },
+  "driving": {
+    "ipa": "ˈdɹaɪvɪŋ"
+  },
+  "dust": {
+    "ipa": "dʌst"
+  },
+  "earth": {
+    "ipa": "ɜːθ"
+  },
+  "edge": {
+    "ipa": "ɛdʒ"
+  },
+  "education": {
+    "ipa": "ˌɛdjʊˈkeɪʃn̩"
+  },
+  "effect": {
+    "ipa": "ɪˈfɛkt"
+  },
+  "end": {
+    "ipa": "ɛnd"
+  },
+  "interest": {
+    "ipa": "ˈɪntəɹɪst"
+  },
+  "invention": {
+    "ipa": "ɪnˈvɛnʃən"
+  },
+  "iron": {
+    "ipa": "ˈaɪən"
+  },
+  "jelly": {
+    "ipa": "ˈd͡ʒɛl.i"
+  },
+  "join": {
+    "ipa": "ˈdʒɔɪn"
+  },
+  "journey": {
+    "ipa": "ˈd͡ʒɜːni"
+  },
+  "judge": {
+    "ipa": "d͡ʒʌd͡ʒ"
+  },
+  "jump": {
+    "ipa": "dʒʌmp"
+  },
+  "kick": {
+    "ipa": "kɪk"
+  },
+  "kiss": {
+    "ipa": "kɪs"
+  },
+  "knowledge": {
+    "ipa": "ˈnɒlɪdʒ"
+  },
+  "land": {
+    "ipa": "lænd"
+  },
+  "language": {
+    "ipa": "ˈleɪŋɡwɪd͡ʒ"
+  },
+  "laugh": {
+    "ipa": "lɑːf"
+  },
+  "law": {
+    "ipa": "lɔː"
+  },
+  "lead": {
+    "ipa": "lɛd"
+  },
+  "learning": {
+    "ipa": "ˈlɜːnɪŋ"
+  },
+  "leather": {
+    "ipa": "ˈlɛðə"
+  },
+  "letter": {
+    "ipa": "ˈlɛtə(ɹ)"
+  },
+  "level": {
+    "ipa": "ˈlɛv.əl"
+  },
+  "lift": {
+    "ipa": "lɪft"
+  },
+  "light": {
+    "ipa": "laɪt"
+  },
+  "limit": {
+    "ipa": "ˈlɪmt"
+  },
+  "linen": {
+    "ipa": "ˈlɪnɪn"
+  },
+  "play": {
+    "ipa": "pleɪ"
+  },
+  "pleasure": {
+    "ipa": "ˈplɛʒə"
+  },
+  "point": {
+    "ipa": "pɔɪnt"
+  },
+  "poison": {
+    "ipa": "ˈpɔɪz(ə)n"
+  },
+  "polish": {
+    "ipa": "ˈpɒlɪʃ"
+  },
+  "porter": {
+    "ipa": "ˈpɔːtə"
+  },
+  "position": {
+    "ipa": "pəˈzɪʃ(ə)n"
+  },
+  "powder": {
+    "ipa": "ˈpaʊ.də(ɹ)"
+  },
+  "power": {
+    "ipa": "ˈpaʊ.ə(ɹ)"
+  },
+  "price": {
+    "ipa": "pɹaɪs"
+  },
+  "print": {
+    "ipa": "pɹɪnt"
+  },
+  "process": {
+    "ipa": "ˈpɹəʊsɛs"
+  },
+  "produce": {
+    "ipa": "pɹəˈdjuːs"
+  },
+  "profit": {
+    "ipa": "ˈpɹɒfɪt"
+  },
+  "property": {
+    "ipa": "ˈpɹɒp.ət.i"
+  },
+  "prose": {
+    "ipa": "ˈpɹəʊz"
+  },
+  "protest": {
+    "ipa": "ˈpɹəʊ.tɛst"
+  },
+  "pull": {
+    "ipa": "pʊl"
+  },
+  "punishment": {
+    "ipa": "ˈpʌnɪʃmənt"
+  },
+  "purpose": {
+    "ipa": "ˈpɜːpəs"
+  },
+  "push": {
+    "ipa": "pʷʊʃ"
+  },
+  "quality": {
+    "ipa": "ˈkwɒlɪti"
+  },
+  "question": {
+    "ipa": "ˈkwɛstjən"
+  },
+  "rain": {
+    "ipa": "ɹeɪn"
+  },
+  "range": {
+    "ipa": "ɹeɪndʒ"
+  },
+  "rate": {
+    "ipa": "ɹeɪt"
+  },
+  "ray": {
+    "ipa": "ɹeɪ"
+  },
+  "reaction": {
+    "ipa": "ɹiˈækʃən"
+  },
+  "reading": {
+    "ipa": "ˈɹidiŋ"
+  },
+  "reason": {
+    "ipa": "ˈɹiːzən"
+  },
+  "record": {
+    "ipa": "ˈɹɛkɔːd"
+  },
+  "steel": {
+    "ipa": "stiːl"
+  },
+  "step": {
+    "ipa": "stɛp"
+  },
+  "stitch": {
+    "ipa": "stɪt͡ʃ"
+  },
+  "stone": {
+    "ipa": "stəʊn"
+  },
+  "stop": {
+    "ipa": "stɒp"
+  },
+  "story": {
+    "ipa": "ˈstɔː.ɹi"
+  },
+  "stretch": {
+    "ipa": "stɹɛtʃ"
+  },
+  "structure": {
+    "ipa": "ˈstɹʌktʃə(ɹ)"
+  },
+  "substance": {
+    "ipa": "ˈsʌbstəns"
+  },
+  "sugar": {
+    "ipa": "ˈʃʊɡə(ɹ)"
+  },
+  "suggestion": {
+    "ipa": "səˈd͡ʒɛstjən"
+  },
+  "summer": {
+    "ipa": "ˈsʌmə(ɹ)"
+  },
+  "support": {
+    "ipa": "səˈpɔːt"
+  },
+  "surprise": {
+    "ipa": "səˈpɹaɪz"
+  },
+  "swim": {
+    "ipa": "swɪm"
+  },
+  "system": {
+    "ipa": "ˈsɪstəm"
+  },
+  "talk": {
+    "ipa": "toːk"
+  },
+  "taste": {
+    "ipa": "teɪst"
+  },
+  "tax": {
+    "ipa": "tæks"
+  },
+  "teaching": {
+    "ipa": "ˈtiːtʃɪŋ"
+  },
+  "tendency": {
+    "ipa": "ˈtɛndənsi"
+  },
+  "test": {
+    "ipa": "test"
+  },
+  "theory": {
+    "ipa": "ˈθiːəɹi"
+  },
+  "thing": {
+    "ipa": "θɪŋ"
+  },
+  "thought": {
+    "ipa": "θɔːt"
+  },
+  "thunder": {
+    "ipa": "ˈθʌndə"
+  },
+  "time": {
+    "ipa": "tɑem"
+  },
+  "tin": {
+    "ipa": "tɪn"
+  },
+  "top": {
+    "ipa": "tɒp"
+  },
+  "trade": {
+    "ipa": "tɹeɪd"
+  },
+  "boot": {
+    "ipa": "buːt"
+  },
+  "bottle": {
+    "ipa": "ˈbɒ.təl"
+  },
+  "box": {
+    "ipa": "bɒks"
+  },
+  "boy": {
+    "ipa": "bɔːə"
+  },
+  "brain": {
+    "ipa": "bɹeɪn"
+  },
+  "brake": {
+    "ipa": "bɹeɪk"
+  },
+  "branch": {
+    "ipa": "bɹɑːntʃ"
+  },
+  "brick": {
+    "ipa": "bɹɪk"
+  },
+  "bridge": {
+    "ipa": "bɹɪd͡ʒ"
+  },
+  "brush": {
+    "ipa": "bɹʌʃ"
+  },
+  "bucket": {
+    "ipa": "ˈbʌkɪt"
+  },
+  "bulb": {
+    "ipa": "bʌlb"
+  },
+  "button": {
+    "ipa": "ˈbʌtn̩"
+  },
+  "cake": {
+    "ipa": "keɪk"
+  },
+  "camera": {
+    "ipa": "ˈkæməɹə"
+  },
+  "card": {
+    "ipa": "kɑːd"
+  },
+  "cart": {
+    "ipa": "kɑːt"
+  },
+  "carriage": {
+    "ipa": "ˈkæɹɪdʒ"
+  },
+  "cat": {
+    "ipa": "kat"
+  },
+  "chain": {
+    "ipa": "ˈt͡ʃeɪn"
+  },
+  "cheese": {
+    "ipa": "t͡ʃiz"
+  },
+  "chest": {
+    "ipa": "t͡ʃɛst"
+  },
+  "chin": {
+    "ipa": "tʃɪn"
+  },
+  "church": {
+    "ipa": "t͡ʃɜːt͡ʃ"
+  },
+  "circle": {
+    "ipa": "ˈsɜɹkəl"
+  },
+  "clock": {
+    "ipa": "klɒk"
+  },
+  "cloud": {
+    "ipa": "klaʊd"
+  },
+  "coat": {
+    "ipa": "kəʊt"
+  },
+  "collar": {
+    "ipa": "ˈkɒl.ə"
+  },
+  "comb": {
+    "ipa": "kəʊm"
+  },
+  "cord": {
+    "ipa": "kɔːd"
+  },
+  "cow": {
+    "ipa": "kaʊ"
+  },
+  "cup": {
+    "ipa": "kʌp"
+  },
+  "curtain": {
+    "ipa": "ˈkɜːtn̩"
+  },
+  "needle": {
+    "ipa": "ˈniː.dl"
+  },
+  "nerve": {
+    "ipa": "nɛɾv"
+  },
+  "nose": {
+    "ipa": "nəʊz"
+  },
+  "nut": {
+    "ipa": "nɐt"
+  },
+  "office": {
+    "ipa": "ˈɑfɪs"
+  },
+  "orange": {
+    "ipa": "ˈɔɹɪ̈nd͡ʒ"
+  },
+  "oven": {
+    "ipa": "ˈʌ.vn̩"
+  },
+  "parcel": {
+    "ipa": "ˈpʰaː.səɫ"
+  },
+  "pen": {
+    "ipa": "pɛn"
+  },
+  "pencil": {
+    "ipa": "ˈpɛnsɪl"
+  },
+  "picture": {
+    "ipa": "ˈpɪktʃə"
+  },
+  "pig": {
+    "ipa": "ˈpɪɡ"
+  },
+  "pin": {
+    "ipa": "pɪn"
+  },
+  "pipe": {
+    "ipa": "paɪp"
+  },
+  "plane": {
+    "ipa": "pleɪn"
+  },
+  "plate": {
+    "ipa": "pleɪt"
+  },
+  "plough": {
+    "ipa": "plaʊ"
+  },
+  "pocket": {
+    "ipa": "ˈpɒkɪt"
+  },
+  "pot": {
+    "ipa": "pɒt"
+  },
+  "potato": {
+    "ipa": "pəˈteɪ.təʊ"
+  },
+  "prison": {
+    "ipa": "ˈpɹɪzən"
+  },
+  "pump": {
+    "ipa": "pʌmp"
+  },
+  "rail": {
+    "ipa": "ɹeɪl"
+  },
+  "rat": {
+    "ipa": "ɹæt"
+  },
+  "receipt": {
+    "ipa": "ɹɪˈsiːt"
+  },
+  "ring": {
+    "ipa": "ɹɪŋ"
+  },
+  "rod": {
+    "ipa": "ɹɒd"
+  },
+  "roof": {
+    "ipa": "ɹuːf"
+  },
+  "root": {
+    "ipa": "ɹuːt"
+  },
+  "sail": {
+    "ipa": "seɪl"
+  },
+  "school": {
+    "ipa": "skuːl"
+  },
+  "scissors": {
+    "ipa": "ˈsɪzəz"
+  },
+  "screw": {
+    "ipa": "skɹuː"
+  },
+  "seed": {
+    "ipa": "siːd"
+  },
+  "sheep": {
+    "ipa": "ʃiːp"
+  },
+  "shelf": {
+    "ipa": "ʃɛlf"
+  },
+  "ship": {
+    "ipa": "ʃɪp"
+  },
+  "shirt": {
+    "ipa": "ʃɜːt"
+  },
+  "shoe": {
+    "ipa": "ʃuː"
+  },
+  "skin": {
+    "ipa": "skɪn"
+  },
+  "skirt": {
+    "ipa": "skɜːt"
+  },
+  "snake": {
+    "ipa": "ˈsneɪk"
+  },
+  "elastic": {
+    "ipa": "iˈlæstɪk"
+  },
+  "electric": {
+    "ipa": "əˈlɛktɹɪk"
+  },
+  "equal": {
+    "ipa": "ˈiːkwəl"
+  },
+  "fat": {
+    "ipa": "fæt"
+  },
+  "fertile": {
+    "ipa": "ˈfɝːtaɪl"
+  },
+  "first": {
+    "ipa": "fɪrst"
+  },
+  "fixed": {
+    "ipa": "fɪkst"
+  },
+  "flat": {
+    "ipa": "flæt"
+  },
+  "free": {
+    "ipa": "fɹiː"
+  },
+  "frequent": {
+    "ipa": "ˈfɹiː.kwənt"
+  },
+  "full": {
+    "ipa": "fʊl"
+  },
+  "general": {
+    "ipa": "ˈd͡ʒɛnɹəl"
+  },
+  "good": {
+    "ipa": "ɡʊ(d)"
+  },
+  "great": {
+    "ipa": "ɡɹeɪt"
+  },
+  "grey": {
+    "ipa": "ɡɹeɪ"
+  },
+  "hanging": {
+    "ipa": "ˈhæŋɪŋ"
+  },
+  "happy": {
+    "ipa": "ˈhæpiː"
+  },
+  "hard": {
+    "ipa": "hɑːd"
+  },
+  "healthy": {
+    "ipa": "ˈhɛl.θi"
+  },
+  "high": {
+    "ipa": "haɪ"
+  },
+  "hollow": {
+    "ipa": "ˈhɒl.əʊ"
+  },
+  "important": {
+    "ipa": "ɪmˈpɔːtənt"
+  },
+  "kind": {
+    "ipa": "kaɪnd"
+  },
+  "like": {
+    "ipa": "laɪk"
+  },
+  "living": {
+    "ipa": "ˈlɪvɪŋ"
+  },
+  "long": {
+    "ipa": "ˈlɔːŋ"
+  },
+  "male": {
+    "ipa": "meɪl"
+  },
+  "married": {
+    "ipa": "ˈmæɹ.ɪd"
+  },
+  "material": {
+    "ipa": "məˈtɪəɹɪəl"
+  },
+  "medical": {
+    "ipa": "ˈmɛdɪkl̩"
+  },
+  "military": {
+    "ipa": "ˈmɪl.ɪ.tɹi"
+  },
+  "natural": {
+    "ipa": "ˈnætʃəɹəl"
+  },
+  "necessary": {
+    "ipa": "ˈnɛsəsɹɪ"
+  },
+  "new": {
+    "ipa": "njuː"
+  },
+  "normal": {
+    "ipa": "ˈnɔːməl"
+  },
+  "open": {
+    "ipa": "ˈəʊ.pən"
+  },
+  "parallel": {
+    "ipa": "ˈpæɹəˌlɛl"
+  },
+  "past": {
+    "ipa": "pɑːst"
+  },
+  "physical": {
+    "ipa": "ˈfɪzɪkəl"
+  },
+  "political": {
+    "ipa": "pəˈlɪtɪkəl"
+  },
+  "poor": {
+    "ipa": "pɔː(ɹ)"
+  },
+  "possible": {
+    "ipa": "ˈpɒsɪbl̩"
+  },
+  "present": {
+    "ipa": "pɹəˈzɛnt"
+  },
+  "private": {
+    "ipa": "ˈpɹaɪvət"
+  },
+  "probable": {
+    "ipa": "ˈpɹɒbəbl̩"
+  },
+  "quick": {
+    "ipa": "kwɪk"
+  },
+  "narrow": {
+    "ipa": "ˈnæɹəʊ"
+  },
+  "old": {
+    "ipa": "ˈɒʊld"
+  },
+  "opposite": {
+    "ipa": "ˈɒpəsɪt"
+  },
+  "public": {
+    "ipa": "ˈpʌblɪk"
+  },
+  "rough": {
+    "ipa": "ɹʌf"
+  },
+  "sad": {
+    "ipa": "sæd"
+  },
+  "safe": {
+    "ipa": "seɪf"
+  },
+  "secret": {
+    "ipa": "ˈsiːkɹət"
+  },
+  "short": {
+    "ipa": "ʃɔːt"
+  },
+  "shut": {
+    "ipa": "ʃʌt"
+  },
+  "simple": {
+    "ipa": "ˈsɪmpəl"
+  },
+  "slow": {
+    "ipa": "sləʊ"
+  },
+  "small": {
+    "ipa": "smɔːl"
+  },
+  "soft": {
+    "ipa": "sɒft"
+  },
+  "solid": {
+    "ipa": "ˈsɒlɪd"
+  },
+  "special": {
+    "ipa": "ˈspɛ.ʃəl"
+  },
+  "strange": {
+    "ipa": "ˈstɹeɪnd͡ʒ"
+  },
+  "thin": {
+    "ipa": "ˈθɪn"
+  },
+  "white": {
+    "ipa": "waɪt"
+  },
+  "wrong": {
+    "ipa": "ɹɒŋ"
+  }
+}
