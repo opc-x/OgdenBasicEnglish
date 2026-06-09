@@ -14,6 +14,17 @@ const SPELLING_ALIASES: Record<string, string> = {
   humor: "humour",
 };
 
+const BRITISH_TO_AMERICAN = Object.fromEntries(
+  Object.entries(SPELLING_ALIASES).map(([am, br]) => [br, am]),
+) as Record<string, string>;
+
+/** URL / 搜索用的词形 → 词表 canonical w */
+export function normalizeWordKey(input: string): string {
+  const w = decodeURIComponent(input).trim();
+  if (w.toLowerCase() === "i") return "I";
+  return BRITISH_TO_AMERICAN[w] ?? w;
+}
+
 function resolveAnnotationKey(word: string): string {
   return SPELLING_ALIASES[word] ?? word;
 }
@@ -206,7 +217,7 @@ export const WORDS: Word[] = BASE_WORDS.map(mergeAnnotation);
 const WORD_MAP = new Map(WORDS.map((w) => [w.w, w]));
 
 export function getWord(w: string): Word | undefined {
-  return WORD_MAP.get(w);
+  return WORD_MAP.get(normalizeWordKey(w));
 }
 
 /** 已配齐音标（英式 IPA）的词数 */

@@ -1,13 +1,16 @@
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { getWord, TIER_META, isOperator } from "./words850";
+import { getWord, normalizeWordKey, TIER_META, isOperator } from "./words850";
 import { speak, isSpeechSupported } from "./speak";
 import { OGDEN_TIER, fixImageUrl, ogdenSourceLinks } from "./wordSources";
+import { getWordGuide } from "./wordGuides";
+import { getOperatorEntry } from "./operatorData";
 import OperatorVisual from "./OperatorVisual";
 
 export default function WordDetailPage() {
   const { word: raw = "" } = useParams();
-  const wordKey = decodeURIComponent(raw).toLowerCase();
+  const wordKey = normalizeWordKey(raw);
   const word = getWord(wordKey);
+  const guide = getWordGuide(wordKey);
   const [params] = useSearchParams();
   const navigate = useNavigate();
   const backTab = params.get("tab");
@@ -24,9 +27,11 @@ export default function WordDetailPage() {
   const tier = OGDEN_TIER[word.t];
   const meta = TIER_META[word.t];
   const op = isOperator(word.w);
+  const opEntry = op ? getOperatorEntry(word.w) : undefined;
   const img = word.img ? fixImageUrl(word.img) : undefined;
   const isSvg = img?.startsWith("data:image/svg+xml") || img?.endsWith(".svg");
   const sources = ogdenSourceLinks(word.w, word.t);
+  const oppWord = guide?.opposite;
 
   const backTo = backTab ? `/doc/words?tab=${backTab}` : "/doc/words";
 
@@ -59,10 +64,20 @@ export default function WordDetailPage() {
         {word.cn && <p className="word-detail-cn">{word.cn}</p>}
       </header>
 
+      {guide && (
+        <section className="word-detail-hook" aria-label="秒懂">
+          <span className="word-detail-hook-label">秒懂</span>
+          <p>{guide.hook}</p>
+        </section>
+      )}
+
       <div className="word-detail-visual">
         {op ? (
           <div className="word-detail-op-visual">
             <OperatorVisual type={word.w} />
+            {opEntry && (
+              <p className="word-detail-op-vector">{opEntry.vector}</p>
+            )}
           </div>
         ) : img ? (
           <img
@@ -77,28 +92,97 @@ export default function WordDetailPage() {
         ) : null}
         <p className="word-detail-visual-caption">
           {word.t === "pic"
-            ? "Ogden 可画图词 · 插图来自 Basic English 配图集（Wikimedia .agr）"
-            : isSvg
-              ? "抽象词示意 SVG（语义图标）"
-              : "配图来自 Wikimedia Commons / Wikipedia"}
+            ? "Picturable · 指着图就能说"
+            : op
+              ? "Operator · 物理动作模型"
+              : isSvg
+                ? "语义示意 SVG"
+                : "配图辅助记忆"}
         </p>
       </div>
 
+      {guide && (
+        <>
+          <section className="word-detail-method">
+            <h2>Ogden 方法论</h2>
+            <p className="word-detail-method-tag">{guide.method}</p>
+            <p>{guide.concept}</p>
+            {guide.equation && (
+              <div className="word-detail-equation">
+                <span>公式</span>
+                <code>{guide.equation}</code>
+              </div>
+            )}
+            {guide.ogdenTip && (
+              <p className="word-detail-tip">{guide.ogdenTip}</p>
+            )}
+          </section>
+
+          {guide.sentences.length > 0 && (
+            <section className="word-detail-examples">
+              <h2>BE850 例句</h2>
+              <ul>
+                {guide.sentences.map((s) => (
+                  <li key={s}>
+                    <span>{s}</span>
+                    <button
+                      type="button"
+                      className="word-speak word-speak--sm"
+                      aria-label={`朗读 ${s}`}
+                      disabled={!isSpeechSupported()}
+                      onClick={() => void speak(s)}
+                    >
+                      听
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {guide.combine && (
+            <section className="word-detail-combine">
+              <h2>组合用法</h2>
+              <p className="word-detail-combine-text">{guide.combine}</p>
+              {opEntry && (
+                <ul className="word-detail-combine-list">
+                  {opEntry.examples.map((ex) => (
+                    <li key={ex}>{ex}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          )}
+
+          {oppWord && (
+            <section className="word-detail-opposite">
+              <h2>反义对照</h2>
+              <p>
+                与{" "}
+                <Link to={`/word/${oppWord}`} className="word-detail-opp-link">
+                  {oppWord}
+                </Link>{" "}
+                成对记忆。
+              </p>
+            </section>
+          )}
+        </>
+      )}
+
       <section className="word-detail-ogden">
-        <h2>Ogden 原文分类</h2>
+        <h2>原文分类</h2>
         <p>{tier.sourceNote}</p>
         {op && (
           <p>
-            本站{" "}
-            <Link to="/doc/operators">18 Operator 讲解</Link>
-            {" "}基于 begr-1937 Verb-Elimination 一节。
+            完整 18 Operator 矩阵见{" "}
+            <Link to="/doc/operators">Operator 讲解页</Link>。
           </p>
         )}
       </section>
 
       <section className="word-detail-sources">
         <h2>对照原文</h2>
-        <p className="word-detail-sources-hint">以下均为 Ogden / Basic English 一手材料或标准附录，请以原文为准。</p>
+        <p className="word-detail-sources-hint">Ogden / Basic English 一手材料，请以原文为准。</p>
         <ul className="word-detail-source-list">
           {sources.map((s) => (
             <li key={s.url}>

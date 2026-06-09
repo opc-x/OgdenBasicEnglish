@@ -1864,6 +1864,101 @@ a:hover { color: var(--accent-deep); }
   border-top: 1px solid var(--border-soft);
   background: var(--bg-card);
 }
+.word-detail-hook {
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--seg) 12%, var(--surface));
+  border-left: 4px solid var(--seg);
+  border-radius: 0 8px 8px 0;
+}
+.word-detail-hook-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--seg);
+  margin-bottom: 0.35rem;
+}
+.word-detail-hook p { margin: 0; font-size: 1.15rem; line-height: 1.5; }
+.word-detail-op-vector {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  margin: 0.5rem 0 0;
+}
+.word-detail-method,
+.word-detail-examples,
+.word-detail-combine,
+.word-detail-opposite {
+  margin: 1.5rem 0;
+}
+.word-detail-method h2,
+.word-detail-examples h2,
+.word-detail-combine h2,
+.word-detail-opposite h2 {
+  font-size: 1rem;
+  margin: 0 0 0.65rem;
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+.word-detail-method-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.55rem;
+  background: color-mix(in srgb, var(--seg) 18%, transparent);
+  border-radius: 4px;
+  margin: 0 0 0.65rem;
+}
+.word-detail-equation {
+  margin-top: 0.85rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+.word-detail-equation span {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+.word-detail-equation code {
+  font-size: 1.05rem;
+  padding: 0.35rem 0.65rem;
+  background: var(--surface-2);
+  border-radius: 6px;
+}
+.word-detail-tip {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+.word-detail-examples ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.word-detail-examples li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 1.05rem;
+}
+.word-detail-examples li:last-child { border-bottom: none; }
+.word-detail-combine-text {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+.word-detail-combine-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--ink-muted);
+}
+.word-detail-opp-link {
+  font-weight: 600;
+  color: var(--seg);
+}
 .word-detail-ogden,
 .word-detail-sources {
   margin-top: 2rem;
