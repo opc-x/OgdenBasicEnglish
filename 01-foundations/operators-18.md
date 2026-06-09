@@ -1,63 +1,102 @@
-# 18 个 Operator（BE850 里全部的「动词」）
+# 18 个 Operator（动作核心构件）
 
-> 对应 zbenglish [verbs.html](https://zbenglish.net/sites/basic/verbs.html) 的中文讲解。
+> Ogden 原话："Basic English has no verbs." 
+> 动作并非英语不可分割的单元。动作 = **物理移动/方向位移 (Operators)** + **物理方向 (Prepositions/Directions)**。
 
-**核心概念**：Basic English **没有普通动词**（没有 read、decide、postpone 这类词）。
-所有动作靠 **16 个 operator** + **2 个助动词** 承担；别的意思用 **operator + 方向词/名词** 拼出来。
+---
 
-## 16 个 Operator
+## 核心物理概念图解 (Spatial Movement Model)
 
-| Operator | 核心意思 | 常见组合 → 相当于 |
-|----------|----------|-------------------|
-| **come** | 朝这边来 | come in（进来）, come back（回来）, come out（出来） |
-| **get** | 得到/变成 | get up（起来）, get off（下车）, get back（拿回）, get out（出去） |
-| **give** | 给出/交出 | give up（放弃）, give in（屈服） |
-| **go** | 朝那边去 | go on（继续）, go off（离开/响）, go out（出去）, go through（穿过/经历） |
-| **keep** | 保持 | keep on（继续）, keep back（挡住）, keep off（别碰） |
-| **let** | 允许 | let in（让进）, let off（放过）, let out（放出） |
-| **make** | 制造/使发生 | make up（编造/和好）, make out（看清/搞清） |
-| **put** | 放置 | put together（组装）, put off（推迟）, put on（穿上）, put out（熄灭）, put away（收好） |
-| **seem** | 看起来 | seem like（好像） |
-| **take** | 拿/取/接受 | take off（脱掉/起飞）, take in（吸收/受骗）, take up（开始/占据）, take over（接管）, take away（拿走） |
-| **be** | 是/在 | be in（在里面）, be off（走了） |
-| **do** | 做/助动词 | do again（再做） |
-| **have** | 有 | have on（穿着） |
-| **say** | 说 | say again（再说一遍） |
-| **see** | 看见/理解 | see through（看穿） |
-| **send** | 送/派 | send up（送上去）, send out（发出）, send off（送走）, send back（退回） |
+![18 Operators Spatial Concept Chart](/assets/operators_spatial_concept.png)
 
-## 2 个助动词
+---
 
-| 词 | 用法 |
-|----|------|
-| **may** | 可以 / 也许（许可、可能） |
-| **will** | 将 / 愿意（将来、意愿） |
+## 18 个动词的 8 类物理手势与空间矢量
 
-## 为什么够用
+### 1. 空间位移 (Movement)
+*身体在物理三维空间中的移动，是所有抽象动作的基础。*
 
-少数 operator × 约 20 个方向词 × 名词 = 能表达几千种具体动作：
+* **come** (来) : 朝向说话人/观察点移动 $(\rightarrow \bullet)$
+  * *come back* (回来 = return) · *come out* (出来 = emerge)
+* **go** (去) : 偏离说话人/观察点移动 $(\bullet \rightarrow)$
+  * *go on* (继续 = continue) · *go off* (离开 = depart)
 
-```
-take + off      → 脱掉、起飞（remove）
-put  + together → 组装（assemble / build）
-make + up       → 编造（invent）
-get  + up       → 起来（rise）
-give + up       → 放弃（surrender / quit）
-put  + off      → 推迟（postpone）
-go   + on       → 继续（continue）
-```
+### 2. 手部操作 (Hand Action)
+*手对物理世界物体的直接掌控。*
 
-## 实用口诀
+* **put** (放) : 手部放开/向外推 $(\downarrow)$
+  * *put off* (推迟 = postpone) · *put together* (组装 = assemble)
+* **take** (拿) : 手部握住/向内拉 $(\uparrow)$
+  * *take off* (脱掉/起飞 = remove/depart) · *take over* (接管 = assume)
 
-想要一个 **不在上表里的动词**？两条路：
+### 3. 所有权转移 (Transfer)
+*物品所有权在不同角色之间的传递或发送。*
 
-1. **operator + 方向词**：`put off` = postpone
-2. **operator + 名词**：`make a decision` 代替 decide；`give an answer` 代替 answer（动词）
+* **give** (给) : 所有权移出 $(\rightarrow \text{对方})$
+  * *give up* (放弃 = surrender) · *give in* (屈服 = yield)
+* **get** (得) : 所有权移入 $(\text{对方} \rightarrow)$
+  * *get back* (收回 = recover) · *get off* (下车 = dismount)
+* **send** (送) : 远程投递/非手部递交 $(\Rightarrow)$
+  * *send out* (发出 = emit) · *send off* (邮寄 = dispatch)
 
-完整拼表见 [`../03-composition/phrasal-verbs.md`](../03-composition/phrasal-verbs.md)。
+### 4. 状态控制 (Control)
+*控制力的收与放：维持原位还是任其自由移动。*
 
-## 出处
+* **keep** (保持) : 画圈圈限制、锁定状态 $(\circlearrowleft)$
+  * *keep off* (别碰 = stay away) · *keep on* (继续 = persist)
+* **let** (让) : 撤销围栏，放手允许 $(\rightarrow \dots)$
+  * *let in* (允许进入 = admit) · *let off* (免除 = release)
 
-- [zbenglish verbs.html](https://zbenglish.net/sites/basic/verbs.html)
-- [zbenglish preposition.html](https://zbenglish.net/sites/basic/preposition.html)
-- 理念：[`reference/begr-1937.md`](../reference/begr-1937.md) · Verb-Elimination 章节
+### 5. 创制与执行 (Action)
+*对现实世界的改造与操作过程。*
+
+* **make** (制造) : 无中生有、塑造成型 $(\text{⚒})$
+  * *make up* (编造 = invent) · *make out* (看清/辨认 = discern)
+* **do** (做) : 动作过程本身的转动 $(\text{⚙})$
+  * *do well* (做好) · *do without* (没有也行 = dispense with)
+
+### 6. 感知与交流 (Perception)
+*信息的输入与输出。*
+
+* **see** (看) : 视觉光线射入眼睛/脑中看清 $(\text{👁})$
+  * *see through* (看穿 = penetrate) · *see to* (负责处理 = attend to)
+* **say** (说) : 语言向外单向传播 $(\text{🗣})$
+  * *say again* (重复) · *have a say* (有发言权)
+
+### 7. 存在与所有 (State)
+*描述非动静态的纯存在或归属关系。*
+
+* **be** (是/在) : 静态存在的原点 $(\bullet)$
+  * *be off* (走了) · *be up to* (取决于)
+* **have** (有) : 静态所有权的外框 $(\text{⎔})$
+  * *have on* (穿着 = wear) · *have to* (不得不 = must)
+* **seem** (似乎) : 视觉感知的虚像 $(\text{░})$
+  * *seem like* (看起来像 = resemble)
+
+### 8. 时态与意愿 (Auxiliary)
+*为核心操作注入“可能性”与“未来时间轴”的两个推进器。*
+
+* **may** (可以/也许) : 分支可能性 $(\text{⤳})$
+  * *may be* (也许是)
+* **will** (将/愿意) : 坚定的前向时间矢 $(\rightarrow)$
+  * *will do* (将要做)
+
+---
+
+## 核心乘法公式 (Operational Leverage)
+
+在 Basic English 中，动作是一场**乘法**而非加法：
+
+$$\text{16 个 Operator} \times \text{20 个方向 (Directions)} \times \text{名词} \approx \text{取代普通英语的 4000 个复杂动词}$$
+
+* `make a decision` $\rightarrow$ 代替 **decide**
+* `give an answer` $\rightarrow$ 代替 **answer**
+* `get up` $\rightarrow$ 代替 **rise**
+* `put off` $\rightarrow$ 代替 **postpone**
+
+---
+
+## 原文依据 (Origins)
+
+* **理念详述**：[`reference/begr-1937.md`](../reference/begr-1937.md) · **Verb-Elimination (动词消灭计划)** 章节
+* **原始镜像**：[zbenglish verbs.html](https://zbenglish.net/sites/basic/verbs.html) · [zbenglish preposition.html](https://zbenglish.net/sites/basic/preposition.html)

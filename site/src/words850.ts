@@ -2,8 +2,10 @@
  * Ogden Basic English 850 词表数据。
  * 词与分类来自 02-vocabulary/words-ogden-order.md（Ogden 原序五类）。
  * 音标(ipa)/中文(cn)/知识链接(link) 为本站整理，分层逐步补全。
- * 发音由浏览器 SpeechSynthesis 朗读，无需此处存音频。
+ * 发音：预生成 en-GB-SoniaNeural MP3（02-vocabulary/audio）。
  */
+
+import ANNOTATIONS from "./word-annotations.json" with { type: "json" };
 
 export type Tier = "ops" | "pic" | "things" | "qual" | "opp";
 
@@ -26,17 +28,23 @@ export const TIER_META: Record<
   opp:    { name: "反义词",    en: "Opposites",      count: 50,  color: "#be123c", hint: "成对记" },
 };
 
-const OPERATORS = new Set([
-  "come","get","give","go","keep","let","make","put","seem","take",
-  "be","do","have","say","see","send","may","will",
-]);
+export const OPERATOR_WORDS = [
+  "come", "get", "give", "go", "keep", "let", "make", "put", "seem", "take",
+  "be", "do", "have", "say", "see", "send", "may", "will",
+] as const;
+
+const OPERATORS = new Set<string>(OPERATOR_WORDS);
+
+export function isOperator(w: string): boolean {
+  return OPERATORS.has(w);
+}
 
 /** 第 1 类 · Operations（音标+中文已配齐） */
 const OPS_RAW: { w: string; ipa: string; cn: string }[] = [
   { w: "come", ipa: "kʌm", cn: "来" },
   { w: "get", ipa: "ɡet", cn: "得到 / 变成" },
   { w: "give", ipa: "ɡɪv", cn: "给" },
-  { w: "go", ipa: "ɡoʊ", cn: "去" },
+  { w: "go", ipa: "ɡəʊ", cn: "去" },
   { w: "keep", ipa: "kiːp", cn: "保持" },
   { w: "let", ipa: "let", cn: "让；允许" },
   { w: "make", ipa: "meɪk", cn: "做；使" },
@@ -65,7 +73,7 @@ const OPS_RAW: { w: string; ipa: string; cn: string }[] = [
   { w: "in", ipa: "ɪn", cn: "在……里" },
   { w: "off", ipa: "ɒf", cn: "离开；脱离" },
   { w: "on", ipa: "ɒn", cn: "在……上" },
-  { w: "over", ipa: "ˈoʊvə", cn: "在……上方；越过" },
+  { w: "over", ipa: "ˈəʊvə", cn: "在……上方；越过" },
   { w: "through", ipa: "θruː", cn: "穿过" },
   { w: "to", ipa: "tuː", cn: "到；向" },
   { w: "under", ipa: "ˈʌndə", cn: "在……下面" },
@@ -83,7 +91,7 @@ const OPS_RAW: { w: string; ipa: string; cn: string }[] = [
   { w: "every", ipa: "ˈevri", cn: "每个" },
   { w: "little", ipa: "ˈlɪtl", cn: "少；小" },
   { w: "much", ipa: "mʌtʃ", cn: "多" },
-  { w: "no", ipa: "noʊ", cn: "没有；不" },
+  { w: "no", ipa: "nəʊ", cn: "没有；不" },
   { w: "other", ipa: "ˈʌðə", cn: "其他的" },
   { w: "some", ipa: "sʌm", cn: "一些" },
   { w: "such", ipa: "sʌtʃ", cn: "这样的" },
@@ -98,7 +106,7 @@ const OPS_RAW: { w: string; ipa: string; cn: string }[] = [
   { w: "but", ipa: "bʌt", cn: "但是" },
   { w: "or", ipa: "ɔː", cn: "或者" },
   { w: "if", ipa: "ɪf", cn: "如果" },
-  { w: "though", ipa: "ðoʊ", cn: "虽然" },
+  { w: "though", ipa: "ðəʊ", cn: "虽然" },
   { w: "while", ipa: "waɪl", cn: "当……时" },
   { w: "how", ipa: "haʊ", cn: "怎样" },
   { w: "when", ipa: "wen", cn: "何时" },
@@ -117,15 +125,15 @@ const OPS_RAW: { w: string; ipa: string; cn: string }[] = [
   { w: "there", ipa: "ðeə", cn: "那里" },
   { w: "together", ipa: "təˈɡeðə", cn: "一起" },
   { w: "well", ipa: "wel", cn: "好；得当" },
-  { w: "almost", ipa: "ˈɔːlmoʊst", cn: "几乎" },
+  { w: "almost", ipa: "ˈɔːlməʊst", cn: "几乎" },
   { w: "enough", ipa: "ɪˈnʌf", cn: "足够" },
   { w: "even", ipa: "ˈiːvn", cn: "甚至" },
   { w: "not", ipa: "nɒt", cn: "不" },
-  { w: "only", ipa: "ˈoʊnli", cn: "只" },
+  { w: "only", ipa: "ˈəʊnli", cn: "只" },
   { w: "quite", ipa: "kwaɪt", cn: "相当" },
-  { w: "so", ipa: "soʊ", cn: "如此；所以" },
+  { w: "so", ipa: "səʊ", cn: "如此；所以" },
   { w: "very", ipa: "ˈveri", cn: "非常" },
-  { w: "tomorrow", ipa: "təˈmɒroʊ", cn: "明天" },
+  { w: "tomorrow", ipa: "təˈmɒrəʊ", cn: "明天" },
   { w: "yesterday", ipa: "ˈjestədeɪ", cn: "昨天" },
   { w: "north", ipa: "nɔːθ", cn: "北" },
   { w: "south", ipa: "saʊθ", cn: "南" },
@@ -160,7 +168,7 @@ const OPP_WORDS =
 const split = (s: string, t: Tier): Word[] =>
   s.split(",").map((w) => ({ w: w.trim(), t }));
 
-export const WORDS: Word[] = [
+const BASE_WORDS: Word[] = [
   ...OPS,
   ...split(PIC_WORDS, "pic"),
   ...split(THINGS_WORDS, "things"),
@@ -168,5 +176,19 @@ export const WORDS: Word[] = [
   ...split(OPP_WORDS, "opp"),
 ];
 
-/** 已配齐音标+中文的词数（用于显示补全进度） */
-export const ANNOTATED_COUNT = OPS.length;
+const ANNOTATIONS_DATA = ANNOTATIONS as Record<string, { ipa?: string; cn?: string }>;
+
+function mergeAnnotation(word: Word): Word {
+  const extra = ANNOTATIONS_DATA[word.w];
+  if (!extra) return word;
+  return {
+    ...word,
+    ipa: word.ipa ?? extra.ipa,
+    cn: word.cn ?? extra.cn,
+  };
+}
+
+export const WORDS: Word[] = BASE_WORDS.map(mergeAnnotation);
+
+/** 已配齐音标（英式 IPA）的词数 */
+export const ANNOTATED_COUNT = WORDS.filter((w) => w.ipa).length;
