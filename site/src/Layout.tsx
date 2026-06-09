@@ -20,10 +20,12 @@ export default function Layout() {
   const isHome = pathname === "/";
   const activeSlug = pathname.startsWith("/doc/")
     ? pathname.replace("/doc/", "")
-    : pathname.startsWith("/practice/basic-teacher")
-      ? "practice-bt"
-      : pathname.startsWith("/practice/")
-        ? "practice-sbs"
+    : pathname.startsWith("/practice/lab")
+      ? "practice-lab"
+      : pathname.startsWith("/practice/basic-teacher")
+        ? "practice-bt"
+        : pathname.startsWith("/practice/")
+          ? "practice-sbs"
         : pathname === "/words"
           ? "words-search"
           : null;

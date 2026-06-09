@@ -20,6 +20,14 @@
 - ETP Book 1 PDF
 - 书目目录 HTML 镜像
 
+## 组句训练（zbenglish 全文，实操首选）
+
+| 资源 | URL | 说明 |
+|------|-----|------|
+| The Basic Teacher | https://zbenglish.net/sites/basic/bt0.html | 45 课 Structure + Reading |
+| Basic Step by Step | https://zbenglish.net/sites/basic/bsbs.html | 30 主题示范句 + 问答 |
+| rules.html | https://zbenglish.net/sites/basic/rules.html | 十条语法（无练习） |
+
 ## 远程仅链接
 
 | 资源 | URL | 状态 |

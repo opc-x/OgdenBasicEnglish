@@ -6,6 +6,7 @@ import WordsPage from "./WordsPage";
 import WordDetailPage from "./WordDetailPage";
 import StepByStepPage from "./practice/StepByStepPage";
 import BasicTeacherPage from "./practice/BasicTeacherPage";
+import OutputLabPage from "./practice/OutputLabPage";
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="words" element={<WordsPage />} />
         <Route path="word/:word" element={<WordDetailPage />} />
-        <Route path="practice" element={<Navigate to="/practice/step-by-step/body" replace />} />
+        <Route path="practice" element={<Navigate to="/practice/lab" replace />} />
+        <Route path="practice/lab" element={<OutputLabPage />} />
         <Route path="practice/step-by-step" element={<Navigate to="/practice/step-by-step/body" replace />} />
         <Route path="practice/step-by-step/:lessonId" element={<StepByStepPage />} />
         <Route path="practice/basic-teacher" element={<Navigate to="/practice/basic-teacher/bt1" replace />} />

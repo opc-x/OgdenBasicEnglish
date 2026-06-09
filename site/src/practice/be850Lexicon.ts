@@ -2,6 +2,27 @@ import { OPERATOR_WORDS, WORDS, isOperator } from "../words850";
 
 const CORE = new Set(WORDS.map((w) => w.w));
 
+/** operator 常见变位（仍算合规） */
+const OPERATOR_FORMS = new Set([
+  "am", "is", "are", "was", "were", "been", "being",
+  "does", "did", "done", "doing",
+  "has", "had", "having",
+  "goes", "went", "gone", "going",
+  "comes", "came", "coming",
+  "gets", "got", "getting",
+  "gives", "gave", "given", "giving",
+  "puts", "putting",
+  "takes", "took", "taken", "taking",
+  "makes", "made", "making",
+  "keeps", "kept", "keeping",
+  "lets", "letting",
+  "seems", "seemed", "seeming",
+  "says", "said", "saying",
+  "sees", "saw", "seen", "seeing",
+  "sends", "sent", "sending",
+  "will", "would", "may", "might", "can", "could",
+]);
+
 /** 语法规则 §10 · 国际通用词（节选） */
 const INTERNATIONAL = new Set([
   "radio", "hotel", "taxi", "telephone", "telegram", "cinema", "club", "coffee",
@@ -107,8 +128,8 @@ export function analyzeSentence(text: string): {
     const normalized = strip(raw);
     if (!normalized) continue;
 
-    if (isOperator(normalized)) {
-      operatorsUsed.add(normalized);
+    if (isOperator(normalized) || OPERATOR_FORMS.has(normalized)) {
+      if (isOperator(normalized)) operatorsUsed.add(normalized);
       tokens.push({ raw, normalized, status: "operator", stem: normalized });
       good++;
       continue;

@@ -140,8 +140,8 @@ export default function Home() {
             <span>本站是学习整理，灵魂是 Ogden 的一手材料。有疑问以原文为准。</span>
           </div>
           <div className="sources-strip-links">
-            <Link to="/practice/step-by-step/body">
-              <span className="src-mark">练</span> 示范句跟读
+            <Link to="/practice/lab">
+              <span className="src-mark">练</span> 造句实战
             </Link>
             <Link to="/practice/basic-teacher/bt1">
               <span className="src-mark">练</span> Basic Teacher

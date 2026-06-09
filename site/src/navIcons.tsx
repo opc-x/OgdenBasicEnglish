@@ -150,6 +150,14 @@ export const SLUG_ICONS: Record<string, (p: IconProps) => ReactNode> = {
       <path d="M15 5l3 3" />
     </Svg>
   ),
+  "practice-lab": (p) => (
+    <Svg {...p}>
+      <rect x="3" y="3" width="8" height="18" rx="1.5" fill="currentColor" fillOpacity="0.15" />
+      <path d="M14 8h7M14 12h5M14 16h7" />
+      <circle cx="6" cy="8" r="1.5" fill="currentColor" />
+      <circle cx="6" cy="14" r="1.5" fill="#15803d" stroke="none" />
+    </Svg>
+  ),
   "practice-sbs": (p) => (
     <Svg {...p}>
       <path d="M4 6h16M4 12h10M4 18h14" />

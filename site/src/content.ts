@@ -97,6 +97,7 @@ export const NAV: NavItem[] = [
   { phaseId: "multiply", title: "短语动词", path: "03-composition/phrasal-verbs.md", slug: "phrasal" },
   { phaseId: "multiply", title: "词缀扩展", path: "03-composition/derivation-affixes.md", slug: "affixes" },
   { phaseId: "multiply", title: "复合词", path: "03-composition/compounds.md", slug: "compounds" },
+  { phaseId: "practice", title: "造句实战", path: "", slug: "practice-lab", href: "/practice/lab", badge: "见效" },
   { phaseId: "practice", title: "示范句跟读", path: "", slug: "practice-sbs", href: "/practice/step-by-step/body", badge: "开练" },
   { phaseId: "practice", title: "Basic Teacher 课", path: "", slug: "practice-bt", href: "/practice/basic-teacher/bt1", badge: "开练" },
   { phaseId: "practice", title: "练习资源索引", path: "04-practice/reading-list.md", slug: "practice" },

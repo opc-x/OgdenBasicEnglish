@@ -50,6 +50,9 @@
     ]
   },
   "remote_only": [
+    {"title": "The Basic Teacher (45 lessons)", "url": "https://zbenglish.net/sites/basic/bt0.html", "status": "active", "note": "sentence + reading practice"},
+    {"title": "Basic Step by Step (30 topics)", "url": "https://zbenglish.net/sites/basic/bsbs.html", "status": "active", "note": "model sentences + Q&A"},
+    {"title": "Ogden grammar rules (summary)", "url": "https://zbenglish.net/sites/basic/rules.html", "status": "active"},
     {"title": "ZbEnglish mirror (primary hub)", "url": "https://zbenglish.net/sites/basic/basiceng.html", "status": "active"},
     {"title": "Wiktionary 850-word appendix", "url": "https://en.wiktionary.org/wiki/Appendix:Basic_English_word_list", "status": "active"},
     {"title": "Learning Basic English (1945)", "url": "https://archive.org/details/in.ernet.dli.2015.166025", "status": "borrow"},

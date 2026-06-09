@@ -5,6 +5,7 @@ import PracticeShell from "./PracticeShell";
 import { checkAnswer } from "./checkAnswer";
 import { isDone, markDone } from "./progress";
 import { STEP_BY_STEP_LESSONS } from "./stepByStepData";
+import SentenceAuditor from "./SentenceAuditor";
 
 export default function StepByStepPage() {
   const { lessonId } = useParams();
@@ -111,6 +112,7 @@ export default function StepByStepPage() {
                 {r === "correct" && <p className="practice-feedback practice-feedback--ok">✓ 对了</p>}
                 {r === "close" && <p className="practice-feedback practice-feedback--ok">≈ 接近，可对照官方表述</p>}
                 {r === "wrong" && <p className="practice-feedback practice-feedback--no">再试一次，或看答案</p>}
+                {(answers[q.id] ?? "").trim().length > 2 && <SentenceAuditor text={answers[q.id]} />}
                 {revealed[q.id] && (
                   <p className="practice-official">
                     官方：{q.answers[0]}

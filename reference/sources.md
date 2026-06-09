@@ -13,13 +13,21 @@
 | 850 词表（字母序） | — | [`basic-english-850.txt`](../02-vocabulary/basic-english-850.txt) | [zbenglish.net/wordalph.html](https://zbenglish.net/sites/basic/wordalph.html) |
 | 书目目录 | 1938 | [`reference/mirrors/books-catalog.html`](../reference/mirrors/books-catalog.html) | [zbenglish.net/books.html](https://zbenglish.net/sites/basic/books.html) |
 
-## 教学延伸（Richards 等，非严格 850 限制）
+## 组句训练课（实操首选，zbenglish 全文在线）
+
+| 文献 | 年份 | 内容 | 在线出处 |
+|------|------|------|----------|
+| *The Basic Teacher* | 1950 | 45 课：Structure + Reading，从零到读写 | [zbenglish · bt0.html](https://zbenglish.net/sites/basic/bt0.html) |
+| *Basic Step by Step* | 1935 | 30 主题词组 + 示范句 + 问答 | [zbenglish · bsbs.html](https://zbenglish.net/sites/basic/bsbs.html) |
+| 语法十条规则 | — | 造句基础（无练习） | [zbenglish · rules.html](https://zbenglish.net/sites/basic/rules.html) |
+| begr-1937 · Translation | 1937 | 普通英语 → BE850 改写范例 | [zbenglish · #trans](https://zbenglish.net/sites/basic/begr.html#trans) |
+
+## 教学延伸（Richards 等）
 
 | 文献 | 本仓库副本 | 在线出处 |
 |------|-----------|----------|
 | *English Through Pictures*, Book 1 | [`english-through-pictures-book1.pdf`](../04-practice/english-through-pictures-book1.pdf) | [Internet Archive](https://archive.org/details/EnglishThroughPictures_201901) |
 | *Learning Basic English* (1945) | 未收录 | [Internet Archive](https://archive.org/details/in.ernet.dli.2015.166025) |
-| *The Basic Teacher* (Lockhart, 1950) | 未收录 | [simplish.org 曾托管](https://simplish.org/EnglishTeacher/) |
 
 ## 阅读材料
 
