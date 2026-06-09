@@ -11,6 +11,7 @@ import OperatorsGrid from "./OperatorsGrid";
 import PlaybookPlay from "./PlaybookPlay";
 import DirectionsVisual from "./DirectionsVisual";
 import GrammarVisual from "./GrammarVisual";
+import RoadmapVisual from "./RoadmapVisual";
 import {
   NAV,
   PATH_TO_ASSET,
@@ -98,6 +99,9 @@ export default function DocPage() {
               </div>
             ),
             img: ({ src, alt, ...props }) => {
+              if (src && (src.includes("playbook_roadmap") || src.includes("roadmap"))) {
+                return <RoadmapVisual />;
+              }
               const isConcept = alt?.includes("Concept");
               return (
                 <img
