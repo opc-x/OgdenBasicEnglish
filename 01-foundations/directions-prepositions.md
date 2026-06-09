@@ -2,89 +2,144 @@
 
 > 对应 zbenglish [preposition.html](https://zbenglish.net/sites/basic/preposition.html) 的中文讲解。
 
-这些词来自 850 词里的 **Operations（约 100 个）** 一类。
-和 18 个 operator 组合 → 短语动词；单独用 → 表位置、时间、关系。
+在 Basic English 中，动作是一场**物理位置与方向的乘法**。
+**18 个 Operator（动作） × 20 个方向词（Directions） = 取代上千个复杂动词。**
+这些方向词和介词是句子的几何图解，精确反映了物理世界中的空间位移和相对关系。
 
-## 介词 / 方向词（和 operator 搭配）
+---
 
-```
-about, across, after, against, among, at, before, between, by,
-down, from, in, off, on, over, through, to, under, up, with
-```
+## 20 个核心方向与空间介词（物理矢量图解）
 
-| 中文提示 | 词 |
-|----------|-----|
-| 方位 | in, on, at, under, over, between, among |
-| 动向 | to, from, up, down, in, out, off, through, across |
-| 伴随/方式 | with, by, about, against, after, before |
+每一对“Operator + 方向词”的本质，就是把物体在物理空间中的坐标变动或相对关系拼出来。
 
-## 关系 / 功能词
+### 1. about (围绕/大约)
+*   **空间几何**: 以一个中心物为原点，在其周围的多向分布。
+*   **语义模型**: 侧重物理位置的“环绕状态”或范围的“大约/附近”。
+*   **搭配示例**: `go about` (到处走动) · `put a cloth about him` (围上布)
+*   **引申**: 关于 (思维围绕某个点)
 
-```
-as, for, of, till, than
-```
+### 2. across (横过)
+*   **空间几何**: 从一侧到另一侧，横跨过一个平面或线段边界。
+*   **语义模型**: “跨越平面/边界”的二维移动。
+*   **搭配示例**: `go across the street` (过马路) · `put across` (跨置)
 
-| 词 | 常见用法 |
-|----|----------|
-| of | …的（the top of the box） |
-| for | 为了/给（for you） |
-| as | 作为/像（as a teacher） |
-| till | 直到 |
-| than | 比（more than） |
+### 3. after (在……之后)
+*   **空间几何**: 在……后面 (追随坐标)。在时空位移轴的后方。
+*   **语义模型**: “跟随/滞后”的相对位置。
+*   **搭配示例**: `go after` (追随/追求) · `come after` (跟在……后面)
 
-## 方向 / 时间副词
+### 4. against (靠着/对抗)
+*   **空间几何**: 靠着、逆着。物理力学上的相反受力或表面接触压迫。
+*   **语义模型**: “物理阻力/对抗/支撑”。
+*   **搭配示例**: `put against the wall` (靠着墙放) · `go against` (违反/逆行)
 
-```
-again, ever, far, forward, here, near, now, out, still, then,
-there, together, well, back
-north, south, east, west
-tomorrow, yesterday
-```
+### 5. among (在……群中)
+*   **空间几何**: 在……之中 (环绕状态)。在一个多体集合的缝隙或范围内。
+*   **语义模型**: 处于“三者及以上的多点围绕”。
+*   **搭配示例**: `go among the people` (走进人群) · `be among friends` (在朋友中间)
 
-| 类 | 例 | 意思 |
-|----|-----|------|
-| 地点 | here, there, back | 这里、那里、回来 |
-| 时间 | now, then, still, again | 现在、那时、仍、再 |
-| 方向 | together, forward, out | 一起、向前、出去 |
-| 方位 | north, south, east, west | 北南东西 |
-| 日期 | tomorrow, yesterday | 明天、昨天 |
+### 6. at (在某点)
+*   **空间几何**: 在某点。时空坐标轴上的精确无维度“点”。
+*   **语义模型**: 确定一个“无空间大小的静止标志点”。
+*   **搭配示例**: `be at the door` (在门口) · `get at` (到达/搞清)
 
-## 限定词、代词、连接词（Operations 其余部分）
+### 7. before (在……前面)
+*   **空间几何**: 在……前面。在时空轴的领先方或前方。
+*   **语义模型**: 处于“引领/超前”的相对位置。
+*   **搭配示例**: `go before` (走在前面) · `come before the judge` (呈现在法官面前)
 
-```
-a, the, all, any, every, little, much, no, other, some, such, that, this
-I, he, you, who
-and, because, but, or, if, though, while
-how, when, where, why
-almost, enough, even, not, only, quite, so, very
-please, yes
-```
+### 8. between (在两者之间)
+*   **空间几何**: 在两者之间。由两个参照点隔开的缝隙或区域。
+*   **语义模型**: 处于“两点间隔之中”。
+*   **搭配示例**: `be between two houses` (在两房之间) · `put between` (夹在中间)
 
-> 这些不是「方向词」，但和 operator 同属 Operations 类，造句时天天要用。
+### 9. by (靠近/由)
+*   **空间几何**: 靠近、沿着旁边。在参照物的邻近切线范围内。
+*   **语义模型**: 物理上的“近旁/伴随”，或引申为“通过某种手段”。
+*   **搭配示例**: `go by` (路过) · `be by the window` (在窗边)
 
-## 优先背的 20 个（杠杆最高）
+### 10. down (向下)
+*   **空间几何**: 向下。沿引力轴指向下方的位移。
+*   **语义模型**: “垂直或倾斜的向下高度降低”。
+*   **搭配示例**: `go down` (下去) · `put down` (放下/写下)
 
-```
-up, down, in, out, on, off, over, through, to, from,
-by, with, together, back, here, there, now, then, not
-```
+### 11. from (从……起点)
+*   **空间几何**: 来自、起点。指向起点的发射矢量。
+*   **语义模型**: 位移或时间的“源头/起始点”。
+*   **搭配示例**: `come from` (来自) · `take from` (从……拿走)
 
-> `away`（离开）由 `a` + `way` 构成，用法上当方向词；Ogden 词表里有 `way`。
+### 12. in (在……里)
+*   **空间几何**: 在……里。三维或二维闭合边界的内部。
+*   **语义模型**: “容器/范围内部的包含状态”。
+*   **搭配示例**: `go in` (进去) · `keep in` (留在里面)
 
-## 方向词 × Operator 示例
+### 13. off (脱离/断开)
+*   **空间几何**: 脱离、离开。脱离与支撑面或线段的接触。
+*   **语义模型**: 物理上的“接触断开/脱离”。
+*   **搭配示例**: `get off the bus` (下车) · `take off the coat` (脱下外套)
+
+### 14. on (在……上/接触)
+*   **空间几何**: 在……上面（接触）。与物理表面的支撑接触。
+*   **语义模型**: 依靠物理摩擦和引力的“表面支撑与接触”。
+*   **搭配示例**: `put on` (穿上/放上) · `go on` (继续/前行)
+
+### 15. over (在……上方)
+*   **空间几何**: 在……正上方。越过且不与表面接触的悬空状态。
+*   **语义模型**: “悬空覆盖或跨越上方”。
+*   **搭配示例**: `go over the wall` (越过墙壁) · `be over the table` (在桌子上方)
+
+### 16. through (穿过)
+*   **空间几何**: 穿过。从一端进入三维内部，再从另一端穿出。
+*   **语义模型**: 经历“进入-通过-离开边界”的物理过程。
+*   **搭配示例**: `go through the pipe` (穿过管道/经历) · `see through` (看穿)
+
+### 17. to (向/到终点)
+*   **空间几何**: 向、到。指向终点或目标点的方向矢量。
+*   **语义模型**: 运动的“物理终点或趋向”。
+*   **搭配示例**: `go to school` (去学校) · `give to him` (递给他)
+
+### 18. under (在……下方)
+*   **空间几何**: 在……下方。处于参照物覆盖之下的低位空间。
+*   **语义模型**: 物理上的“被覆盖/低位”。
+*   **搭配示例**: `be under the bed` (在床下) · `keep under control` (控制住/压制)
+
+### 19. up (向上)
+*   **空间几何**: 向上。逆引力轴指向上方的位移。
+*   **语义模型**: “垂直或倾斜的向上高度爬升”。
+*   **搭配示例**: `go up` (上去) · `get up` (起来/站起)
+
+### 20. with (和……伴随/用)
+*   **空间几何**: 伴随、和……一起。处于同一运动坐标系或物理包络内的并列。
+*   **语义模型**: 物理上的“同伴随”，或利用工具的“工具附着”。
+*   **搭配示例**: `go with me` (跟我一起) · `cut with a knife` (用刀切)
+
+---
+
+## 关系 / 功能词 (5个)
+
+除了空间方向，Basic English 还有 5 个表达逻辑关系的核心词：
+
+| 词 | 物理/逻辑语义 | 常见搭配与用法 |
+|----|---|---|
+| **of** | 关联 / 属于 | …的（the top of the box） |
+| **for** | 目标 / 换取 | 为了/给（for you） · 换取某物 |
+| **as** | 等同 / 角色 | 作为/像（as a teacher） |
+| **till** | 终点限制 | 直到（till tomorrow） |
+| **than** | 相对比较 | 比（more than） |
+
+---
+
+## 方向词 × Operator 乘法公式映射表
+
+通过简单的 Operator 与核心方向词结合，就能轻松造出所有常用动词词组：
 
 | 方向 | + get | + put | + take | + go |
 |------|-------|-------|--------|------|
-| up | get up（起来） | put up（举起/提供住宿） | take up（开始/占据） | go up（上去） |
-| off | get off（下车） | put off（推迟） | take off（脱掉/起飞） | go off（离开/响） |
-| out | get out（出去） | put out（熄灭） | take out（拿出） | go out（出去） |
-| in | get in（进来） | put in（放入） | take in（吸收/受骗） | go in（进去） |
-| back | get back（拿回/返回） | put back（放回原处） | take back（收回） | go back（回去） |
-| on | get on（继续/上车） | put on（穿上） | — | go on（继续） |
+| **up** | `get up`（起来/站起） | `put up`（举起/提供住宿） | `take up`（开始学/占据） | `go up`（上去） |
+| **off** | `get off`（下车/脱离） | `put off`（推迟/延期） | `take off`（脱掉外套/起飞） | `go off`（离开/响） |
+| **out** | `get out`（出去/逃脱） | `put out`（熄灭/出版） | `take out`（拿出） | `go out`（出去） |
+| **in** | `get in`（进来/进入） | `put in`（放入） | `take in`（吸收/欺骗） | `go in`（进去） |
+| **back** | `get back`（拿回/返回） | `put back`（放回原处） | `take back`（收回/退回） | `go back`（回去） |
+| **on** | `get on`（上车/进展） | `put on`（穿上） | — | `go on`（继续） |
 
-完整映射见 [`../03-composition/phrasal-verbs.md`](../03-composition/phrasal-verbs.md)。
-
-## 出处
-
-- [zbenglish preposition.html](https://zbenglish.net/sites/basic/preposition.html)
-- 850 词 Operations 类：[words.html](https://zbenglish.net/sites/basic/words.html)
+完整映射请参考：[`../03-composition/phrasal-verbs.md`](../03-composition/phrasal-verbs.md)。

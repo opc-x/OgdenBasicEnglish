@@ -22,15 +22,15 @@ const OP_GROUPS: OpGroup[] = [
     desc: "身体在物理空间中的位移移动",
     ops: [
       {
-        op: "come", cn: "来", vector: "→ ⬤ (朝向自己)",
-        concept: "身体朝说话人或当前观察点移动。动作重点在于「向我靠近」。",
+        op: "come", cn: "来 (移向观察点)", vector: "→ ⬤ (朝向自己)",
+        concept: "身体朝说话人或当前观察点移动。物理动作为『朝向中心点靠近的物理位移』。",
         equation: "come + in = 进来 (enter)",
         examples: ["come in (进来)", "come back (回来)", "come out (出来)"],
         svgType: "come"
       },
       {
-        op: "go", cn: "去", vector: "⬤ → (背离自己)",
-        concept: "身体离开当前位置向外移动。动作重点在于「向外离去」。",
+        op: "go", cn: "去 (移离观察点)", vector: "⬤ → (背离自己)",
+        concept: "身体离开当前位置向外移动。物理动作为『背离中心点离去的物理位移』。",
         equation: "go + out = 出去 (exit)",
         examples: ["go in (进去)", "go out (出去)", "go back (回去)"],
         svgType: "go"
@@ -42,15 +42,15 @@ const OP_GROUPS: OpGroup[] = [
     desc: "手对物体的物理放开与抓取",
     ops: [
       {
-        op: "put", cn: "放", vector: "↓ (手部松开并放下)",
-        concept: "手持物体并使其在某处落下或安放。物理动作为「松手放下」。",
+        op: "put", cn: "放 (松手放下安置)", vector: "↓ (手部松开并放下)",
+        concept: "手持物体并使其受重力作用而在某处下落、安放。物理动作为『松开双手以安置物体』。",
         equation: "put + down = 放下 (deposit)",
         examples: ["put in (放进去)", "put on (穿上)", "put down (放下)"],
         svgType: "put"
       },
       {
-        op: "take", cn: "拿", vector: "↑ (手部握住并拿起)",
-        concept: "伸手握住物体并使之脱离原位。物理动作为「抓取拿来」。",
+        op: "take", cn: "拿 (伸手抓取移位)", vector: "↑ (手部握住并拿起)",
+        concept: "伸手握住物体并使之脱离原位。物理动作为『抓取并移位，使物体向人靠近』。",
         equation: "take + down = 拿下来 (remove)",
         examples: ["take in (拿进来)", "take out (拿出去)", "take down (拿下来)"],
         svgType: "take"
@@ -62,22 +62,22 @@ const OP_GROUPS: OpGroup[] = [
     desc: "所有权或物品在人与人之间的流动",
     ops: [
       {
-        op: "give", cn: "给", vector: "→ (物品交出去)",
-        concept: "将自己持有的东西传递给对方。物理动作为「递给对方」。",
+        op: "give", cn: "给 (物品向外转移)", vector: "→ (物品交出去)",
+        concept: "将自己持有的东西手递手传递给对方。物理动作为『物品所有权或位置的向外转移』。",
         equation: "give + back = 归还 (return)",
         examples: ["give back (归还)", "give out (分发)", "give to (给...)"],
         svgType: "give"
       },
       {
-        op: "get", cn: "得", vector: "← (物品拿进来)",
-        concept: "接收、得到、拿到某物，或者身体/状态移动到某处。",
+        op: "get", cn: "得 (物品向内获取)", vector: "← (物品拿进来)",
+        concept: "接收、得到、拿到某物，或者状态移动到某处。物理动作为『物品所有权或位置的向内获取』。",
         equation: "get + in = 进来 (enter)",
         examples: ["get in (进来)", "get out (出去)", "get back (取回/回来)"],
         svgType: "get"
       },
       {
-        op: "send", cn: "送", vector: "➦ (远程送出)",
-        concept: "无需自己手递手交付，借助中介或推力将物品投递过去。",
+        op: "send", cn: "送 (远程传递)", vector: "➦ (远程送出)",
+        concept: "无需自己手递手交付，借助媒介、投递或推力将物品送往远处。物理动作为『远程位移传递』。",
         equation: "send + out = 发出 (emit)",
         examples: ["send out (发出)", "send back (退回)", "send away (送走)"],
         svgType: "send"
@@ -89,15 +89,15 @@ const OP_GROUPS: OpGroup[] = [
     desc: "维持原样不动或任其移动的控制收放",
     ops: [
       {
-        op: "keep", cn: "保持", vector: "↺ (锁在边界里)",
-        concept: "锁住或抓住人/物，维持其现有状态不跑掉。物理动作为「守住」。",
+        op: "keep", cn: "保持 (留在边界内)", vector: "↺ (锁在边界里)",
+        concept: "锁住或抓住人/物，维持其现有位置或状态不跑掉。物理动作为『守在封闭的空间或状态边界内』。",
         equation: "keep + out = 挡在外面 (exclude)",
         examples: ["keep in (留在里面)", "keep out (留在外面)", "keep back (阻挡)"],
         svgType: "keep"
       },
       {
-        op: "let", cn: "让/允许", vector: "⇢ (撤销边界放行)",
-        concept: "撤销拦截阻碍，松开控制屏障，放任其通行。",
+        op: "let", cn: "让 (移开屏障放行)", vector: "⇢ (撤销边界放行)",
+        concept: "撤销拦截阻碍，松开控制屏障，放任通行。物理动作为『移开障碍物使物理通道开放』。",
         equation: "let + in = 放进来 (admit)",
         examples: ["let in (放进来)", "let out (放出去)", "let go (放手/松开)"],
         svgType: "let"
@@ -109,15 +109,15 @@ const OP_GROUPS: OpGroup[] = [
     desc: "对现实物理世界的改变与纯动作执行",
     ops: [
       {
-        op: "make", cn: "做/造", vector: "⚒ (无中生有制成)",
-        concept: "动手改造原材料，从而塑造出或生产出一个原本没有的东西。",
+        op: "make", cn: "做/造 (塑形产出新物)", vector: "⚒ (无中生有制成)",
+        concept: "动手改造原材料，从而塑造出或生产出一个新形态。物理动作为『对物理材料进行加工塑形』。",
         equation: "make + ready = 准备好 (prepare)",
         examples: ["make ready (准备好)", "make clean (弄干净)", "make a hole (打洞)"],
         svgType: "make"
       },
       {
-        op: "do", cn: "做/行", vector: "⚙ (动作过程旋转)",
-        concept: "执行某项活动的过程，不强调最终产物，只关注「在做某事」。",
+        op: "do", cn: "做/执行 (侧重过程的动)", vector: "⚙ (动作过程旋转)",
+        concept: "执行某项活动的过程，不强调最终产物，只关注『动起来的物理动作本身』。",
         equation: "do + again = 再做一次 (repeat)",
         examples: ["do work (做工作)", "do well (做好)", "do again (再做一次)"],
         svgType: "do"
@@ -129,15 +129,15 @@ const OP_GROUPS: OpGroup[] = [
     desc: "物理信息的获取与语言输出",
     ops: [
       {
-        op: "see", cn: "看", vector: "👁 (接收光线/看清)",
-        concept: "光线照进眼睛接收到画面，抽象引申为「看懂、看清事实」。",
+        op: "see", cn: "看/明白 (接收光线)", vector: "👁 (接收光线/看清)",
+        concept: "光线照进眼睛接收到画面。物理动作为『视觉器官接收并处理外界光波信号』。",
         equation: "see + clearly = 看得清 (discern)",
         examples: ["see clearly (看清)", "see a picture (看画)", "see a friend (见朋友)"],
         svgType: "see"
       },
       {
-        op: "say", cn: "说", vector: "🗣 (发出声音传播)",
-        concept: "嘴部发声，将脑中的思想转化为声波的单向输出。",
+        op: "say", cn: "说 (单向发声传播)", vector: "🗣 (发出声音传播)",
+        concept: "嘴部发声，将脑中的思想转化为声波的单向输出。物理动作为『声带震动并发射空气波』。",
         equation: "say + again = 再说一次 (repeat)",
         examples: ["say yes (说好)", "say again (再说一次)", "say a word (说个词)"],
         svgType: "say"
@@ -149,8 +149,8 @@ const OP_GROUPS: OpGroup[] = [
     desc: "静态不动的存在关系与客观状态",
     ops: [
       {
-        op: "be", cn: "是/在", vector: "⬤ (静止原点)",
-        concept: "静态地存在于某处，或者属于某种身份/性质。",
+        op: "be", cn: "是/在 (处于静止原点)", vector: "⬤ (静止原点)",
+        concept: "静态地存在于某处，或处于某种性质中。物理动作为『静止在时空坐标原点』。",
         equation: "be + in = 在里面/在家 (present)",
         examples: ["be in (在里面)", "be out (在外面)", "be back (回来了)"],
         svgType: "be"
