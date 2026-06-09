@@ -10,6 +10,7 @@ import WordExplorer from "./WordExplorer";
 import OperatorsGrid from "./OperatorsGrid";
 import PlaybookPlay from "./PlaybookPlay";
 import DirectionsVisual from "./DirectionsVisual";
+import GrammarVisual from "./GrammarVisual";
 import {
   NAV,
   PATH_TO_ASSET,
@@ -33,6 +34,7 @@ const DOC_VISUALS: Record<string, ReactNode> = {
   start: <PlaybookPlay />,
   operators: <OperatorsGrid />,
   directions: <DirectionsVisual />,
+  grammar: <GrammarVisual />,
   phrasal: <WordMachine />,
   "tier-guide": <TierBreakdown />,
   words: <WordExplorer />,
