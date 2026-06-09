@@ -1,41 +1,65 @@
-# 850 词分层学习指南
+# 🧭 850 词分层学习指南
 
-Ogden 把 850 词分成 **5 类**；下面是我们建议的**学习顺序**（按杠杆，不是字母序）。
+Basic English 的核心秘密在于：**850 个词根不是平铺的，而是分层的**。
 
-## 第 1 层 · Operations（100）— 最先学
+不要试图用传统的字母表（A-Z）去死记硬背。按照以下 **5 层维度** 循序渐进，学习效率将提升数倍：
 
-杠杆最高：operator、代词、介词、连接词。**没有这些造不出句。**
-已拆到 [`operators-18.md`](../01-foundations/operators-18.md) 和 [`directions-prepositions.md`](../01-foundations/directions-prepositions.md)。
+---
 
-## 第 2 层 · 可画图物 Picturable（200）— 尽早学
+### 🔶 第 1 层 · Operations 运作词 (100) — 骨架与杠杆
+> **核心作用**：词表中最关键的部分。包含 18 个 Operators（动词构件）、代词、方向介词以及连接词。**没有这些，你无法造出任何一个句子。**
+> 
+> * 📅 **建议用时**：第 1 - 4 天 (每天 25 词)
+> * 🔗 **重点学习**：[18个 Operator 详解](../01-foundations/operators-18.md) | [方向词与介词](../01-foundations/directions-prepositions.md)
+> * 💡 **核心示例**：`come`, `get`, `put`, `I`, `you`, `in`, `on`, `and`, `not`
 
-具体名词（`dog, hand, door, tree`），一个词一张图，最好背。
-Richards 的 *English Through Pictures* 就是围绕这类词 → 配合 [`english-through-pictures-book1.pdf`](../04-practice/english-through-pictures-book1.pdf)。
+---
 
-## 第 3 层 · 一般物 General things（400）— 稳步推进
+### 🟢 第 2 层 · Picturable 可画图物 (200) — 具体与形象
+> **核心作用**：具体名词（人、动物、日常工具、身体部位）。这类词最大的特点是**一个词能配一张图**，极易在大脑中建立物理实物与英语单词的直接映射。
+> 
+> * 📅 **建议用时**：第 5 - 12 天 (每天 25 词)
+> * 📖 **推荐材料**：配合经典的 [ETP 英语画册](../04-practice/reading-list.md) 进行视觉记忆。
+> * 💡 **核心示例**：`dog`, `hand`, `door`, `tree`, `foot`, `eye`, `ship`, `house`
 
-抽象名词（`reason, system, condition`），量最大，慢慢吃。
-很多可配 operator 代替动词：`give attention`、`make a comparison`、`have a look`。
+---
 
-## 第 4 层 · 一般性质 General qualities（100）— 和名词一起
+### 🔵 第 3 层 · General Things 抽象一般物 (400) — 稳步推进
+> **核心作用**：抽象名词与概念。数量最大，是日常交流中用来做“名词化”替换复杂动词的核心词（如用 `give attention` 替代 *attend*，用 `have a look` 替代 *look*）。
+> 
+> * 📅 **建议用时**：第 13 - 28 天 (每天 25 词)
+> * 💡 **核心示例**：`reason`, `system`, `idea`, `fact`, `way`, `part`, `act`, `view`
 
-形容词（`good, long, clear`）；加 **-LY** 变副词，**MORE/MOST** 表程度。
+---
 
-## 第 5 层 · 反义词 Opposites（50）— 成对记
+### 🟣 第 4 层 · Qualities 一般性质词 (100) — 属性修饰
+> **核心作用**：形容词。用来修饰名词以描述状态。加 `-LY` 变成副词，用 `more / most` 来表示程度。
+> 
+> * 📅 **建议用时**：第 29 - 33 天 (每天 20 词)
+> * 💡 **核心示例**：`good`, `long`, `clear`, `new`, `true`, `open`, `free`, `wise`
 
-和第 4 层配对：`good/bad`、`long/short`、`awake/asleep`。
+---
 
-## 建议每日量
+### 🔴 第 5 层 · Opposites 反义词 (50) — 成对记忆
+> **核心作用**：与第 4 层性质词成对出现，通过反义对比，可以成对背诵，记忆效率提升一倍。
+> 
+> * 📅 **建议用时**：第 34 - 36 天 (每天 17 词)
+> * 💡 **核心示例**：`good/bad`, `long/short`, `awake/asleep`, `true/false`
 
-| 天数 | 内容 | 每天 |
-|------|------|------|
-| 1–4 | 第 1 层 Operations | 25 词 |
-| 5–12 | 第 2 层 picturable | 25 词 |
-| 13–28 | 第 3 层 general things | 25 词 |
-| 29–33 | 第 4 层 qualities | 20 词 |
-| 34–36 | 第 5 层 opposites | 17 词 |
+---
 
-- 五类分层细节与原序：[850 词表 (Ogden 原序)](/doc/words)
+## 📅 黄金 36 天高效学习计划
+
+| 天数阶段 | 学习内容 | 每日目标 | 杠杆率 |
+| :--- | :--- | :--- | :--- |
+| **第 1–4 天** | 🔶 第 1 层 Operations (运作) | 25 词 | ★★★★★ (最核心) |
+| **第 5–12 天** | 🟢 第 2 层 Picturable (形象) | 25 词 | ★★★★☆ (最易记) |
+| **第 13–28 天** | 🔵 第 3 层 General (抽象) | 25 词 | ★★★☆☆ (最大量) |
+| **第 29–33 天** | 🟣 第 4 层 Qualities (性质) | 20 词 | ★★★☆☆ (配名词) |
+| **第 34–36 天** | 🔴 第 5 层 Opposites (反义) | 17 词 | ★★☆☆☆ (成对背) |
+
+---
+
 - 字母序刷词：[`basic-english-850.txt`](basic-english-850.txt)
 - 打印版 PDF：`ogdens-basic-english-850.pdf`
 - 中文释义（社区）：见 [`survey-zh.md`](../reference/survey-zh.md)

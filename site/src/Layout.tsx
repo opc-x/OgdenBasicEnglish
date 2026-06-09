@@ -21,7 +21,7 @@ export default function Layout() {
   const activeSlug = pathname.startsWith("/doc/")
     ? pathname.replace("/doc/", "")
     : pathname === "/words"
-      ? "words"
+      ? "words-search"
       : null;
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>(() => {
     const init: Record<string, boolean> = {};

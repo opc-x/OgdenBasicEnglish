@@ -88,7 +88,7 @@ export const NAV: NavItem[] = [
   { phaseId: "map", title: "从这里开始", path: "00-START-HERE.md", slug: "start", badge: "第 1 步" },
   { phaseId: "map", title: "原始材料出处", path: "reference/sources.md", slug: "sources", badge: "核对" },
   { phaseId: "core", title: "18 个 Operator（必背）", path: "01-foundations/operators-18.md", slug: "operators", badge: "重点" },
-  { phaseId: "core", title: "850 词随时查", path: "", slug: "words", href: "/words", badge: "查询" },
+  { phaseId: "core", title: "850 词随时查", path: "", slug: "words-search", href: "/words", badge: "查询" },
   { phaseId: "skeleton", title: "方向词与介词", path: "01-foundations/directions-prepositions.md", slug: "directions" },
   { phaseId: "skeleton", title: "语法规则卡", path: "01-foundations/grammar-rules.md", slug: "grammar" },
   { phaseId: "roots", title: "分层学习指南", path: "02-vocabulary/tier-guide.md", slug: "tier-guide" },
