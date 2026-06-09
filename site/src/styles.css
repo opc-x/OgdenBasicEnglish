@@ -363,7 +363,7 @@ a:hover { color: var(--accent-deep); }
   box-shadow: inset 3px 0 0 var(--phase-color), 0 0 0 1px color-mix(in srgb, var(--phase-color) 25%, transparent);
 }
 
-.words-page { max-width: 56rem; }
+.words-page { max-width: none; width: 100%; }
 .operators-hero {
   margin-bottom: 1.5rem;
   padding: 1.25rem 1.35rem;
@@ -734,12 +734,17 @@ a:hover { color: var(--accent-deep); }
 
 /* ── 主内容 ─────────────────────────────────────────── */
 .main {
-  padding: 2rem clamp(1.25rem, 4vw, 3.5rem) 5rem;
-  max-width: 1200px;
+  padding: 2rem clamp(1.25rem, 2.5vw, 2.25rem) 4rem;
+  max-width: min(1080px, 100%);
   width: 100%;
   margin: 0 auto;
+  min-width: 0;
 }
-.main-home { max-width: 1080px; }
+.main-home { max-width: min(1000px, 100%); }
+.main-wide {
+  max-width: none;
+  padding: 1.5rem clamp(1rem, 2vw, 1.75rem) 3.5rem;
+}
 
 /* ── 旧 Hero（保留兼容） ─────────────────────────────── */
 .hero {
@@ -1735,12 +1740,11 @@ a:hover { color: var(--accent-deep); }
 
 .word-card-header-line .word-en {
   font-family: var(--mono);
-  font-size: 1.02rem;
+  font-size: 0.92rem;
   font-weight: 700;
   color: var(--ink);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.25;
+  word-break: break-word;
 }
 
 .word-card-meta-line {
@@ -3120,10 +3124,44 @@ a:hover { color: var(--accent-deep); }
   }
 }
 
-/* ── 大屏微调 ≥1440px ─────────────────────────────────── */
+/* ── PC 桌面 ≥1024px ──────────────────────────────────── */
+@media (min-width: 1024px) {
+  .word-grid {
+    max-height: none;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.85rem;
+  }
+  .word-card-img-wrapper { aspect-ratio: 4 / 3; }
+  .explorer { padding: 1.5rem 1.65rem; }
+  .practice-page {
+    max-width: min(1140px, 100%);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .word-detail { max-width: min(800px, 100%); }
+  .doc-body.has-sources {
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 2rem;
+  }
+  .operators-visualizer .visualizer-body,
+  .playbook-visualizer .visualizer-body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ── 大屏 ≥1440px ─────────────────────────────────────── */
 @media (min-width: 1440px) {
-  .main-home { max-width: 1200px; }
+  :root { --sidebar-w: 272px; }
+  .main-home { max-width: min(1040px, 100%); }
+  .main:not(.main-wide) { max-width: min(960px, 100%); }
   .journey-map-home { grid-template-columns: repeat(4, 1fr); }
+  .word-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .practice-page { max-width: min(1200px, 100%); }
+}
+
+@media (min-width: 1680px) {
+  .word-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .practice-page { max-width: min(1280px, 100%); }
 }
 
 /* ── 18 个 Operators 空间物理模型可视化 ── */

@@ -18,6 +18,12 @@ export default function Layout() {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
   const isHome = pathname === "/";
+  const isWide =
+    pathname === "/words" ||
+    pathname.startsWith("/word/") ||
+    pathname.endsWith("/doc/words") ||
+    pathname.includes("/doc/words") ||
+    pathname.startsWith("/practice");
   const activeSlug = pathname.startsWith("/doc/")
     ? pathname.replace("/doc/", "")
     : pathname.startsWith("/practice/lab")
@@ -155,7 +161,7 @@ export default function Layout() {
         <button type="button" className="backdrop" aria-label="关闭导航" onClick={close} />
       )}
 
-      <main className={`main ${isHome ? "main-home" : ""}`}>
+      <main className={`main${isHome ? " main-home" : ""}${isWide ? " main-wide" : ""}`}>
         <Outlet />
       </main>
     </div>
