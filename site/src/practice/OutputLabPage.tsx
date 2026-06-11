@@ -66,12 +66,19 @@ function TrainingTab() {
 
   const [activeStep, setActiveStep] = useState<1 | 2 | 3>(1);
   const [expandedOps, setExpandedOps] = useState<Set<string>>(new Set(["put", "take", "go"]));
+  const [expandedCombos, setExpandedCombos] = useState<Set<string>>(new Set());
   const [showTranslation, setShowTranslation] = useState(true);
 
   const toggleOp = (op: string) => {
     const next = new Set(expandedOps);
     if (next.has(op)) next.delete(op); else next.add(op);
     setExpandedOps(next);
+  };
+
+  const toggleCombo = (combo: string) => {
+    const next = new Set(expandedCombos);
+    if (next.has(combo)) next.delete(combo); else next.add(combo);
+    setExpandedCombos(next);
   };
 
   return (
@@ -123,14 +130,40 @@ function TrainingTab() {
                             {showTranslation && <span className="training-replaces"> = {replaces}</span>}
                           </div>
                           <div className="training-combo-sentences">
-                            {comboSentences.slice(0, 6).map((s, i) => (
-                              <button key={i} className="training-sentence-btn" onClick={() => speakText(s.sentence)} title="点击朗读">
-                                {s.sentence}
-                              </button>
-                            ))}
-                            {comboSentences.length > 6 && (
-                              <span className="training-more">+{comboSentences.length - 6} more</span>
-                            )}
+                            {(() => {
+                              const isExpanded = expandedCombos.has(combo);
+                              const displaySentences = isExpanded ? comboSentences : comboSentences.slice(0, 6);
+                              return (
+                                <>
+                                  {displaySentences.map((s, i) => (
+                                    <button key={i} className="training-sentence-btn" onClick={() => speakText(s.sentence)} title="点击朗读">
+                                      {s.sentence}
+                                    </button>
+                                  ))}
+                                  {comboSentences.length > 6 && (
+                                    <button
+                                      className="training-more-btn"
+                                      onClick={() => toggleCombo(combo)}
+                                      style={{
+                                        background: "none",
+                                        border: "1px dashed var(--border-color, #ccc)",
+                                        borderRadius: "6px",
+                                        padding: "4px 12px",
+                                        fontSize: "0.85em",
+                                        color: "var(--text-secondary, #666)",
+                                        cursor: "pointer",
+                                        marginTop: "4px",
+                                        display: "block",
+                                        width: "100%",
+                                        textAlign: "center",
+                                      }}
+                                    >
+                                      {isExpanded ? "收起" : `+${comboSentences.length - 6} more`}
+                                    </button>
+                                  )}
+                                </>
+                              );
+                            })()}
                           </div>
                         </div>
                       );
