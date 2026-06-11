@@ -70,11 +70,9 @@ function TrainingTab() {
 
   return (
     <div className="training-tab">
-      <button className={`training-step-btn${activeStep===2?" active":""}`} onClick={()=>setActiveStep(2)}>Step 2 · Step1 × 850 词 <em>（可见名词/抽象名词/性质词/反义词）{'\\u00b7'}{step2Groups.length}组合{'\\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===2).length}句</em></button>
-      <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>.length}句</em></button>
-        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>tep===2).length}句</em></button>
-        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>ter(s=>s.step===2).length}句</em></button>
-        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>
+      <button className={`training-step-btn${activeStep===1?" active":""}`} onClick={()=>setActiveStep(1)}>Step 1 · 18 Operator × 方向/介词 <em>{step1ByOp.size}个operator·{TRAINING_SENTENCES.filter(s=>s.step===1).length}句</em></button>
+      <button className={`training-step-btn${activeStep===2?" active":""}`} onClick={()=>setActiveStep(2)}>Step 2 · Step1 × 850 词 <em>（可见名词/抽象名词/性质词/反义词）·{step2Groups.length}组合·{TRAINING_SENTENCES.filter(s=>s.step===2).length}句</em></button>
+      <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景·{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>
 
       {activeStep===1 && (
         <div>
