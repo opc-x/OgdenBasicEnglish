@@ -5063,6 +5063,47 @@ a:hover { color: var(--accent-deep); }
   margin-left: 0.3rem;
 }
 
+/* Training sentence rows */
+.training-sentence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.training-row {
+  display: block;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 1.5;
+}
+.training-row:last-child { border-bottom: none; }
+.training-row-num {
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  margin-right: 0.3rem;
+}
+.training-row-speaker {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0 0.2rem;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.training-row-speaker:hover { opacity: 1; }
+.training-row-en {
+  font-size: 0.88rem;
+  color: var(--ink);
+  font-weight: 500;
+}
+.training-row-zh {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  display: block;
+  margin-top: 0.1rem;
+  margin-left: 1.2rem;
+}
+
 /* Step 2: op+noun block */  
 .training-opnoun-block {
   padding: 0.5rem 0.8rem;

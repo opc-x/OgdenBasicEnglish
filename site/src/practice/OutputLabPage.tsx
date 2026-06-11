@@ -59,9 +59,12 @@ function TrainingTab() {
     const n = new Set(expandedOps); n.has(op)?n.delete(op):n.add(op); setExpandedOps(n);
   };
 
-  const renderRow = (s:TrainingSentence, idx:number) => (
+  let globalIdx = 0;
+  const renderRow = (s:TrainingSentence) => {
+    globalIdx++;
+    return (
     <li key={s.id} className="training-row">
-      <span className="training-row-num">{idx+1}</span>
+      <span className="training-row-num">{globalIdx}</span>
       <button className="training-row-speaker" onClick={() => speakText(s.sentence)} title="Sonia 英式女声朗读" aria-label="朗读">🔊</button>
       <span className="training-row-en">{s.sentence}</span>
       {s.zh && <span className="training-row-zh">{s.zh}</span>}
@@ -91,7 +94,7 @@ function TrainingTab() {
                   {Array.from(dirs.entries()).sort().map(([dir,ds])=>(
                     <div key={dir} className="training-dir-group">
                       <div className="training-dir-label"><code>{op} + {dir}</code>{ds[0]?.replaces&&<span className="training-replaces"> = {ds[0].replaces}</span>}</div>
-                      <ol className="training-sentence-list">{ds.map((s,i)=>renderRow(s,i))}</ol>
+                      <ol className="training-sentence-list">{ds.map(s=>renderRow(s))}</ol>
                     </div>
                   ))}
                 </div>}
@@ -105,7 +108,7 @@ function TrainingTab() {
         <div>{step2Groups.map((g,i)=>(
           <div key={i} className="training-opnoun-block">
             <div className="training-opnoun-label"><code>{g.label}</code> = {g.replaces}<span className="training-opnoun-count">{g.sentences.length}句</span></div>
-            <ol className="training-sentence-list">{g.sentences.map((s,i)=>renderRow(s,i))}</ol>
+            <ol className="training-sentence-list">{g.sentences.map(s=>renderRow(s))}</ol>
           </div>
         ))}</div>
       )}
@@ -114,7 +117,7 @@ function TrainingTab() {
         <div>{Array.from(step3ByScene.entries()).map(([scene,sentences])=>(
           <div key={scene} className="training-scene-block">
             <h3 className="training-scene-title">{scene}</h3>
-            <ol className="training-sentence-list">{sentences.map((s,i)=>renderRow(s,i))}</ol>
+            <ol className="training-sentence-list">{sentences.map(s=>renderRow(s))}</ol>
           </div>
         ))}</div>
       )}
