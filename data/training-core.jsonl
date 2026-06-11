@@ -1053,7 +1053,7 @@
 {"id": 40003, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "about", "replaces": "去", "sentence": "He goes about the town.", "zh": "他在城里走来走去。"}
 {"id": 40004, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "after", "replaces": "追求", "sentence": "He went after her.", "zh": "他追了她。"}
 {"id": 40005, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "without", "replaces": "放弃", "sentence": "She went without sleep.", "zh": "她不睡觉。"}
-{"id": 40006, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "传播", "sentence": "Put the news about.", "zh": "传播消息。"}
+{"id": 40006, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "传播", "sentence": "Put out the news.", "zh": "把消息传出去。"}
 {"id": 40007, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "across", "replaces": "沟通", "sentence": "Put your idea across.", "zh": "把你的想法表达清楚。"}
 {"id": 40008, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "before", "replaces": "优先", "sentence": "Put the work before pleasure.", "zh": "把工作放在娱乐之前。"}
 {"id": 40009, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "by", "replaces": "保存", "sentence": "Put some money by.", "zh": "存一些钱。"}
