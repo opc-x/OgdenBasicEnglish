@@ -62,9 +62,7 @@ function TrainingTab() {
   const renderRow = (s:TrainingSentence, idx:number) => (
     <li key={s.id} className="training-row">
       <span className="training-row-num">{idx+1}</span>
-      <button className="training-row-speaker" onClick={() => speakText(s.sentence)} title="Sonia 英式女声朗读" aria-label="朗读">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
-      </button>
+      <button className="training-row-speaker" onClick={() => speakText(s.sentence)} title="Sonia 英式女声朗读" aria-label="朗读">🔊</button>
       <span className="training-row-en">{s.sentence}</span>
       {s.zh && <span className="training-row-zh">{s.zh}</span>}
     </li>
@@ -73,9 +71,9 @@ function TrainingTab() {
   return (
     <div className="training-tab">
       <div className="training-step-tabs">
-        <button className={`training-step-btn${activeStep===1?" active":""}`} onClick={()=>setActiveStep(1)}>Step 1 · 动作替换 <em>{step1ByOp.size}operator{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===1).length}句</em></button>
-        <button className={`training-step-btn${activeStep===2?" active":""}`} onClick={()=>setActiveStep(2)}>Step 2 · 抽象替换 <em>{step2Groups.length}组合{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===2).length}句</em></button>
-        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>
+        <button className={`training-step-btn${activeStep===1?" active":""}`} onClick={()=>setActiveStep(1)}>Step 1 · 18 operator × 方向/介词 <em>{step1ByOp.size}operator{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===1).length}句</em></button>
+        <button className={`training-step-btn${activeStep===2?" active":""}`} onClick={()=>setActiveStep(2)}>Step 2 · operator×850词 <em>{step2Groups.length}组合{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===2).length}句</em></button>
+        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景训练 <em>{step3ByScene.size}场景{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>
       </div>
 
       {activeStep===1 && (
