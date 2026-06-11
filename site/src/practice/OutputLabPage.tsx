@@ -70,6 +70,7 @@ function TrainingTab() {
       {s.zh && <span className="training-row-zh">{s.zh}</span>}
     </li>
   );
+  }
 
   return (
     <div className="training-tab">
