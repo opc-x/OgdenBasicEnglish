@@ -1895,3 +1895,133 @@
 {"id": 30117, "step": 3, "type": "scene_sentence", "scene": "Sightseeing", "sentence": "Go up and see the view.", "zh": "上去看看景色。"}
 {"id": 30119, "step": 3, "type": "scene_sentence", "scene": "Taking Photos", "sentence": "I take a picture of the family.", "zh": "我给家人拍了一张照片。"}
 {"id": 30121, "step": 3, "type": "scene_sentence", "scene": "Taking Photos", "sentence": "The picture is beautiful.", "zh": "照片很美。"}
+{"id": 40001, "step": 3, "type": "scene_sentence", "scene": "Going on a Date", "sentence": "I go with her to the cinema.", "zh": "我和她去看电影。"}
+{"id": 40002, "step": 3, "type": "scene_sentence", "scene": "Going on a Date", "sentence": "He asks her to go out.", "zh": "他约她出去。"}
+{"id": 40003, "step": 3, "type": "scene_sentence", "scene": "Going on a Date", "sentence": "She says yes to the offer.", "zh": "她接受了提议。"}
+{"id": 40004, "step": 3, "type": "scene_sentence", "scene": "Going on a Date", "sentence": "They have a good time together.", "zh": "他们一起玩得很开心。"}
+{"id": 40005, "step": 3, "type": "scene_sentence", "scene": "Making Up After a Fight", "sentence": "She makes up with her sister.", "zh": "她和姐姐和好了。"}
+{"id": 40006, "step": 3, "type": "scene_sentence", "scene": "Making Up After a Fight", "sentence": "He gives back the thing he took.", "zh": "他还了他拿走的东西。"}
+{"id": 40007, "step": 3, "type": "scene_sentence", "scene": "Making Up After a Fight", "sentence": "They had the argument out and are friends again.", "zh": "他们把争吵说完，又成了朋友。"}
+{"id": 40008, "step": 3, "type": "scene_sentence", "scene": "Congratulating", "sentence": "You did a good work!", "zh": "你做了一份好工作！"}
+{"id": 40009, "step": 3, "type": "scene_sentence", "scene": "Congratulating", "sentence": "Keep up the good work!", "zh": "保持良好的工作！"}
+{"id": 40010, "step": 3, "type": "scene_sentence", "scene": "Comforting Someone", "sentence": "He keeps on going.", "zh": "他继续前进。"}
+{"id": 40011, "step": 3, "type": "scene_sentence", "scene": "Declining an Invitation", "sentence": "I say no thank you.", "zh": "我说不，谢谢。"}
+{"id": 40012, "step": 3, "type": "scene_sentence", "scene": "Declining an Invitation", "sentence": "She has no desire for that.", "zh": "她没有那个欲望。"}
+{"id": 40013, "step": 3, "type": "scene_sentence", "scene": "Declining an Invitation", "sentence": "He keeps away from the trouble.", "zh": "他避开了麻烦。"}
+{"id": 40014, "step": 3, "type": "scene_sentence", "scene": "Treating Someone", "sentence": "Come to my house for a meal.", "zh": "来我家吃饭。"}
+{"id": 40015, "step": 3, "type": "scene_sentence", "scene": "Treating Someone", "sentence": "I make a meal for my friend.", "zh": "我为朋友做了一顿饭。"}
+{"id": 40016, "step": 3, "type": "scene_sentence", "scene": "Treating Someone", "sentence": "Put some food on the table.", "zh": "把食物放在桌子上。"}
+{"id": 40017, "step": 3, "type": "scene_sentence", "scene": "Borrowing and Returning", "sentence": "Give me back my book.", "zh": "把我的书还给我。"}
+{"id": 40018, "step": 3, "type": "scene_sentence", "scene": "Borrowing and Returning", "sentence": "I will give it back tomorrow.", "zh": "我明天会还的。"}
+{"id": 40019, "step": 3, "type": "scene_sentence", "scene": "Borrowing and Returning", "sentence": "She gives away her old clothes.", "zh": "她把旧衣服送人了。"}
+{"id": 40020, "step": 3, "type": "scene_sentence", "scene": "Complaining", "sentence": "I have a complaint about the work.", "zh": "我对工作有投诉。"}
+{"id": 40021, "step": 3, "type": "scene_sentence", "scene": "Grocery Shopping", "sentence": "I go to the shop for food.", "zh": "我去商店买食物。"}
+{"id": 40022, "step": 3, "type": "scene_sentence", "scene": "Grocery Shopping", "sentence": "The shop has bread and milk.", "zh": "商店有面包和牛奶。"}
+{"id": 40023, "step": 3, "type": "scene_sentence", "scene": "Grocery Shopping", "sentence": "Put the food in the bag.", "zh": "把食物放进包里。"}
+{"id": 40024, "step": 3, "type": "scene_sentence", "scene": "Cooking a Meal", "sentence": "The food is ready.", "zh": "食物准备好了。"}
+{"id": 40025, "step": 3, "type": "scene_sentence", "scene": "Doing the Dishes", "sentence": "She makes the plates clean.", "zh": "她把盘子洗干净。"}
+{"id": 40026, "step": 3, "type": "scene_sentence", "scene": "Taking Out the Trash", "sentence": "Put the waste in a bag.", "zh": "把垃圾放进袋子里。"}
+{"id": 40027, "step": 3, "type": "scene_sentence", "scene": "Taking Out the Trash", "sentence": "Take the bag out.", "zh": "把袋子拿出去。"}
+{"id": 40028, "step": 3, "type": "scene_sentence", "scene": "Washing Clothes", "sentence": "Hang the cloth up to dry.", "zh": "把布挂起来晾干。"}
+{"id": 40029, "step": 3, "type": "scene_sentence", "scene": "Sweeping the Floor", "sentence": "I make the floor clean.", "zh": "我把地板扫干净。"}
+{"id": 40030, "step": 3, "type": "scene_sentence", "scene": "Sweeping the Floor", "sentence": "She takes the dirt away.", "zh": "她把灰尘扫走了。"}
+{"id": 40031, "step": 3, "type": "scene_sentence", "scene": "Sweeping the Floor", "sentence": "Put the waste in a box.", "zh": "把垃圾放进盒子里。"}
+{"id": 40032, "step": 3, "type": "scene_sentence", "scene": "Fixing Something", "sentence": "I make the machine work again.", "zh": "我让机器重新工作。"}
+{"id": 40033, "step": 3, "type": "scene_sentence", "scene": "Fixing Something", "sentence": "He puts the parts together.", "zh": "他把零件组装在一起。"}
+{"id": 40034, "step": 3, "type": "scene_sentence", "scene": "Fixing Something", "sentence": "See to the problem.", "zh": "处理这个问题。"}
+{"id": 40035, "step": 3, "type": "scene_sentence", "scene": "Taking Care of Pets", "sentence": "The animal is happy.", "zh": "动物很高兴。"}
+{"id": 40036, "step": 3, "type": "scene_sentence", "scene": "Gardening Work", "sentence": "I put seeds in the earth.", "zh": "我把种子放进土里。"}
+{"id": 40037, "step": 3, "type": "scene_sentence", "scene": "Gardening Work", "sentence": "She gives water to the plants.", "zh": "她给植物浇水。"}
+{"id": 40038, "step": 3, "type": "scene_sentence", "scene": "Gardening Work", "sentence": "The flowers come out.", "zh": "花开了。"}
+{"id": 40039, "step": 3, "type": "scene_sentence", "scene": "Taking a Taxi", "sentence": "Take me to the hotel.", "zh": "带我去酒店。"}
+{"id": 40040, "step": 3, "type": "scene_sentence", "scene": "Taking a Taxi", "sentence": "Go down this road.", "zh": "沿着这条路走。"}
+{"id": 40041, "step": 3, "type": "scene_sentence", "scene": "Taking a Taxi", "sentence": "Stop at the door.", "zh": "在门口停车。"}
+{"id": 40042, "step": 3, "type": "scene_sentence", "scene": "Taking a Taxi", "sentence": "What is the price?", "zh": "多少钱？"}
+{"id": 40043, "step": 3, "type": "scene_sentence", "scene": "Taking the Subway", "sentence": "Get off at the next stop.", "zh": "在下一站下车。"}
+{"id": 40044, "step": 3, "type": "scene_sentence", "scene": "Taking the Subway", "sentence": "The train goes through the town.", "zh": "火车穿过城镇。"}
+{"id": 40045, "step": 3, "type": "scene_sentence", "scene": "Asking the Way", "sentence": "Go across the bridge.", "zh": "过桥。"}
+{"id": 40046, "step": 3, "type": "scene_sentence", "scene": "Getting Lost", "sentence": "Ask the way to the station.", "zh": "去问去车站的路。"}
+{"id": 40047, "step": 3, "type": "scene_sentence", "scene": "Getting Lost", "sentence": "I got back on the right road.", "zh": "我回到了正确的路上。"}
+{"id": 40048, "step": 3, "type": "scene_sentence", "scene": "Getting Gas", "sentence": "Put some oil in the car.", "zh": "给车加些油。"}
+{"id": 40049, "step": 3, "type": "scene_sentence", "scene": "Getting Gas", "sentence": "The price is high.", "zh": "价格很高。"}
+{"id": 40050, "step": 3, "type": "scene_sentence", "scene": "Getting Gas", "sentence": "Give me back my change.", "zh": "把我的零钱还给我。"}
+{"id": 40051, "step": 3, "type": "scene_sentence", "scene": "Flat Tire", "sentence": "He sees to the wheel.", "zh": "他检查了轮子。"}
+{"id": 40052, "step": 3, "type": "scene_sentence", "scene": "Sending an Email", "sentence": "I make a letter on the machine.", "zh": "我在机器上写信。"}
+{"id": 40053, "step": 3, "type": "scene_sentence", "scene": "Sending an Email", "sentence": "She sends out the news.", "zh": "她发出了消息。"}
+{"id": 40054, "step": 3, "type": "scene_sentence", "scene": "Sending an Email", "sentence": "He puts in a request.", "zh": "他提出了一个请求。"}
+{"id": 40055, "step": 3, "type": "scene_sentence", "scene": "Giving a Report", "sentence": "He goes through the details.", "zh": "他检查了细节。"}
+{"id": 40056, "step": 3, "type": "scene_sentence", "scene": "Giving a Report", "sentence": "Go over the work again.", "zh": "再检查一遍工作。"}
+{"id": 40057, "step": 3, "type": "scene_sentence", "scene": "Taking a Day Off", "sentence": "I take a day off.", "zh": "我请了一天假。"}
+{"id": 40058, "step": 3, "type": "scene_sentence", "scene": "Taking a Day Off", "sentence": "She keeps out of the office.", "zh": "她不去办公室。"}
+{"id": 40059, "step": 3, "type": "scene_sentence", "scene": "Taking a Day Off", "sentence": "He gets back to work tomorrow.", "zh": "他明天回来工作。"}
+{"id": 40060, "step": 3, "type": "scene_sentence", "scene": "Quitting a Job", "sentence": "I give up the work.", "zh": "我放弃了工作。"}
+{"id": 40061, "step": 3, "type": "scene_sentence", "scene": "Quitting a Job", "sentence": "She goes from the office today.", "zh": "她今天从办公室离开。"}
+{"id": 40062, "step": 3, "type": "scene_sentence", "scene": "Quitting a Job", "sentence": "He makes a change to his life.", "zh": "他改变了生活。"}
+{"id": 40063, "step": 3, "type": "scene_sentence", "scene": "Negotiating Salary", "sentence": "I make a request for more pay.", "zh": "我请求加薪。"}
+{"id": 40064, "step": 3, "type": "scene_sentence", "scene": "Negotiating Salary", "sentence": "He makes a comparison between the work and the pay.", "zh": "他在工作和薪水之间做了比较。"}
+{"id": 40065, "step": 3, "type": "scene_sentence", "scene": "Negotiating Salary", "sentence": "We make a decision together.", "zh": "我们一起做决定。"}
+{"id": 40066, "step": 3, "type": "scene_sentence", "scene": "Job Application", "sentence": "I go to the office for the work.", "zh": "我去办公室申请工作。"}
+{"id": 40067, "step": 3, "type": "scene_sentence", "scene": "Job Application", "sentence": "He gives me some questions.", "zh": "他给了我一些问题。"}
+{"id": 40068, "step": 3, "type": "scene_sentence", "scene": "Training New Staff", "sentence": "I give help to the new person.", "zh": "我帮助新来的人。"}
+{"id": 40069, "step": 3, "type": "scene_sentence", "scene": "Training New Staff", "sentence": "She shows the way to do the work.", "zh": "她展示了做工作的方法。"}
+{"id": 40070, "step": 3, "type": "scene_sentence", "scene": "Training New Staff", "sentence": "Keep on with the learning.", "zh": "继续学习。"}
+{"id": 50001, "step": 3, "type": "scene_sentence", "scene": "At the Hospital", "sentence": "I go to the hospital.", "zh": "我去医院。"}
+{"id": 50002, "step": 3, "type": "scene_sentence", "scene": "At the Hospital", "sentence": "The doctor says I am ill.", "zh": "医生说我病了。"}
+{"id": 50003, "step": 3, "type": "scene_sentence", "scene": "At the Hospital", "sentence": "Tomorrow I will be better.", "zh": "明天我会好起来。"}
+{"id": 50004, "step": 3, "type": "scene_sentence", "scene": "At the Police Station", "sentence": "I go to the police station.", "zh": "我去警察局。"}
+{"id": 50005, "step": 3, "type": "scene_sentence", "scene": "At the Police Station", "sentence": "The man gives a report to the police.", "zh": "那个人向警察做了报告。"}
+{"id": 50006, "step": 3, "type": "scene_sentence", "scene": "Barbershop", "sentence": "The man cuts my hair.", "zh": "那个人剪我的头发。"}
+{"id": 50007, "step": 3, "type": "scene_sentence", "scene": "At the Cinema", "sentence": "I go to the cinema.", "zh": "我去电影院。"}
+{"id": 50008, "step": 3, "type": "scene_sentence", "scene": "At the Cinema", "sentence": "We see a good picture.", "zh": "我们看了一部好电影。"}
+{"id": 50009, "step": 3, "type": "scene_sentence", "scene": "At the Cinema", "sentence": "The story is very good.", "zh": "故事很好。"}
+{"id": 50010, "step": 3, "type": "scene_sentence", "scene": "At the Cinema", "sentence": "Come and see this with me.", "zh": "来和我一起看这个。"}
+{"id": 50011, "step": 3, "type": "scene_sentence", "scene": "At the Library", "sentence": "I go to the library.", "zh": "我去图书馆。"}
+{"id": 50012, "step": 3, "type": "scene_sentence", "scene": "At the Library", "sentence": "I have a book in my hand.", "zh": "我手里拿着一本书。"}
+{"id": 50013, "step": 3, "type": "scene_sentence", "scene": "At the Library", "sentence": "She puts the book back on the shelf.", "zh": "她把书放回书架。"}
+{"id": 50014, "step": 3, "type": "scene_sentence", "scene": "At the Library", "sentence": "Keep the book clean.", "zh": "保持书的整洁。"}
+{"id": 50015, "step": 3, "type": "scene_sentence", "scene": "At the Gym", "sentence": "I do exercise every day.", "zh": "我每天锻炼。"}
+{"id": 50016, "step": 3, "type": "scene_sentence", "scene": "At the Gym", "sentence": "He keeps his body strong.", "zh": "他保持身体强壮。"}
+{"id": 50017, "step": 3, "type": "scene_sentence", "scene": "At the Gym", "sentence": "Keep on with the exercise.", "zh": "继续锻炼。"}
+{"id": 50018, "step": 3, "type": "scene_sentence", "scene": "Repairing a Bike", "sentence": "The wheel is not going.", "zh": "轮子不转了。"}
+{"id": 50019, "step": 3, "type": "scene_sentence", "scene": "Repairing a Bike", "sentence": "Put the parts together.", "zh": "把零件组装在一起。"}
+{"id": 50020, "step": 3, "type": "scene_sentence", "scene": "Repairing a Bike", "sentence": "The bike is going again.", "zh": "自行车又能走了。"}
+{"id": 50021, "step": 3, "type": "scene_sentence", "scene": "Birthday Party", "sentence": "Today is my birthday.", "zh": "今天是我的生日。"}
+{"id": 50022, "step": 3, "type": "scene_sentence", "scene": "Birthday Party", "sentence": "She gives me a gift.", "zh": "她给了我一个礼物。"}
+{"id": 50023, "step": 3, "type": "scene_sentence", "scene": "Birthday Party", "sentence": "We have a good time together.", "zh": "我们一起玩得很开心。"}
+{"id": 50024, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Today is their wedding day.", "zh": "今天是他们的婚礼日。"}
+{"id": 50025, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "They make a promise to each other.", "zh": "他们互相许下承诺。"}
+{"id": 50026, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "We give them our good wishes.", "zh": "我们给他们我们的祝福。"}
+{"id": 50027, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "We go to the funeral.", "zh": "我们去参加葬礼。"}
+{"id": 50028, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "He went from this life.", "zh": "他离开了这个世界。"}
+{"id": 50029, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "We have love in our hearts.", "zh": "我们心中有爱。"}
+{"id": 50030, "step": 3, "type": "scene_sentence", "scene": "Going to Court", "sentence": "I go before the judge.", "zh": "我来到法官面前。"}
+{"id": 50031, "step": 3, "type": "scene_sentence", "scene": "Going to Court", "sentence": "He gives his answer to the questions.", "zh": "他回答了问题。"}
+{"id": 50032, "step": 3, "type": "scene_sentence", "scene": "Going to Court", "sentence": "The judge makes a decision.", "zh": "法官做了决定。"}
+{"id": 50033, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "I go to vote.", "zh": "我去投票。"}
+{"id": 50034, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Make a decision.", "zh": "做决定。"}
+{"id": 50035, "step": 3, "type": "scene_sentence", "scene": "At the Park", "sentence": "I go to the park.", "zh": "我去公园。"}
+{"id": 50036, "step": 3, "type": "scene_sentence", "scene": "At the Park", "sentence": "The children play in the park.", "zh": "孩子们在公园里玩。"}
+{"id": 50037, "step": 3, "type": "scene_sentence", "scene": "At the Park", "sentence": "We have a good time in the open air.", "zh": "我们在户外玩得很开心。"}
+{"id": 50038, "step": 3, "type": "scene_sentence", "scene": "Picnic", "sentence": "We go to the country for a meal.", "zh": "我们去乡下吃饭。"}
+{"id": 50039, "step": 3, "type": "scene_sentence", "scene": "Picnic", "sentence": "Put some food on the cloth.", "zh": "在布上放些食物。"}
+{"id": 50040, "step": 3, "type": "scene_sentence", "scene": "Picnic", "sentence": "The weather is good for a picnic.", "zh": "天气很适合野餐。"}
+{"id": 50041, "step": 3, "type": "scene_sentence", "scene": "At the Zoo", "sentence": "I go to the zoo.", "zh": "我去动物园。"}
+{"id": 50042, "step": 3, "type": "scene_sentence", "scene": "At the Zoo", "sentence": "I see a lion in the zoo.", "zh": "我在动物园看到一头狮子。"}
+{"id": 50043, "step": 3, "type": "scene_sentence", "scene": "At the Zoo", "sentence": "The animals are in boxes.", "zh": "动物们在笼子里。"}
+{"id": 50044, "step": 3, "type": "scene_sentence", "scene": "Building a Fire", "sentence": "Put some wood together.", "zh": "把一些木头放在一起。"}
+{"id": 50045, "step": 3, "type": "scene_sentence", "scene": "Building a Fire", "sentence": "Make a fire.", "zh": "生火。"}
+{"id": 50046, "step": 3, "type": "scene_sentence", "scene": "Building a Fire", "sentence": "Keep the fire going.", "zh": "让火继续燃烧。"}
+{"id": 50047, "step": 3, "type": "scene_sentence", "scene": "Sewing a Button", "sentence": "Put the thread through the needle.", "zh": "把线穿过针眼。"}
+{"id": 50048, "step": 3, "type": "scene_sentence", "scene": "Sewing a Button", "sentence": "Do up the button.", "zh": "扣好扣子。"}
+{"id": 50049, "step": 3, "type": "scene_sentence", "scene": "Sewing a Button", "sentence": "The cloth is good again.", "zh": "布又好了。"}
+{"id": 50050, "step": 3, "type": "scene_sentence", "scene": "Mending Clothes", "sentence": "Put the cloth together.", "zh": "把布缝在一起。"}
+{"id": 50051, "step": 3, "type": "scene_sentence", "scene": "Mending Clothes", "sentence": "She makes the cloth good again.", "zh": "她又把布弄好了。"}
+{"id": 50052, "step": 3, "type": "scene_sentence", "scene": "Mending Clothes", "sentence": "The dress is ready.", "zh": "裙子准备好了。"}
+{"id": 50053, "step": 3, "type": "scene_sentence", "scene": "Painting a Room", "sentence": "Put some color on the wall.", "zh": "在墙上涂些颜色。"}
+{"id": 50054, "step": 3, "type": "scene_sentence", "scene": "Painting a Room", "sentence": "The wall is white now.", "zh": "墙现在是白色的。"}
+{"id": 50055, "step": 3, "type": "scene_sentence", "scene": "Painting a Room", "sentence": "Make the room beautiful.", "zh": "让房间变漂亮。"}
+{"id": 50056, "step": 3, "type": "scene_sentence", "scene": "Washing the Car", "sentence": "Put some water on the car.", "zh": "在车子上放水。"}
+{"id": 50057, "step": 3, "type": "scene_sentence", "scene": "Washing the Car", "sentence": "Make the car clean.", "zh": "把车洗干净。"}
+{"id": 50058, "step": 3, "type": "scene_sentence", "scene": "Washing the Car", "sentence": "The car is clean now.", "zh": "车现在干净了。"}
+{"id": 50059, "step": 3, "type": "scene_sentence", "scene": "Waiting for a Bus", "sentence": "The bus is not here yet.", "zh": "公交车还没到。"}
+{"id": 50060, "step": 3, "type": "scene_sentence", "scene": "Waiting for a Bus", "sentence": "Get on the bus when it comes.", "zh": "公交车来了就上车。"}
