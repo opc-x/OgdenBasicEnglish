@@ -1125,3 +1125,57 @@
 {"id": 30075, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "I take some food from the plate.", "zh": "我从盘子里拿了一些食物。"}
 {"id": 30076, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "She keeps her food warm.", "zh": "她保持食物温暖。"}
 {"id": 30077, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "We send back the food.", "zh": "我们退回了食物。"}
+{"id": 40001, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "back", "replaces": "return", "sentence": "Get back here.", "zh": "回来。"}
+{"id": 40002, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "back", "replaces": "return", "sentence": "I got back my money.", "zh": "我拿回了我的钱。"}
+{"id": 40003, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "about", "replaces": "go around", "sentence": "He goes about the town.", "zh": "他在城里走来走去。"}
+{"id": 40004, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "after", "replaces": "pursue", "sentence": "He went after her.", "zh": "他追了她。"}
+{"id": 40005, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "without", "replaces": "forgo", "sentence": "She went without sleep.", "zh": "她不睡觉。"}
+{"id": 40006, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "spread", "sentence": "Put the news about.", "zh": "传播消息。"}
+{"id": 40007, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "across", "replaces": "communicate", "sentence": "Put your idea across.", "zh": "把你的想法表达清楚。"}
+{"id": 40008, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "before", "replaces": "prioritize", "sentence": "Put the work before pleasure.", "zh": "把工作放在娱乐之前。"}
+{"id": 40009, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "by", "replaces": "save", "sentence": "Put some money by.", "zh": "存一些钱。"}
+{"id": 40010, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "down", "replaces": "suppress", "sentence": "Put down the gun.", "zh": "放下枪。"}
+{"id": 40011, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "in", "replaces": "submit", "sentence": "Put in a request.", "zh": "提出一个请求。"}
+{"id": 40012, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "after", "replaces": "resemble", "sentence": "She takes after her mother.", "zh": "她像她妈妈。"}
+{"id": 40013, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "after", "replaces": "resemble", "sentence": "He takes after his father.", "zh": "他像他爸爸。"}
+{"id": 40014, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "apart", "replaces": "disassemble", "sentence": "Take the machine apart.", "zh": "把机器拆开。"}
+{"id": 40015, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "aside", "replaces": "separate", "sentence": "Take him aside.", "zh": "把他拉到一边。"}
+{"id": 40016, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "down", "replaces": "lower", "sentence": "Take down the curtain.", "zh": "把窗帘取下来。"}
+{"id": 40017, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "in", "replaces": "deceive", "sentence": "He was taken in by the trick.", "zh": "他被把戏骗了。"}
+{"id": 40018, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "off", "replaces": "imitate", "sentence": "She takes off the teacher.", "zh": "她模仿老师。"}
+{"id": 40019, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "on", "replaces": "accept", "sentence": "Take on the work.", "zh": "接受工作。"}
+{"id": 40020, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "to", "replaces": "develop a liking for", "sentence": "He took to the work.", "zh": "他喜欢上了工作。"}
+{"id": 40021, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "up", "replaces": "discuss", "sentence": "Take up the question.", "zh": "提出问题。"}
+{"id": 40022, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "up", "replaces": "occupy", "sentence": "The work takes up my time.", "zh": "工作占用了我的时间。"}
+{"id": 40023, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "along", "replaces": "accompany", "sentence": "Come along with me.", "zh": "跟我一起来。"}
+{"id": 40024, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "along", "replaces": "accompany", "sentence": "She came along to help.", "zh": "她来帮忙了。"}
+{"id": 40025, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "down", "replaces": "descend", "sentence": "Come down from the tree.", "zh": "从树上下来。"}
+{"id": 40026, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "forward", "replaces": "volunteer", "sentence": "Come forward and help.", "zh": "上前来帮忙。"}
+{"id": 40027, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "profit", "replaces": "profit", "sentence": "We made a good profit.", "zh": "我们赚了很多利润。"}
+{"id": 40028, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "connection", "replaces": "connect", "sentence": "He made a connection with his friend.", "zh": "他和朋友建立了联系。"}
+{"id": 40029, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "contact", "replaces": "contact", "sentence": "I made contact with him.", "zh": "我和他取得了联系。"}
+{"id": 40030, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "point", "replaces": "make a point", "sentence": "He made a good point.", "zh": "他提出了一个好观点。"}
+{"id": 40031, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "progress", "replaces": "progress", "sentence": "We made great progress.", "zh": "我们取得了很大的进步。"}
+{"id": 40032, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "progress", "replaces": "progress", "sentence": "She makes good progress in her learning.", "zh": "她学习进步很快。"}
+{"id": 40033, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "effort", "replaces": "try", "sentence": "He made a great effort.", "zh": "他做了很大的努力。"}
+{"id": 40034, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "effort", "replaces": "try", "sentence": "She made every effort to help.", "zh": "她尽了一切努力帮助。"}
+{"id": 40035, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "promise", "replaces": "promise", "sentence": "He made a promise to his friend.", "zh": "他对朋友许下了承诺。"}
+{"id": 40036, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "exception", "replaces": "except", "sentence": "We made an exception.", "zh": "我们做了一个例外。"}
+{"id": 40037, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "contribution", "replaces": "contribute", "sentence": "He made a great contribution.", "zh": "他做出了很大的贡献。"}
+{"id": 40038, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "prediction", "replaces": "predict", "sentence": "I made a prediction.", "zh": "我做了一个预测。"}
+{"id": 40039, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "assumption", "replaces": "assume", "sentence": "I made an assumption.", "zh": "我做了一个假设。"}
+{"id": 40040, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "arrangement", "replaces": "arrange", "sentence": "She made an arrangement for the party.", "zh": "她安排了聚会。"}
+{"id": 40041, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "effect", "replaces": "affect", "sentence": "It had a great effect.", "zh": "它有巨大的影响。"}
+{"id": 40042, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "influence", "replaces": "influence", "sentence": "He has influence over the group.", "zh": "他对团体有影响。"}
+{"id": 40043, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "impact", "replaces": "impact", "sentence": "She had an impact on the decision.", "zh": "她对决定有影响。"}
+{"id": 40044, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "responsibility", "replaces": "be responsible", "sentence": "She has a responsibility to her family.", "zh": "她对家庭有责任。"}
+{"id": 40045, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "opportunity", "replaces": "have a chance", "sentence": "I had an opportunity to go.", "zh": "我有机会去。"}
+{"id": 40046, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "difficulty", "replaces": "have trouble", "sentence": "I have difficulty with the work.", "zh": "我在工作上有困难。"}
+{"id": 40047, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "impression", "replaces": "impress", "sentence": "He gave a good impression.", "zh": "他给人留下了好印象。"}
+{"id": 40048, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "warning", "replaces": "warn", "sentence": "I gave a warning.", "zh": "我发出了警告。"}
+{"id": 40049, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "permission", "replaces": "permit", "sentence": "He gave permission for the work.", "zh": "他批准了工作。"}
+{"id": 40050, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "approval", "replaces": "approve", "sentence": "I gave my approval.", "zh": "我批准了。"}
+{"id": 40051, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "advice", "replaces": "advise", "sentence": "He gave good advice.", "zh": "他给了好的建议。"}
+{"id": 40052, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "advice", "replaces": "advise", "sentence": "She gave me some advice.", "zh": "她给了我一些建议。"}
+{"id": 40053, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "assistance", "replaces": "assist", "sentence": "I gave assistance to the old man.", "zh": "我帮助了老人。"}
+{"id": 40054, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "consent", "replaces": "consent", "sentence": "She gave her consent.", "zh": "她同意了。"}
