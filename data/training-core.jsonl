@@ -2249,3 +2249,34 @@
 {"id": 70088, "step": 3, "type": "scene_sentence", "scene": "Waiting in Line", "sentence": "Do not give in to anger.", "zh": "不要屈服于愤怒。"}
 {"id": 70089, "step": 3, "type": "scene_sentence", "scene": "Waiting in Line", "sentence": "Go to the front of the line.", "zh": "走到队伍前面。"}
 {"id": 70090, "step": 3, "type": "scene_sentence", "scene": "Waiting in Line", "sentence": "Take your turn.", "zh": "轮到你了。"}
+{"id": 80001, "step": 3, "type": "scene_sentence", "scene": "Christmas Day", "sentence": "Today is Christmas.", "zh": "今天是圣诞节。"}
+{"id": 80002, "step": 3, "type": "scene_sentence", "scene": "Christmas Day", "sentence": "Put up the tree.", "zh": "把树竖起来。"}
+{"id": 80003, "step": 3, "type": "scene_sentence", "scene": "Wedding Ceremony", "sentence": "Put a ring on her finger.", "zh": "把戒指戴在她手指上。"}
+{"id": 80004, "step": 3, "type": "scene_sentence", "scene": "Funeral Service", "sentence": "We go to the funeral.", "zh": "我们去参加葬礼。"}
+{"id": 80005, "step": 3, "type": "scene_sentence", "scene": "Funeral Service", "sentence": "He went from this life.", "zh": "他离开了这个世界。"}
+{"id": 80006, "step": 3, "type": "scene_sentence", "scene": "Funeral Service", "sentence": "Put some flowers by the box.", "zh": "在盒子旁边放些花。"}
+{"id": 80007, "step": 3, "type": "scene_sentence", "scene": "Heavy Rain", "sentence": "The rain comes down heavily.", "zh": "雨下得很大。"}
+{"id": 80008, "step": 3, "type": "scene_sentence", "scene": "Heavy Rain", "sentence": "Keep out of the water.", "zh": "远离水。"}
+{"id": 80009, "step": 3, "type": "scene_sentence", "scene": "Heavy Rain", "sentence": "The road is wet.", "zh": "路是湿的。"}
+{"id": 80010, "step": 3, "type": "scene_sentence", "scene": "Snowing", "sentence": "The snow is coming down.", "zh": "雪正在下。"}
+{"id": 80011, "step": 3, "type": "scene_sentence", "scene": "Snowing", "sentence": "The ground is white.", "zh": "地面是白色的。"}
+{"id": 80012, "step": 3, "type": "scene_sentence", "scene": "Strong Wind", "sentence": "The wind is strong today.", "zh": "今天风很大。"}
+{"id": 80013, "step": 3, "type": "scene_sentence", "scene": "Speeding Ticket", "sentence": "I went too fast.", "zh": "我走得太快了。"}
+{"id": 80014, "step": 3, "type": "scene_sentence", "scene": "Speeding Ticket", "sentence": "Do not go too fast again.", "zh": "不要再走太快了。"}
+{"id": 80015, "step": 3, "type": "scene_sentence", "scene": "Buying on Sale", "sentence": "Put the thing in the bag.", "zh": "把东西放进包里。"}
+{"id": 80016, "step": 3, "type": "scene_sentence", "scene": "Returning a Product", "sentence": "I send back the goods.", "zh": "我退回了货物。"}
+{"id": 80017, "step": 3, "type": "scene_sentence", "scene": "Returning a Product", "sentence": "The thing is not good.", "zh": "东西不好。"}
+{"id": 80018, "step": 3, "type": "scene_sentence", "scene": "Taking Food to Go", "sentence": "Put the food in a box.", "zh": "把食物放进盒子里。"}
+{"id": 80019, "step": 3, "type": "scene_sentence", "scene": "Taking Food to Go", "sentence": "Take the box with you.", "zh": "把盒子带走。"}
+{"id": 80020, "step": 3, "type": "scene_sentence", "scene": "Taking Food to Go", "sentence": "Give me the food to go.", "zh": "给我打包的食物。"}
+{"id": 80021, "step": 3, "type": "scene_sentence", "scene": "Taking Food to Go", "sentence": "Put the box in the bag.", "zh": "把盒子放进袋子里。"}
+{"id": 80022, "step": 3, "type": "scene_sentence", "scene": "Food Delivery", "sentence": "The man brings the food to my door.", "zh": "那个人把食物送到我家门口。"}
+{"id": 80023, "step": 3, "type": "scene_sentence", "scene": "Food Delivery", "sentence": "Give the man some money.", "zh": "给那个人一些钱。"}
+{"id": 80024, "step": 3, "type": "scene_sentence", "scene": "Home Renovation", "sentence": "Put up a new shelf.", "zh": "架上一个新架子。"}
+{"id": 80025, "step": 3, "type": "scene_sentence", "scene": "Home Renovation", "sentence": "The house is good again.", "zh": "房子又好了。"}
+{"id": 80026, "step": 3, "type": "scene_sentence", "scene": "Moving to a New House", "sentence": "The new house is beautiful.", "zh": "新房子很漂亮。"}
+{"id": 80027, "step": 3, "type": "scene_sentence", "scene": "Opening a Bank Account", "sentence": "Give the money to the bank.", "zh": "把钱给银行。"}
+{"id": 80028, "step": 3, "type": "scene_sentence", "scene": "Mailing a Package", "sentence": "Put the thing in a box.", "zh": "把东西放进盒子里。"}
+{"id": 80029, "step": 3, "type": "scene_sentence", "scene": "Mailing a Package", "sentence": "The box goes to my friend.", "zh": "盒子寄到我的朋友那里。"}
+{"id": 90001, "step": 3, "type": "scene_sentence", "scene": "At theGas Station", "sentence": "I go to the gas station.", "zh": "我去加油站。"}
+{"id": 90002, "step": 3, "type": "scene_sentence", "scene": "At theGas Station", "sentence": "Put some gas in the car.", "zh": "给车加些油。"}
