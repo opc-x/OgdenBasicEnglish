@@ -1,0 +1,50 @@
+{"step":1,"operator":"put","type":"operator_basic","sentence":"I put the book on the table."}
+{"step":1,"operator":"put","type":"operator_basic","sentence":"She put the flower in the pot."}
+{"step":1,"operator":"put","type":"operator_basic","sentence":"Put your hand on your head."}
+{"step":1,"operator":"take","type":"operator_basic","sentence":"I take the book off the table."}
+{"step":1,"operator":"take","type":"operator_basic","sentence":"Take your hand off your head."}
+{"step":1,"operator":"go","type":"operator_basic","sentence":"I go to the station."}
+{"step":1,"operator":"go","type":"operator_basic","sentence":"Go to your room."}
+{"step":1,"operator":"come","type":"operator_basic","sentence":"Come to the table."}
+{"step":1,"operator":"come","type":"operator_basic","sentence":"She came to the window."}
+{"step":1,"operator":"get","type":"operator_basic","sentence":"I get the book from the table."}
+{"step":1,"operator":"get","type":"operator_basic","sentence":"Get your coat from the room."}
+{"step":1,"operator":"give","type":"operator_basic","sentence":"Give the book to me."}
+{"step":1,"operator":"give","type":"operator_basic","sentence":"I gave the letter to her."}
+{"step":1,"operator":"make","type":"operator_basic","sentence":"I make a cake."}
+{"step":1,"operator":"make","type":"operator_basic","sentence":"She made the bed."}
+{"step":2,"operator":"put","direction":"on","type":"op_direction_combo","sentence":"Put the book on the table."}
+{"step":2,"operator":"put","direction":"on","type":"op_direction_combo","sentence":"She put her coat on."}
+{"step":2,"operator":"put","direction":"off","type":"op_direction_combo","sentence":"Put off the meeting."}
+{"step":2,"operator":"put","direction":"off","type":"op_direction_combo","sentence":"I put off my work."}
+{"step":2,"operator":"put","direction":"in","type":"op_direction_combo","sentence":"Put the flower in the pot."}
+{"step":2,"operator":"put","direction":"out","type":"op_direction_combo","sentence":"Put out the light."}
+{"step":2,"operator":"put","direction":"down","type":"op_direction_combo","sentence":"Put the book down."}
+{"step":2,"operator":"put","direction":"up","type":"op_direction_combo","sentence":"Put up the picture."}
+{"step":2,"operator":"take","direction":"off","type":"op_direction_combo","sentence":"Take your coat off."}
+{"step":2,"operator":"take","direction":"off","type":"op_direction_combo","sentence":"Take the book off the table."}
+{"step":2,"operator":"take","direction":"out","type":"op_direction_combo","sentence":"Take the book out of the box."}
+{"step":2,"operator":"take","direction":"in","type":"op_direction_combo","sentence":"Take in the air."}
+{"step":2,"operator":"take","direction":"up","type":"op_direction_combo","sentence":"Take up the work."}
+{"step":2,"operator":"take","direction":"away","type":"op_direction_combo","sentence":"Take away the plate."}
+{"step":2,"operator":"take","direction":"back","type":"op_direction_combo","sentence":"Take back the book."}
+{"step":2,"operator":"go","direction":"in","type":"op_direction_combo","sentence":"Go in through the door."}
+{"step":2,"operator":"go","direction":"out","type":"op_direction_combo","sentence":"Go out of the house."}
+{"step":2,"operator":"go","direction":"on","type":"op_direction_combo","sentence":"Go on with your work."}
+{"step":2,"operator":"go","direction":"up","type":"op_direction_combo","sentence":"Go up to the door."}
+{"step":2,"operator":"go","direction":"down","type":"op_direction_combo","sentence":"Go down the street."}
+{"step":2,"operator":"come","direction":"in","type":"op_direction_combo","sentence":"Come in through the door."}
+{"step":2,"operator":"come","direction":"out","type":"op_direction_combo","sentence":"The sun came out."}
+{"step":2,"operator":"come","direction":"back","type":"op_direction_combo","sentence":"Come back to the house."}
+{"step":2,"operator":"get","direction":"up","type":"op_direction_combo","sentence":"Get up from the bed."}
+{"step":2,"operator":"get","direction":"out","type":"op_direction_combo","sentence":"Get out of the room."}
+{"step":2,"operator":"get","direction":"on","type":"op_direction_combo","sentence":"Get on the train."}
+{"step":3,"scene":"My Room","type":"scene_sentence","sentence":"This is my room. The door is in the wall. My bed is against the wall under the window."}
+{"step":3,"scene":"My Room","type":"scene_sentence","sentence":"I put my books on the narrow table between the bed and the door."}
+{"step":3,"scene":"At a Meal","type":"scene_sentence","sentence":"Some food is on the table. I take my spoon and put the soup in my mouth."}
+{"step":3,"scene":"At a Meal","type":"scene_sentence","sentence":"I put salt on my meat and take butter on my bread with my knife."}
+{"step":3,"scene":"At the Station","type":"scene_sentence","sentence":"I go to my office in a train. I get a ticket at the station."}
+{"step":3,"scene":"At the Station","type":"scene_sentence","sentence":"I give a ticket to my friend and put the other in my pocket."}
+{"step":3,"scene":"The Body","type":"scene_sentence","sentence":"This is my body. I have a head, two arms, and two legs."}
+{"step":3,"scene":"The Weather","type":"scene_sentence","sentence":"The weather is warm in the summer, but in the winter it is cold."}
+{"step":3,"scene":"The Family","type":"scene_sentence","sentence":"My father is a man and my mother is a woman. I am their son."}
