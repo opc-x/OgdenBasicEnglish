@@ -1883,3 +1883,915 @@
 {"id": 80029, "step": 3, "type": "scene_sentence", "scene": "Mailing", "sentence": "The box goes to my friend.", "zh": "盒子寄到我的朋友那里。"}
 {"id": 90001, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "I go to the gas station.", "zh": "我去加油站。"}
 {"id": 90002, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Put some gas in the car.", "zh": "给车加些油。"}
+{"id": 90003, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "I get on the web every day.", "zh": "我每天上网。"}
+{"id": 90004, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "Go on the web for an answer.", "zh": "上网找答案。"}
+{"id": 90005, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "Put the picture on the web.", "zh": "把图片放到网上。"}
+{"id": 90006, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "I see it on the web.", "zh": "我在网上看到它。"}
+{"id": 90007, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "Get help from the web.", "zh": "从网上获得帮助。"}
+{"id": 90008, "step": 3, "type": "scene_sentence", "scene": "Internet", "sentence": "I go through the web.", "zh": "我浏览网页。"}
+{"id": 90009, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "Send a letter by web.", "zh": "发邮件。"}
+{"id": 90010, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "Get a letter by web.", "zh": "收邮件。"}
+{"id": 90011, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "Put your name in the letter.", "zh": "在信中写上你的名字。"}
+{"id": 90012, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "I send the letter out.", "zh": "我把信发出去。"}
+{"id": 90013, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "See the letter in the box.", "zh": "在信箱里看到信。"}
+{"id": 90014, "step": 3, "type": "scene_sentence", "scene": "Email", "sentence": "I get an answer by web.", "zh": "我收到回复。"}
+{"id": 90015, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "Put a picture on the web.", "zh": "发图片到网上。"}
+{"id": 90016, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "Get a word on the web.", "zh": "在网上收到消息。"}
+{"id": 90017, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "See the face on the web.", "zh": "在网上看到脸。"}
+{"id": 90018, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "Go through the web page.", "zh": "浏览网页。"}
+{"id": 90019, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "Put out a word online.", "zh": "在网上发消息。"}
+{"id": 90020, "step": 3, "type": "scene_sentence", "scene": "Social Media", "sentence": "Get a good word online.", "zh": "在网上收到好消息。"}
+{"id": 90021, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "Get something by web.", "zh": "网上购买。"}
+{"id": 90022, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "Put in an order by web.", "zh": "网上下单。"}
+{"id": 90023, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "Pay by web.", "zh": "网上支付。"}
+{"id": 90024, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "Get the thing at the door.", "zh": "在门口收到东西。"}
+{"id": 90025, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "See the thing on the web.", "zh": "在网上看商品。"}
+{"id": 90026, "step": 3, "type": "scene_sentence", "scene": "Online Shopping", "sentence": "Put money out for it.", "zh": "为它付钱。"}
+{"id": 90027, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "See a person by web.", "zh": "视频通话。"}
+{"id": 90028, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "Have a talk by web.", "zh": "网络聊天。"}
+{"id": 90029, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "Put on a face on the web.", "zh": "网上露脸。"}
+{"id": 90030, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "See the face on the screen.", "zh": "在屏幕上看到脸。"}
+{"id": 90031, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "Hear the voice by web.", "zh": "通过网络听到声音。"}
+{"id": 90032, "step": 3, "type": "scene_sentence", "scene": "Video Call", "sentence": "Have a good talk.", "zh": "聊得开心。"}
+{"id": 90033, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "Get a word by phone.", "zh": "用手机收消息。"}
+{"id": 90034, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "Put in a word by phone.", "zh": "用手机发消息。"}
+{"id": 90035, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "See it on the phone.", "zh": "在手机上看到。"}
+{"id": 90036, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "Send a picture by phone.", "zh": "用手机发图片。"}
+{"id": 90037, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "Get help from the phone.", "zh": "用手机获得帮助。"}
+{"id": 90038, "step": 3, "type": "scene_sentence", "scene": "Smartphone", "sentence": "Keep the phone in hand.", "zh": "把手机拿在手里。"}
+{"id": 90039, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Get something from the web.", "zh": "从网上下载。"}
+{"id": 90040, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Put something in from the web.", "zh": "从网上下载下来。"}
+{"id": 90041, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Get the work from the web.", "zh": "从网上获取工作。"}
+{"id": 90042, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Take the thing down.", "zh": "下载东西。"}
+{"id": 90043, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Put it in the house.", "zh": "存到家里。"}
+{"id": 90044, "step": 3, "type": "scene_sentence", "scene": "Download", "sentence": "Get the program from the web.", "zh": "从网上获取程序。"}
+{"id": 90045, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "Get the web.", "zh": "连接网络。"}
+{"id": 90046, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "Go on the web.", "zh": "上网。"}
+{"id": 90047, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "Put on the web.", "zh": "连上网络。"}
+{"id": 90048, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "See the web.", "zh": "看到网络。"}
+{"id": 90049, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "Get help with the web.", "zh": "获得网络帮助。"}
+{"id": 90050, "step": 3, "type": "scene_sentence", "scene": "WiFi", "sentence": "Go through the web.", "zh": "通过网络。"}
+{"id": 90051, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Put in a secret word.", "zh": "输入密码。"}
+{"id": 90052, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Get the secret word.", "zh": "获取密码。"}
+{"id": 90053, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Keep the secret word.", "zh": "保存密码。"}
+{"id": 90054, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Put in the word.", "zh": "输入密码。"}
+{"id": 90055, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Have a good word.", "zh": "有好密码。"}
+{"id": 90056, "step": 3, "type": "scene_sentence", "scene": "Password", "sentence": "Make a strong word.", "zh": "设置强密码。"}
+{"id": 90057, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "Put money in by web.", "zh": "网上存钱。"}
+{"id": 90058, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "Get money out by web.", "zh": "网上取钱。"}
+{"id": 90059, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "See money by web.", "zh": "网上查余额。"}
+{"id": 90060, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "Put money in the account.", "zh": "把钱存进账户。"}
+{"id": 90061, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "Get money from the account.", "zh": "从账户取钱。"}
+{"id": 90062, "step": 3, "type": "scene_sentence", "scene": "Online Banking", "sentence": "See the amount on the web.", "zh": "在网上看到金额。"}
+{"id": 90063, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Go through a game.", "zh": "玩游戏。"}
+{"id": 90064, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Put in time on a game.", "zh": "花时间玩游戏。"}
+{"id": 90065, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Get a point in a game.", "zh": "在游戏中得分。"}
+{"id": 90066, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Make a point in a game.", "zh": "在游戏中得分。"}
+{"id": 90067, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Get a high point.", "zh": "获得高分。"}
+{"id": 90068, "step": 3, "type": "scene_sentence", "scene": "Gaming", "sentence": "Have a good time playing.", "zh": "玩得开心。"}
+{"id": 90069, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "See a film by web.", "zh": "在线观看电影。"}
+{"id": 90070, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "Hear music by web.", "zh": "在线听音乐。"}
+{"id": 90071, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "Put on a film by web.", "zh": "在线播放电影。"}
+{"id": 90072, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "See the film on the screen.", "zh": "在屏幕上看到电影。"}
+{"id": 90073, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "Hear the song by web.", "zh": "在线听歌。"}
+{"id": 90074, "step": 3, "type": "scene_sentence", "scene": "Streaming", "sentence": "Have a good time watching.", "zh": "看得开心。"}
+{"id": 90075, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Put in a program.", "zh": "安装程序。"}
+{"id": 90076, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Get a program.", "zh": "获取程序。"}
+{"id": 90077, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Go through a program.", "zh": "使用程序。"}
+{"id": 90078, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Put it on the phone.", "zh": "装到手机上。"}
+{"id": 90079, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Get help from the program.", "zh": "从程序获得帮助。"}
+{"id": 90080, "step": 3, "type": "scene_sentence", "scene": "App", "sentence": "Use the program every day.", "zh": "每天使用程序。"}
+{"id": 90081, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "Go through the web for something.", "zh": "在网上搜索。"}
+{"id": 90082, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "Get an answer from the web.", "zh": "从网上获得答案。"}
+{"id": 90083, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "Put in a word to search.", "zh": "输入关键词搜索。"}
+{"id": 90084, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "See the answer on the web.", "zh": "在网上看到答案。"}
+{"id": 90085, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "Find the thing on the web.", "zh": "在网上找到东西。"}
+{"id": 90086, "step": 3, "type": "scene_sentence", "scene": "Search", "sentence": "Get help from the search.", "zh": "从搜索获得帮助。"}
+{"id": 90087, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "Get help with the machine.", "zh": "获得机器帮助。"}
+{"id": 90088, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "Put the machine right.", "zh": "修好机器。"}
+{"id": 90089, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "Make the machine go.", "zh": "让机器运转。"}
+{"id": 90090, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "Get help from a person.", "zh": "从人获得帮助。"}
+{"id": 90091, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "Put in work on the machine.", "zh": "在机器上投入工作。"}
+{"id": 90092, "step": 3, "type": "scene_sentence", "scene": "Tech Support", "sentence": "See the problem on the screen.", "zh": "在屏幕上看到问题。"}
+{"id": 90093, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "I have a good feeling.", "zh": "我有好心情。"}
+{"id": 90094, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "Put a smile on your face.", "zh": "脸上露出笑容。"}
+{"id": 90095, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "Get a good day.", "zh": "度过美好的一天。"}
+{"id": 90096, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "Have joy in the heart.", "zh": "心中有快乐。"}
+{"id": 90097, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "Feel good all day.", "zh": "一整天感觉良好。"}
+{"id": 90098, "step": 3, "type": "scene_sentence", "scene": "Happy", "sentence": "Make someone happy.", "zh": "使某人开心。"}
+{"id": 90099, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "I have a bad feeling.", "zh": "我心情不好。"}
+{"id": 90100, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "Put down your face.", "zh": "脸沉下来。"}
+{"id": 90101, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "Get a bad day.", "zh": "度过糟糕的一天。"}
+{"id": 90102, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "Have tears in the eyes.", "zh": "眼中有泪。"}
+{"id": 90103, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "Feel bad about it.", "zh": "为此感到难过。"}
+{"id": 90104, "step": 3, "type": "scene_sentence", "scene": "Sad", "sentence": "Make someone sad.", "zh": "使某人伤心。"}
+{"id": 90105, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "I have a hot feeling.", "zh": "我有怒火。"}
+{"id": 90106, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "Put out angry words.", "zh": "说出气话。"}
+{"id": 90107, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "Get a red face.", "zh": "脸红了。"}
+{"id": 90108, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "Have anger in the heart.", "zh": "心中有愤怒。"}
+{"id": 90109, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "Feel hot inside.", "zh": "内心感到热。"}
+{"id": 90110, "step": 3, "type": "scene_sentence", "scene": "Angry", "sentence": "Make someone angry.", "zh": "使某人生气。"}
+{"id": 90111, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "I have a shaking feeling.", "zh": "我感到紧张。"}
+{"id": 90112, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "Put up your heart.", "zh": "心跳加速。"}
+{"id": 90113, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "Get cold hands.", "zh": "手冰凉。"}
+{"id": 90114, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "Have fear in the heart.", "zh": "心中有恐惧。"}
+{"id": 90115, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "Feel shaking all over.", "zh": "感到全身颤抖。"}
+{"id": 90116, "step": 3, "type": "scene_sentence", "scene": "Nervous", "sentence": "Make someone nervous.", "zh": "使某人紧张。"}
+{"id": 90117, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "I have a let-down feeling.", "zh": "我感到失望。"}
+{"id": 90118, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "Put down your hope.", "zh": "放下希望。"}
+{"id": 90119, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "Get a bad answer.", "zh": "得到坏答案。"}
+{"id": 90120, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "Have sad thoughts.", "zh": "有悲伤的想法。"}
+{"id": 90121, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "Feel down about it.", "zh": "为此感到低落。"}
+{"id": 90122, "step": 3, "type": "scene_sentence", "scene": "Disappointed", "sentence": "Make someone disappointed.", "zh": "使某人失望。"}
+{"id": 90123, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "I have a sudden feeling.", "zh": "我感到惊讶。"}
+{"id": 90124, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "Put up your eyes.", "zh": "睁大眼睛。"}
+{"id": 90125, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "Get a shock.", "zh": "受到惊吓。"}
+{"id": 90126, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "Have a surprise.", "zh": "有惊讶。"}
+{"id": 90127, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "Feel sudden about it.", "zh": "对此感到突然。"}
+{"id": 90128, "step": 3, "type": "scene_sentence", "scene": "Surprised", "sentence": "Make someone surprised.", "zh": "使某人惊讶。"}
+{"id": 90129, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "I have a heavy feeling.", "zh": "我感到担忧。"}
+{"id": 90130, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "Put it on your mind.", "zh": "放在心上。"}
+{"id": 90131, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "Get no sleep.", "zh": "睡不着。"}
+{"id": 90132, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "Have worry in the mind.", "zh": "心中有担忧。"}
+{"id": 90133, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "Feel heavy in the heart.", "zh": "心里沉重。"}
+{"id": 90134, "step": 3, "type": "scene_sentence", "scene": "Worried", "sentence": "Make someone worried.", "zh": "使某人担忧。"}
+{"id": 90135, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "I have an alone feeling.", "zh": "我感到孤独。"}
+{"id": 90136, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "Put out a hand to someone.", "zh": "向某人伸出手。"}
+{"id": 90137, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "Get no answer.", "zh": "没有回应。"}
+{"id": 90138, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "Have lonely thoughts.", "zh": "有孤独的想法。"}
+{"id": 90139, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "Feel alone in the place.", "zh": "在地方感到孤独。"}
+{"id": 90140, "step": 3, "type": "scene_sentence", "scene": "Lonely", "sentence": "Make someone lonely.", "zh": "使某人孤独。"}
+{"id": 90141, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "I have a high feeling.", "zh": "我感到自豪。"}
+{"id": 90142, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "Put up your head.", "zh": "昂起头。"}
+{"id": 90143, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "Get good work done.", "zh": "完成好工作。"}
+{"id": 90144, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "Have pride in the work.", "zh": "对工作有骄傲。"}
+{"id": 90145, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "Feel high about it.", "zh": "对此感到自豪。"}
+{"id": 90146, "step": 3, "type": "scene_sentence", "scene": "Proud", "sentence": "Make someone proud.", "zh": "使某人自豪。"}
+{"id": 90147, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "I have a green feeling.", "zh": "我嫉妒。"}
+{"id": 90148, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "Put your eye on someone.", "zh": "盯着某人看。"}
+{"id": 90149, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "Get a bad thought.", "zh": "有坏想法。"}
+{"id": 90150, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "Have jealous feelings.", "zh": "有嫉妒的感觉。"}
+{"id": 90151, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "Feel green about it.", "zh": "对此感到嫉妒。"}
+{"id": 90152, "step": 3, "type": "scene_sentence", "scene": "Jealous", "sentence": "Make someone jealous.", "zh": "使某人嫉妒。"}
+{"id": 90153, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "I have a mixed feeling.", "zh": "我感到困惑。"}
+{"id": 90154, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "Put your mind in order.", "zh": "整理思路。"}
+{"id": 90155, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "Get no answer.", "zh": "得不到答案。"}
+{"id": 90156, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "Have confused thoughts.", "zh": "有困惑的想法。"}
+{"id": 90157, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "Feel mixed up about it.", "zh": "对此感到混乱。"}
+{"id": 90158, "step": 3, "type": "scene_sentence", "scene": "Confused", "sentence": "Make someone confused.", "zh": "使某人困惑。"}
+{"id": 90159, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "I have a warm feeling.", "zh": "我感到感激。"}
+{"id": 90160, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "Put out a hand.", "zh": "伸出手。"}
+{"id": 90161, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "Get a good word.", "zh": "得到好话。"}
+{"id": 90162, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "Have grateful thoughts.", "zh": "有感激的想法。"}
+{"id": 90163, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "Feel warm inside.", "zh": "内心感到温暖。"}
+{"id": 90164, "step": 3, "type": "scene_sentence", "scene": "Grateful", "sentence": "Make someone grateful.", "zh": "使某人感激。"}
+{"id": 90165, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "Get warm again.", "zh": "又变暖了。"}
+{"id": 90166, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "Put out new growth.", "zh": "长出新的。"}
+{"id": 90167, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "See the flowers come.", "zh": "看到花开。"}
+{"id": 90168, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "Have a warm day.", "zh": "有温暖的一天。"}
+{"id": 90169, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "Feel the air get warm.", "zh": "感到空气变暖。"}
+{"id": 90170, "step": 3, "type": "scene_sentence", "scene": "Spring", "sentence": "See the leaves come out.", "zh": "看到叶子长出来。"}
+{"id": 90171, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "Get hot.", "zh": "变热了。"}
+{"id": 90172, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "Put on light clothing.", "zh": "穿轻薄衣服。"}
+{"id": 90173, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "See the sun high.", "zh": "看到太阳高照。"}
+{"id": 90174, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "Have a hot day.", "zh": "有炎热的一天。"}
+{"id": 90175, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "Feel the heat.", "zh": "感到热。"}
+{"id": 90176, "step": 3, "type": "scene_sentence", "scene": "Summer", "sentence": "Go to the water for cool.", "zh": "去水里凉快。"}
+{"id": 90177, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "Get cool again.", "zh": "又变凉了。"}
+{"id": 90178, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "Put on warm clothing.", "zh": "穿暖和衣服。"}
+{"id": 90179, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "See the leaves come down.", "zh": "看到叶子落下来。"}
+{"id": 90180, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "Have a cool day.", "zh": "有凉爽的一天。"}
+{"id": 90181, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "Feel the air get cool.", "zh": "感到空气变凉。"}
+{"id": 90182, "step": 3, "type": "scene_sentence", "scene": "Autumn", "sentence": "See the leaves turn color.", "zh": "看到叶子变色。"}
+{"id": 90183, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "Get cold.", "zh": "变冷了。"}
+{"id": 90184, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "Put on thick clothing.", "zh": "穿厚衣服。"}
+{"id": 90185, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "See the white covering.", "zh": "看到白色覆盖。"}
+{"id": 90186, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "Have a cold day.", "zh": "有寒冷的一天。"}
+{"id": 90187, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "Feel the cold.", "zh": "感到冷。"}
+{"id": 90188, "step": 3, "type": "scene_sentence", "scene": "Winter", "sentence": "Go inside for warm.", "zh": "进屋取暖。"}
+{"id": 90189, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "Get bright light.", "zh": "获得明亮光线。"}
+{"id": 90190, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "Put on a hat.", "zh": "戴上帽子。"}
+{"id": 90191, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "See the sun.", "zh": "看到太阳。"}
+{"id": 90192, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "Have a bright day.", "zh": "有明亮的一天。"}
+{"id": 90193, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "Feel the warmth.", "zh": "感到温暖。"}
+{"id": 90194, "step": 3, "type": "scene_sentence", "scene": "Sunny Day", "sentence": "Go out in the sun.", "zh": "出门晒太阳。"}
+{"id": 90195, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "Get water from the sky.", "zh": "从天上得到水。"}
+{"id": 90196, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "Put on a cover.", "zh": "穿上雨衣。"}
+{"id": 90197, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "See the rain.", "zh": "看到雨。"}
+{"id": 90198, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "Have a wet day.", "zh": "有湿的一天。"}
+{"id": 90199, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "Feel the rain on the face.", "zh": "感到雨落在脸上。"}
+{"id": 90200, "step": 3, "type": "scene_sentence", "scene": "Rainy Day", "sentence": "Go inside to keep dry.", "zh": "进屋保持干燥。"}
+{"id": 90201, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "Get moving air.", "zh": "有流动的空气。"}
+{"id": 90202, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "Put on a coat.", "zh": "穿上外套。"}
+{"id": 90203, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "See the trees move.", "zh": "看到树在动。"}
+{"id": 90204, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "Have a blowing day.", "zh": "有风的一天。"}
+{"id": 90205, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "Feel the wind on the face.", "zh": "感到风吹在脸上。"}
+{"id": 90206, "step": 3, "type": "scene_sentence", "scene": "Windy Day", "sentence": "Keep your hat on.", "zh": "戴好帽子。"}
+{"id": 90207, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "Get thick air.", "zh": "有浓雾。"}
+{"id": 90208, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "Put on a light.", "zh": "打开灯。"}
+{"id": 90209, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "See nothing far.", "zh": "看不到远处。"}
+{"id": 90210, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "Have a thick day.", "zh": "有雾的一天。"}
+{"id": 90211, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "Feel the thickness.", "zh": "感到浓密。"}
+{"id": 90212, "step": 3, "type": "scene_sentence", "scene": "Foggy Day", "sentence": "Go slowly in the fog.", "zh": "在雾中慢慢走。"}
+{"id": 90213, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "Get a loud sound from the sky.", "zh": "从天上听到巨响。"}
+{"id": 90214, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "Put in the house.", "zh": "进屋里。"}
+{"id": 90215, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "See the light from the sky.", "zh": "看到天上的光。"}
+{"id": 90216, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "Have a loud day.", "zh": "有雷声的一天。"}
+{"id": 90217, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "Feel the shake.", "zh": "感到震动。"}
+{"id": 90218, "step": 3, "type": "scene_sentence", "scene": "Thunderstorm", "sentence": "Stay inside for safety.", "zh": "待在屋里安全。"}
+{"id": 90219, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "Get white covering.", "zh": "有白色覆盖。"}
+{"id": 90220, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "Put on warm shoes.", "zh": "穿暖和的鞋子。"}
+{"id": 90221, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "See the white ground.", "zh": "看到白色地面。"}
+{"id": 90222, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "Have a white day.", "zh": "有雪的一天。"}
+{"id": 90223, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "Feel the cold white.", "zh": "感到寒冷的白。"}
+{"id": 90224, "step": 3, "type": "scene_sentence", "scene": "Snow", "sentence": "Go out in the snow.", "zh": "出门到雪地里。"}
+{"id": 90225, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "Put in plants.", "zh": "种植物。"}
+{"id": 90226, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "Get growth.", "zh": "获得生长。"}
+{"id": 90227, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "See the flowers.", "zh": "看到花。"}
+{"id": 90228, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "Have a green place.", "zh": "有绿色的地方。"}
+{"id": 90229, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "Feel the growth.", "zh": "感到生长。"}
+{"id": 90230, "step": 3, "type": "scene_sentence", "scene": "Garden", "sentence": "Work in the garden.", "zh": "在花园里工作。"}
+{"id": 90231, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "See a wild animal.", "zh": "看到野生动物。"}
+{"id": 90232, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "Put food out.", "zh": "放食物出去。"}
+{"id": 90233, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "Get a visit from an animal.", "zh": "有动物来访。"}
+{"id": 90234, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "Have an animal nearby.", "zh": "附近有动物。"}
+{"id": 90235, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "Feel the wild.", "zh": "感到野性。"}
+{"id": 90236, "step": 3, "type": "scene_sentence", "scene": "Animals Wild", "sentence": "Keep food in a safe place.", "zh": "把食物放在安全地方。"}
+{"id": 90237, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "Put a time down.", "zh": "定下时间。"}
+{"id": 90238, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "Get a day free.", "zh": "获得空闲的一天。"}
+{"id": 90239, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "See what time is open.", "zh": "看什么时间有空。"}
+{"id": 90240, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "Have a plan for the day.", "zh": "有天的计划。"}
+{"id": 90241, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "Feel good about the plan.", "zh": "对计划感到满意。"}
+{"id": 90242, "step": 3, "type": "scene_sentence", "scene": "Making Plans", "sentence": "Make a plan with someone.", "zh": "和某人做计划。"}
+{"id": 90243, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "Get there after the time.", "zh": "过了时间到那里。"}
+{"id": 90244, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "Put the time wrong.", "zh": "把时间弄错了。"}
+{"id": 90245, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "See the clock.", "zh": "看到时钟。"}
+{"id": 90246, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "Have no time left.", "zh": "没有时间了。"}
+{"id": 90247, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "Feel bad about being late.", "zh": "对迟到感到难过。"}
+{"id": 90248, "step": 3, "type": "scene_sentence", "scene": "Being Late", "sentence": "Make someone wait.", "zh": "让某人等待。"}
+{"id": 90249, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "Get there before the time.", "zh": "在时间之前到那里。"}
+{"id": 90250, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "Put the time right.", "zh": "把时间弄对。"}
+{"id": 90251, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "See the waiting.", "zh": "看到等待。"}
+{"id": 90252, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "Have time to spare.", "zh": "有多余时间。"}
+{"id": 90253, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "Feel good about being early.", "zh": "对早到感到高兴。"}
+{"id": 90254, "step": 3, "type": "scene_sentence", "scene": "Being Early", "sentence": "Make time for something.", "zh": "为某事腾出时间。"}
+{"id": 90255, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "Put off a plan.", "zh": "推迟计划。"}
+{"id": 90256, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "Get a free time.", "zh": "获得空闲时间。"}
+{"id": 90257, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "See the change.", "zh": "看到变化。"}
+{"id": 90258, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "Have a change in plan.", "zh": "有计划的改变。"}
+{"id": 90259, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "Feel let down about it.", "zh": "对此感到失望。"}
+{"id": 90260, "step": 3, "type": "scene_sentence", "scene": "Canceling", "sentence": "Make a new plan.", "zh": "做新计划。"}
+{"id": 90261, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "Put a plan to another time.", "zh": "把计划改到另一个时间。"}
+{"id": 90262, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "Get a new time.", "zh": "获得新时间。"}
+{"id": 90263, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "See the change.", "zh": "看到变化。"}
+{"id": 90264, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "Have a new day for it.", "zh": "有新的日子。"}
+{"id": 90265, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "Feel good about the change.", "zh": "对变化感到满意。"}
+{"id": 90266, "step": 3, "type": "scene_sentence", "scene": "Rescheduling", "sentence": "Make it work for everyone.", "zh": "让它对每个人都合适。"}
+{"id": 90267, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "Put in time waiting.", "zh": "花时间等待。"}
+{"id": 90268, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "Get a long time.", "zh": "过很长时间。"}
+{"id": 90269, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "See nothing happen.", "zh": "看到什么都没发生。"}
+{"id": 90270, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "Have time to wait.", "zh": "有时间等。"}
+{"id": 90271, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "Feel the time go slowly.", "zh": "感到时间过得慢。"}
+{"id": 90272, "step": 3, "type": "scene_sentence", "scene": "Waiting", "sentence": "Make the time go faster.", "zh": "让时间过得快些。"}
+{"id": 90273, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "Put on speed.", "zh": "加快速度。"}
+{"id": 90274, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "Get there quickly.", "zh": "快速到达。"}
+{"id": 90275, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "See the time go.", "zh": "看时间流逝。"}
+{"id": 90276, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "Have no time.", "zh": "没有时间。"}
+{"id": 90277, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "Feel the rush.", "zh": "感到匆忙。"}
+{"id": 90278, "step": 3, "type": "scene_sentence", "scene": "Rushing", "sentence": "Make it on time.", "zh": "准时到达。"}
+{"id": 90279, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "Put in the same time every day.", "zh": "每天在相同时间做。"}
+{"id": 90280, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "Get a habit.", "zh": "养成习惯。"}
+{"id": 90281, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "See the same thing every day.", "zh": "每天看到同样的事。"}
+{"id": 90282, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "Have a daily routine.", "zh": "有日常惯例。"}
+{"id": 90283, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "Feel the pattern.", "zh": "感到规律。"}
+{"id": 90284, "step": 3, "type": "scene_sentence", "scene": "Routine", "sentence": "Make it a habit.", "zh": "让它成为习惯。"}
+{"id": 90285, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "Put a special day down.", "zh": "记下一个特殊日子。"}
+{"id": 90286, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "Get a memory.", "zh": "获得回忆。"}
+{"id": 90287, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "See the years go by.", "zh": "看到岁月流逝。"}
+{"id": 90288, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "Have a special day.", "zh": "有特殊的日子。"}
+{"id": 90289, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "Feel the time together.", "zh": "感到在一起的时间。"}
+{"id": 90290, "step": 3, "type": "scene_sentence", "scene": "Anniversary", "sentence": "Make it a good day.", "zh": "让它成为美好的一天。"}
+{"id": 90291, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "Put a special day down.", "zh": "记下一个特殊日子。"}
+{"id": 90292, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "Get older by one year.", "zh": "长大一岁。"}
+{"id": 90293, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "See the day come.", "zh": "看到日子到来。"}
+{"id": 90294, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "Have a special day.", "zh": "有特殊的日子。"}
+{"id": 90295, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "Feel the age grow.", "zh": "感到年龄在增长。"}
+{"id": 90296, "step": 3, "type": "scene_sentence", "scene": "Birthday", "sentence": "Make it a good day.", "zh": "让它成为美好的一天。"}
+{"id": 90297, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "Put money out for something.", "zh": "为某事付钱。"}
+{"id": 90298, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "Get a paper saying money is due.", "zh": "收到账单。"}
+{"id": 90299, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "See the amount.", "zh": "看到金额。"}
+{"id": 90300, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "Have a bill to pay.", "zh": "有账单要付。"}
+{"id": 90301, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "Feel the money go out.", "zh": "感到钱流出。"}
+{"id": 90302, "step": 3, "type": "scene_sentence", "scene": "Paying Bills", "sentence": "Make the payment on time.", "zh": "按时付款。"}
+{"id": 90303, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "Put in money.", "zh": "放入钱。"}
+{"id": 90304, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "Get money back.", "zh": "找回钱。"}
+{"id": 90305, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "See the difference.", "zh": "看到差额。"}
+{"id": 90306, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "Have change from the money.", "zh": "有钱的零钱。"}
+{"id": 90307, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "Feel the change in hand.", "zh": "感到手里的零钱。"}
+{"id": 90308, "step": 3, "type": "scene_sentence", "scene": "Getting Change", "sentence": "Make sure it is right.", "zh": "确保它是对的。"}
+{"id": 90309, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "Put money back.", "zh": "把钱退回去。"}
+{"id": 90310, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "Get money back.", "zh": "拿回钱。"}
+{"id": 90311, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "See the return.", "zh": "看到退货。"}
+{"id": 90312, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "Have a refund coming.", "zh": "有退款要收。"}
+{"id": 90313, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "Feel the money come back.", "zh": "感到钱回来了。"}
+{"id": 90314, "step": 3, "type": "scene_sentence", "scene": "Refund", "sentence": "Make the return on time.", "zh": "按时退货。"}
+{"id": 90315, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "Put money out for others.", "zh": "为他人捐钱。"}
+{"id": 90316, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "Get a good feeling.", "zh": "获得好心情。"}
+{"id": 90317, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "See the help.", "zh": "看到帮助。"}
+{"id": 90318, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "Have a giving heart.", "zh": "有给予的心。"}
+{"id": 90319, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "Feel good about giving.", "zh": "对给予感到高兴。"}
+{"id": 90320, "step": 3, "type": "scene_sentence", "scene": "Donation", "sentence": "Make a difference for someone.", "zh": "为某人带来改变。"}
+{"id": 90321, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "Put money in for the future.", "zh": "为未来投资。"}
+{"id": 90322, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "Get more money later.", "zh": "以后获得更多钱。"}
+{"id": 90323, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "See the growth.", "zh": "看到增长。"}
+{"id": 90324, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "Have a plan for the future.", "zh": "有未来的计划。"}
+{"id": 90325, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "Feel safe about the future.", "zh": "对未来感到安全。"}
+{"id": 90326, "step": 3, "type": "scene_sentence", "scene": "Investment", "sentence": "Make money work for you.", "zh": "让钱为你工作。"}
+{"id": 90327, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "Put money to the government.", "zh": "向政府交钱。"}
+{"id": 90328, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "Get a paper from the government.", "zh": "从政府收到文件。"}
+{"id": 90329, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "See the amount.", "zh": "看到金额。"}
+{"id": 90330, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "Have a tax to pay.", "zh": "有税要交。"}
+{"id": 90331, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "Feel the money go out.", "zh": "感到钱流出。"}
+{"id": 90332, "step": 3, "type": "scene_sentence", "scene": "Tax", "sentence": "Make the payment on time.", "zh": "按时缴纳。"}
+{"id": 90333, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "Get money for work.", "zh": "获得工作报酬。"}
+{"id": 90334, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "Put in work time.", "zh": "投入工作时间。"}
+{"id": 90335, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "See the amount per month.", "zh": "看到每月金额。"}
+{"id": 90336, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "Have a monthly salary.", "zh": "有月薪。"}
+{"id": 90337, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "Feel the money come in.", "zh": "感到钱进来。"}
+{"id": 90338, "step": 3, "type": "scene_sentence", "scene": "Salary", "sentence": "Make a good amount.", "zh": "获得好金额。"}
+{"id": 90339, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "Put a limit on money.", "zh": "给钱设限。"}
+{"id": 90340, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "Get a plan for money.", "zh": "获得钱的计划。"}
+{"id": 90341, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "See what is possible.", "zh": "看到什么是可能的。"}
+{"id": 90342, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "Have a money plan.", "zh": "有钱的计划。"}
+{"id": 90343, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "Feel in control of money.", "zh": "感到控制着钱。"}
+{"id": 90344, "step": 3, "type": "scene_sentence", "scene": "Budget", "sentence": "Make the money last.", "zh": "让钱持续。"}
+{"id": 90345, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "Get money from someone.", "zh": "从某人获得钱。"}
+{"id": 90346, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "Put money back later.", "zh": "以后把钱还回去。"}
+{"id": 90347, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "See the amount owed.", "zh": "看到欠款金额。"}
+{"id": 90348, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "Have a debt to pay.", "zh": "有债要还。"}
+{"id": 90349, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "Feel the weight of the debt.", "zh": "感到债务的重量。"}
+{"id": 90350, "step": 3, "type": "scene_sentence", "scene": "Debt", "sentence": "Make the payment on time.", "zh": "按时还款。"}
+{"id": 90351, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "Put money in for safety.", "zh": "为安全投入钱。"}
+{"id": 90352, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "Get help when something bad happens.", "zh": "坏事发生时获得帮助。"}
+{"id": 90353, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "See the paper.", "zh": "看到文件。"}
+{"id": 90354, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "Have safety from loss.", "zh": "有损失的安全。"}
+{"id": 90355, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "Feel safe about the future.", "zh": "对未来感到安全。"}
+{"id": 90356, "step": 3, "type": "scene_sentence", "scene": "Insurance", "sentence": "Make a claim when needed.", "zh": "需要时提出索赔。"}
+{"id": 90357, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "Get help from the police.", "zh": "从警察获得帮助。"}
+{"id": 90358, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "Put a hand out to the police.", "zh": "向警察伸出手。"}
+{"id": 90359, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "See the uniform.", "zh": "看到制服。"}
+{"id": 90360, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "Have the police come.", "zh": "有警察来。"}
+{"id": 90361, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "Feel safe with the police.", "zh": "有警察感到安全。"}
+{"id": 90362, "step": 3, "type": "scene_sentence", "scene": "Police", "sentence": "Make a report to the police.", "zh": "向警察报案。"}
+{"id": 90363, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "Put money out for a mistake.", "zh": "为错误付钱。"}
+{"id": 90364, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "Get a paper saying pay.", "zh": "收到罚款单。"}
+{"id": 90365, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "See the amount.", "zh": "看到金额。"}
+{"id": 90366, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "Have a fine to pay.", "zh": "有罚款要付。"}
+{"id": 90367, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "Feel the cost of the mistake.", "zh": "感到错误的代价。"}
+{"id": 90368, "step": 3, "type": "scene_sentence", "scene": "Fine", "sentence": "Make the payment on time.", "zh": "按时缴纳。"}
+{"id": 90369, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "Get what is yours.", "zh": "获得属于你的。"}
+{"id": 90370, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "Put a hand on what is yours.", "zh": "把手放在属于你的东西上。"}
+{"id": 90371, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "See the law.", "zh": "看到法律。"}
+{"id": 90372, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "Have rights under the law.", "zh": "有法律下的权利。"}
+{"id": 90373, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "Feel the protection of the law.", "zh": "感到法律的保护。"}
+{"id": 90374, "step": 3, "type": "scene_sentence", "scene": "Rights", "sentence": "Make a claim for your rights.", "zh": "为你的权利提出要求。"}
+{"id": 90375, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "Put a hand to a paper.", "zh": "在纸上签字。"}
+{"id": 90376, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "Get an agreement.", "zh": "获得协议。"}
+{"id": 90377, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "See the words on paper.", "zh": "看到纸上的字。"}
+{"id": 90378, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "Have a paper agreement.", "zh": "有书面协议。"}
+{"id": 90379, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "Feel the weight of the agreement.", "zh": "感到协议的重量。"}
+{"id": 90380, "step": 3, "type": "scene_sentence", "scene": "Contract", "sentence": "Make it official with a paper.", "zh": "用纸让它正式。"}
+{"id": 90381, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "Go to the law place.", "zh": "去法律场所。"}
+{"id": 90382, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "Put your word in.", "zh": "说出你的话。"}
+{"id": 90383, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "See the decision.", "zh": "看到决定。"}
+{"id": 90384, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "Have a day in court.", "zh": "有上法庭的一天。"}
+{"id": 90385, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "Feel the weight of the law.", "zh": "感到法律的重量。"}
+{"id": 90386, "step": 3, "type": "scene_sentence", "scene": "Court", "sentence": "Make your case to the court.", "zh": "向法庭陈述你的案件。"}
+{"id": 90387, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "Get help with the law.", "zh": "获得法律帮助。"}
+{"id": 90388, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "Put your word to a person.", "zh": "把你的话说给某人。"}
+{"id": 90389, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "See the expert.", "zh": "看到专家。"}
+{"id": 90390, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "Have a lawyer for help.", "zh": "有律师帮助。"}
+{"id": 90391, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "Feel the help of the expert.", "zh": "感到专家的帮助。"}
+{"id": 90392, "step": 3, "type": "scene_sentence", "scene": "Lawyer", "sentence": "Make your case with help.", "zh": "在帮助下陈述你的案件。"}
+{"id": 90393, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Put in your choice.", "zh": "投入你的选择。"}
+{"id": 90394, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Get a say in the decision.", "zh": "在决定中有发言权。"}
+{"id": 90395, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "See the count.", "zh": "看到计数。"}
+{"id": 90396, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Have a vote in the matter.", "zh": "在事情中有投票权。"}
+{"id": 90397, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Feel the power of the vote.", "zh": "感到投票的力量。"}
+{"id": 90398, "step": 3, "type": "scene_sentence", "scene": "Voting", "sentence": "Make your voice heard.", "zh": "让你的声音被听到。"}
+{"id": 90399, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "Put out your voice.", "zh": "发出你的声音。"}
+{"id": 90400, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "Get a change.", "zh": "获得改变。"}
+{"id": 90401, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "See the group.", "zh": "看到群体。"}
+{"id": 90402, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "Have a voice in the matter.", "zh": "在事情中有发言权。"}
+{"id": 90403, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "Feel the power of the group.", "zh": "感到群体的力量。"}
+{"id": 90404, "step": 3, "type": "scene_sentence", "scene": "Protest", "sentence": "Make a stand for what is right.", "zh": "为正确的事站出来。"}
+{"id": 90405, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "Go to a new country.", "zh": "去一个新国家。"}
+{"id": 90406, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "Get a paper to stay.", "zh": "获得居留文件。"}
+{"id": 90407, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "See the office.", "zh": "看到办公室。"}
+{"id": 90408, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "Have a new home in a country.", "zh": "在一个国家有新家。"}
+{"id": 90409, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "Feel the change of place.", "zh": "感到地方的变化。"}
+{"id": 90410, "step": 3, "type": "scene_sentence", "scene": "Immigration", "sentence": "Make a new start in a new place.", "zh": "在新地方开始新生活。"}
+{"id": 90411, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "Get something bad done.", "zh": "有坏事发生。"}
+{"id": 90412, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "Put a hand on what is not yours.", "zh": "把手放在不属于你的东西上。"}
+{"id": 90413, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "See the law broken.", "zh": "看到法律被违反。"}
+{"id": 90414, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "Have a crime in the place.", "zh": "在地方有犯罪。"}
+{"id": 90415, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "Feel the wrong of it.", "zh": "感到它的错误。"}
+{"id": 90416, "step": 3, "type": "scene_sentence", "scene": "Crime", "sentence": "Make it right with the law.", "zh": "用法律纠正它。"}
+{"id": 90417, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "Go to the learning place.", "zh": "去学习场所。"}
+{"id": 90418, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "Put your mind to work.", "zh": "把心思放在工作上。"}
+{"id": 90419, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "See the teacher.", "zh": "看到老师。"}
+{"id": 90420, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "Have a place to learn.", "zh": "有学习的地方。"}
+{"id": 90421, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "Feel the learning happen.", "zh": "感到学习发生。"}
+{"id": 90422, "step": 3, "type": "scene_sentence", "scene": "Classroom", "sentence": "Make progress every day.", "zh": "每天进步。"}
+{"id": 90423, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "Put in work at home.", "zh": "在家做作业。"}
+{"id": 90424, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "Get learning done.", "zh": "完成学习。"}
+{"id": 90425, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "See the questions.", "zh": "看到问题。"}
+{"id": 90426, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "Have work to do at home.", "zh": "有在家做的工作。"}
+{"id": 90427, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "Feel the work get done.", "zh": "感到工作完成。"}
+{"id": 90428, "step": 3, "type": "scene_sentence", "scene": "Homework", "sentence": "Make it a habit to do work.", "zh": "让它成为做工作的习惯。"}
+{"id": 90429, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "Put your knowledge to the test.", "zh": "把你的知识付诸测试。"}
+{"id": 90430, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "Get a mark.", "zh": "获得分数。"}
+{"id": 90431, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "See the questions.", "zh": "看到问题。"}
+{"id": 90432, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "Have a test to take.", "zh": "有考试要参加。"}
+{"id": 90433, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "Feel the pressure of the test.", "zh": "感到考试的压力。"}
+{"id": 90434, "step": 3, "type": "scene_sentence", "scene": "Exam", "sentence": "Make a good mark.", "zh": "获得好分数。"}
+{"id": 90435, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Go to the book place.", "zh": "去书店。"}
+{"id": 90436, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Get a book.", "zh": "获得一本书。"}
+{"id": 90437, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Put the book back.", "zh": "把书放回去。"}
+{"id": 90438, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Have a place for books.", "zh": "有书的地方。"}
+{"id": 90439, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Feel the quiet of the place.", "zh": "感到地方的安静。"}
+{"id": 90440, "step": 3, "type": "scene_sentence", "scene": "Library", "sentence": "Make use of the books.", "zh": "利用书。"}
+{"id": 90441, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "Go to the science place.", "zh": "去科学场所。"}
+{"id": 90442, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "Put your hand to work.", "zh": "把手放在工作上。"}
+{"id": 90443, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "See the results.", "zh": "看到结果。"}
+{"id": 90444, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "Have a place for science.", "zh": "有科学的地方。"}
+{"id": 90445, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "Feel the discovery.", "zh": "感到发现。"}
+{"id": 90446, "step": 3, "type": "scene_sentence", "scene": "Lab", "sentence": "Make a new finding.", "zh": "做出新发现。"}
+{"id": 90447, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "Put in long work on a subject.", "zh": "在一个主题上投入长期工作。"}
+{"id": 90448, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "Get a paper done.", "zh": "完成论文。"}
+{"id": 90449, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "See the research.", "zh": "看到研究。"}
+{"id": 90450, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "Have a long paper to write.", "zh": "有长论文要写。"}
+{"id": 90451, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "Feel the weight of the work.", "zh": "感到工作的重量。"}
+{"id": 90452, "step": 3, "type": "scene_sentence", "scene": "Thesis", "sentence": "Make a contribution to knowledge.", "zh": "为知识做贡献。"}
+{"id": 90453, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "Get money for learning.", "zh": "获得学习资金。"}
+{"id": 90454, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "Put in good work.", "zh": "投入好工作。"}
+{"id": 90455, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "See the reward.", "zh": "看到奖励。"}
+{"id": 90456, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "Have help with learning costs.", "zh": "有学习费用的帮助。"}
+{"id": 90457, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "Feel the support of others.", "zh": "感到他人的支持。"}
+{"id": 90458, "step": 3, "type": "scene_sentence", "scene": "Scholarship", "sentence": "Make the most of the chance.", "zh": "充分利用机会。"}
+{"id": 90459, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "Go to the learning grounds.", "zh": "去学习场地。"}
+{"id": 90460, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "Put in time with others.", "zh": "和他人一起度过时间。"}
+{"id": 90461, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "See the buildings.", "zh": "看到建筑。"}
+{"id": 90462, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "Have a place for learning.", "zh": "有学习的地方。"}
+{"id": 90463, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "Feel the community.", "zh": "感到社区。"}
+{"id": 90464, "step": 3, "type": "scene_sentence", "scene": "Campus", "sentence": "Make friends on campus.", "zh": "在校园里交朋友。"}
+{"id": 90465, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "Get help from a person.", "zh": "从某人获得帮助。"}
+{"id": 90466, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "Put your mind to a subject.", "zh": "把心思放在一个科目上。"}
+{"id": 90467, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "See the improvement.", "zh": "看到进步。"}
+{"id": 90468, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "Have a person to help.", "zh": "有人帮助。"}
+{"id": 90469, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "Feel the progress.", "zh": "感到进步。"}
+{"id": 90470, "step": 3, "type": "scene_sentence", "scene": "Tutor", "sentence": "Make good progress.", "zh": "取得好进步。"}
+{"id": 90471, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "Get a paper for learning done.", "zh": "获得学习完成的证书。"}
+{"id": 90472, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "Put in the work.", "zh": "投入工作。"}
+{"id": 90473, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "See the proof.", "zh": "看到证明。"}
+{"id": 90474, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "Have a paper to show.", "zh": "有证书展示。"}
+{"id": 90475, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "Feel the pride of completion.", "zh": "感到完成的骄傲。"}
+{"id": 90476, "step": 3, "type": "scene_sentence", "scene": "Diploma", "sentence": "Make it to the end.", "zh": "走到终点。"}
+{"id": 90477, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Go to the medicine place.", "zh": "去药房。"}
+{"id": 90478, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Get medicine.", "zh": "获得药。"}
+{"id": 90479, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Put money out for medicine.", "zh": "为药付钱。"}
+{"id": 90480, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Have a place for medicine.", "zh": "有药的地方。"}
+{"id": 90481, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Feel the help of the medicine.", "zh": "感到药的帮助。"}
+{"id": 90482, "step": 3, "type": "scene_sentence", "scene": "Pharmacy", "sentence": "Make sure to take the medicine.", "zh": "确保吃药。"}
+{"id": 90483, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Go to the cutting place.", "zh": "去手术场所。"}
+{"id": 90484, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Get help from a doctor.", "zh": "从医生获得帮助。"}
+{"id": 90485, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Put the body right.", "zh": "把身体治好。"}
+{"id": 90486, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Have a doctor do the work.", "zh": "有医生做工作。"}
+{"id": 90487, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Feel the help of the doctor.", "zh": "感到医生的帮助。"}
+{"id": 90488, "step": 3, "type": "scene_sentence", "scene": "Surgery", "sentence": "Make a full recovery.", "zh": "完全康复。"}
+{"id": 90489, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "Get better after being sick.", "zh": "生病后变好。"}
+{"id": 90490, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "Put in time to heal.", "zh": "投入时间治疗。"}
+{"id": 90491, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "See the improvement.", "zh": "看到改善。"}
+{"id": 90492, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "Have time to get better.", "zh": "有时间变好。"}
+{"id": 90493, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "Feel the body get strong.", "zh": "感到身体变强。"}
+{"id": 90494, "step": 3, "type": "scene_sentence", "scene": "Recovery", "sentence": "Make a full recovery.", "zh": "完全康复。"}
+{"id": 90495, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "Put the body to work.", "zh": "让身体工作。"}
+{"id": 90496, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "Get strong.", "zh": "变强。"}
+{"id": 90497, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "See the results.", "zh": "看到结果。"}
+{"id": 90498, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "Have a routine for the body.", "zh": "有身体的惯例。"}
+{"id": 90499, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "Feel the body get better.", "zh": "感到身体变好。"}
+{"id": 90500, "step": 3, "type": "scene_sentence", "scene": "Exercise", "sentence": "Make it a daily habit.", "zh": "让它成为日常习惯。"}
+{"id": 90501, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "Put good food in.", "zh": "放入好食物。"}
+{"id": 90502, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "Get the right weight.", "zh": "获得正确体重。"}
+{"id": 90503, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "See the change.", "zh": "看到变化。"}
+{"id": 90504, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "Have a plan for food.", "zh": "有食物计划。"}
+{"id": 90505, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "Feel the body get better.", "zh": "感到身体变好。"}
+{"id": 90506, "step": 3, "type": "scene_sentence", "scene": "Diet", "sentence": "Make healthy choices.", "zh": "做出健康选择。"}
+{"id": 90507, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "Put the body to rest.", "zh": "让身体休息。"}
+{"id": 90508, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "Get the mind clear.", "zh": "让头脑清醒。"}
+{"id": 90509, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "See the morning.", "zh": "看到早晨。"}
+{"id": 90510, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "Have a good night of sleep.", "zh": "有好的夜间睡眠。"}
+{"id": 90511, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "Feel the rest do good.", "zh": "感到休息有好处。"}
+{"id": 90512, "step": 3, "type": "scene_sentence", "scene": "Sleep", "sentence": "Make it a habit to rest.", "zh": "让它成为休息的习惯。"}
+{"id": 90513, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "Put the mind right.", "zh": "把头脑治好。"}
+{"id": 90514, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "Get help for the mind.", "zh": "为头脑获得帮助。"}
+{"id": 90515, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "See the feeling.", "zh": "看到感觉。"}
+{"id": 90516, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "Have a healthy mind.", "zh": "有健康的头脑。"}
+{"id": 90517, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "Feel the mind get better.", "zh": "感到头脑变好。"}
+{"id": 90518, "step": 3, "type": "scene_sentence", "scene": "Mental Health", "sentence": "Make the mind strong.", "zh": "让头脑变强。"}
+{"id": 90519, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Go to the tooth person.", "zh": "去牙医那里。"}
+{"id": 90520, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Get the teeth looked at.", "zh": "让牙齿被检查。"}
+{"id": 90521, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Put money out for teeth.", "zh": "为牙齿付钱。"}
+{"id": 90522, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Have a person for teeth.", "zh": "有牙齿的人。"}
+{"id": 90523, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Feel the teeth get better.", "zh": "感到牙齿变好。"}
+{"id": 90524, "step": 3, "type": "scene_sentence", "scene": "Dentist", "sentence": "Make the teeth strong.", "zh": "让牙齿变强。"}
+{"id": 90525, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "Get a needle for health.", "zh": "为健康打针。"}
+{"id": 90526, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "Put something in the body.", "zh": "把东西放进身体。"}
+{"id": 90527, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "See the protection.", "zh": "看到保护。"}
+{"id": 90528, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "Have a needle for safety.", "zh": "有安全的针。"}
+{"id": 90529, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "Feel the body get protection.", "zh": "感到身体获得保护。"}
+{"id": 90530, "step": 3, "type": "scene_sentence", "scene": "Vaccination", "sentence": "Make the body safe.", "zh": "让身体安全。"}
+{"id": 90531, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "Put help to a person.", "zh": "给人帮助。"}
+{"id": 90532, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "Get the person through.", "zh": "让人度过。"}
+{"id": 90533, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "See the quick help.", "zh": "看到快速帮助。"}
+{"id": 90534, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "Have help right away.", "zh": "有立即帮助。"}
+{"id": 90535, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "Feel the help do good.", "zh": "感到帮助有好处。"}
+{"id": 90536, "step": 3, "type": "scene_sentence", "scene": "First Aid", "sentence": "Make the person better.", "zh": "让人变好。"}
+{"id": 90537, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "Put food in the pot.", "zh": "把食物放进锅里。"}
+{"id": 90538, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "Make a good meal.", "zh": "做一顿好饭。"}
+{"id": 90539, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "Get the food ready.", "zh": "把食物准备好。"}
+{"id": 90540, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "Put on heat for the food.", "zh": "给食物加热。"}
+{"id": 90541, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "See if the food is done.", "zh": "看食物是否熟了。"}
+{"id": 90542, "step": 3, "type": "scene_sentence", "scene": "Cooking", "sentence": "Have a good meal.", "zh": "吃一顿好饭。"}
+{"id": 90543, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "Put the house in order.", "zh": "把房子整理好。"}
+{"id": 90544, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "Make the house clean.", "zh": "把房子弄干净。"}
+{"id": 90545, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "Get rid of the dirt.", "zh": "去除污垢。"}
+{"id": 90546, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "Put things in their place.", "zh": "把东西放回原位。"}
+{"id": 90547, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "See the house look good.", "zh": "看到房子看起来不错。"}
+{"id": 90548, "step": 3, "type": "scene_sentence", "scene": "Cleaning", "sentence": "Have a clean house.", "zh": "有干净的房子。"}
+{"id": 90549, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "Put the cloth in water.", "zh": "把布放进水里。"}
+{"id": 90550, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "Make the cloth clean.", "zh": "把布弄干净。"}
+{"id": 90551, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "Get the dirt out of the cloth.", "zh": "把污垢从布上去掉。"}
+{"id": 90552, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "Put the cloth out to dry.", "zh": "把布拿出来晾干。"}
+{"id": 90553, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "See the cloth get clean.", "zh": "看到布变干净。"}
+{"id": 90554, "step": 3, "type": "scene_sentence", "scene": "Laundry", "sentence": "Have clean cloth.", "zh": "有干净的布。"}
+{"id": 90555, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "Put seeds in the ground.", "zh": "把种子放进土里。"}
+{"id": 90556, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "Get the plants to grow.", "zh": "让植物生长。"}
+{"id": 90557, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "Put water on the plants.", "zh": "给植物浇水。"}
+{"id": 90558, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "See the flowers come out.", "zh": "看到花出来。"}
+{"id": 90559, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "Have a green garden.", "zh": "有绿色的花园。"}
+{"id": 90560, "step": 3, "type": "scene_sentence", "scene": "Gardening", "sentence": "Make the garden beautiful.", "zh": "让花园变漂亮。"}
+{"id": 90561, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "Get a pet for the house.", "zh": "为房子养宠物。"}
+{"id": 90562, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "Put food out for the pet.", "zh": "为宠物放食物。"}
+{"id": 90563, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "See the pet every day.", "zh": "每天看到宠物。"}
+{"id": 90564, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "Have a good pet.", "zh": "有好宠物。"}
+{"id": 90565, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "Make the pet happy.", "zh": "让宠物开心。"}
+{"id": 90566, "step": 3, "type": "scene_sentence", "scene": "Pets", "sentence": "Get love from the pet.", "zh": "从宠物获得爱。"}
+{"id": 90567, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "Go to the neighbor's house.", "zh": "去邻居家。"}
+{"id": 90568, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "Have a talk with the neighbor.", "zh": "和邻居聊天。"}
+{"id": 90569, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "Get help from the neighbor.", "zh": "从邻居获得帮助。"}
+{"id": 90570, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "Put out a word to the neighbor.", "zh": "向邻居打招呼。"}
+{"id": 90571, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "See the neighbor every day.", "zh": "每天看到邻居。"}
+{"id": 90572, "step": 3, "type": "scene_sentence", "scene": "Neighbors", "sentence": "Have a good neighbor.", "zh": "有好邻居。"}
+{"id": 90573, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "Go to the green place.", "zh": "去绿色的地方。"}
+{"id": 90574, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "See the trees and flowers.", "zh": "看到树和花。"}
+{"id": 90575, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "Have a walk in the place.", "zh": "在地方散步。"}
+{"id": 90576, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "Put down a cloth and rest.", "zh": "放下布休息。"}
+{"id": 90577, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "Feel the air and sun.", "zh": "感受空气和阳光。"}
+{"id": 90578, "step": 3, "type": "scene_sentence", "scene": "Park", "sentence": "Make it a good day.", "zh": "让它成为美好的一天。"}
+{"id": 90579, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "See the sky change.", "zh": "看到天空变化。"}
+{"id": 90580, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "Get rain from the sky.", "zh": "从天上得到雨。"}
+{"id": 90581, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "Put on a coat for cold.", "zh": "为冷穿上外套。"}
+{"id": 90582, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "Feel the wind on the face.", "zh": "感到风吹在脸上。"}
+{"id": 90583, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "Have a look at the sky.", "zh": "看天空。"}
+{"id": 90584, "step": 3, "type": "scene_sentence", "scene": "Weather", "sentence": "Make a note of the weather.", "zh": "记下天气。"}
+{"id": 90585, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "Go on the road.", "zh": "上路。"}
+{"id": 90586, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "See the cars on the road.", "zh": "看到路上的车。"}
+{"id": 90587, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "Put on speed for the road.", "zh": "为路上加速。"}
+{"id": 90588, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "Get through the traffic.", "zh": "通过交通。"}
+{"id": 90589, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "Have a long wait in traffic.", "zh": "在交通中长时间等待。"}
+{"id": 90590, "step": 3, "type": "scene_sentence", "scene": "Traffic", "sentence": "Make it through the road.", "zh": "通过这条路。"}
+{"id": 90591, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "Put one foot before the other.", "zh": "把一只脚放在另一只前面。"}
+{"id": 90592, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "Go on foot.", "zh": "步行。"}
+{"id": 90593, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "See the place on foot.", "zh": "步行看地方。"}
+{"id": 90594, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "Have a long walk.", "zh": "走很长的路。"}
+{"id": 90595, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "Make it to the place on foot.", "zh": "步行到地方。"}
+{"id": 90596, "step": 3, "type": "scene_sentence", "scene": "Walking", "sentence": "Feel the walk do good.", "zh": "感到走路有好处。"}
+{"id": 90597, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Hear good music.", "zh": "听好音乐。"}
+{"id": 90598, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Put on a song.", "zh": "播放一首歌。"}
+{"id": 90599, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Get the music going.", "zh": "让音乐响起来。"}
+{"id": 90600, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Have a good song.", "zh": "有好歌。"}
+{"id": 90601, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Feel the music in the heart.", "zh": "感到音乐在心里。"}
+{"id": 90602, "step": 3, "type": "scene_sentence", "scene": "Music", "sentence": "Make music with others.", "zh": "和他人一起做音乐。"}
+{"id": 90603, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "Go to see a film.", "zh": "去看电影。"}
+{"id": 90604, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "See the film on the screen.", "zh": "在银幕上看电影。"}
+{"id": 90605, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "Have a good time at the film.", "zh": "在电影时玩得开心。"}
+{"id": 90606, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "Feel the story in the film.", "zh": "感到电影里的故事。"}
+{"id": 90607, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "Make it a night at the film.", "zh": "让它成为电影之夜。"}
+{"id": 90608, "step": 3, "type": "scene_sentence", "scene": "Movies", "sentence": "Get something from the film.", "zh": "从电影中获得什么。"}
+{"id": 90609, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "Get a good book.", "zh": "获得一本好书。"}
+{"id": 90610, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "Put in time reading.", "zh": "花时间阅读。"}
+{"id": 90611, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "See the words on the page.", "zh": "看到页面上的字。"}
+{"id": 90612, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "Have a book to read.", "zh": "有书要读。"}
+{"id": 90613, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "Feel the story come alive.", "zh": "感到故事变活。"}
+{"id": 90614, "step": 3, "type": "scene_sentence", "scene": "Reading", "sentence": "Make it through the book.", "zh": "读完这本书。"}
+{"id": 90615, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "Get a good picture.", "zh": "获得好照片。"}
+{"id": 90616, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "Put the eye to the glass.", "zh": "把眼睛放在玻璃上。"}
+{"id": 90617, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "See through the glass.", "zh": "通过玻璃看。"}
+{"id": 90618, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "Have a picture to show.", "zh": "有照片展示。"}
+{"id": 90619, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "Make a good picture.", "zh": "拍好照片。"}
+{"id": 90620, "step": 3, "type": "scene_sentence", "scene": "Photography", "sentence": "Get the picture just right.", "zh": "把照片拍好。"}
+{"id": 90621, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "Put color on the paper.", "zh": "在纸上放颜色。"}
+{"id": 90622, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "Make a picture with color.", "zh": "用颜色做画。"}
+{"id": 90623, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "See the color come alive.", "zh": "看到颜色变活。"}
+{"id": 90624, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "Have a good eye for color.", "zh": "对颜色有好眼力。"}
+{"id": 90625, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "Feel the art in the heart.", "zh": "感到艺术在心里。"}
+{"id": 90626, "step": 3, "type": "scene_sentence", "scene": "Art", "sentence": "Make something beautiful.", "zh": "做美丽的东西。"}
+{"id": 90627, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "See the game on the screen.", "zh": "在屏幕上看到比赛。"}
+{"id": 90628, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "Get excited about the game.", "zh": "对比赛感到兴奋。"}
+{"id": 90629, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "Put your support behind the team.", "zh": "把支持放在团队后面。"}
+{"id": 90630, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "Have a good time watching.", "zh": "看得开心。"}
+{"id": 90631, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "Feel the excitement of the game.", "zh": "感到比赛的兴奋。"}
+{"id": 90632, "step": 3, "type": "scene_sentence", "scene": "Sports Watching", "sentence": "Make it a game night.", "zh": "让它成为比赛之夜。"}
+{"id": 90633, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "Put out the game board.", "zh": "放好游戏板。"}
+{"id": 90634, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "Get the game going.", "zh": "让游戏开始。"}
+{"id": 90635, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "See the pieces on the board.", "zh": "看到板上的棋子。"}
+{"id": 90636, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "Have a good time playing.", "zh": "玩得开心。"}
+{"id": 90637, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "Make a move in the game.", "zh": "在游戏中走一步。"}
+{"id": 90638, "step": 3, "type": "scene_sentence", "scene": "Board Games", "sentence": "Get to the end of the game.", "zh": "到游戏的终点。"}
+{"id": 90639, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "Put the body to music.", "zh": "让身体跟着音乐。"}
+{"id": 90640, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "Get the feet moving.", "zh": "让脚动起来。"}
+{"id": 90641, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "See the dance on the floor.", "zh": "看到地板上的舞蹈。"}
+{"id": 90642, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "Have a good time dancing.", "zh": "跳舞跳得开心。"}
+{"id": 90643, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "Feel the music in the body.", "zh": "感到音乐在身体里。"}
+{"id": 90644, "step": 3, "type": "scene_sentence", "scene": "Dancing", "sentence": "Make it a dance night.", "zh": "让它成为舞蹈之夜。"}
+{"id": 90645, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Put out a song.", "zh": "发出一首歌。"}
+{"id": 90646, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Get the voice going.", "zh": "让声音响起来。"}
+{"id": 90647, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Hear the song in the air.", "zh": "在空中听到歌声。"}
+{"id": 90648, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Have a good voice.", "zh": "有好声音。"}
+{"id": 90649, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Feel the music in the voice.", "zh": "感到音乐在声音里。"}
+{"id": 90650, "step": 3, "type": "scene_sentence", "scene": "Singing", "sentence": "Make a song with others.", "zh": "和他人一起唱歌。"}
+{"id": 90651, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "Get a new thing for the group.", "zh": "为群体获得新东西。"}
+{"id": 90652, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "Put it with the others.", "zh": "把它和其他的放在一起。"}
+{"id": 90653, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "See the group grow.", "zh": "看到群体增长。"}
+{"id": 90654, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "Have a good group.", "zh": "有好群体。"}
+{"id": 90655, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "Feel proud of the group.", "zh": "对群体感到骄傲。"}
+{"id": 90656, "step": 3, "type": "scene_sentence", "scene": "Collecting", "sentence": "Make it a complete group.", "zh": "让它成为完整的群体。"}
+{"id": 90657, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "Get help from the person.", "zh": "从人获得帮助。"}
+{"id": 90658, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "Put your question to the person.", "zh": "向人提出问题。"}
+{"id": 90659, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "See the answer from the person.", "zh": "从人看到答案。"}
+{"id": 90660, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "Have a good answer.", "zh": "有好答案。"}
+{"id": 90661, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "Feel the help from the person.", "zh": "感到来自人的帮助。"}
+{"id": 90662, "step": 3, "type": "scene_sentence", "scene": "Customer Service", "sentence": "Make it right with the person.", "zh": "和人把事情做好。"}
+{"id": 90663, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "Put the thing back.", "zh": "把东西放回去。"}
+{"id": 90664, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "Get money back.", "zh": "拿回钱。"}
+{"id": 90665, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "See the return through.", "zh": "看到退货完成。"}
+{"id": 90666, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "Have a paper for the return.", "zh": "有退货单。"}
+{"id": 90667, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "Feel the return is right.", "zh": "感到退货是对的。"}
+{"id": 90668, "step": 3, "type": "scene_sentence", "scene": "Returning Items", "sentence": "Make the return on time.", "zh": "按时退货。"}
+{"id": 90669, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "Put a price on it.", "zh": "给它定价。"}
+{"id": 90670, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "Get the price down.", "zh": "把价格压低。"}
+{"id": 90671, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "See if the price is right.", "zh": "看价格是否合适。"}
+{"id": 90672, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "Have a good price.", "zh": "有好价格。"}
+{"id": 90673, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "Feel the deal is good.", "zh": "感到交易是好的。"}
+{"id": 90674, "step": 3, "type": "scene_sentence", "scene": "Haggling", "sentence": "Make a deal on it.", "zh": "就它达成交易。"}
+{"id": 90675, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "Get the thing at the door.", "zh": "在门口收到东西。"}
+{"id": 90676, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "Put in an order.", "zh": "下订单。"}
+{"id": 90677, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "See the person at the door.", "zh": "看到门口的人。"}
+{"id": 90678, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "Have the thing in hand.", "zh": "手里有东西。"}
+{"id": 90679, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "Feel the delivery come.", "zh": "感到送货来了。"}
+{"id": 90680, "step": 3, "type": "scene_sentence", "scene": "Delivery", "sentence": "Make sure it is the right thing.", "zh": "确保它是正确的东西。"}
+{"id": 90681, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "Get the thing to the person.", "zh": "把东西带到人那里。"}
+{"id": 90682, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "Put the thing right.", "zh": "把东西弄好。"}
+{"id": 90683, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "See if it works.", "zh": "看它是否工作。"}
+{"id": 90684, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "Have it work again.", "zh": "让它再次工作。"}
+{"id": 90685, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "Feel the repair is good.", "zh": "感到修理是好的。"}
+{"id": 90686, "step": 3, "type": "scene_sentence", "scene": "Repair", "sentence": "Make it work like new.", "zh": "让它像新的一样工作。"}
+{"id": 90687, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "Go to the hair person.", "zh": "去理发师那里。"}
+{"id": 90688, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "Put the head in the hands of the person.", "zh": "把头放在人的手中。"}
+{"id": 90689, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "See the hair come down.", "zh": "看到头发掉下来。"}
+{"id": 90690, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "Have a new look.", "zh": "有新外观。"}
+{"id": 90691, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "Feel good about the look.", "zh": "对外观感到满意。"}
+{"id": 90692, "step": 3, "type": "scene_sentence", "scene": "Haircut", "sentence": "Make it a good day.", "zh": "让它成为美好的一天。"}
+{"id": 90693, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "Go to the touch person.", "zh": "去按摩师那里。"}
+{"id": 90694, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "Put the body in the hands of the person.", "zh": "把身体放在人的手中。"}
+{"id": 90695, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "See the body get better.", "zh": "看到身体变好。"}
+{"id": 90696, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "Have a relaxed body.", "zh": "有放松的身体。"}
+{"id": 90697, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "Feel the tension go out.", "zh": "感到紧张消失。"}
+{"id": 90698, "step": 3, "type": "scene_sentence", "scene": "Massage", "sentence": "Make the body feel good.", "zh": "让身体感觉良好。"}
+{"id": 90699, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "Go to the water place.", "zh": "去水的场所。"}
+{"id": 90700, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "Put the body in the water.", "zh": "把身体放进水里。"}
+{"id": 90701, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "See the body get clean.", "zh": "看到身体变干净。"}
+{"id": 90702, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "Have a relaxing time.", "zh": "有放松的时间。"}
+{"id": 90703, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "Feel the water do good.", "zh": "感到水有好处。"}
+{"id": 90704, "step": 3, "type": "scene_sentence", "scene": "Spa", "sentence": "Make it a special day.", "zh": "让它成为特别的一天。"}
+{"id": 90705, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "Go to the cloth person.", "zh": "去裁缝那里。"}
+{"id": 90706, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "Put the cloth in the right size.", "zh": "把布放到正确尺寸。"}
+{"id": 90707, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "See the cloth fit well.", "zh": "看到布很合身。"}
+{"id": 90708, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "Have a good fit.", "zh": "有好合身。"}
+{"id": 90709, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "Feel the cloth is right.", "zh": "感到布是对的。"}
+{"id": 90710, "step": 3, "type": "scene_sentence", "scene": "Tailor", "sentence": "Make the cloth fit perfectly.", "zh": "让布完美合身。"}
+{"id": 90711, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "Go to the flight place.", "zh": "去机场。"}
+{"id": 90712, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "Put the bag on the machine.", "zh": "把包放在机器上。"}
+{"id": 90713, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "See the plane come in.", "zh": "看到飞机进来。"}
+{"id": 90714, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "Have a ticket for the flight.", "zh": "有机票。"}
+{"id": 90715, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "Feel the excitement of the flight.", "zh": "感到飞行的兴奋。"}
+{"id": 90716, "step": 3, "type": "scene_sentence", "scene": "Airport", "sentence": "Make it to the place on time.", "zh": "准时到达地方。"}
+{"id": 90717, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "Go under the ground.", "zh": "去地下。"}
+{"id": 90718, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "Put the money in for the ride.", "zh": "为乘车付钱。"}
+{"id": 90719, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "See the train come.", "zh": "看到火车来。"}
+{"id": 90720, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "Have a seat on the train.", "zh": "在火车上有座位。"}
+{"id": 90721, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "Feel the train move.", "zh": "感到火车移动。"}
+{"id": 90722, "step": 3, "type": "scene_sentence", "scene": "Subway", "sentence": "Make it to the stop.", "zh": "到达站点。"}
+{"id": 90723, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "Go to the stop.", "zh": "去站点。"}
+{"id": 90724, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "See the bus come.", "zh": "看到公交车来。"}
+{"id": 90725, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "Put the money in for the ride.", "zh": "为乘车付钱。"}
+{"id": 90726, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "Have a seat on the bus.", "zh": "在公交车上有座位。"}
+{"id": 90727, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "Feel the bus move.", "zh": "感到公交车移动。"}
+{"id": 90728, "step": 3, "type": "scene_sentence", "scene": "Bus", "sentence": "Make it to the right stop.", "zh": "到达正确的站点。"}
+{"id": 90729, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "Put your hand out for the car.", "zh": "向车伸出手。"}
+{"id": 90730, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "Get in the car.", "zh": "进车。"}
+{"id": 90731, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "See the place go by.", "zh": "看到地方经过。"}
+{"id": 90732, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "Have a ride to the place.", "zh": "乘车到地方。"}
+{"id": 90733, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "Feel the car move.", "zh": "感到车移动。"}
+{"id": 90734, "step": 3, "type": "scene_sentence", "scene": "Taxi", "sentence": "Make it to the place.", "zh": "到达地方。"}
+{"id": 90735, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "Put your foot on the pedal.", "zh": "把脚放在踏板上。"}
+{"id": 90736, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "Make the wheels go.", "zh": "让轮子转。"}
+{"id": 90737, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "See the road go by.", "zh": "看到路经过。"}
+{"id": 90738, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "Have a good ride.", "zh": "有好的骑行。"}
+{"id": 90739, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "Feel the air on the face.", "zh": "感到空气在脸上。"}
+{"id": 90740, "step": 3, "type": "scene_sentence", "scene": "Bicycle", "sentence": "Make it to the place on the bike.", "zh": "骑自行车到达地方。"}
+{"id": 90741, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "Go to the car place.", "zh": "去车场所。"}
+{"id": 90742, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "Get a car for the day.", "zh": "获得一辆车一天。"}
+{"id": 90743, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "Put money out for the car.", "zh": "为车付钱。"}
+{"id": 90744, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "See the road ahead.", "zh": "看到前方的路。"}
+{"id": 90745, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "Have the car for a few days.", "zh": "有车几天。"}
+{"id": 90746, "step": 3, "type": "scene_sentence", "scene": "Car Rental", "sentence": "Make it a good trip.", "zh": "让它成为好的旅行。"}
+{"id": 90747, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "Get in the car for a long ride.", "zh": "进车进行长途驾驶。"}
+{"id": 90748, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "Put the things in the car.", "zh": "把东西放进车里。"}
+{"id": 90749, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "See the country go by.", "zh": "看到国家经过。"}
+{"id": 90750, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "Have a good time on the road.", "zh": "在路上玩得开心。"}
+{"id": 90751, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "Feel the freedom of the road.", "zh": "感到道路的自由。"}
+{"id": 90752, "step": 3, "type": "scene_sentence", "scene": "Road Trip", "sentence": "Make it a long trip.", "zh": "让它成为长途旅行。"}
+{"id": 90753, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "Put the car in the space.", "zh": "把车放进空间。"}
+{"id": 90754, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "Get out of the car.", "zh": "下车。"}
+{"id": 90755, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "See the space is right.", "zh": "看到空间是对的。"}
+{"id": 90756, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "Have a place for the car.", "zh": "有车的地方。"}
+{"id": 90757, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "Feel the parking is good.", "zh": "感到停车是好的。"}
+{"id": 90758, "step": 3, "type": "scene_sentence", "scene": "Parking", "sentence": "Make it a quick stop.", "zh": "让它成为快速停车。"}
+{"id": 90759, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Go to the fuel place.", "zh": "去加油站。"}
+{"id": 90760, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Put fuel in the car.", "zh": "给车加油。"}
+{"id": 90761, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "See the amount go up.", "zh": "看到金额上升。"}
+{"id": 90762, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Have a full tank.", "zh": "有满箱油。"}
+{"id": 90763, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Feel the car get power.", "zh": "感到车获得动力。"}
+{"id": 90764, "step": 3, "type": "scene_sentence", "scene": "Gas Station", "sentence": "Make the trip go further.", "zh": "让旅行走得更远。"}
+{"id": 90765, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "Go to the work place.", "zh": "去工作场所。"}
+{"id": 90766, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "Put in time at the desk.", "zh": "在桌前花时间。"}
+{"id": 90767, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "See the work on the desk.", "zh": "看到桌上的工作。"}
+{"id": 90768, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "Have a day at the work place.", "zh": "在工作场所有一天。"}
+{"id": 90769, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "Feel the work get done.", "zh": "感到工作完成。"}
+{"id": 90770, "step": 3, "type": "scene_sentence", "scene": "Office", "sentence": "Make it through the day.", "zh": "度过这一天。"}
+{"id": 90771, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "Go to the talk place.", "zh": "去谈话场所。"}
+{"id": 90772, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "Put your word in the talk.", "zh": "在谈话中发言。"}
+{"id": 90773, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "See what others say.", "zh": "看别人说什么。"}
+{"id": 90774, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "Have a good talk.", "zh": "有好的谈话。"}
+{"id": 90775, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "Feel the talk is good.", "zh": "感到谈话是好的。"}
+{"id": 90776, "step": 3, "type": "scene_sentence", "scene": "Meeting", "sentence": "Make a decision in the talk.", "zh": "在谈话中做决定。"}
+{"id": 90777, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "Put the words on the wall.", "zh": "把字放在墙上。"}
+{"id": 90778, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "See the eyes on you.", "zh": "看到眼睛在你身上。"}
+{"id": 90779, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "Have a good story to tell.", "zh": "有好故事要讲。"}
+{"id": 90780, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "Feel the room listen.", "zh": "感到房间在听。"}
+{"id": 90781, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "Make the point clear.", "zh": "把观点说清楚。"}
+{"id": 90782, "step": 3, "type": "scene_sentence", "scene": "Presentation", "sentence": "Get the message out.", "zh": "把信息传递出去。"}
+{"id": 90783, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "Go to the talk place.", "zh": "去谈话场所。"}
+{"id": 90784, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "Put your best self forward.", "zh": "展现最好的自己。"}
+{"id": 90785, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "See the person across from you.", "zh": "看到对面的人。"}
+{"id": 90786, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "Have a good answer.", "zh": "有好答案。"}
+{"id": 90787, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "Feel the pressure of the talk.", "zh": "感到谈话的压力。"}
+{"id": 90788, "step": 3, "type": "scene_sentence", "scene": "Interview", "sentence": "Make a good feeling on the person.", "zh": "给人留下好印象。"}
+{"id": 90789, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "Go to the group.", "zh": "去群体。"}
+{"id": 90790, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "Put out your hand.", "zh": "伸出手。"}
+{"id": 90791, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "See new people.", "zh": "看到新的人。"}
+{"id": 90792, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "Have a good talk with someone.", "zh": "和某人好好谈。"}
+{"id": 90793, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "Feel the connection.", "zh": "感到连接。"}
+{"id": 90794, "step": 3, "type": "scene_sentence", "scene": "Networking", "sentence": "Make a new contact.", "zh": "建立新联系。"}
+{"id": 90795, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "Go to the home office.", "zh": "去家庭办公室。"}
+{"id": 90796, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "Put in work from home.", "zh": "在家工作。"}
+{"id": 90797, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "See the screen for work.", "zh": "看到工作屏幕。"}
+{"id": 90798, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "Have a good work space.", "zh": "有好工作空间。"}
+{"id": 90799, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "Feel the freedom of home.", "zh": "感到家的自由。"}
+{"id": 90800, "step": 3, "type": "scene_sentence", "scene": "Remote Work", "sentence": "Make it work from anywhere.", "zh": "让它从任何地方工作。"}
+{"id": 90801, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "Get a higher place in the work.", "zh": "在工作中获得更高的地位。"}
+{"id": 90802, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "Put in good work.", "zh": "投入好工作。"}
+{"id": 90803, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "See the results of the work.", "zh": "看到工作的结果。"}
+{"id": 90804, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "Have a new title.", "zh": "有新头衔。"}
+{"id": 90805, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "Feel the pride of the work.", "zh": "感到工作的骄傲。"}
+{"id": 90806, "step": 3, "type": "scene_sentence", "scene": "Promotion", "sentence": "Make it to the next level.", "zh": "到达下一个级别。"}
+{"id": 90807, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "Put down the work.", "zh": "放下工作。"}
+{"id": 90808, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "Get free from the work time.", "zh": "从工作时间中解脱。"}
+{"id": 90809, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "See the years of work behind.", "zh": "看到工作岁月的背后。"}
+{"id": 90810, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "Have time for yourself.", "zh": "有时间给自己。"}
+{"id": 90811, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "Feel the freedom from work.", "zh": "感到从工作中解脱。"}
+{"id": 90812, "step": 3, "type": "scene_sentence", "scene": "Retirement", "sentence": "Make the most of the time.", "zh": "充分利用时间。"}
+{"id": 90813, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "Put in time for others.", "zh": "为他人投入时间。"}
+{"id": 90814, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "Get a good feeling from helping.", "zh": "从帮助中获得好心情。"}
+{"id": 90815, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "See the help go out.", "zh": "看到帮助出去。"}
+{"id": 90816, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "Have a giving heart.", "zh": "有给予的心。"}
+{"id": 90817, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "Feel good about the work.", "zh": "对工作感到满意。"}
+{"id": 90818, "step": 3, "type": "scene_sentence", "scene": "Volunteering", "sentence": "Make a difference for someone.", "zh": "为某人带来改变。"}
+{"id": 90819, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "Put in extra work for money.", "zh": "为钱投入额外工作。"}
+{"id": 90820, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "Get more money from the work.", "zh": "从工作中获得更多钱。"}
+{"id": 90821, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "See the money come in.", "zh": "看到钱进来。"}
+{"id": 90822, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "Have extra money.", "zh": "有多余的钱。"}
+{"id": 90823, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "Feel the work is worth it.", "zh": "感到工作值得。"}
+{"id": 90824, "step": 3, "type": "scene_sentence", "scene": "Side Job", "sentence": "Make it work with the main job.", "zh": "让它与主要工作配合。"}
+{"id": 90825, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "See the bad thing happen.", "zh": "看到坏事发生。"}
+{"id": 90826, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "Get help right away.", "zh": "立即获得帮助。"}
+{"id": 90827, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "Put the person in a safe place.", "zh": "把人在安全地方。"}
+{"id": 90828, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "Have help come quickly.", "zh": "有快速帮助来。"}
+{"id": 90829, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "Feel the shock of the event.", "zh": "感到事件的震惊。"}
+{"id": 90830, "step": 3, "type": "scene_sentence", "scene": "Accident", "sentence": "Make the person safe.", "zh": "让人安全。"}
+{"id": 90831, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "See the thing is not there.", "zh": "看到东西不在那里。"}
+{"id": 90832, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "Get the word out about the loss.", "zh": "把损失的消息传出去。"}
+{"id": 90833, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "Put in a report to the police.", "zh": "向警察报案。"}
+{"id": 90834, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "Have the police look for it.", "zh": "有警察寻找它。"}
+{"id": 90835, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "Feel the loss of the thing.", "zh": "感到东西的损失。"}
+{"id": 90836, "step": 3, "type": "scene_sentence", "scene": "Theft", "sentence": "Make it right with the insurance.", "zh": "用保险把它做好。"}
+{"id": 90837, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "See the big thing from nature.", "zh": "看到大自然的大东西。"}
+{"id": 90838, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "Get to a safe place.", "zh": "到安全地方。"}
+{"id": 90839, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "Put away the things that can be hurt.", "zh": "把可能受伤的东西收起来。"}
+{"id": 90840, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "Have help from others.", "zh": "有他人的帮助。"}
+{"id": 90841, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "Feel the power of nature.", "zh": "感到大自然的力量。"}
+{"id": 90842, "step": 3, "type": "scene_sentence", "scene": "Natural Disaster", "sentence": "Make it through the event.", "zh": "度过事件。"}
+{"id": 90843, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "See the light go out.", "zh": "看到灯灭了。"}
+{"id": 90844, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Get a light from another source.", "zh": "从另一个来源获得光。"}
+{"id": 90845, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Put in a call for help.", "zh": "打电话求助。"}
+{"id": 90846, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Have no power for a time.", "zh": "有一段时间没有电。"}
+{"id": 90847, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Feel the dark of the place.", "zh": "感到地方的黑暗。"}
+{"id": 90848, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Make it through the night.", "zh": "度过夜晚。"}
+{"id": 90849, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "See the place is not right.", "zh": "看到地方不对。"}
+{"id": 90850, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "Get help from someone.", "zh": "从某人获得帮助。"}
+{"id": 90851, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "Put in a call for directions.", "zh": "打电话问路。"}
+{"id": 90852, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "Have a map to look at.", "zh": "有地图看。"}
+{"id": 90853, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "Feel the confusion of the place.", "zh": "感到地方的困惑。"}
+{"id": 90854, "step": 3, "type": "scene_sentence", "scene": "Lost", "sentence": "Make it to the right place.", "zh": "到达正确的地方。"}
+{"id": 90855, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "Put up the tree for the day.", "zh": "为日子竖起树。"}
+{"id": 90856, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "Get together with the family.", "zh": "和家人在一起。"}
+{"id": 90857, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "See the gifts under the tree.", "zh": "看到树下的礼物。"}
+{"id": 90858, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "Have a good time with the family.", "zh": "和家人在一起玩得开心。"}
+{"id": 90859, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "Feel the warmth of the day.", "zh": "感到日子的温暖。"}
+{"id": 90860, "step": 3, "type": "scene_sentence", "scene": "Christmas", "sentence": "Make it a special day.", "zh": "让它成为特别的一天。"}
+{"id": 90861, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "See the year come in.", "zh": "看到年进来。"}
+{"id": 90862, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "Get together with friends.", "zh": "和朋友在一起。"}
+{"id": 90863, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "Put out a word for the new year.", "zh": "为新年发话。"}
+{"id": 90864, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "Have a good start to the year.", "zh": "有好的年开始。"}
+{"id": 90865, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "Feel the hope of the new year.", "zh": "感到新年的希望。"}
+{"id": 90866, "step": 3, "type": "scene_sentence", "scene": "New Year", "sentence": "Make it a good year.", "zh": "让它成为好年。"}
+{"id": 90867, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "See two people come together.", "zh": "看到两个人走到一起。"}
+{"id": 90868, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Put rings on fingers.", "zh": "把戒指戴在手指上。"}
+{"id": 90869, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Have a day of joy.", "zh": "有欢乐的一天。"}
+{"id": 90870, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Feel the love in the air.", "zh": "感到空气中的爱。"}
+{"id": 90871, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Make it a day to remember.", "zh": "让它成为值得记住的一天。"}
+{"id": 90872, "step": 3, "type": "scene_sentence", "scene": "Wedding", "sentence": "Get together with family and friends.", "zh": "和家人在一起朋友。"}
+{"id": 90873, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "See a person go from this life.", "zh": "看到一个人从这个世界离开。"}
+{"id": 90874, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "Put the person in the ground.", "zh": "把人在地下。"}
+{"id": 90875, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "Have a time of sadness.", "zh": "有悲伤的时间。"}
+{"id": 90876, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "Feel the loss of the person.", "zh": "感到人的损失。"}
+{"id": 90877, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "Make it a time of remembering.", "zh": "让它成为记住的时间。"}
+{"id": 90878, "step": 3, "type": "scene_sentence", "scene": "Funeral", "sentence": "Get together for the person.", "zh": "为人聚在一起。"}
+{"id": 90879, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "Put on a special face.", "zh": "戴上特殊的脸。"}
+{"id": 90880, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "Get treats from the door.", "zh": "从门口获得款待。"}
+{"id": 90881, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "See the fun of the day.", "zh": "看到日子的乐趣。"}
+{"id": 90882, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "Have a good time with others.", "zh": "和他人在一起玩得开心。"}
+{"id": 90883, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "Feel the fun of the face.", "zh": "感到脸的乐趣。"}
+{"id": 90884, "step": 3, "type": "scene_sentence", "scene": "Halloween", "sentence": "Make it a night of fun.", "zh": "让它成为乐趣的夜晚。"}
+{"id": 90885, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "Put the things in boxes.", "zh": "把东西放进箱子里。"}
+{"id": 90886, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "Get a new house.", "zh": "获得新房子。"}
+{"id": 90887, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "Put the boxes in the car.", "zh": "把箱子放进车里。"}
+{"id": 90888, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "See the new place.", "zh": "看到新地方。"}
+{"id": 90889, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "Have a fresh start.", "zh": "有新的开始。"}
+{"id": 90890, "step": 3, "type": "scene_sentence", "scene": "Moving", "sentence": "Make it feel like home.", "zh": "让它感觉像家。"}
+{"id": 90891, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "Go to the new house party.", "zh": "去新房子聚会。"}
+{"id": 90892, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "See the new place.", "zh": "看到新地方。"}
+{"id": 90893, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "Have a good time with friends.", "zh": "和朋友们玩得开心。"}
+{"id": 90894, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "Put food and drink out.", "zh": "放好食物和饮料。"}
+{"id": 90895, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "Feel the warmth of the place.", "zh": "感到地方的温暖。"}
+{"id": 90896, "step": 3, "type": "scene_sentence", "scene": "Housewarming", "sentence": "Make it a special day.", "zh": "让它成为特别的一天。"}
+{"id": 90897, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "Go to the house for the child.", "zh": "去房子照顾孩子。"}
+{"id": 90898, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "Put the child to bed.", "zh": "把孩子放上床。"}
+{"id": 90899, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "See the child is safe.", "zh": "看到孩子是安全的。"}
+{"id": 90900, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "Have a good time with the child.", "zh": "和孩子玩得开心。"}
+{"id": 90901, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "Make the child happy.", "zh": "让孩子开心。"}
+{"id": 90902, "step": 3, "type": "scene_sentence", "scene": "Babysitting", "sentence": "Get help if needed.", "zh": "如果需要获得帮助。"}
+{"id": 90903, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "Go to the old person's house.", "zh": "去老人的房子。"}
+{"id": 90904, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "Put help to the old person.", "zh": "给老人帮助。"}
+{"id": 90905, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "See the old person is well.", "zh": "看到老人身体好。"}
+{"id": 90906, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "Have a talk with the old person.", "zh": "和老人谈话。"}
+{"id": 90907, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "Make the old person comfortable.", "zh": "让老人舒服。"}
+{"id": 90908, "step": 3, "type": "scene_sentence", "scene": "Elderly Care", "sentence": "Get help from others.", "zh": "从他人获得帮助。"}
+{"id": 90909, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "Go to the group meeting.", "zh": "去群体会议。"}
+{"id": 90910, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "Put in your word for the group.", "zh": "为群体发言。"}
+{"id": 90911, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "See what the group needs.", "zh": "看群体需要什么。"}
+{"id": 90912, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "Have a say in the group.", "zh": "在群体中有发言权。"}
+{"id": 90913, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "Make the group better.", "zh": "让群体更好。"}
+{"id": 90914, "step": 3, "type": "scene_sentence", "scene": "Community", "sentence": "Get together for a good cause.", "zh": "为好的事业聚在一起。"}
