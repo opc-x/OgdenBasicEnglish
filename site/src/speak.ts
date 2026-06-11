@@ -115,10 +115,50 @@ export async function speak(word: string): Promise<void> {
   await speakWithBrowser(word);
 }
 
-/** 整句朗读（练习模块用） */
+/** 整句朗读（练习模块用）—— 句子级 MP3 优先，fallback 浏览器 TTS */
+const sentenceAudioCache = new Map<string, boolean>();
+
+function sentenceSlug(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80) || "s";
+}
+
+export async function hasSentenceAudio(text: string): Promise<boolean> {
+  const key = sentenceSlug(text);
+  if (sentenceAudioCache.has(key)) return sentenceAudioCache.get(key)!;
+  if (typeof window === "undefined") return false;
+  try {
+    const res = await fetch(`/audio/sentences/${key}.mp3`, { method: "HEAD" });
+    const ok = res.ok;
+    sentenceAudioCache.set(key, ok);
+    return ok;
+  } catch {
+    sentenceAudioCache.set(key, false);
+    return false;
+  }
+}
+
 export async function speakText(text: string): Promise<void> {
   if (typeof window === "undefined") return;
   stop();
+  // 优先句子级 MP3
+  const slug = sentenceSlug(text);
+  if (await hasSentenceAudio(text)) {
+    try { await playMp3(`/audio/sentences/${slug}.mp3`); return; } catch { /* fall through */ }
+  }
+  // 拆词逐个播 MP3（比浏览器 TTS 音质好）
+  const words = text.split(/\s+/).filter(Boolean);
+  if (words.length <= 10) {
+    for (const w of words) {
+      const wSlug = slug(w);
+      if (await hasSoniaAudio(w)) {
+        try { await playMp3(audioUrl(w)); continue; } catch { /* fall through */ }
+      }
+      // 最后一个词 fallback 浏览器
+      await speakWithBrowser(w);
+    }
+    return;
+  }
+  // 长句直接浏览器 TTS
   await speakWithBrowser(text);
 }
 
