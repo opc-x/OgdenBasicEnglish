@@ -122,8 +122,8 @@ function sentenceSlug(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80) || "s";
 }
 
-export async function hasSentenceAudio(text: string): Promise<boolean> {
-  const key = sentenceSlug(text);
+export async function hasSentenceAudio(text: string, sentenceId?: number): Promise<boolean> {
+  const key = sentenceId ? String(sentenceId) : sentenceSlug(text);
   if (sentenceAudioCache.has(key)) return sentenceAudioCache.get(key)!;
   if (typeof window === "undefined") return false;
   try {
@@ -137,13 +137,13 @@ export async function hasSentenceAudio(text: string): Promise<boolean> {
   }
 }
 
-export async function speakText(text: string): Promise<void> {
+export async function speakText(text: string, sentenceId?: number): Promise<void> {
   if (typeof window === "undefined") return;
   stop();
-  // 优先句子级 MP3
-  const slug = sentenceSlug(text);
-  if (await hasSentenceAudio(text)) {
-    try { await playMp3(`/audio/sentences/${slug}.mp3`); return; } catch { /* fall through */ }
+  // 优先句子级 MP3（用ID查，fallback用slug）
+  const key = sentenceId ? String(sentenceId) : sentenceSlug(text);
+  if (await hasSentenceAudio(text, sentenceId)) {
+    try { await playMp3(`/audio/sentences/${key}.mp3`); return; } catch { /* fall through */ }
   }
   // 拆词逐个播 MP3（比浏览器 TTS 音质好）
   const words = text.split(/\s+/).filter(Boolean);

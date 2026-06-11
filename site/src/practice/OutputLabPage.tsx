@@ -65,7 +65,7 @@ function TrainingTab() {
     return (
     <li key={s.id} className="training-row">
       <span className="training-row-num">{globalIdx}</span>
-      <button className="training-row-speaker" onClick={() => speakText(s.sentence)} title="Sonia 英式女声朗读" aria-label="朗读">🔊</button>
+      <button className="training-row-speaker" onClick={() => speakText(s.sentence, s.id)} title="Sonia 英式女声朗读" aria-label="朗读">🔊</button>
       <span className="training-row-en">{s.sentence}</span>
       {s.zh && <span className="training-row-zh">{s.zh}</span>}
     </li>
