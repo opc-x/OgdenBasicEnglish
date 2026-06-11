@@ -8,6 +8,7 @@ export type TrainingSentence = {
   step: number;
   type: string;
   sentence: string;
+  zh?: string;
   operator?: string;
   direction?: string;
   noun?: string;

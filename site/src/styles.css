@@ -4958,23 +4958,13 @@ a:hover { color: var(--accent-deep); }
 }
 
 
-/* ── Training Tab ── */
-.training-tab {
-  padding: 0 0.5rem;
-}
 
-.training-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
+/* ── Training Tab v2: StepByStep-style numbered list ── */
 .training-step-tabs {
   display: flex;
   gap: 0.3rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
 }
 
 .training-step-btn {
@@ -4983,206 +4973,183 @@ a:hover { color: var(--accent-deep); }
   border-radius: 6px;
   background: var(--bg-card);
   color: var(--ink-muted);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   cursor: pointer;
   transition: all 0.15s;
 }
-
 .training-step-btn.active {
   background: #7c3aed;
   color: #fff;
   border-color: #7c3aed;
 }
-
 .training-step-count {
-  font-size: 0.7rem;
-  opacity: 0.7;
+  font-size: 0.68rem;
+  opacity: 0.65;
   margin-left: 0.3rem;
 }
 
-.training-toggle {
-  font-size: 0.78rem;
-  color: var(--ink-muted);
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  cursor: pointer;
-}
-
-.training-operator-group {
-  margin-bottom: 0.5rem;
+/* Operator header block */
+.training-op-block {
+  margin-bottom: 0.6rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
 }
-
-.training-operator-header {
+.training-op-header {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 0.6rem 0.8rem;
+  padding: 0.55rem 0.8rem;
   background: var(--bg-card);
   border: none;
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   color: var(--ink);
-  gap: 0.5rem;
   text-align: left;
+  gap: 0.5rem;
 }
-
-.training-operator-header:hover {
-  background: var(--bg-hover, #f8f7f4);
-}
-
+.training-op-header:hover { background: #f8f7f4; }
 .training-op-name {
   font-family: var(--mono);
   font-weight: 700;
   font-size: 1rem;
   color: #7c3aed;
-  min-width: 3rem;
+  min-width: 2.8rem;
 }
-
 .training-op-meta {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--ink-muted);
   flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-
 .training-op-arrow {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   transition: transform 0.2s;
   color: var(--ink-muted);
 }
+.training-op-arrow.open { transform: rotate(180deg); }
 
-.training-op-arrow.open {
-  transform: rotate(180deg);
-}
-
-.training-operator-body {
-  padding: 0.6rem 0.8rem;
+.training-op-body {
+  padding: 0.5rem 0.8rem 0.3rem;
   border-top: 1px solid var(--border);
   background: #fafaf8;
 }
 
-.training-combo-row {
+/* Direction group inside operator */
+.training-dir-group {
   margin-bottom: 0.5rem;
-  padding: 0.4rem 0;
+  padding-bottom: 0.4rem;
   border-bottom: 1px dashed #eee;
 }
-
-.training-combo-row:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
+.training-dir-group:last-child { border-bottom: none; margin-bottom: 0; }
+.training-dir-label {
+  margin-bottom: 0.2rem;
 }
-
-.training-combo-label {
-  margin-bottom: 0.3rem;
-}
-
-.training-combo-label code {
+.training-dir-label code {
   font-family: var(--mono);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 600;
   color: #b45309;
   background: #fef3c7;
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
 }
-
 .training-replaces {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--ink-muted);
   font-style: italic;
   margin-left: 0.3rem;
 }
 
-.training-combo-sentences {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-}
-
-.training-sentence-btn {
-  padding: 0.25rem 0.55rem;
-  border: 1px solid #e5e0d5;
-  border-radius: 4px;
-  background: #fff;
-  font-size: 0.76rem;
-  color: var(--ink);
-  cursor: pointer;
-  transition: all 0.15s;
-  line-height: 1.4;
-}
-
-.training-sentence-btn:hover {
-  border-color: #7c3aed;
-  color: #7c3aed;
-  background: #f5f3ff;
-}
-
-.training-more {
-  font-size: 0.7rem;
-  color: var(--ink-muted);
-  align-self: center;
-}
-
-/* Step 2: op+noun */
-.training-opnoun-group {
+/* Step 2: op+noun block */  
+.training-opnoun-block {
   padding: 0.5rem 0.8rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   border: 1px solid #eee;
   border-radius: 6px;
 }
-
 .training-opnoun-label {
   font-family: var(--mono);
   font-size: 0.8rem;
   font-weight: 600;
   color: #059669;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
-
-.training-opnoun-sentences {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-}
-
-/* Step 3: scenes */
-.training-scene-group {
-  margin-bottom: 1rem;
-  padding: 0.6rem 0.8rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-card);
-}
-
-.training-scene-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #b45309;
-  margin: 0 0 0.4rem 0;
-}
-
-.training-scene-text p {
-  margin: 0.2rem 0;
-}
-
-.training-scene-sentence {
-  padding: 0.3rem 0.5rem;
-  border: none;
-  background: none;
-  font-size: 0.82rem;
-  color: var(--ink);
-  cursor: pointer;
-  text-align: left;
-  line-height: 1.5;
+.training-opnoun-label code {
+  font-size: 0.78rem;
+  background: #d1fae5;
+  padding: 0.1rem 0.35rem;
   border-radius: 3px;
 }
+.training-opnoun-count {
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+  margin-left: 0.5rem;
+}
 
-.training-scene-sentence:hover {
+/* Step 3: scene block */
+.training-scene-block {
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.training-scene-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #b45309;
+  margin: 0 0 0.3rem 0;
+}
+
+/* Compact sentence list (reuse practice-sentences but tighter) */
+.practice-sentences--compact {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.practice-sentences--compact li {
+  margin-bottom: 0.12rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.practice-sentences--compact .practice-sent-idx {
+  min-width: 1.5rem;
+  text-align: right;
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  padding-top: 0.3rem;
+}
+.practice-sent-content {
+  flex: 1;
+  min-width: 0;
+}
+.practice-sentences--compact .practice-sent-btn {
+  font-size: 0.78rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #e5e0d5;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--ink);
+  display: block;
+  width: 100%;
+  text-align: left;
+  transition: all 0.12s;
+}
+.practice-sentences--compact .practice-sent-btn:hover {
   background: #f5f3ff;
+  border-color: #7c3aed;
   color: #7c3aed;
+}
+.practice-sent-zh {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  margin-left: 0.5rem;
+  line-height: 1.3;
 }
 
 @media (max-width: 768px) {
@@ -5190,8 +5157,7 @@ a:hover { color: var(--accent-deep); }
     flex-direction: column;
     width: 100%;
   }
-
-  .training-combo-sentences {
-    flex-direction: column;
+  .training-op-meta {
+    display: none;
   }
 }
