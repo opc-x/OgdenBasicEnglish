@@ -1,0 +1,639 @@
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put the book on the table."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "She put her hat on."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put your hand on your head."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put the food in the box."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "He put the letter in the bag."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the cup down on the table."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put my shoe by the door."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "She put the flower in the garden."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the cover on the pot."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put the money in my pocket."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the plate on the table."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "He put the brush on the shelf."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put the pen in the box."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the bread on the plate."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "She put the ring on her finger."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the knife and fork on the table."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "I put the picture on the wall."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the letter in the bag."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "He put the book between the cup and the plate."}
+{"step": 1, "operator": "put", "type": "operator_basic", "sentence": "Put the bottle on the table."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the book from the table."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take your coat off."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the hat off your head."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the food out of the box."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "She takes the letter from the bag."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the cup to the table."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the pen from the box."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take off your shoe."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "She took the flower from the garden."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the bread from the plate."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the money from my pocket."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the cover off the pot."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the brush off the shelf."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the ring from her finger."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the knife from the table."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the bottle from the box."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the letter out of the bag."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "I take the picture off the wall."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the thread through the needle."}
+{"step": 1, "operator": "take", "type": "operator_basic", "sentence": "Take the nail out of the wall."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "I go to the house."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go to the door."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go in through the door."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "I go from the house to the garden."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go out through the door."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "She goes to school."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go up the road."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go down to the river."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go back to your room."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go over the bridge."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go through the garden."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go across the road."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go about your work."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go on with your work."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go after the dog."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go between the houses."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go under the bridge."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go with your friend."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go at the door."}
+{"step": 1, "operator": "go", "type": "operator_basic", "sentence": "Go away from the fire."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come to the door."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come in through the door."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come out of the house."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come back to your room."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come up to the house."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come down from the tree."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come through the garden."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come across the bridge."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come after me."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come before the teacher."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come between us."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come under the umbrella."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come with me."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come from the house."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come to school."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come over to the table."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come about the work."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come among the people."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come at the right time."}
+{"step": 1, "operator": "come", "type": "operator_basic", "sentence": "Come by the house."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "I get the book from the table."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get your coat."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get in the train."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get off the bus."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get on the horse."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get out of the house."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get up from the bed."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get back to your room."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get through the door."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get over the wall."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get about the house."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get across the river."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get after the dog."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get before the door."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get between the houses."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get under the table."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get with your friend."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get from the shop."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get to the station."}
+{"step": 1, "operator": "get", "type": "operator_basic", "sentence": "Get at the book."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give me the book."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "I gave the letter to her."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give your hat to me."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give the food to the dog."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give out the books."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give back the money."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give away the bread."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give up your seat."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give in to the teacher."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give off light."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give over the work."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give after the meeting."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give among the children."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give about the house."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give across the table."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give before the day."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give between us."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give from the heart."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give to the school."}
+{"step": 1, "operator": "give", "type": "operator_basic", "sentence": "Give with love."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "I make the bread."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "She made a cake."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make a fire."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make a hole in the wall."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make a decision."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make clean the house."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make ready the food."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make up a story."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make out the word."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make over the work."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make about the garden."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make after the dog."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make before the day."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make between us."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make from bread."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make with your hands."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make for the school."}
+{"step": 1, "operator": "make", "type": "operator_basic", "sentence": "Make of the wood."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "I do my work."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do the work."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "She did the washing."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do it again."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do well in school."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do away with the old."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do without the book."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do about the garden."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do after the meeting."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do before the day."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do between the houses."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do from the heart."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do to the door."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do under the table."}
+{"step": 1, "operator": "do", "type": "operator_basic", "sentence": "Do with your hands."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "I have a book."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "She has a hat."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have some bread."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "I have a pain in my back."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have a look at the book."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have a talk with your friend."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have a desire for the food."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have a comparison of the two."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Fire has on the coat."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have about the house."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have after the meeting."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have before the day."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have between us."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have from the shop."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have to the door."}
+{"step": 1, "operator": "have", "type": "operator_basic", "sentence": "Have with your friend."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "This is my book."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The book is on the table."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "I am at school."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "She is in the garden."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The door is open."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The water is cold."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The fire is hot."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The hat is on my head."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The food is ready."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The day is long."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The house is old."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The tree is tall."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The road is long."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The sky is blue."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The grass is green."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The flower is beautiful."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The bread is fresh."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The meat is good."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The milk is cold."}
+{"step": 1, "operator": "be", "type": "operator_basic", "sentence": "The work is hard."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "I say yes."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say it again."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say the word."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "She says no."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "I said the word to her."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say about the work."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say after me."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say before the day."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say between us."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say from the heart."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say to the teacher."}
+{"step": 1, "operator": "say", "type": "operator_basic", "sentence": "Say with your mouth."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "I see the book on the table."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See the bird in the tree."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "I saw the dog in the garden."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See the flower through the window."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See off your friend."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See through the door."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See about the work."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See after the meeting."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See before the day."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See between the lines."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See from the house."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See to the door."}
+{"step": 1, "operator": "see", "type": "operator_basic", "sentence": "See with your eyes."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the book."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep on with your work."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep up the garden."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep off the grass."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep out of the house."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep back the dog."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep away from the fire."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the bread in the box."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the money in your pocket."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep your hand on the book."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the door open."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the fire going."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the room clean."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the food warm."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the hat on your head."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep the letter in the bag."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep about the house."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep after the dog."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep before the day."}
+{"step": 1, "operator": "keep", "type": "operator_basic", "sentence": "Keep between us."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let me see the book."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let go of the rope."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let in the dog."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let out the cat."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let down the rope."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let off the train."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let on about the work."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let up the pressure."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let after the meeting."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let before the day."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let between us."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let from the heart."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let to the door."}
+{"step": 1, "operator": "let", "type": "operator_basic", "sentence": "Let with your hands."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "It seems good."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The work seems hard."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "She seems happy."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The day seems long."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The house seems old."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The food seems good."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The water seems cold."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The fire seems hot."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The book seems interesting."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The road seems long."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The bridge seems strong."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The garden seems beautiful."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The child seems tired."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The teacher seems kind."}
+{"step": 1, "operator": "seem", "type": "operator_basic", "sentence": "The doctor seems well."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "I send the letter."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send the book to me."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send out the letters."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send back the food."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send off the letter."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send away the dog."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send in the work."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send up the price."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send down the road."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send over the bridge."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send through the door."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send about the house."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send after the doctor."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send before the day."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send between us."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send from the heart."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send to the school."}
+{"step": 1, "operator": "send", "type": "operator_basic", "sentence": "Send with your friend."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "You may go."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "I may have the book."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "She may see the garden."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "It may rain tomorrow."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "You may come in."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "I may be late."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The day may be cold."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The work may be hard."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The food may be ready."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The door may be open."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The house may be old."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The road may be long."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The bridge may be strong."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The child may be tired."}
+{"step": 1, "operator": "may", "type": "operator_basic", "sentence": "The teacher may be kind."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "I will go to the house."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "She will see the garden."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "I will have the book."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "He will do the work."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "We will come to the school."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "I will put the book on the table."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "She will give the food to the dog."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The day will be long."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The work will be hard."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The house will be warm."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The fire will be hot."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The food will be ready."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The child will be happy."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The teacher will be kind."}
+{"step": 1, "operator": "will", "type": "operator_basic", "sentence": "The doctor will see you."}
+{"step": 2, "operator": "put", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "Put your coat on."}
+{"step": 2, "operator": "put", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "I put my shoe on."}
+{"step": 2, "operator": "put", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "Put on your coat."}
+{"step": 2, "operator": "put", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "He put the book on the table."}
+{"step": 2, "operator": "put", "direction": "off", "meaning": "postpone", "type": "op_dir_combo", "sentence": "Put off the meeting till tomorrow."}
+{"step": 2, "operator": "put", "direction": "off", "meaning": "postpone", "type": "op_dir_combo", "sentence": "Don't put off your work."}
+{"step": 2, "operator": "put", "direction": "off", "meaning": "postpone", "type": "op_dir_combo", "sentence": "She put off the decision."}
+{"step": 2, "operator": "put", "direction": "in", "meaning": "add", "type": "op_dir_combo", "sentence": "Put in the bread."}
+{"step": 2, "operator": "put", "direction": "in", "meaning": "add", "type": "op_dir_combo", "sentence": "Put your hand in your pocket."}
+{"step": 2, "operator": "put", "direction": "out", "meaning": "extinguish", "type": "op_dir_combo", "sentence": "Put out the fire."}
+{"step": 2, "operator": "put", "direction": "out", "meaning": "extinguish", "type": "op_dir_combo", "sentence": "Put the fire out."}
+{"step": 2, "operator": "put", "direction": "down", "meaning": "place", "type": "op_dir_combo", "sentence": "Put the book down."}
+{"step": 2, "operator": "put", "direction": "down", "meaning": "place", "type": "op_dir_combo", "sentence": "Put down your hand."}
+{"step": 2, "operator": "put", "direction": "up", "meaning": "raise", "type": "op_dir_combo", "sentence": "Put up your hand."}
+{"step": 2, "operator": "put", "direction": "up", "meaning": "raise", "type": "op_dir_combo", "sentence": "Put the picture up on the wall."}
+{"step": 2, "operator": "put", "direction": "away", "meaning": "store", "type": "op_dir_combo", "sentence": "Put away the book."}
+{"step": 2, "operator": "put", "direction": "away", "meaning": "store", "type": "op_dir_combo", "sentence": "Put the food away in the box."}
+{"step": 2, "operator": "put", "direction": "together", "meaning": "assemble", "type": "op_dir_combo", "sentence": "Put the parts together."}
+{"step": 2, "operator": "put", "direction": "together", "meaning": "assemble", "type": "op_dir_combo", "sentence": "Put together the bread and the cheese."}
+{"step": 2, "operator": "take", "direction": "off", "meaning": "remove", "type": "op_dir_combo", "sentence": "Take off your hat."}
+{"step": 2, "operator": "take", "direction": "out", "meaning": "extract", "type": "op_dir_combo", "sentence": "Take out the book."}
+{"step": 2, "operator": "take", "direction": "out", "meaning": "extract", "type": "op_dir_combo", "sentence": "Take out the food from the box."}
+{"step": 2, "operator": "take", "direction": "in", "meaning": "absorb", "type": "op_dir_combo", "sentence": "Take in the information."}
+{"step": 2, "operator": "take", "direction": "up", "meaning": "begin", "type": "op_dir_combo", "sentence": "Take up the work."}
+{"step": 2, "operator": "take", "direction": "up", "meaning": "occupy", "type": "op_dir_combo", "sentence": "Take up your time with reading."}
+{"step": 2, "operator": "take", "direction": "away", "meaning": "remove", "type": "op_dir_combo", "sentence": "Take away the book."}
+{"step": 2, "operator": "take", "direction": "away", "meaning": "remove", "type": "op_dir_combo", "sentence": "Take the food away."}
+{"step": 2, "operator": "take", "direction": "back", "meaning": "return", "type": "op_dir_combo", "sentence": "Take back the book."}
+{"step": 2, "operator": "take", "direction": "over", "meaning": "assume control", "type": "op_dir_combo", "sentence": "Take over the work."}
+{"step": 2, "operator": "get", "direction": "up", "meaning": "rise", "type": "op_dir_combo", "sentence": "Get up and go."}
+{"step": 2, "operator": "get", "direction": "up", "meaning": "rise", "type": "op_dir_combo", "sentence": "Get up from your seat."}
+{"step": 2, "operator": "get", "direction": "out", "meaning": "exit", "type": "op_dir_combo", "sentence": "Get out through the door."}
+{"step": 2, "operator": "get", "direction": "off", "meaning": "dismount", "type": "op_dir_combo", "sentence": "Get off the horse."}
+{"step": 2, "operator": "get", "direction": "on", "meaning": "board", "type": "op_dir_combo", "sentence": "Get on the train."}
+{"step": 2, "operator": "get", "direction": "on", "meaning": "board", "type": "op_dir_combo", "sentence": "Get on the bus."}
+{"step": 2, "operator": "get", "direction": "back", "meaning": "recover", "type": "op_dir_combo", "sentence": "Get back the book."}
+{"step": 2, "operator": "get", "direction": "over", "meaning": "overcome", "type": "op_dir_combo", "sentence": "Get over the pain."}
+{"step": 2, "operator": "get", "direction": "by", "meaning": "pass", "type": "op_dir_combo", "sentence": "Get by the house."}
+{"step": 2, "operator": "go", "direction": "in", "meaning": "enter", "type": "op_dir_combo", "sentence": "Go in to the room."}
+{"step": 2, "operator": "go", "direction": "out", "meaning": "exit", "type": "op_dir_combo", "sentence": "Go out of the house."}
+{"step": 2, "operator": "go", "direction": "on", "meaning": "continue", "type": "op_dir_combo", "sentence": "The work went on."}
+{"step": 2, "operator": "go", "direction": "up", "meaning": "rise", "type": "op_dir_combo", "sentence": "The price went up."}
+{"step": 2, "operator": "go", "direction": "about", "meaning": "move", "type": "op_dir_combo", "sentence": "Go about the house."}
+{"step": 2, "operator": "go", "direction": "from", "meaning": "depart", "type": "op_dir_combo", "sentence": "Go from the house to the garden."}
+{"step": 2, "operator": "come", "direction": "in", "meaning": "enter", "type": "op_dir_combo", "sentence": "Come in to the room."}
+{"step": 2, "operator": "come", "direction": "out", "meaning": "appear", "type": "op_dir_combo", "sentence": "Come out through the door."}
+{"step": 2, "operator": "come", "direction": "back", "meaning": "return", "type": "op_dir_combo", "sentence": "Come back from the garden."}
+{"step": 2, "operator": "come", "direction": "from", "meaning": "originate", "type": "op_dir_combo", "sentence": "I come from the house."}
+{"step": 2, "operator": "come", "direction": "from", "meaning": "originate", "type": "op_dir_combo", "sentence": "She comes from the school."}
+{"step": 2, "operator": "come", "direction": "about", "meaning": "happen", "type": "op_dir_combo", "sentence": "How did it come about?"}
+{"step": 2, "operator": "give", "direction": "up", "meaning": "surrender", "type": "op_dir_combo", "sentence": "Don't give up."}
+{"step": 2, "operator": "give", "direction": "out", "meaning": "distribute", "type": "op_dir_combo", "sentence": "Give the books out to the children."}
+{"step": 2, "operator": "give", "direction": "back", "meaning": "return", "type": "op_dir_combo", "sentence": "Give the book back."}
+{"step": 2, "operator": "give", "direction": "away", "meaning": "distribute", "type": "op_dir_combo", "sentence": "Give away the food."}
+{"step": 2, "operator": "give", "direction": "away", "meaning": "give", "type": "op_dir_combo", "sentence": "Give the bread away."}
+{"step": 2, "operator": "give", "direction": "in", "meaning": "yield", "type": "op_dir_combo", "sentence": "Don't give in."}
+{"step": 2, "operator": "give", "direction": "off", "meaning": "emit", "type": "op_dir_combo", "sentence": "The fire gives off heat."}
+{"step": 2, "operator": "make", "direction": "up", "meaning": "reconcile", "type": "op_dir_combo", "sentence": "Make up after the fight."}
+{"step": 2, "operator": "make", "direction": "out", "meaning": "perceive", "type": "op_dir_combo", "sentence": "I can't make out the picture."}
+{"step": 2, "operator": "make", "direction": "for", "meaning": "go towards", "type": "op_dir_combo", "sentence": "Make for the door."}
+{"step": 2, "operator": "make", "direction": "from", "meaning": "create", "type": "op_dir_combo", "sentence": "Make bread from the flour."}
+{"step": 2, "operator": "make", "direction": "of", "meaning": "create", "type": "op_dir_combo", "sentence": "Make a box of wood."}
+{"step": 2, "operator": "keep", "direction": "on", "meaning": "persist", "type": "op_dir_combo", "sentence": "Keep on going."}
+{"step": 2, "operator": "keep", "direction": "up", "meaning": "maintain", "type": "op_dir_combo", "sentence": "Keep up your work."}
+{"step": 2, "operator": "keep", "direction": "up", "meaning": "maintain", "type": "op_dir_combo", "sentence": "Keep the garden up."}
+{"step": 2, "operator": "keep", "direction": "down", "meaning": "control", "type": "op_dir_combo", "sentence": "Keep down the price."}
+{"step": 2, "operator": "keep", "direction": "from", "meaning": "prevent", "type": "op_dir_combo", "sentence": "Keep from the fire."}
+{"step": 2, "operator": "keep", "direction": "to", "meaning": "adhere", "type": "op_dir_combo", "sentence": "Keep to the road."}
+{"step": 2, "operator": "keep", "direction": "with", "meaning": "continue", "type": "op_dir_combo", "sentence": "Keep with your friend."}
+{"step": 2, "operator": "let", "direction": "in", "meaning": "allow in", "type": "op_dir_combo", "sentence": "Let me in."}
+{"step": 2, "operator": "let", "direction": "out", "meaning": "allow out", "type": "op_dir_combo", "sentence": "Let me out."}
+{"step": 2, "operator": "let", "direction": "go", "meaning": "release", "type": "op_dir_combo", "sentence": "Let the rope go."}
+{"step": 2, "operator": "let", "direction": "down", "meaning": "disappoint", "type": "op_dir_combo", "sentence": "Don't let me down."}
+{"step": 2, "operator": "let", "direction": "on", "meaning": "reveal", "type": "op_dir_combo", "sentence": "Don't let on about the work."}
+{"step": 2, "operator": "send", "direction": "down", "meaning": "decrease", "type": "op_dir_combo", "sentence": "Send down the price."}
+{"step": 2, "operator": "send", "direction": "over", "meaning": "forward", "type": "op_dir_combo", "sentence": "Send over the book."}
+{"step": 2, "operator": "see", "direction": "off", "meaning": "say goodbye", "type": "op_dir_combo", "sentence": "I saw him off at the station."}
+{"step": 2, "operator": "see", "direction": "through", "meaning": "not be deceived", "type": "op_dir_combo", "sentence": "See through the trick."}
+{"step": 2, "operator": "see", "direction": "after", "meaning": "take care of", "type": "op_dir_combo", "sentence": "See after the dog."}
+{"step": 2, "operator": "do", "direction": "away", "meaning": "abolish", "type": "op_dir_combo", "sentence": "Do away with the old system."}
+{"step": 2, "operator": "do", "direction": "up", "meaning": "fasten", "type": "op_dir_combo", "sentence": "Do up the button."}
+{"step": 2, "operator": "do", "direction": "over", "meaning": "repeat", "type": "op_dir_combo", "sentence": "Do the work over."}
+{"step": 2, "operator": "have", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "Have your coat on."}
+{"step": 2, "operator": "have", "direction": "on", "meaning": "wear", "type": "op_dir_combo", "sentence": "I have my hat on."}
+{"step": 2, "operator": "have", "direction": "over", "meaning": "host", "type": "op_dir_combo", "sentence": "Have over your friend."}
+{"step": 2, "operator": "have", "direction": "at", "meaning": "attack", "type": "op_dir_combo", "sentence": "Have at the work."}
+{"step": 3, "operator": "make", "noun": "decision", "meaning": "decide", "type": "op_noun_combo", "sentence": "I made a decision to go."}
+{"step": 3, "operator": "make", "noun": "decision", "meaning": "decide", "type": "op_noun_combo", "sentence": "She makes a decision."}
+{"step": 3, "operator": "make", "noun": "comparison", "meaning": "compare", "type": "op_noun_combo", "sentence": "Make a comparison of the two."}
+{"step": 3, "operator": "make", "noun": "request", "meaning": "request", "type": "op_noun_combo", "sentence": "Make a request to the teacher."}
+{"step": 3, "operator": "make", "noun": "attempt", "meaning": "attempt", "type": "op_noun_combo", "sentence": "Make an attempt to go."}
+{"step": 3, "operator": "make", "noun": "answer", "meaning": "answer", "type": "op_noun_combo", "sentence": "Make an answer to the question."}
+{"step": 3, "operator": "make", "noun": "example", "meaning": "exemplify", "type": "op_noun_combo", "sentence": "Make an example of the work."}
+{"step": 3, "operator": "make", "noun": "choice", "meaning": "choose", "type": "op_noun_combo", "sentence": "Make a choice between the two."}
+{"step": 3, "operator": "give", "noun": "answer", "meaning": "answer", "type": "op_noun_combo", "sentence": "Give an answer to the question."}
+{"step": 3, "operator": "give", "noun": "attention", "meaning": "attend", "type": "op_noun_combo", "sentence": "Give attention to the work."}
+{"step": 3, "operator": "give", "noun": "answer", "meaning": "reply", "type": "op_noun_combo", "sentence": "Give an answer."}
+{"step": 3, "operator": "give", "noun": "approval", "meaning": "approve", "type": "op_noun_combo", "sentence": "Give approval to the work."}
+{"step": 3, "operator": "give", "noun": "cause", "meaning": "cause", "type": "op_noun_combo", "sentence": "Give cause for the meeting."}
+{"step": 3, "operator": "have", "noun": "attempt", "meaning": "attempt", "type": "op_noun_combo", "sentence": "Have an attempt at the work."}
+{"step": 3, "operator": "have", "noun": "answer", "meaning": "answer", "type": "op_noun_combo", "sentence": "Have an answer to the question."}
+{"step": 3, "operator": "do", "noun": "work", "meaning": "work", "type": "op_noun_combo", "sentence": "I did my work."}
+{"step": 3, "operator": "take", "noun": "look", "meaning": "look", "type": "op_noun_combo", "sentence": "Take a look at the book."}
+{"step": 3, "operator": "take", "noun": "walk", "meaning": "walk", "type": "op_noun_combo", "sentence": "Take a walk in the garden."}
+{"step": 3, "operator": "take", "noun": "attempt", "meaning": "attempt", "type": "op_noun_combo", "sentence": "Take an attempt at the work."}
+{"step": 3, "operator": "take", "noun": "decision", "meaning": "decide", "type": "op_noun_combo", "sentence": "Take a decision."}
+{"step": 3, "operator": "take", "noun": "care", "meaning": "care", "type": "op_noun_combo", "sentence": "Take care of the dog."}
+{"step": 3, "operator": "get", "noun": "knowledge", "meaning": "learn", "type": "op_noun_combo", "sentence": "Get knowledge from the book."}
+{"step": 3, "operator": "get", "noun": "experience", "meaning": "experience", "type": "op_noun_combo", "sentence": "Get experience from the work."}
+{"step": 3, "operator": "keep", "noun": "control", "meaning": "control", "type": "op_noun_combo", "sentence": "Keep control of the dog."}
+{"step": 3, "operator": "keep", "noun": "agreement", "meaning": "agree", "type": "op_noun_combo", "sentence": "Keep the agreement."}
+{"step": 3, "operator": "keep", "noun": "record", "meaning": "record", "type": "op_noun_combo", "sentence": "Keep a record of the work."}
+{"step": 3, "operator": "make", "noun": "profit", "meaning": "profit", "type": "op_noun_combo", "sentence": "Make a profit from the work."}
+{"step": 3, "operator": "make", "noun": "progress", "meaning": "progress", "type": "op_noun_combo", "sentence": "Make progress in your work."}
+{"step": 3, "operator": "make", "noun": "use", "meaning": "use", "type": "op_noun_combo", "sentence": "Make use of the book."}
+{"step": 3, "operator": "give", "noun": "attention", "meaning": "attention", "type": "op_noun_combo", "sentence": "Give attention to the teacher."}
+{"step": 3, "operator": "give", "noun": "support", "meaning": "support", "type": "op_noun_combo", "sentence": "Give support to your friend."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "This is my room."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "My bed is against the wall."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "The window is in the wall."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "I put my books on the table."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "My room is small but clean."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "I keep my room warm in winter."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "There is a picture on the wall."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "I see the garden through the window."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "The floor is clean."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "I put my clothes in the box."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "My room has one door and one window."}
+{"step": 4, "scene": "My Room", "type": "scene_sentence", "sentence": "The roof is over my room."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "The bread is on the plate."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "Give me the bread."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "Take some bread and put butter on it."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "I drink water after my food."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "The food is good."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "Put the knife and fork on the plate."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "We have our food at the table."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "I take the food with the fork."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "The meat is hot."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "Put some salt on the food."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "The soup is warm."}
+{"step": 4, "scene": "At a Meal", "type": "scene_sentence", "sentence": "Take some fruit after the meal."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "I go to school in the morning."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "The school is a large building."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "The teacher is at school."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "I see my teacher at school."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "The teacher gives us work."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "I do my work with the pen."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "Put the book on the table."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "The teacher says the word."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "I say the word again."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "We go through the door to our room."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "The school has a garden."}
+{"step": 4, "scene": "At School", "type": "scene_sentence", "sentence": "Keep your work clean."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "I go to the station."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "Get a ticket at the station."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "The train is at the station."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "Give the ticket to the man."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "Put your bag on the seat."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "The train goes through the country."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "I see the country through the window."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "My friend is on the train."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "I give my friend a book."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "The train goes to the town."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "Get off the train at the station."}
+{"step": 4, "scene": "At the Station", "type": "scene_sentence", "sentence": "Take your bag off the train."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "This is my body."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "I have a head, two arms, and two legs."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "My heart is in my body."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "Blood goes through my body."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "I see with my eyes."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "I hear with my ears."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "I take food in through my mouth."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "My nose is on my face."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "My hand has five fingers."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "The body is the house of the mind."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "I keep my body clean."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "My hair is on my head."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "The skin is over the body."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "Put your hand on your heart."}
+{"step": 4, "scene": "The Body", "type": "scene_sentence", "sentence": "Keep your body healthy."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The weather is warm in summer."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "In winter it is cold."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The sun is bright in the day."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "At night I see the moon and stars."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "Rain comes down from the clouds."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "Snow is white and cold."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The wind goes through the trees."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The weather is good after rain."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "Clouds are in the sky."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The weather is cold today."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "It is warm in the house."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "It is cold under the tree."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The wind puts out the fire."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "Rain comes down from the sky."}
+{"step": 4, "scene": "The Weather", "type": "scene_sentence", "sentence": "The sun is hot today."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My father is a teacher."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My mother is at home."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "I am their son."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My sister is at school."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My brother is at work."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "We are a family."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My father goes to work."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My mother keeps the house."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "I go to school."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My brother and I are good."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My father has an old car."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "We have our food together."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My mother gives me a book."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "My father says I am a good boy."}
+{"step": 4, "scene": "The Family", "type": "scene_sentence", "sentence": "I love my family."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "I go to the shop."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "I have some money."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "The shop has bread and milk."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "I take a book from the shelf."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "What is the price of this bread?"}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "The price is good."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "Give the money to the man."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "Put the bread in your bag."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "I take some food from the shop."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "The shop is open."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "Get your food at the shop."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "Put the food in the box."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "Take a coat for your father."}
+{"step": 4, "scene": "Shopping", "type": "scene_sentence", "sentence": "I go home from the shop."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "My body is well."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "My head is hot."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "I feel sick."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "The heart goes through your body."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "I see the doctor."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "The doctor says I am sick."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "Keep your body clean."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "My back has a pain."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "I have a bad cold."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "The doctor gives me some medicine."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "Take the medicine with water."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "Get well again."}
+{"step": 4, "scene": "Health", "type": "scene_sentence", "sentence": "I keep my body healthy."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "This is my house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The house has four walls and a roof."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The door is in the front wall."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "There are two windows in the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The kitchen is warm."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "I have a fire in the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The house is clean."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "There is a garden by the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "I put a table and chairs in the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "My room is in the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The house is my home."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "I keep the house clean."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "The roof is over the house."}
+{"step": 4, "scene": "The House", "type": "scene_sentence", "sentence": "I see the sky through the window."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog is a good animal."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "I see a bird in the tree."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The horse has four legs."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The cat goes through the garden."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "A dog is on the road."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog puts its nose on the ground."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "I give food to the dog."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog takes the food in its mouth."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog is good and strong."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "A cat and a dog are in the house."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The bird sees the tree with its eyes."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "I have a dog."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog is my friend."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog goes about the garden."}
+{"step": 4, "scene": "Animals", "type": "scene_sentence", "sentence": "The dog is in the house."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The sun is bright."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "I see the moon in the sky."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The rain comes down from the clouds."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The flower is on the branch."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The river is under the bridge."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "Put your hand in the water."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The tree is tall and strong."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The sun comes from the east."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "I see a star and a moon."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The mountain is over the river."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The bridge is between the two houses."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The garden is about the house."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The road is across the bridge."}
+{"step": 4, "scene": "Nature", "type": "scene_sentence", "sentence": "The stone is against the wall."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "Get off the train."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "I go from the town to the country."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "The bus is old."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "I have a ticket for the train."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "The train goes fast."}
+{"step": 4, "scene": "Transport", "type": "scene_sentence", "sentence": "Get the train at the station."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "I go to work."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "My work is hard."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "I do my work with my hands."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Put your book on the table."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Take your pen from the box."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Give your work to the teacher."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "The teacher says my work is good."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "I make a book for my work."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "I have a garden at home."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Go from work to home."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "My work is in the office."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "I do the work and keep it clean."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Put your work in the box."}
+{"step": 4, "scene": "Work", "type": "scene_sentence", "sentence": "Take your work home."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I go to work in the morning."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I come home in the evening."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "The weather is good today."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "Today is cold."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "Tomorrow I will go to school."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "Yesterday I went to the shop."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I have time today."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "The day is cold and wet."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I do my work in the day."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I see the moon at night."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "The night comes after the day."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "Put your work before the meeting."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "Keep your book till tomorrow."}
+{"step": 4, "scene": "Time", "type": "scene_sentence", "sentence": "I have a book for the teacher."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I feel happy."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "She seems sad."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I have a good feeling."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The teacher makes me happy."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I see a beautiful flower."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The doctor is kind."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I say I am happy."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The work seems hard to me."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I keep happy."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The day is good and warm."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I go to my friend when I am sad."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The teacher gives me a good book."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "I put my hand on my heart and feel happy."}
+{"step": 4, "scene": "Feelings", "type": "scene_sentence", "sentence": "The sun comes and I am warm."}
