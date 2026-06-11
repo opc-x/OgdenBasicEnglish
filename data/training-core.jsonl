@@ -1048,3 +1048,80 @@
 {"id": 20062, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "be depressed", "sentence": "I was down after the news.", "zh": "听了消息后我情绪低落。"}
 {"id": 20063, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "be depressed", "sentence": "She is down today.", "zh": "她今天情绪不好。"}
 {"id": 20064, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "be depressed", "sentence": "The price is down.", "zh": "价格低了。"}
+{"id": 30001, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "decision", "replaces": "decide", "sentence": "I made a decision to go.", "zh": "我做了一个决定。"}
+{"id": 30002, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "request", "replaces": "request", "sentence": "He made a request for help.", "zh": "他请求了帮助。"}
+{"id": 30003, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "move", "replaces": "move", "sentence": "He made a move to the door.", "zh": "他朝门口走去。"}
+{"id": 30004, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "arrangement", "replaces": "arrange", "sentence": "I made an arrangement for the meeting.", "zh": "我安排了会议。"}
+{"id": 30005, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "suggestion", "replaces": "suggest", "sentence": "She made a good suggestion.", "zh": "她提出了一个好建议。"}
+{"id": 30006, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "answer", "replaces": "answer", "sentence": "He made a quick answer.", "zh": "他给出了快速的答案。"}
+{"id": 30007, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "comment", "replaces": "comment", "sentence": "I made no comment.", "zh": "我没有发表评论。"}
+{"id": 30008, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "improvement", "replaces": "improve", "sentence": "We made an improvement.", "zh": "我们做了一个改进。"}
+{"id": 30009, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "explanation", "replaces": "explain", "sentence": "He made an explanation.", "zh": "他做了一个解释。"}
+{"id": 30010, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "fear", "replaces": "fear", "sentence": "He has a fear of the dark.", "zh": "他害怕黑暗。"}
+{"id": 30011, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "knowledge", "replaces": "know", "sentence": "She has deep knowledge.", "zh": "她有深厚的知识。"}
+{"id": 30012, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "feeling", "replaces": "feel", "sentence": "She has a strange feeling.", "zh": "她有一种奇怪的感觉。"}
+{"id": 30013, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "thought", "replaces": "think", "sentence": "He had a quick thought.", "zh": "他有一个快速的想法。"}
+{"id": 30014, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "power", "replaces": "can", "sentence": "She has the power to change.", "zh": "她有改变的力量。"}
+{"id": 30015, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "need", "replaces": "need", "sentence": "She has a need for help.", "zh": "她需要帮助。"}
+{"id": 30016, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "chance", "replaces": "opportunity", "sentence": "He has a good chance to win.", "zh": "他有很大的获胜机会。"}
+{"id": 30017, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "reason", "replaces": "reason", "sentence": "I have no reason to go.", "zh": "我没有理由去。"}
+{"id": 30018, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "doubt", "replaces": "doubt", "sentence": "She has some doubt about it.", "zh": "她对此有些怀疑。"}
+{"id": 30019, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "influence", "replaces": "influence", "sentence": "He has a great influence on me.", "zh": "他对我有很大影响。"}
+{"id": 30020, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "experience", "replaces": "experience", "sentence": "She has much experience in teaching.", "zh": "她有很多教学经验。"}
+{"id": 30021, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "ability", "replaces": "can", "sentence": "He has the ability to do it.", "zh": "他有能力做到这一点。"}
+{"id": 30022, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "intention", "replaces": "intend", "sentence": "I have no intention to go.", "zh": "我不打算去。"}
+{"id": 30023, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "answer", "replaces": "answer", "sentence": "He gave a quick answer.", "zh": "他给出了快速的答案。"}
+{"id": 30024, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "push", "replaces": "push", "sentence": "She gave a push to the box.", "zh": "她推了一下箱子。"}
+{"id": 30025, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "writing", "replaces": "write", "sentence": "She did good writing.", "zh": "她写得好。"}
+{"id": 30026, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "harm", "replaces": "harm", "sentence": "I did no harm.", "zh": "我没有伤害。"}
+{"id": 30027, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "harm", "replaces": "harm", "sentence": "She did harm to the plant.", "zh": "她伤害了植物。"}
+{"id": 30028, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "damage", "replaces": "damage", "sentence": "She did damage to the house.", "zh": "她对房子造成了损坏。"}
+{"id": 30029, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "look", "replaces": "look", "sentence": "I took a quick look.", "zh": "我快速地看了看。"}
+{"id": 30030, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "look", "replaces": "look", "sentence": "She took a look at the picture.", "zh": "她看了看那幅画。"}
+{"id": 30031, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "journey", "replaces": "travel", "sentence": "I took a long journey.", "zh": "我进行了漫长的旅行。"}
+{"id": 30032, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "journey", "replaces": "travel", "sentence": "She took a journey to the north.", "zh": "她去了北方旅行。"}
+{"id": 30033, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "journey", "replaces": "travel", "sentence": "He takes the journey by train.", "zh": "他乘火车旅行。"}
+{"id": 30034, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "walk", "replaces": "walk", "sentence": "I took a walk in the garden.", "zh": "我在花园里散步。"}
+{"id": 30035, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "walk", "replaces": "walk", "sentence": "She took a walk after the meal.", "zh": "她饭后散步了。"}
+{"id": 30036, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "step", "replaces": "step", "sentence": "He took a step forward.", "zh": "他向前迈了一步。"}
+{"id": 30037, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "step", "replaces": "step", "sentence": "She took the first step.", "zh": "她迈出了第一步。"}
+{"id": 30038, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "turn", "replaces": "alternate", "sentence": "I took a turn at the wheel.", "zh": "我轮流驾驶。"}
+{"id": 30039, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "turn", "replaces": "alternate", "sentence": "She took her turn.", "zh": "她轮流了。"}
+{"id": 30040, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "part", "replaces": "participate", "sentence": "He took part in the meeting.", "zh": "他参加了。"}
+{"id": 30041, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "part", "replaces": "participate", "sentence": "She took no part in the fight.", "zh": "她没有参与打斗。"}
+{"id": 30042, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "care", "replaces": "be careful", "sentence": "I took care with the work.", "zh": "我小心地工作。"}
+{"id": 30043, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "care", "replaces": "be careful", "sentence": "She takes great care.", "zh": "她非常小心。"}
+{"id": 30044, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "notice", "replaces": "notice", "sentence": "He took no notice of me.", "zh": "他没有注意到我。"}
+{"id": 30045, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "time", "replaces": "take time", "sentence": "I took time to do the work.", "zh": "我花时间做工作。"}
+{"id": 30046, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "time", "replaces": "take time", "sentence": "She took her time.", "zh": "她不慌不忙。"}
+{"id": 30047, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "place", "replaces": "happen", "sentence": "The meeting took place at six.", "zh": "会议六点举行了。"}
+{"id": 30048, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "action", "replaces": "act", "sentence": "He took action quickly.", "zh": "他迅速采取了行动。"}
+{"id": 30049, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "secret", "replaces": "keep secret", "sentence": "She kept the secret in.", "zh": "她保守了秘密。"}
+{"id": 30050, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "secret", "replaces": "keep secret", "sentence": "He keeps no secrets.", "zh": "他没有什么秘密。"}
+{"id": 30051, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "silence", "replaces": "be silent", "sentence": "She kept silence during the meeting.", "zh": "会议期间她保持沉默。"}
+{"id": 30052, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "silence", "replaces": "be silent", "sentence": "He kept his silence.", "zh": "他保持了沉默。"}
+{"id": 30053, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "peace", "replaces": "maintain peace", "sentence": "She kept the peace in the house.", "zh": "她维持了房子的和平。"}
+{"id": 30054, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "peace", "replaces": "maintain peace", "sentence": "He kept the peace.", "zh": "他维持了和平。"}
+{"id": 30055, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "company", "replaces": "accompany", "sentence": "She kept me company.", "zh": "她陪伴我。"}
+{"id": 30056, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "company", "replaces": "accompany", "sentence": "He kept her company.", "zh": "他陪伴她。"}
+{"id": 30057, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "I go for a run every morning.", "zh": "我每天早上跑步。"}
+{"id": 30058, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "She plays with a ball.", "zh": "她玩球。"}
+{"id": 30059, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "He did some exercise before the meal.", "zh": "他饭前做了运动。"}
+{"id": 30060, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "We go swimming in the summer.", "zh": "我们夏天去游泳。"}
+{"id": 30061, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "They had a good time at the game.", "zh": "他们在比赛中玩得很开心。"}
+{"id": 30062, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "I put on my shoes and go for a run.", "zh": "我穿上鞋去跑步。"}
+{"id": 30063, "step": 3, "type": "scene_sentence", "scene": "Sports", "sentence": "She keeps her body healthy through exercise.", "zh": "她通过锻炼保持身体健康。"}
+{"id": 30064, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "I make a journey to the country.", "zh": "我去乡下旅行。"}
+{"id": 30065, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "She takes a train to the city.", "zh": "她乘火车去城市。"}
+{"id": 30066, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "He makes the journey by boat.", "zh": "他乘船旅行。"}
+{"id": 30067, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "We go through the mountains.", "zh": "我们穿过山脉。"}
+{"id": 30068, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "They came back from their journey.", "zh": "他们旅行回来了。"}
+{"id": 30069, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "I take my bag and go.", "zh": "我带着包走了。"}
+{"id": 30070, "step": 3, "type": "scene_sentence", "scene": "Travel", "sentence": "She had a good time on the journey.", "zh": "她旅行时很开心。"}
+{"id": 30071, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "I go to the restaurant for a meal.", "zh": "我去餐厅吃饭。"}
+{"id": 30072, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "She makes a request for food.", "zh": "她要了食物。"}
+{"id": 30073, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "He gives his order to the man.", "zh": "他把点菜给了那个人。"}
+{"id": 30074, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "We have our meal at the table.", "zh": "我们在桌子边吃饭。"}
+{"id": 30075, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "I take some food from the plate.", "zh": "我从盘子里拿了一些食物。"}
+{"id": 30076, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "She keeps her food warm.", "zh": "她保持食物温暖。"}
+{"id": 30077, "step": 3, "type": "scene_sentence", "scene": "Restaurant", "sentence": "We send back the food.", "zh": "我们退回了食物。"}
