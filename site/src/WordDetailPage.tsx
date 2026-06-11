@@ -1,10 +1,11 @@
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { getWord, normalizeWordKey, TIER_META, isOperator } from "./words850";
-import { speak, isSpeechSupported } from "./speak";
+import { speak, speakText, isSpeechSupported } from "./speak";
 import { OGDEN_TIER, fixImageUrl, ogdenSourceLinks } from "./wordSources";
 import { getWordGuide, ROLE_META } from "./wordGuides";
 import { getOperatorEntry } from "./operatorData";
 import OperatorVisual from "./OperatorVisual";
+import { TRAINING_SENTENCES } from "./practice/trainingData";
 
 export default function WordDetailPage() {
   const { word: raw = "" } = useParams();
@@ -217,6 +218,42 @@ export default function WordDetailPage() {
           ))}
         </ul>
       </section>
+
+      {/* ── 训练数据区块：展示该词在训练句中的实际用法 ── */}
+      {(() => {
+        const wordLower = word.w.toLowerCase();
+        // 筛选训练数据中包含该词的句子（匹配完整单词）
+        const pattern = new RegExp(`\\b${wordLower}\\b`, "i");
+        const trainingMatches = TRAINING_SENTENCES.filter((s) =>
+          pattern.test(s.sentence || "")
+        );
+        if (trainingMatches.length === 0) return null;
+        return (
+          <section className="word-detail-training">
+            <h2>训练例句 <span className="word-detail-training-count">({trainingMatches.length} 句)</span></h2>
+            <p className="word-detail-training-hint">这些句子来自你的训练库，只用了 BE850 词表内的词。跟着读就是训练。</p>
+            <ul className="word-training-list">
+              {trainingMatches.map((s) => (
+                <li key={s.id} className="word-training-row">
+                  <span className="word-training-sentence">{s.sentence}</span>
+                  {s.zh && <span className="word-training-zh">{s.zh}</span>}
+                  <button
+                    type="button"
+                    className="word-speak word-speak--sm"
+                    aria-label={`朗读 ${s.sentence}`}
+                    onClick={() => void speakText(s.sentence || "")}
+                  >
+                    听
+                  </button>
+                  {s.replaces && (
+                    <span className="word-training-replaces">= {s.replaces}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
     </article>
   );
 }
