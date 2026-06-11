@@ -911,3 +911,76 @@
 {"id": 10154, "step": 3, "type": "scene_sentence", "scene": "Emergency", "sentence": "I go out through the door.", "zh": "我从门出去"}
 {"id": 10155, "step": 3, "type": "scene_sentence", "scene": "Emergency", "sentence": "I send for help.", "zh": "我请求帮助"}
 {"id": 10156, "step": 3, "type": "scene_sentence", "scene": "Emergency", "sentence": "The fire is put out.", "zh": "火被扑灭了"}
+{"id": 20001, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I go to a restaurant and sit down.", "zh": "我去餐厅坐下"}
+{"id": 20002, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The man gives me a list of food.", "zh": "那人给我一份菜单"}
+{"id": 20003, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I say I want some meat and bread.", "zh": "我说我要一些肉和面包"}
+{"id": 20004, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The man brings the food to the table.", "zh": "那人把食物端到桌上"}
+{"id": 20005, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I put some salt on the meat.", "zh": "我在肉上放些盐"}
+{"id": 20006, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The food is very good.", "zh": "食物很好吃"}
+{"id": 20007, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I give money to the man after the meal.", "zh": "饭后我付了钱"}
+{"id": 20010, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I see a coat in the shop.", "zh": "我在商店看见一件外套"}
+{"id": 20011, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "The price is very high.", "zh": "价钱很高"}
+{"id": 20012, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I say the price is too much.", "zh": "我说价钱太贵了"}
+{"id": 20013, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "The man says he will make the price low.", "zh": "那人说他会降价"}
+{"id": 20014, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I give him the money and take the coat.", "zh": "我付了钱，拿了外套"}
+{"id": 20020, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "I go to a house and ask about a room.", "zh": "我去一个房子问有没有房间"}
+{"id": 20021, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "The woman takes me to a room.", "zh": "那女士带我去看一个房间"}
+{"id": 20022, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "The room has a bed and a table.", "zh": "房间有一张床和一张桌子"}
+{"id": 20023, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "I ask about the price of the room.", "zh": "我问房间的价钱"}
+{"id": 20024, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "I give money for the room every month.", "zh": "我每个月付房租"}
+{"id": 20025, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "I put my things in the room.", "zh": "我把东西放进房间"}
+{"id": 20030, "step": 3, "type": "scene_sentence", "scene": "Getting a Package", "sentence": "I go to get a package from the post office.", "zh": "我去邮局取包裹"}
+{"id": 20031, "step": 3, "type": "scene_sentence", "scene": "Getting a Package", "sentence": "I give my name to the man.", "zh": "我把名字告诉那个人"}
+{"id": 20032, "step": 3, "type": "scene_sentence", "scene": "Getting a Package", "sentence": "The man gets the package from the back.", "zh": "那人从后面拿了包裹"}
+{"id": 20033, "step": 3, "type": "scene_sentence", "scene": "Getting a Package", "sentence": "I put my name on the paper.", "zh": "我在纸上签了名"}
+{"id": 20034, "step": 3, "type": "scene_sentence", "scene": "Getting a Package", "sentence": "I take the package home.", "zh": "我把包裹带回家"}
+{"id": 20040, "step": 3, "type": "scene_sentence", "scene": "Sick Leave", "sentence": "I am ill today and can not go to work.", "zh": "我今天病了，不能去上班"}
+{"id": 20041, "step": 3, "type": "scene_sentence", "scene": "Sick Leave", "sentence": "I send a message to my office.", "zh": "我给办公室发了一个消息"}
+{"id": 20042, "step": 3, "type": "scene_sentence", "scene": "Sick Leave", "sentence": "I say I have a cold and need rest.", "zh": "说我感冒了，需要休息"}
+{"id": 20043, "step": 3, "type": "scene_sentence", "scene": "Sick Leave", "sentence": "The man says I should go to the doctor.", "zh": "那人说我应该去看医生"}
+{"id": 20044, "step": 3, "type": "scene_sentence", "scene": "Sick Leave", "sentence": "I take some medicine and go to bed.", "zh": "我吃了药，去睡觉"}
+{"id": 20050, "step": 3, "type": "scene_sentence", "scene": "Borrowing Things", "sentence": "I go to my friend and ask for a book.", "zh": "我去朋友那里借一本书"}
+{"id": 20051, "step": 3, "type": "scene_sentence", "scene": "Borrowing Things", "sentence": "My friend gives me the book.", "zh": "朋友把书借给我"}
+{"id": 20052, "step": 3, "type": "scene_sentence", "scene": "Borrowing Things", "sentence": "I say I will give it back tomorrow.", "zh": "说我明天还"}
+{"id": 20053, "step": 3, "type": "scene_sentence", "scene": "Borrowing Things", "sentence": "I take the book home and read it.", "zh": "我把书带回家读"}
+{"id": 20054, "step": 3, "type": "scene_sentence", "scene": "Borrowing Things", "sentence": "I give the book back to my friend.", "zh": "我把书还给朋友"}
+{"id": 20060, "step": 3, "type": "scene_sentence", "scene": "Saying Thank You", "sentence": "My friend gives me a gift.", "zh": "朋友给了我一个礼物"}
+{"id": 20061, "step": 3, "type": "scene_sentence", "scene": "Saying Thank You", "sentence": "I say thank you to my friend.", "zh": "我对朋友说谢谢"}
+{"id": 20062, "step": 3, "type": "scene_sentence", "scene": "Saying Thank You", "sentence": "The gift is very beautiful.", "zh": "礼物很漂亮"}
+{"id": 20063, "step": 3, "type": "scene_sentence", "scene": "Saying Thank You", "sentence": "I give my friend a smile.", "zh": "我对朋友微笑"}
+{"id": 20064, "step": 3, "type": "scene_sentence", "scene": "Saying Thank You", "sentence": "Kind words make good feelings.", "zh": "善意的话带来好的感觉"}
+{"id": 20070, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I am late for the meeting.", "zh": "我开会迟到了"}
+{"id": 20071, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I say I am sorry to the group.", "zh": "我对大家说抱歉"}
+{"id": 20072, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I say there was too much traffic.", "zh": "说路上太堵了"}
+{"id": 20073, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "The group says it is not a problem.", "zh": "大家说没关系"}
+{"id": 20074, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I keep our meeting in my mind for next time.", "zh": "下次我会记住我们的约定时间"}
+{"id": 20080, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I go to the airport.", "zh": "我去机场"}
+{"id": 20081, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I give my ticket to the man at the gate.", "zh": "我把票给门口的人"}
+{"id": 20082, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I put my bag on the table for checking.", "zh": "我把包放上检查台"}
+{"id": 20083, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I get on the plane.", "zh": "我上了飞机"}
+{"id": 20084, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "The plane takes off after an hour.", "zh": "飞机一个小时后起飞了"}
+{"id": 20085, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I see the city from above through the window.", "zh": "我从上面透过窗户看见城市"}
+{"id": 20086, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "The plane comes down at the other airport.", "zh": "飞机降落在另一个机场"}
+{"id": 20090, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I go to the hotel and ask for a room.", "zh": "我去酒店要一个房间"}
+{"id": 20091, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "The man gives me a key and a room number.", "zh": "那个人给了我一把钥匙和一个房间号"}
+{"id": 20092, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I put my things in the room.", "zh": "我把东西放进房间"}
+{"id": 20093, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "The room has a bed and a bath.", "zh": "房间有一间床和一个浴室"}
+{"id": 20094, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I give money to the man at the desk.", "zh": "我付钱给前台的人"}
+{"id": 20095, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I sleep well at the hotel.", "zh": "我在酒店睡得很好"}
+{"id": 20100, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I go to the office for a job interview.", "zh": "我去办公室面试"}
+{"id": 20101, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "The man asks me some questions.", "zh": "那人问了我一些问题"}
+{"id": 20102, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I say I have some experience in this work.", "zh": "说我在这个工作有一些经验"}
+{"id": 20103, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "The man says he will send me a message.", "zh": "那人说他会给我发消息"}
+{"id": 20104, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I say thank you and go home.", "zh": "我说谢谢，回了家"}
+{"id": 20105, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I hope I get the work.", "zh": "我希望我能得到这份工作"}
+{"id": 20110, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "I have a new house and must move my things.", "zh": "我有了新房子，必须搬东西"}
+{"id": 20111, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "I put my books in a box.", "zh": "我把书放进盒子里"}
+{"id": 20112, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "My friend comes to help me.", "zh": "朋友来帮我"}
+{"id": 20113, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "We take the box to the new house.", "zh": "我们把盒子搬到新房子"}
+{"id": 20114, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "I put the box in the new room.", "zh": "我把盒子放进新房间"}
+{"id": 20115, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "The new house is bigger than the old one.", "zh": "新房子比旧的大"}
+{"id": 20120, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "My friend has a party at his house.", "zh": "朋友在他家办了一个聚会"}
+{"id": 20121, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "I go to the party with a gift.", "zh": "我带着礼物去聚会"}
+{"id": 20122, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "There is food and music at the party.", "zh": "聚会上有食物和音乐"}
+{"id": 20123, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "I talk with my friends and have a good time.", "zh": "我和朋友聊天，过得很开心"}
+{"id": 20124, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "I say thank you to my friend and go home.", "zh": "我对朋友说谢谢，回了家"}
