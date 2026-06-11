@@ -1179,3 +1179,288 @@
 {"id": 40052, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "advice", "replaces": "advise", "sentence": "She gave me some advice.", "zh": "她给了我一些建议。"}
 {"id": 40053, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "assistance", "replaces": "assist", "sentence": "I gave assistance to the old man.", "zh": "我帮助了老人。"}
 {"id": 40054, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "consent", "replaces": "consent", "sentence": "She gave her consent.", "zh": "她同意了。"}
+{"id": 50001, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "decision", "replaces": "decision", "sentence": "You come a decision.", "zh": "Youcome决定。"}
+{"id": 50002, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "decision", "replaces": "decision", "sentence": "I come a good decision.", "zh": "Icome决定。"}
+{"id": 50003, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "comparison", "replaces": "comparison", "sentence": "I come a comparison.", "zh": "Icome比较。"}
+{"id": 50004, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "comparison", "replaces": "comparison", "sentence": "You come a good comparison.", "zh": "Youcome比较。"}
+{"id": 50005, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "attempt", "replaces": "attempt", "sentence": "He comes a attempt.", "zh": "Hecomes尝试。"}
+{"id": 50006, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "attempt", "replaces": "attempt", "sentence": "She comes a good attempt.", "zh": "Shecomes尝试。"}
+{"id": 50007, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "discovery", "replaces": "discovery", "sentence": "She comes a discovery.", "zh": "Shecomes发现。"}
+{"id": 50008, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "discovery", "replaces": "discovery", "sentence": "She comes a good discovery.", "zh": "Shecomes发现。"}
+{"id": 50009, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "request", "replaces": "request", "sentence": "You come a request.", "zh": "Youcome请求。"}
+{"id": 50010, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "request", "replaces": "request", "sentence": "I come a good request.", "zh": "Icome请求。"}
+{"id": 50011, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "journey", "replaces": "journey", "sentence": "You come a journey.", "zh": "Youcome旅行。"}
+{"id": 50012, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "journey", "replaces": "journey", "sentence": "You come a good journey.", "zh": "Youcome旅行。"}
+{"id": 50013, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "change", "replaces": "change", "sentence": "They come a change.", "zh": "Theycome改变。"}
+{"id": 50014, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "change", "replaces": "change", "sentence": "I come a good change.", "zh": "Icome改变。"}
+{"id": 50015, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "move", "replaces": "move", "sentence": "They come a move.", "zh": "Theycome行动。"}
+{"id": 50016, "step": 2, "type": "op_noun_combo", "operator": "come", "noun": "move", "replaces": "move", "sentence": "We come a good move.", "zh": "Wecome行动。"}
+{"id": 50017, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "decision", "replaces": "decision", "sentence": "I get a decision.", "zh": "Iget决定。"}
+{"id": 50018, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "decision", "replaces": "decision", "sentence": "I get a good decision.", "zh": "Iget决定。"}
+{"id": 50019, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "comparison", "replaces": "comparison", "sentence": "I get a comparison.", "zh": "Iget比较。"}
+{"id": 50020, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "comparison", "replaces": "comparison", "sentence": "She gets a good comparison.", "zh": "Shegets比较。"}
+{"id": 50021, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "attempt", "replaces": "attempt", "sentence": "She gets a attempt.", "zh": "Shegets尝试。"}
+{"id": 50022, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "attempt", "replaces": "attempt", "sentence": "They get a good attempt.", "zh": "Theyget尝试。"}
+{"id": 50023, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "discovery", "replaces": "discovery", "sentence": "They get a discovery.", "zh": "Theyget发现。"}
+{"id": 50024, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "discovery", "replaces": "discovery", "sentence": "I get a good discovery.", "zh": "Iget发现。"}
+{"id": 50025, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "request", "replaces": "request", "sentence": "They get a request.", "zh": "Theyget请求。"}
+{"id": 50026, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "request", "replaces": "request", "sentence": "She gets a good request.", "zh": "Shegets请求。"}
+{"id": 50027, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "journey", "replaces": "journey", "sentence": "You get a journey.", "zh": "Youget旅行。"}
+{"id": 50028, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "journey", "replaces": "journey", "sentence": "You get a good journey.", "zh": "Youget旅行。"}
+{"id": 50029, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "change", "replaces": "change", "sentence": "You get a change.", "zh": "Youget改变。"}
+{"id": 50030, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "change", "replaces": "change", "sentence": "They get a good change.", "zh": "Theyget改变。"}
+{"id": 50031, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "move", "replaces": "move", "sentence": "We get a move.", "zh": "Weget行动。"}
+{"id": 50032, "step": 2, "type": "op_noun_combo", "operator": "get", "noun": "move", "replaces": "move", "sentence": "She gets a good move.", "zh": "Shegets行动。"}
+{"id": 50033, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "decision", "replaces": "decision", "sentence": "We give a decision.", "zh": "Wegive决定。"}
+{"id": 50034, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "decision", "replaces": "decision", "sentence": "They give a good decision.", "zh": "Theygive决定。"}
+{"id": 50035, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "comparison", "replaces": "comparison", "sentence": "He gives a comparison.", "zh": "Hegives比较。"}
+{"id": 50036, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "comparison", "replaces": "comparison", "sentence": "I give a good comparison.", "zh": "Igive比较。"}
+{"id": 50037, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "attempt", "replaces": "attempt", "sentence": "She gives a attempt.", "zh": "Shegives尝试。"}
+{"id": 50038, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "attempt", "replaces": "attempt", "sentence": "You give a good attempt.", "zh": "Yougive尝试。"}
+{"id": 50039, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "discovery", "replaces": "discovery", "sentence": "We give a discovery.", "zh": "Wegive发现。"}
+{"id": 50040, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "discovery", "replaces": "discovery", "sentence": "He gives a good discovery.", "zh": "Hegives发现。"}
+{"id": 50041, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "request", "replaces": "request", "sentence": "He gives a request.", "zh": "Hegives请求。"}
+{"id": 50042, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "request", "replaces": "request", "sentence": "She gives a good request.", "zh": "Shegives请求。"}
+{"id": 50043, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "journey", "replaces": "journey", "sentence": "She gives a journey.", "zh": "Shegives旅行。"}
+{"id": 50044, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "journey", "replaces": "journey", "sentence": "He gives a good journey.", "zh": "Hegives旅行。"}
+{"id": 50045, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "change", "replaces": "change", "sentence": "I give a change.", "zh": "Igive改变。"}
+{"id": 50046, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "change", "replaces": "change", "sentence": "I give a good change.", "zh": "Igive改变。"}
+{"id": 50047, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "move", "replaces": "move", "sentence": "We give a move.", "zh": "Wegive行动。"}
+{"id": 50048, "step": 2, "type": "op_noun_combo", "operator": "give", "noun": "move", "replaces": "move", "sentence": "I give a good move.", "zh": "Igive行动。"}
+{"id": 50049, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "decision", "replaces": "decision", "sentence": "He gos a decision.", "zh": "Hegos决定。"}
+{"id": 50050, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "decision", "replaces": "decision", "sentence": "He gos a good decision.", "zh": "Hegos决定。"}
+{"id": 50051, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "comparison", "replaces": "comparison", "sentence": "They go a comparison.", "zh": "Theygo比较。"}
+{"id": 50052, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "comparison", "replaces": "comparison", "sentence": "He gos a good comparison.", "zh": "Hegos比较。"}
+{"id": 50053, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "attempt", "replaces": "attempt", "sentence": "I go a attempt.", "zh": "Igo尝试。"}
+{"id": 50054, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "attempt", "replaces": "attempt", "sentence": "You go a good attempt.", "zh": "Yougo尝试。"}
+{"id": 50055, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "discovery", "replaces": "discovery", "sentence": "We go a discovery.", "zh": "Wego发现。"}
+{"id": 50056, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "discovery", "replaces": "discovery", "sentence": "They go a good discovery.", "zh": "Theygo发现。"}
+{"id": 50057, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "request", "replaces": "request", "sentence": "I go a request.", "zh": "Igo请求。"}
+{"id": 50058, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "request", "replaces": "request", "sentence": "We go a good request.", "zh": "Wego请求。"}
+{"id": 50059, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "journey", "replaces": "journey", "sentence": "I go a journey.", "zh": "Igo旅行。"}
+{"id": 50060, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "journey", "replaces": "journey", "sentence": "They go a good journey.", "zh": "Theygo旅行。"}
+{"id": 50061, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "change", "replaces": "change", "sentence": "He gos a change.", "zh": "Hegos改变。"}
+{"id": 50062, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "change", "replaces": "change", "sentence": "You go a good change.", "zh": "Yougo改变。"}
+{"id": 50063, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "move", "replaces": "move", "sentence": "They go a move.", "zh": "Theygo行动。"}
+{"id": 50064, "step": 2, "type": "op_noun_combo", "operator": "go", "noun": "move", "replaces": "move", "sentence": "He gos a good move.", "zh": "Hegos行动。"}
+{"id": 50065, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "decision", "replaces": "decision", "sentence": "They keep a decision.", "zh": "Theykeep决定。"}
+{"id": 50066, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "decision", "replaces": "decision", "sentence": "She keeps a good decision.", "zh": "Shekeeps决定。"}
+{"id": 50067, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "comparison", "replaces": "comparison", "sentence": "You keep a comparison.", "zh": "Youkeep比较。"}
+{"id": 50068, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "comparison", "replaces": "comparison", "sentence": "I keep a good comparison.", "zh": "Ikeep比较。"}
+{"id": 50069, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "attempt", "replaces": "attempt", "sentence": "I keep a attempt.", "zh": "Ikeep尝试。"}
+{"id": 50070, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "attempt", "replaces": "attempt", "sentence": "You keep a good attempt.", "zh": "Youkeep尝试。"}
+{"id": 50071, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "discovery", "replaces": "discovery", "sentence": "She keeps a discovery.", "zh": "Shekeeps发现。"}
+{"id": 50072, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "discovery", "replaces": "discovery", "sentence": "He keeps a good discovery.", "zh": "Hekeeps发现。"}
+{"id": 50073, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "request", "replaces": "request", "sentence": "I keep a request.", "zh": "Ikeep请求。"}
+{"id": 50074, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "request", "replaces": "request", "sentence": "She keeps a good request.", "zh": "Shekeeps请求。"}
+{"id": 50075, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "journey", "replaces": "journey", "sentence": "I keep a journey.", "zh": "Ikeep旅行。"}
+{"id": 50076, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "journey", "replaces": "journey", "sentence": "We keep a good journey.", "zh": "Wekeep旅行。"}
+{"id": 50077, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "change", "replaces": "change", "sentence": "He keeps a change.", "zh": "Hekeeps改变。"}
+{"id": 50078, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "change", "replaces": "change", "sentence": "We keep a good change.", "zh": "Wekeep改变。"}
+{"id": 50079, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "move", "replaces": "move", "sentence": "You keep a move.", "zh": "Youkeep行动。"}
+{"id": 50080, "step": 2, "type": "op_noun_combo", "operator": "keep", "noun": "move", "replaces": "move", "sentence": "He keeps a good move.", "zh": "Hekeeps行动。"}
+{"id": 50081, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "decision", "replaces": "decision", "sentence": "She lets a decision.", "zh": "Shelets决定。"}
+{"id": 50082, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "decision", "replaces": "decision", "sentence": "He lets a good decision.", "zh": "Helets决定。"}
+{"id": 50083, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "comparison", "replaces": "comparison", "sentence": "He lets a comparison.", "zh": "Helets比较。"}
+{"id": 50084, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "comparison", "replaces": "comparison", "sentence": "She lets a good comparison.", "zh": "Shelets比较。"}
+{"id": 50085, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "attempt", "replaces": "attempt", "sentence": "You let a attempt.", "zh": "Youlet尝试。"}
+{"id": 50086, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "attempt", "replaces": "attempt", "sentence": "He lets a good attempt.", "zh": "Helets尝试。"}
+{"id": 50087, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "discovery", "replaces": "discovery", "sentence": "You let a discovery.", "zh": "Youlet发现。"}
+{"id": 50088, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "discovery", "replaces": "discovery", "sentence": "You let a good discovery.", "zh": "Youlet发现。"}
+{"id": 50089, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "request", "replaces": "request", "sentence": "You let a request.", "zh": "Youlet请求。"}
+{"id": 50090, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "request", "replaces": "request", "sentence": "I let a good request.", "zh": "Ilet请求。"}
+{"id": 50091, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "journey", "replaces": "journey", "sentence": "They let a journey.", "zh": "Theylet旅行。"}
+{"id": 50092, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "journey", "replaces": "journey", "sentence": "You let a good journey.", "zh": "Youlet旅行。"}
+{"id": 50093, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "change", "replaces": "change", "sentence": "She lets a change.", "zh": "Shelets改变。"}
+{"id": 50094, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "change", "replaces": "change", "sentence": "They let a good change.", "zh": "Theylet改变。"}
+{"id": 50095, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "move", "replaces": "move", "sentence": "You let a move.", "zh": "Youlet行动。"}
+{"id": 50096, "step": 2, "type": "op_noun_combo", "operator": "let", "noun": "move", "replaces": "move", "sentence": "She lets a good move.", "zh": "Shelets行动。"}
+{"id": 50098, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "decision", "replaces": "decision", "sentence": "We make a good decision.", "zh": "Wemake决定。"}
+{"id": 50099, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "comparison", "replaces": "comparison", "sentence": "We make a comparison.", "zh": "Wemake比较。"}
+{"id": 50101, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "attempt", "replaces": "attempt", "sentence": "You make a attempt.", "zh": "Youmake尝试。"}
+{"id": 50102, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "attempt", "replaces": "attempt", "sentence": "You make a good attempt.", "zh": "Youmake尝试。"}
+{"id": 50103, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "discovery", "replaces": "discovery", "sentence": "They make a discovery.", "zh": "Theymake发现。"}
+{"id": 50104, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "discovery", "replaces": "discovery", "sentence": "She makes a good discovery.", "zh": "Shemakes发现。"}
+{"id": 50105, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "request", "replaces": "request", "sentence": "You make a request.", "zh": "Youmake请求。"}
+{"id": 50106, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "request", "replaces": "request", "sentence": "He makes a good request.", "zh": "Hemakes请求。"}
+{"id": 50107, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "journey", "replaces": "journey", "sentence": "I make a journey.", "zh": "Imake旅行。"}
+{"id": 50108, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "journey", "replaces": "journey", "sentence": "She makes a good journey.", "zh": "Shemakes旅行。"}
+{"id": 50110, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "change", "replaces": "change", "sentence": "He makes a good change.", "zh": "Hemakes改变。"}
+{"id": 50111, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "move", "replaces": "move", "sentence": "We make a move.", "zh": "Wemake行动。"}
+{"id": 50112, "step": 2, "type": "op_noun_combo", "operator": "make", "noun": "move", "replaces": "move", "sentence": "He makes a good move.", "zh": "Hemakes行动。"}
+{"id": 50113, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "decision", "replaces": "decision", "sentence": "I put a decision.", "zh": "Iput决定。"}
+{"id": 50114, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "decision", "replaces": "decision", "sentence": "She puts a good decision.", "zh": "Sheputs决定。"}
+{"id": 50115, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "comparison", "replaces": "comparison", "sentence": "They put a comparison.", "zh": "Theyput比较。"}
+{"id": 50116, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "comparison", "replaces": "comparison", "sentence": "You put a good comparison.", "zh": "Youput比较。"}
+{"id": 50117, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "attempt", "replaces": "attempt", "sentence": "He puts a attempt.", "zh": "Heputs尝试。"}
+{"id": 50118, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "attempt", "replaces": "attempt", "sentence": "She puts a good attempt.", "zh": "Sheputs尝试。"}
+{"id": 50119, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "discovery", "replaces": "discovery", "sentence": "You put a discovery.", "zh": "Youput发现。"}
+{"id": 50120, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "discovery", "replaces": "discovery", "sentence": "We put a good discovery.", "zh": "Weput发现。"}
+{"id": 50121, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "request", "replaces": "request", "sentence": "We put a request.", "zh": "Weput请求。"}
+{"id": 50122, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "request", "replaces": "request", "sentence": "You put a good request.", "zh": "Youput请求。"}
+{"id": 50123, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "journey", "replaces": "journey", "sentence": "We put a journey.", "zh": "Weput旅行。"}
+{"id": 50124, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "journey", "replaces": "journey", "sentence": "She puts a good journey.", "zh": "Sheputs旅行。"}
+{"id": 50125, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "change", "replaces": "change", "sentence": "He puts a change.", "zh": "Heputs改变。"}
+{"id": 50126, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "change", "replaces": "change", "sentence": "She puts a good change.", "zh": "Sheputs改变。"}
+{"id": 50127, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "move", "replaces": "move", "sentence": "She puts a move.", "zh": "Sheputs行动。"}
+{"id": 50128, "step": 2, "type": "op_noun_combo", "operator": "put", "noun": "move", "replaces": "move", "sentence": "You put a good move.", "zh": "Youput行动。"}
+{"id": 50129, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "decision", "replaces": "decision", "sentence": "They seem a decision.", "zh": "Theyseem决定。"}
+{"id": 50130, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "decision", "replaces": "decision", "sentence": "They seem a good decision.", "zh": "Theyseem决定。"}
+{"id": 50131, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "comparison", "replaces": "comparison", "sentence": "He seems a comparison.", "zh": "Heseems比较。"}
+{"id": 50132, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "comparison", "replaces": "comparison", "sentence": "You seem a good comparison.", "zh": "Youseem比较。"}
+{"id": 50133, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "attempt", "replaces": "attempt", "sentence": "They seem a attempt.", "zh": "Theyseem尝试。"}
+{"id": 50134, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "attempt", "replaces": "attempt", "sentence": "We seem a good attempt.", "zh": "Weseem尝试。"}
+{"id": 50135, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "discovery", "replaces": "discovery", "sentence": "They seem a discovery.", "zh": "Theyseem发现。"}
+{"id": 50136, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "discovery", "replaces": "discovery", "sentence": "We seem a good discovery.", "zh": "Weseem发现。"}
+{"id": 50137, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "request", "replaces": "request", "sentence": "He seems a request.", "zh": "Heseems请求。"}
+{"id": 50138, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "request", "replaces": "request", "sentence": "She seems a good request.", "zh": "Sheseems请求。"}
+{"id": 50139, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "journey", "replaces": "journey", "sentence": "She seems a journey.", "zh": "Sheseems旅行。"}
+{"id": 50140, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "journey", "replaces": "journey", "sentence": "They seem a good journey.", "zh": "Theyseem旅行。"}
+{"id": 50141, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "change", "replaces": "change", "sentence": "We seem a change.", "zh": "Weseem改变。"}
+{"id": 50142, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "change", "replaces": "change", "sentence": "I seem a good change.", "zh": "Iseem改变。"}
+{"id": 50143, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "move", "replaces": "move", "sentence": "I seem a move.", "zh": "Iseem行动。"}
+{"id": 50144, "step": 2, "type": "op_noun_combo", "operator": "seem", "noun": "move", "replaces": "move", "sentence": "I seem a good move.", "zh": "Iseem行动。"}
+{"id": 50145, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "decision", "replaces": "decision", "sentence": "She takes a decision.", "zh": "Shetakes决定。"}
+{"id": 50146, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "decision", "replaces": "decision", "sentence": "You take a good decision.", "zh": "Youtake决定。"}
+{"id": 50147, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "comparison", "replaces": "comparison", "sentence": "She takes a comparison.", "zh": "Shetakes比较。"}
+{"id": 50148, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "comparison", "replaces": "comparison", "sentence": "You take a good comparison.", "zh": "Youtake比较。"}
+{"id": 50149, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "attempt", "replaces": "attempt", "sentence": "We take a attempt.", "zh": "Wetake尝试。"}
+{"id": 50150, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "attempt", "replaces": "attempt", "sentence": "They take a good attempt.", "zh": "Theytake尝试。"}
+{"id": 50151, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "discovery", "replaces": "discovery", "sentence": "I take a discovery.", "zh": "Itake发现。"}
+{"id": 50152, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "discovery", "replaces": "discovery", "sentence": "We take a good discovery.", "zh": "Wetake发现。"}
+{"id": 50153, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "request", "replaces": "request", "sentence": "We take a request.", "zh": "Wetake请求。"}
+{"id": 50154, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "request", "replaces": "request", "sentence": "They take a good request.", "zh": "Theytake请求。"}
+{"id": 50155, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "journey", "replaces": "journey", "sentence": "We take a journey.", "zh": "Wetake旅行。"}
+{"id": 50156, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "journey", "replaces": "journey", "sentence": "They take a good journey.", "zh": "Theytake旅行。"}
+{"id": 50157, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "change", "replaces": "change", "sentence": "He takes a change.", "zh": "Hetakes改变。"}
+{"id": 50158, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "change", "replaces": "change", "sentence": "They take a good change.", "zh": "Theytake改变。"}
+{"id": 50159, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "move", "replaces": "move", "sentence": "I take a move.", "zh": "Itake行动。"}
+{"id": 50160, "step": 2, "type": "op_noun_combo", "operator": "take", "noun": "move", "replaces": "move", "sentence": "You take a good move.", "zh": "Youtake行动。"}
+{"id": 50161, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "decision", "replaces": "decision", "sentence": "You are a decision.", "zh": "Youare决定。"}
+{"id": 50162, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "decision", "replaces": "decision", "sentence": "I am a good decision.", "zh": "Iam决定。"}
+{"id": 50163, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "comparison", "replaces": "comparison", "sentence": "You are a comparison.", "zh": "Youare比较。"}
+{"id": 50164, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "comparison", "replaces": "comparison", "sentence": "They are a good comparison.", "zh": "Theyare比较。"}
+{"id": 50165, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "attempt", "replaces": "attempt", "sentence": "He is a attempt.", "zh": "Heis尝试。"}
+{"id": 50166, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "attempt", "replaces": "attempt", "sentence": "You are a good attempt.", "zh": "Youare尝试。"}
+{"id": 50167, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "discovery", "replaces": "discovery", "sentence": "He is a discovery.", "zh": "Heis发现。"}
+{"id": 50168, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "discovery", "replaces": "discovery", "sentence": "I am a good discovery.", "zh": "Iam发现。"}
+{"id": 50169, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "request", "replaces": "request", "sentence": "He is a request.", "zh": "Heis请求。"}
+{"id": 50170, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "request", "replaces": "request", "sentence": "We are a good request.", "zh": "Weare请求。"}
+{"id": 50171, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "journey", "replaces": "journey", "sentence": "She is a journey.", "zh": "Sheis旅行。"}
+{"id": 50172, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "journey", "replaces": "journey", "sentence": "We are a good journey.", "zh": "Weare旅行。"}
+{"id": 50173, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "change", "replaces": "change", "sentence": "I am a change.", "zh": "Iam改变。"}
+{"id": 50174, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "change", "replaces": "change", "sentence": "You are a good change.", "zh": "Youare改变。"}
+{"id": 50175, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "move", "replaces": "move", "sentence": "You are a move.", "zh": "Youare行动。"}
+{"id": 50176, "step": 2, "type": "op_noun_combo", "operator": "be", "noun": "move", "replaces": "move", "sentence": "He is a good move.", "zh": "Heis行动。"}
+{"id": 50177, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "decision", "replaces": "decision", "sentence": "They do a decision.", "zh": "Theydo决定。"}
+{"id": 50178, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "decision", "replaces": "decision", "sentence": "She dos a good decision.", "zh": "Shedos决定。"}
+{"id": 50179, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "comparison", "replaces": "comparison", "sentence": "They do a comparison.", "zh": "Theydo比较。"}
+{"id": 50180, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "comparison", "replaces": "comparison", "sentence": "I do a good comparison.", "zh": "Ido比较。"}
+{"id": 50181, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "attempt", "replaces": "attempt", "sentence": "You do a attempt.", "zh": "Youdo尝试。"}
+{"id": 50182, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "attempt", "replaces": "attempt", "sentence": "He dos a good attempt.", "zh": "Hedos尝试。"}
+{"id": 50183, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "discovery", "replaces": "discovery", "sentence": "You do a discovery.", "zh": "Youdo发现。"}
+{"id": 50184, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "discovery", "replaces": "discovery", "sentence": "They do a good discovery.", "zh": "Theydo发现。"}
+{"id": 50185, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "request", "replaces": "request", "sentence": "They do a request.", "zh": "Theydo请求。"}
+{"id": 50186, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "request", "replaces": "request", "sentence": "She dos a good request.", "zh": "Shedos请求。"}
+{"id": 50187, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "journey", "replaces": "journey", "sentence": "She dos a journey.", "zh": "Shedos旅行。"}
+{"id": 50188, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "journey", "replaces": "journey", "sentence": "He dos a good journey.", "zh": "Hedos旅行。"}
+{"id": 50189, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "change", "replaces": "change", "sentence": "She dos a change.", "zh": "Shedos改变。"}
+{"id": 50190, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "change", "replaces": "change", "sentence": "They do a good change.", "zh": "Theydo改变。"}
+{"id": 50191, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "move", "replaces": "move", "sentence": "They do a move.", "zh": "Theydo行动。"}
+{"id": 50192, "step": 2, "type": "op_noun_combo", "operator": "do", "noun": "move", "replaces": "move", "sentence": "I do a good move.", "zh": "Ido行动。"}
+{"id": 50193, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "decision", "replaces": "decision", "sentence": "They have a decision.", "zh": "Theyhave决定。"}
+{"id": 50194, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "decision", "replaces": "decision", "sentence": "He has a good decision.", "zh": "Hehas决定。"}
+{"id": 50195, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "comparison", "replaces": "comparison", "sentence": "We have a comparison.", "zh": "Wehave比较。"}
+{"id": 50196, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "comparison", "replaces": "comparison", "sentence": "I have a good comparison.", "zh": "Ihave比较。"}
+{"id": 50197, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "attempt", "replaces": "attempt", "sentence": "I have a attempt.", "zh": "Ihave尝试。"}
+{"id": 50198, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "attempt", "replaces": "attempt", "sentence": "He has a good attempt.", "zh": "Hehas尝试。"}
+{"id": 50199, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "discovery", "replaces": "discovery", "sentence": "He has a discovery.", "zh": "Hehas发现。"}
+{"id": 50200, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "discovery", "replaces": "discovery", "sentence": "She has a good discovery.", "zh": "Shehas发现。"}
+{"id": 50201, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "request", "replaces": "request", "sentence": "I have a request.", "zh": "Ihave请求。"}
+{"id": 50202, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "request", "replaces": "request", "sentence": "She has a good request.", "zh": "Shehas请求。"}
+{"id": 50203, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "journey", "replaces": "journey", "sentence": "They have a journey.", "zh": "Theyhave旅行。"}
+{"id": 50204, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "journey", "replaces": "journey", "sentence": "I have a good journey.", "zh": "Ihave旅行。"}
+{"id": 50205, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "change", "replaces": "change", "sentence": "I have a change.", "zh": "Ihave改变。"}
+{"id": 50206, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "change", "replaces": "change", "sentence": "You have a good change.", "zh": "Youhave改变。"}
+{"id": 50207, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "move", "replaces": "move", "sentence": "We have a move.", "zh": "Wehave行动。"}
+{"id": 50208, "step": 2, "type": "op_noun_combo", "operator": "have", "noun": "move", "replaces": "move", "sentence": "I have a good move.", "zh": "Ihave行动。"}
+{"id": 50209, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "decision", "replaces": "decision", "sentence": "They say a decision.", "zh": "Theysay决定。"}
+{"id": 50210, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "decision", "replaces": "decision", "sentence": "She says a good decision.", "zh": "Shesays决定。"}
+{"id": 50211, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "comparison", "replaces": "comparison", "sentence": "She says a comparison.", "zh": "Shesays比较。"}
+{"id": 50212, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "comparison", "replaces": "comparison", "sentence": "You say a good comparison.", "zh": "Yousay比较。"}
+{"id": 50213, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "attempt", "replaces": "attempt", "sentence": "We say a attempt.", "zh": "Wesay尝试。"}
+{"id": 50214, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "attempt", "replaces": "attempt", "sentence": "They say a good attempt.", "zh": "Theysay尝试。"}
+{"id": 50215, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "discovery", "replaces": "discovery", "sentence": "She says a discovery.", "zh": "Shesays发现。"}
+{"id": 50216, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "discovery", "replaces": "discovery", "sentence": "He says a good discovery.", "zh": "Hesays发现。"}
+{"id": 50217, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "request", "replaces": "request", "sentence": "They say a request.", "zh": "Theysay请求。"}
+{"id": 50218, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "request", "replaces": "request", "sentence": "They say a good request.", "zh": "Theysay请求。"}
+{"id": 50219, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "journey", "replaces": "journey", "sentence": "We say a journey.", "zh": "Wesay旅行。"}
+{"id": 50220, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "journey", "replaces": "journey", "sentence": "She says a good journey.", "zh": "Shesays旅行。"}
+{"id": 50221, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "change", "replaces": "change", "sentence": "They say a change.", "zh": "Theysay改变。"}
+{"id": 50222, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "change", "replaces": "change", "sentence": "You say a good change.", "zh": "Yousay改变。"}
+{"id": 50223, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "move", "replaces": "move", "sentence": "You say a move.", "zh": "Yousay行动。"}
+{"id": 50224, "step": 2, "type": "op_noun_combo", "operator": "say", "noun": "move", "replaces": "move", "sentence": "She says a good move.", "zh": "Shesays行动。"}
+{"id": 50225, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "decision", "replaces": "decision", "sentence": "You see a decision.", "zh": "Yousee决定。"}
+{"id": 50226, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "decision", "replaces": "decision", "sentence": "He sees a good decision.", "zh": "Hesees决定。"}
+{"id": 50227, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "comparison", "replaces": "comparison", "sentence": "We see a comparison.", "zh": "Wesee比较。"}
+{"id": 50228, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "comparison", "replaces": "comparison", "sentence": "You see a good comparison.", "zh": "Yousee比较。"}
+{"id": 50229, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "attempt", "replaces": "attempt", "sentence": "You see a attempt.", "zh": "Yousee尝试。"}
+{"id": 50230, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "attempt", "replaces": "attempt", "sentence": "He sees a good attempt.", "zh": "Hesees尝试。"}
+{"id": 50231, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "discovery", "replaces": "discovery", "sentence": "We see a discovery.", "zh": "Wesee发现。"}
+{"id": 50232, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "discovery", "replaces": "discovery", "sentence": "They see a good discovery.", "zh": "Theysee发现。"}
+{"id": 50233, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "request", "replaces": "request", "sentence": "We see a request.", "zh": "Wesee请求。"}
+{"id": 50234, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "request", "replaces": "request", "sentence": "I see a good request.", "zh": "Isee请求。"}
+{"id": 50235, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "journey", "replaces": "journey", "sentence": "She sees a journey.", "zh": "Shesees旅行。"}
+{"id": 50236, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "journey", "replaces": "journey", "sentence": "She sees a good journey.", "zh": "Shesees旅行。"}
+{"id": 50237, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "change", "replaces": "change", "sentence": "I see a change.", "zh": "Isee改变。"}
+{"id": 50238, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "change", "replaces": "change", "sentence": "He sees a good change.", "zh": "Hesees改变。"}
+{"id": 50239, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "move", "replaces": "move", "sentence": "I see a move.", "zh": "Isee行动。"}
+{"id": 50240, "step": 2, "type": "op_noun_combo", "operator": "see", "noun": "move", "replaces": "move", "sentence": "They see a good move.", "zh": "Theysee行动。"}
+{"id": 50241, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "decision", "replaces": "decision", "sentence": "They send a decision.", "zh": "Theysend决定。"}
+{"id": 50242, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "decision", "replaces": "decision", "sentence": "She send a good decision.", "zh": "Shesend决定。"}
+{"id": 50243, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "comparison", "replaces": "comparison", "sentence": "They send a comparison.", "zh": "Theysend比较。"}
+{"id": 50244, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "comparison", "replaces": "comparison", "sentence": "She send a good comparison.", "zh": "Shesend比较。"}
+{"id": 50245, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "attempt", "replaces": "attempt", "sentence": "I send a attempt.", "zh": "Isend尝试。"}
+{"id": 50246, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "attempt", "replaces": "attempt", "sentence": "I send a good attempt.", "zh": "Isend尝试。"}
+{"id": 50247, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "discovery", "replaces": "discovery", "sentence": "You send a discovery.", "zh": "Yousend发现。"}
+{"id": 50248, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "discovery", "replaces": "discovery", "sentence": "You send a good discovery.", "zh": "Yousend发现。"}
+{"id": 50249, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "request", "replaces": "request", "sentence": "I send a request.", "zh": "Isend请求。"}
+{"id": 50250, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "request", "replaces": "request", "sentence": "She send a good request.", "zh": "Shesend请求。"}
+{"id": 50251, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "journey", "replaces": "journey", "sentence": "I send a journey.", "zh": "Isend旅行。"}
+{"id": 50252, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "journey", "replaces": "journey", "sentence": "I send a good journey.", "zh": "Isend旅行。"}
+{"id": 50253, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "change", "replaces": "change", "sentence": "He send a change.", "zh": "Hesend改变。"}
+{"id": 50254, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "change", "replaces": "change", "sentence": "I send a good change.", "zh": "Isend改变。"}
+{"id": 50255, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "move", "replaces": "move", "sentence": "They send a move.", "zh": "Theysend行动。"}
+{"id": 50256, "step": 2, "type": "op_noun_combo", "operator": "send", "noun": "move", "replaces": "move", "sentence": "She send a good move.", "zh": "Shesend行动。"}
+{"id": 50257, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "decision", "replaces": "decision", "sentence": "He may a decision.", "zh": "Hemay决定。"}
+{"id": 50258, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "decision", "replaces": "decision", "sentence": "You may a good decision.", "zh": "Youmay决定。"}
+{"id": 50259, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "comparison", "replaces": "comparison", "sentence": "We may a comparison.", "zh": "Wemay比较。"}
+{"id": 50260, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "comparison", "replaces": "comparison", "sentence": "She may a good comparison.", "zh": "Shemay比较。"}
+{"id": 50261, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "attempt", "replaces": "attempt", "sentence": "They may a attempt.", "zh": "Theymay尝试。"}
+{"id": 50262, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "attempt", "replaces": "attempt", "sentence": "She may a good attempt.", "zh": "Shemay尝试。"}
+{"id": 50263, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "discovery", "replaces": "discovery", "sentence": "You may a discovery.", "zh": "Youmay发现。"}
+{"id": 50264, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "discovery", "replaces": "discovery", "sentence": "They may a good discovery.", "zh": "Theymay发现。"}
+{"id": 50265, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "request", "replaces": "request", "sentence": "They may a request.", "zh": "Theymay请求。"}
+{"id": 50266, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "request", "replaces": "request", "sentence": "We may a good request.", "zh": "Wemay请求。"}
+{"id": 50267, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "journey", "replaces": "journey", "sentence": "She may a journey.", "zh": "Shemay旅行。"}
+{"id": 50268, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "journey", "replaces": "journey", "sentence": "We may a good journey.", "zh": "Wemay旅行。"}
+{"id": 50269, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "change", "replaces": "change", "sentence": "We may a change.", "zh": "Wemay改变。"}
+{"id": 50270, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "change", "replaces": "change", "sentence": "She may a good change.", "zh": "Shemay改变。"}
+{"id": 50271, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "move", "replaces": "move", "sentence": "I may a move.", "zh": "Imay行动。"}
+{"id": 50272, "step": 2, "type": "op_noun_combo", "operator": "may", "noun": "move", "replaces": "move", "sentence": "I may a good move.", "zh": "Imay行动。"}
+{"id": 50273, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "decision", "replaces": "decision", "sentence": "You will a decision.", "zh": "Youwill决定。"}
+{"id": 50274, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "decision", "replaces": "decision", "sentence": "We will a good decision.", "zh": "Wewill决定。"}
+{"id": 50275, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "comparison", "replaces": "comparison", "sentence": "He will a comparison.", "zh": "Hewill比较。"}
+{"id": 50276, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "comparison", "replaces": "comparison", "sentence": "We will a good comparison.", "zh": "Wewill比较。"}
+{"id": 50277, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "attempt", "replaces": "attempt", "sentence": "We will a attempt.", "zh": "Wewill尝试。"}
+{"id": 50278, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "attempt", "replaces": "attempt", "sentence": "We will a good attempt.", "zh": "Wewill尝试。"}
+{"id": 50279, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "discovery", "replaces": "discovery", "sentence": "You will a discovery.", "zh": "Youwill发现。"}
+{"id": 50280, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "discovery", "replaces": "discovery", "sentence": "I will a good discovery.", "zh": "Iwill发现。"}
+{"id": 50281, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "request", "replaces": "request", "sentence": "You will a request.", "zh": "Youwill请求。"}
+{"id": 50282, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "request", "replaces": "request", "sentence": "You will a good request.", "zh": "Youwill请求。"}
+{"id": 50283, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "journey", "replaces": "journey", "sentence": "You will a journey.", "zh": "Youwill旅行。"}
+{"id": 50284, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "journey", "replaces": "journey", "sentence": "I will a good journey.", "zh": "Iwill旅行。"}
+{"id": 50285, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "change", "replaces": "change", "sentence": "I will a change.", "zh": "Iwill改变。"}
+{"id": 50286, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "change", "replaces": "change", "sentence": "We will a good change.", "zh": "Wewill改变。"}
+{"id": 50287, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "move", "replaces": "move", "sentence": "You will a move.", "zh": "Youwill行动。"}
+{"id": 50288, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "move", "replaces": "move", "sentence": "He will a good move.", "zh": "Hewill行动。"}
