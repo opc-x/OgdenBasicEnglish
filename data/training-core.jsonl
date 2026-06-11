@@ -1464,3 +1464,330 @@
 {"id": 50286, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "change", "replaces": "change", "sentence": "We will a good change.", "zh": "Wewill改变。"}
 {"id": 50287, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "move", "replaces": "move", "sentence": "You will a move.", "zh": "Youwill行动。"}
 {"id": 50288, "step": 2, "type": "op_noun_combo", "operator": "will", "noun": "move", "replaces": "move", "sentence": "He will a good move.", "zh": "Hewill行动。"}
+{"id": 60001, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "in", "sentence": "Come in.", "zh": "come+in。"}
+{"id": 60002, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "in", "sentence": "Please come in.", "zh": "come+in。"}
+{"id": 60003, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "in", "sentence": "Come in now.", "zh": "come+in。"}
+{"id": 60004, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "out", "replaces": "out", "sentence": "Come out.", "zh": "come+out。"}
+{"id": 60005, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "out", "replaces": "out", "sentence": "Please come out.", "zh": "come+out。"}
+{"id": 60006, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "out", "replaces": "out", "sentence": "Come out now.", "zh": "come+out。"}
+{"id": 60007, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "on", "replaces": "on", "sentence": "Come on.", "zh": "come+on。"}
+{"id": 60008, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "on", "replaces": "on", "sentence": "Please come on.", "zh": "come+on。"}
+{"id": 60009, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "on", "replaces": "on", "sentence": "Come on now.", "zh": "come+on。"}
+{"id": 60010, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "off", "replaces": "off", "sentence": "Come off.", "zh": "come+off。"}
+{"id": 60011, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "off", "replaces": "off", "sentence": "Please come off.", "zh": "come+off。"}
+{"id": 60012, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "off", "replaces": "off", "sentence": "Come off now.", "zh": "come+off。"}
+{"id": 60013, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "up", "replaces": "up", "sentence": "Come up.", "zh": "come+up。"}
+{"id": 60014, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "up", "replaces": "up", "sentence": "Please come up.", "zh": "come+up。"}
+{"id": 60015, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "up", "replaces": "up", "sentence": "Come up now.", "zh": "come+up。"}
+{"id": 60016, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "down", "replaces": "down", "sentence": "Come down.", "zh": "come+down。"}
+{"id": 60017, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "down", "replaces": "down", "sentence": "Please come down.", "zh": "come+down。"}
+{"id": 60018, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "down", "replaces": "down", "sentence": "Come down now.", "zh": "come+down。"}
+{"id": 60019, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "back", "replaces": "back", "sentence": "Come back.", "zh": "come+back。"}
+{"id": 60020, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "back", "replaces": "back", "sentence": "Please come back.", "zh": "come+back。"}
+{"id": 60021, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "back", "replaces": "back", "sentence": "Come back now.", "zh": "come+back。"}
+{"id": 60022, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "over", "replaces": "over", "sentence": "Come over.", "zh": "come+over。"}
+{"id": 60023, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "over", "replaces": "over", "sentence": "Please come over.", "zh": "come+over。"}
+{"id": 60024, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "over", "replaces": "over", "sentence": "Come over now.", "zh": "come+over。"}
+{"id": 60025, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "through", "replaces": "through", "sentence": "Come through.", "zh": "come+through。"}
+{"id": 60026, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "through", "replaces": "through", "sentence": "Please come through.", "zh": "come+through。"}
+{"id": 60027, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "through", "replaces": "through", "sentence": "Come through now.", "zh": "come+through。"}
+{"id": 60028, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "about", "replaces": "about", "sentence": "Come about.", "zh": "come+about。"}
+{"id": 60029, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "about", "replaces": "about", "sentence": "Please come about.", "zh": "come+about。"}
+{"id": 60030, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "about", "replaces": "about", "sentence": "Come about now.", "zh": "come+about。"}
+{"id": 60031, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "in", "replaces": "in", "sentence": "Get in.", "zh": "get+in。"}
+{"id": 60032, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "in", "replaces": "in", "sentence": "Please get in.", "zh": "get+in。"}
+{"id": 60033, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "in", "replaces": "in", "sentence": "Get in now.", "zh": "get+in。"}
+{"id": 60034, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "out", "replaces": "out", "sentence": "Get out.", "zh": "get+out。"}
+{"id": 60035, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "out", "replaces": "out", "sentence": "Please get out.", "zh": "get+out。"}
+{"id": 60036, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "out", "replaces": "out", "sentence": "Get out now.", "zh": "get+out。"}
+{"id": 60037, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "on", "replaces": "on", "sentence": "Get on.", "zh": "get+on。"}
+{"id": 60038, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "on", "replaces": "on", "sentence": "Please get on.", "zh": "get+on。"}
+{"id": 60039, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "on", "replaces": "on", "sentence": "Get on now.", "zh": "get+on。"}
+{"id": 60040, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "off", "replaces": "off", "sentence": "Get off.", "zh": "get+off。"}
+{"id": 60041, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "off", "replaces": "off", "sentence": "Please get off.", "zh": "get+off。"}
+{"id": 60042, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "off", "replaces": "off", "sentence": "Get off now.", "zh": "get+off。"}
+{"id": 60043, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "up", "replaces": "up", "sentence": "Get up.", "zh": "get+up。"}
+{"id": 60044, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "up", "replaces": "up", "sentence": "Please get up.", "zh": "get+up。"}
+{"id": 60045, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "up", "replaces": "up", "sentence": "Get up now.", "zh": "get+up。"}
+{"id": 60046, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "down", "replaces": "down", "sentence": "Get down.", "zh": "get+down。"}
+{"id": 60047, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "down", "replaces": "down", "sentence": "Please get down.", "zh": "get+down。"}
+{"id": 60048, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "down", "replaces": "down", "sentence": "Get down now.", "zh": "get+down。"}
+{"id": 60049, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "back", "replaces": "back", "sentence": "Get back.", "zh": "get+back。"}
+{"id": 60050, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "back", "replaces": "back", "sentence": "Please get back.", "zh": "get+back。"}
+{"id": 60051, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "back", "replaces": "back", "sentence": "Get back now.", "zh": "get+back。"}
+{"id": 60052, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "over", "replaces": "over", "sentence": "Get over.", "zh": "get+over。"}
+{"id": 60053, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "over", "replaces": "over", "sentence": "Please get over.", "zh": "get+over。"}
+{"id": 60054, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "over", "replaces": "over", "sentence": "Get over now.", "zh": "get+over。"}
+{"id": 60055, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "through", "replaces": "through", "sentence": "Get through.", "zh": "get+through。"}
+{"id": 60056, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "through", "replaces": "through", "sentence": "Please get through.", "zh": "get+through。"}
+{"id": 60057, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "through", "replaces": "through", "sentence": "Get through now.", "zh": "get+through。"}
+{"id": 60058, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "about", "replaces": "about", "sentence": "Get about.", "zh": "get+about。"}
+{"id": 60059, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "about", "replaces": "about", "sentence": "Please get about.", "zh": "get+about。"}
+{"id": 60060, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "about", "replaces": "about", "sentence": "Get about now.", "zh": "get+about。"}
+{"id": 60061, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "in", "replaces": "in", "sentence": "Give in.", "zh": "give+in。"}
+{"id": 60062, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "in", "replaces": "in", "sentence": "Please give in.", "zh": "give+in。"}
+{"id": 60063, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "in", "replaces": "in", "sentence": "Give in now.", "zh": "give+in。"}
+{"id": 60064, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "out", "replaces": "out", "sentence": "Give out.", "zh": "give+out。"}
+{"id": 60065, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "out", "replaces": "out", "sentence": "Please give out.", "zh": "give+out。"}
+{"id": 60066, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "out", "replaces": "out", "sentence": "Give out now.", "zh": "give+out。"}
+{"id": 60067, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "on", "replaces": "on", "sentence": "Give on.", "zh": "give+on。"}
+{"id": 60068, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "on", "replaces": "on", "sentence": "Please give on.", "zh": "give+on。"}
+{"id": 60069, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "on", "replaces": "on", "sentence": "Give on now.", "zh": "give+on。"}
+{"id": 60070, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "off", "replaces": "off", "sentence": "Give off.", "zh": "give+off。"}
+{"id": 60071, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "off", "replaces": "off", "sentence": "Please give off.", "zh": "give+off。"}
+{"id": 60072, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "off", "replaces": "off", "sentence": "Give off now.", "zh": "give+off。"}
+{"id": 60073, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "up", "replaces": "up", "sentence": "Give up.", "zh": "give+up。"}
+{"id": 60074, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "up", "replaces": "up", "sentence": "Please give up.", "zh": "give+up。"}
+{"id": 60075, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "up", "replaces": "up", "sentence": "Give up now.", "zh": "give+up。"}
+{"id": 60076, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "down", "replaces": "down", "sentence": "Give down.", "zh": "give+down。"}
+{"id": 60077, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "down", "replaces": "down", "sentence": "Please give down.", "zh": "give+down。"}
+{"id": 60078, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "down", "replaces": "down", "sentence": "Give down now.", "zh": "give+down。"}
+{"id": 60079, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "back", "replaces": "back", "sentence": "Give back.", "zh": "give+back。"}
+{"id": 60080, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "back", "replaces": "back", "sentence": "Please give back.", "zh": "give+back。"}
+{"id": 60081, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "back", "replaces": "back", "sentence": "Give back now.", "zh": "give+back。"}
+{"id": 60082, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "over", "replaces": "over", "sentence": "Give over.", "zh": "give+over。"}
+{"id": 60083, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "over", "replaces": "over", "sentence": "Please give over.", "zh": "give+over。"}
+{"id": 60084, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "over", "replaces": "over", "sentence": "Give over now.", "zh": "give+over。"}
+{"id": 60085, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "through", "replaces": "through", "sentence": "Give through.", "zh": "give+through。"}
+{"id": 60086, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "through", "replaces": "through", "sentence": "Please give through.", "zh": "give+through。"}
+{"id": 60087, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "through", "replaces": "through", "sentence": "Give through now.", "zh": "give+through。"}
+{"id": 60088, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "about", "replaces": "about", "sentence": "Give about.", "zh": "give+about。"}
+{"id": 60089, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "about", "replaces": "about", "sentence": "Please give about.", "zh": "give+about。"}
+{"id": 60090, "step": 1, "type": "op_dir_combo", "operator": "give", "direction": "about", "replaces": "about", "sentence": "Give about now.", "zh": "give+about。"}
+{"id": 60091, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "in", "replaces": "in", "sentence": "Go in.", "zh": "go+in。"}
+{"id": 60092, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "in", "replaces": "in", "sentence": "Please go in.", "zh": "go+in。"}
+{"id": 60093, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "in", "replaces": "in", "sentence": "Go in now.", "zh": "go+in。"}
+{"id": 60094, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "out", "replaces": "out", "sentence": "Go out.", "zh": "go+out。"}
+{"id": 60095, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "out", "replaces": "out", "sentence": "Please go out.", "zh": "go+out。"}
+{"id": 60096, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "out", "replaces": "out", "sentence": "Go out now.", "zh": "go+out。"}
+{"id": 60097, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "on", "replaces": "on", "sentence": "Go on.", "zh": "go+on。"}
+{"id": 60098, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "on", "replaces": "on", "sentence": "Please go on.", "zh": "go+on。"}
+{"id": 60099, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "on", "replaces": "on", "sentence": "Go on now.", "zh": "go+on。"}
+{"id": 60100, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "off", "replaces": "off", "sentence": "Go off.", "zh": "go+off。"}
+{"id": 60101, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "off", "replaces": "off", "sentence": "Please go off.", "zh": "go+off。"}
+{"id": 60102, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "off", "replaces": "off", "sentence": "Go off now.", "zh": "go+off。"}
+{"id": 60103, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "up", "replaces": "up", "sentence": "Go up.", "zh": "go+up。"}
+{"id": 60104, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "up", "replaces": "up", "sentence": "Please go up.", "zh": "go+up。"}
+{"id": 60105, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "up", "replaces": "up", "sentence": "Go up now.", "zh": "go+up。"}
+{"id": 60106, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "down", "replaces": "down", "sentence": "Go down.", "zh": "go+down。"}
+{"id": 60107, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "down", "replaces": "down", "sentence": "Please go down.", "zh": "go+down。"}
+{"id": 60108, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "down", "replaces": "down", "sentence": "Go down now.", "zh": "go+down。"}
+{"id": 60109, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "back", "replaces": "back", "sentence": "Go back.", "zh": "go+back。"}
+{"id": 60110, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "back", "replaces": "back", "sentence": "Please go back.", "zh": "go+back。"}
+{"id": 60111, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "back", "replaces": "back", "sentence": "Go back now.", "zh": "go+back。"}
+{"id": 60112, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "over", "replaces": "over", "sentence": "Go over.", "zh": "go+over。"}
+{"id": 60113, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "over", "replaces": "over", "sentence": "Please go over.", "zh": "go+over。"}
+{"id": 60114, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "over", "replaces": "over", "sentence": "Go over now.", "zh": "go+over。"}
+{"id": 60115, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "through", "replaces": "through", "sentence": "Go through.", "zh": "go+through。"}
+{"id": 60116, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "through", "replaces": "through", "sentence": "Please go through.", "zh": "go+through。"}
+{"id": 60117, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "through", "replaces": "through", "sentence": "Go through now.", "zh": "go+through。"}
+{"id": 60118, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "about", "replaces": "about", "sentence": "Go about.", "zh": "go+about。"}
+{"id": 60119, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "about", "replaces": "about", "sentence": "Please go about.", "zh": "go+about。"}
+{"id": 60120, "step": 1, "type": "op_dir_combo", "operator": "go", "direction": "about", "replaces": "about", "sentence": "Go about now.", "zh": "go+about。"}
+{"id": 60121, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "in", "replaces": "in", "sentence": "Keep in.", "zh": "keep+in。"}
+{"id": 60122, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "in", "replaces": "in", "sentence": "Please keep in.", "zh": "keep+in。"}
+{"id": 60123, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "in", "replaces": "in", "sentence": "Keep in now.", "zh": "keep+in。"}
+{"id": 60124, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "out", "replaces": "out", "sentence": "Keep out.", "zh": "keep+out。"}
+{"id": 60125, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "out", "replaces": "out", "sentence": "Please keep out.", "zh": "keep+out。"}
+{"id": 60126, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "out", "replaces": "out", "sentence": "Keep out now.", "zh": "keep+out。"}
+{"id": 60127, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "on", "replaces": "on", "sentence": "Keep on.", "zh": "keep+on。"}
+{"id": 60128, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "on", "replaces": "on", "sentence": "Please keep on.", "zh": "keep+on。"}
+{"id": 60129, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "on", "replaces": "on", "sentence": "Keep on now.", "zh": "keep+on。"}
+{"id": 60130, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "off", "replaces": "off", "sentence": "Keep off.", "zh": "keep+off。"}
+{"id": 60131, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "off", "replaces": "off", "sentence": "Please keep off.", "zh": "keep+off。"}
+{"id": 60132, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "off", "replaces": "off", "sentence": "Keep off now.", "zh": "keep+off。"}
+{"id": 60133, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "up", "sentence": "Keep up.", "zh": "keep+up。"}
+{"id": 60134, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "up", "sentence": "Please keep up.", "zh": "keep+up。"}
+{"id": 60135, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "up", "sentence": "Keep up now.", "zh": "keep+up。"}
+{"id": 60136, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "down", "replaces": "down", "sentence": "Keep down.", "zh": "keep+down。"}
+{"id": 60137, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "down", "replaces": "down", "sentence": "Please keep down.", "zh": "keep+down。"}
+{"id": 60138, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "down", "replaces": "down", "sentence": "Keep down now.", "zh": "keep+down。"}
+{"id": 60139, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "back", "replaces": "back", "sentence": "Keep back.", "zh": "keep+back。"}
+{"id": 60140, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "back", "replaces": "back", "sentence": "Please keep back.", "zh": "keep+back。"}
+{"id": 60141, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "back", "replaces": "back", "sentence": "Keep back now.", "zh": "keep+back。"}
+{"id": 60142, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "over", "replaces": "over", "sentence": "Keep over.", "zh": "keep+over。"}
+{"id": 60143, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "over", "replaces": "over", "sentence": "Please keep over.", "zh": "keep+over。"}
+{"id": 60144, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "over", "replaces": "over", "sentence": "Keep over now.", "zh": "keep+over。"}
+{"id": 60145, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "through", "replaces": "through", "sentence": "Keep through.", "zh": "keep+through。"}
+{"id": 60146, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "through", "replaces": "through", "sentence": "Please keep through.", "zh": "keep+through。"}
+{"id": 60147, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "through", "replaces": "through", "sentence": "Keep through now.", "zh": "keep+through。"}
+{"id": 60148, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "about", "replaces": "about", "sentence": "Keep about.", "zh": "keep+about。"}
+{"id": 60149, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "about", "replaces": "about", "sentence": "Please keep about.", "zh": "keep+about。"}
+{"id": 60150, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "about", "replaces": "about", "sentence": "Keep about now.", "zh": "keep+about。"}
+{"id": 60151, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "in", "replaces": "in", "sentence": "Let in.", "zh": "let+in。"}
+{"id": 60152, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "in", "replaces": "in", "sentence": "Please let in.", "zh": "let+in。"}
+{"id": 60153, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "in", "replaces": "in", "sentence": "Let in now.", "zh": "let+in。"}
+{"id": 60154, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "out", "replaces": "out", "sentence": "Let out.", "zh": "let+out。"}
+{"id": 60155, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "out", "replaces": "out", "sentence": "Please let out.", "zh": "let+out。"}
+{"id": 60156, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "out", "replaces": "out", "sentence": "Let out now.", "zh": "let+out。"}
+{"id": 60157, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "on", "replaces": "on", "sentence": "Let on.", "zh": "let+on。"}
+{"id": 60158, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "on", "replaces": "on", "sentence": "Please let on.", "zh": "let+on。"}
+{"id": 60159, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "on", "replaces": "on", "sentence": "Let on now.", "zh": "let+on。"}
+{"id": 60160, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "off", "replaces": "off", "sentence": "Let off.", "zh": "let+off。"}
+{"id": 60161, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "off", "replaces": "off", "sentence": "Please let off.", "zh": "let+off。"}
+{"id": 60162, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "off", "replaces": "off", "sentence": "Let off now.", "zh": "let+off。"}
+{"id": 60163, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "up", "replaces": "up", "sentence": "Let up.", "zh": "let+up。"}
+{"id": 60164, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "up", "replaces": "up", "sentence": "Please let up.", "zh": "let+up。"}
+{"id": 60165, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "up", "replaces": "up", "sentence": "Let up now.", "zh": "let+up。"}
+{"id": 60166, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "down", "replaces": "down", "sentence": "Let down.", "zh": "let+down。"}
+{"id": 60167, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "down", "replaces": "down", "sentence": "Please let down.", "zh": "let+down。"}
+{"id": 60168, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "down", "replaces": "down", "sentence": "Let down now.", "zh": "let+down。"}
+{"id": 60169, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "back", "replaces": "back", "sentence": "Let back.", "zh": "let+back。"}
+{"id": 60170, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "back", "replaces": "back", "sentence": "Please let back.", "zh": "let+back。"}
+{"id": 60171, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "back", "replaces": "back", "sentence": "Let back now.", "zh": "let+back。"}
+{"id": 60172, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "over", "replaces": "over", "sentence": "Let over.", "zh": "let+over。"}
+{"id": 60173, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "over", "replaces": "over", "sentence": "Please let over.", "zh": "let+over。"}
+{"id": 60174, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "over", "replaces": "over", "sentence": "Let over now.", "zh": "let+over。"}
+{"id": 60175, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "through", "replaces": "through", "sentence": "Let through.", "zh": "let+through。"}
+{"id": 60176, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "through", "replaces": "through", "sentence": "Please let through.", "zh": "let+through。"}
+{"id": 60177, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "through", "replaces": "through", "sentence": "Let through now.", "zh": "let+through。"}
+{"id": 60178, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "about", "replaces": "about", "sentence": "Let about.", "zh": "let+about。"}
+{"id": 60179, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "about", "replaces": "about", "sentence": "Please let about.", "zh": "let+about。"}
+{"id": 60180, "step": 1, "type": "op_dir_combo", "operator": "let", "direction": "about", "replaces": "about", "sentence": "Let about now.", "zh": "let+about。"}
+{"id": 60181, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "in", "replaces": "in", "sentence": "Make in.", "zh": "make+in。"}
+{"id": 60182, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "in", "replaces": "in", "sentence": "Please make in.", "zh": "make+in。"}
+{"id": 60183, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "in", "replaces": "in", "sentence": "Make in now.", "zh": "make+in。"}
+{"id": 60184, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "out", "replaces": "out", "sentence": "Make out.", "zh": "make+out。"}
+{"id": 60185, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "out", "replaces": "out", "sentence": "Please make out.", "zh": "make+out。"}
+{"id": 60186, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "out", "replaces": "out", "sentence": "Make out now.", "zh": "make+out。"}
+{"id": 60187, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "on", "replaces": "on", "sentence": "Make on.", "zh": "make+on。"}
+{"id": 60188, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "on", "replaces": "on", "sentence": "Please make on.", "zh": "make+on。"}
+{"id": 60189, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "on", "replaces": "on", "sentence": "Make on now.", "zh": "make+on。"}
+{"id": 60190, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "off", "replaces": "off", "sentence": "Make off.", "zh": "make+off。"}
+{"id": 60191, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "off", "replaces": "off", "sentence": "Please make off.", "zh": "make+off。"}
+{"id": 60192, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "off", "replaces": "off", "sentence": "Make off now.", "zh": "make+off。"}
+{"id": 60193, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "up", "replaces": "up", "sentence": "Make up.", "zh": "make+up。"}
+{"id": 60194, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "up", "replaces": "up", "sentence": "Please make up.", "zh": "make+up。"}
+{"id": 60195, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "up", "replaces": "up", "sentence": "Make up now.", "zh": "make+up。"}
+{"id": 60196, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "down", "replaces": "down", "sentence": "Make down.", "zh": "make+down。"}
+{"id": 60197, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "down", "replaces": "down", "sentence": "Please make down.", "zh": "make+down。"}
+{"id": 60198, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "down", "replaces": "down", "sentence": "Make down now.", "zh": "make+down。"}
+{"id": 60199, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "back", "replaces": "back", "sentence": "Make back.", "zh": "make+back。"}
+{"id": 60200, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "back", "replaces": "back", "sentence": "Please make back.", "zh": "make+back。"}
+{"id": 60201, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "back", "replaces": "back", "sentence": "Make back now.", "zh": "make+back。"}
+{"id": 60202, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "over", "replaces": "over", "sentence": "Make over.", "zh": "make+over。"}
+{"id": 60203, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "over", "replaces": "over", "sentence": "Please make over.", "zh": "make+over。"}
+{"id": 60204, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "over", "replaces": "over", "sentence": "Make over now.", "zh": "make+over。"}
+{"id": 60205, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "through", "replaces": "through", "sentence": "Make through.", "zh": "make+through。"}
+{"id": 60206, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "through", "replaces": "through", "sentence": "Please make through.", "zh": "make+through。"}
+{"id": 60207, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "through", "replaces": "through", "sentence": "Make through now.", "zh": "make+through。"}
+{"id": 60208, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "about", "replaces": "about", "sentence": "Make about.", "zh": "make+about。"}
+{"id": 60209, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "about", "replaces": "about", "sentence": "Please make about.", "zh": "make+about。"}
+{"id": 60210, "step": 1, "type": "op_dir_combo", "operator": "make", "direction": "about", "replaces": "about", "sentence": "Make about now.", "zh": "make+about。"}
+{"id": 60211, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "in", "replaces": "in", "sentence": "Put in.", "zh": "put+in。"}
+{"id": 60212, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "in", "replaces": "in", "sentence": "Please put in.", "zh": "put+in。"}
+{"id": 60213, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "in", "replaces": "in", "sentence": "Put in now.", "zh": "put+in。"}
+{"id": 60214, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "out", "replaces": "out", "sentence": "Put out.", "zh": "put+out。"}
+{"id": 60215, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "out", "replaces": "out", "sentence": "Please put out.", "zh": "put+out。"}
+{"id": 60216, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "out", "replaces": "out", "sentence": "Put out now.", "zh": "put+out。"}
+{"id": 60217, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "on", "replaces": "on", "sentence": "Put on.", "zh": "put+on。"}
+{"id": 60218, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "on", "replaces": "on", "sentence": "Please put on.", "zh": "put+on。"}
+{"id": 60219, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "on", "replaces": "on", "sentence": "Put on now.", "zh": "put+on。"}
+{"id": 60220, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "off", "replaces": "off", "sentence": "Put off.", "zh": "put+off。"}
+{"id": 60221, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "off", "replaces": "off", "sentence": "Please put off.", "zh": "put+off。"}
+{"id": 60222, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "off", "replaces": "off", "sentence": "Put off now.", "zh": "put+off。"}
+{"id": 60223, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "up", "replaces": "up", "sentence": "Put up.", "zh": "put+up。"}
+{"id": 60224, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "up", "replaces": "up", "sentence": "Please put up.", "zh": "put+up。"}
+{"id": 60225, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "up", "replaces": "up", "sentence": "Put up now.", "zh": "put+up。"}
+{"id": 60226, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "down", "replaces": "down", "sentence": "Put down.", "zh": "put+down。"}
+{"id": 60227, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "down", "replaces": "down", "sentence": "Please put down.", "zh": "put+down。"}
+{"id": 60228, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "down", "replaces": "down", "sentence": "Put down now.", "zh": "put+down。"}
+{"id": 60229, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "back", "replaces": "back", "sentence": "Put back.", "zh": "put+back。"}
+{"id": 60230, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "back", "replaces": "back", "sentence": "Please put back.", "zh": "put+back。"}
+{"id": 60231, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "back", "replaces": "back", "sentence": "Put back now.", "zh": "put+back。"}
+{"id": 60232, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "over", "replaces": "over", "sentence": "Put over.", "zh": "put+over。"}
+{"id": 60233, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "over", "replaces": "over", "sentence": "Please put over.", "zh": "put+over。"}
+{"id": 60234, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "over", "replaces": "over", "sentence": "Put over now.", "zh": "put+over。"}
+{"id": 60235, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "through", "replaces": "through", "sentence": "Put through.", "zh": "put+through。"}
+{"id": 60236, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "through", "replaces": "through", "sentence": "Please put through.", "zh": "put+through。"}
+{"id": 60237, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "through", "replaces": "through", "sentence": "Put through now.", "zh": "put+through。"}
+{"id": 60238, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "about", "sentence": "Put about.", "zh": "put+about。"}
+{"id": 60239, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "about", "sentence": "Please put about.", "zh": "put+about。"}
+{"id": 60240, "step": 1, "type": "op_dir_combo", "operator": "put", "direction": "about", "replaces": "about", "sentence": "Put about now.", "zh": "put+about。"}
+{"id": 60241, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "in", "replaces": "in", "sentence": "Take in.", "zh": "take+in。"}
+{"id": 60242, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "in", "replaces": "in", "sentence": "Please take in.", "zh": "take+in。"}
+{"id": 60243, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "in", "replaces": "in", "sentence": "Take in now.", "zh": "take+in。"}
+{"id": 60244, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "out", "replaces": "out", "sentence": "Take out.", "zh": "take+out。"}
+{"id": 60245, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "out", "replaces": "out", "sentence": "Please take out.", "zh": "take+out。"}
+{"id": 60246, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "out", "replaces": "out", "sentence": "Take out now.", "zh": "take+out。"}
+{"id": 60247, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "on", "replaces": "on", "sentence": "Take on.", "zh": "take+on。"}
+{"id": 60248, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "on", "replaces": "on", "sentence": "Please take on.", "zh": "take+on。"}
+{"id": 60249, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "on", "replaces": "on", "sentence": "Take on now.", "zh": "take+on。"}
+{"id": 60250, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "off", "replaces": "off", "sentence": "Take off.", "zh": "take+off。"}
+{"id": 60251, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "off", "replaces": "off", "sentence": "Please take off.", "zh": "take+off。"}
+{"id": 60252, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "off", "replaces": "off", "sentence": "Take off now.", "zh": "take+off。"}
+{"id": 60253, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "up", "replaces": "up", "sentence": "Take up.", "zh": "take+up。"}
+{"id": 60254, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "up", "replaces": "up", "sentence": "Please take up.", "zh": "take+up。"}
+{"id": 60255, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "up", "replaces": "up", "sentence": "Take up now.", "zh": "take+up。"}
+{"id": 60256, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "down", "replaces": "down", "sentence": "Take down.", "zh": "take+down。"}
+{"id": 60257, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "down", "replaces": "down", "sentence": "Please take down.", "zh": "take+down。"}
+{"id": 60258, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "down", "replaces": "down", "sentence": "Take down now.", "zh": "take+down。"}
+{"id": 60259, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "back", "replaces": "back", "sentence": "Take back.", "zh": "take+back。"}
+{"id": 60260, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "back", "replaces": "back", "sentence": "Please take back.", "zh": "take+back。"}
+{"id": 60261, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "back", "replaces": "back", "sentence": "Take back now.", "zh": "take+back。"}
+{"id": 60262, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "over", "replaces": "over", "sentence": "Take over.", "zh": "take+over。"}
+{"id": 60263, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "over", "replaces": "over", "sentence": "Please take over.", "zh": "take+over。"}
+{"id": 60264, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "over", "replaces": "over", "sentence": "Take over now.", "zh": "take+over。"}
+{"id": 60265, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "through", "replaces": "through", "sentence": "Take through.", "zh": "take+through。"}
+{"id": 60266, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "through", "replaces": "through", "sentence": "Please take through.", "zh": "take+through。"}
+{"id": 60267, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "through", "replaces": "through", "sentence": "Take through now.", "zh": "take+through。"}
+{"id": 60268, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "about", "replaces": "about", "sentence": "Take about.", "zh": "take+about。"}
+{"id": 60269, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "about", "replaces": "about", "sentence": "Please take about.", "zh": "take+about。"}
+{"id": 60270, "step": 1, "type": "op_dir_combo", "operator": "take", "direction": "about", "replaces": "about", "sentence": "Take about now.", "zh": "take+about。"}
+{"id": 60271, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "in", "replaces": "in", "sentence": "Be in.", "zh": "be+in。"}
+{"id": 60272, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "in", "replaces": "in", "sentence": "Please be in.", "zh": "be+in。"}
+{"id": 60273, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "in", "replaces": "in", "sentence": "Be in now.", "zh": "be+in。"}
+{"id": 60274, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "out", "replaces": "out", "sentence": "Be out.", "zh": "be+out。"}
+{"id": 60275, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "out", "replaces": "out", "sentence": "Please be out.", "zh": "be+out。"}
+{"id": 60276, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "out", "replaces": "out", "sentence": "Be out now.", "zh": "be+out。"}
+{"id": 60277, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "on", "replaces": "on", "sentence": "Be on.", "zh": "be+on。"}
+{"id": 60278, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "on", "replaces": "on", "sentence": "Please be on.", "zh": "be+on。"}
+{"id": 60279, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "on", "replaces": "on", "sentence": "Be on now.", "zh": "be+on。"}
+{"id": 60280, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "off", "replaces": "off", "sentence": "Be off.", "zh": "be+off。"}
+{"id": 60281, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "off", "replaces": "off", "sentence": "Please be off.", "zh": "be+off。"}
+{"id": 60282, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "off", "replaces": "off", "sentence": "Be off now.", "zh": "be+off。"}
+{"id": 60283, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "up", "replaces": "up", "sentence": "Be up.", "zh": "be+up。"}
+{"id": 60284, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "up", "replaces": "up", "sentence": "Please be up.", "zh": "be+up。"}
+{"id": 60285, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "up", "replaces": "up", "sentence": "Be up now.", "zh": "be+up。"}
+{"id": 60286, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "down", "sentence": "Be down.", "zh": "be+down。"}
+{"id": 60287, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "down", "sentence": "Please be down.", "zh": "be+down。"}
+{"id": 60288, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "down", "replaces": "down", "sentence": "Be down now.", "zh": "be+down。"}
+{"id": 60289, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "back", "replaces": "back", "sentence": "Be back.", "zh": "be+back。"}
+{"id": 60290, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "back", "replaces": "back", "sentence": "Please be back.", "zh": "be+back。"}
+{"id": 60291, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "back", "replaces": "back", "sentence": "Be back now.", "zh": "be+back。"}
+{"id": 60292, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "over", "replaces": "over", "sentence": "Be over.", "zh": "be+over。"}
+{"id": 60293, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "over", "replaces": "over", "sentence": "Please be over.", "zh": "be+over。"}
+{"id": 60294, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "over", "replaces": "over", "sentence": "Be over now.", "zh": "be+over。"}
+{"id": 60295, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "through", "replaces": "through", "sentence": "Be through.", "zh": "be+through。"}
+{"id": 60296, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "through", "replaces": "through", "sentence": "Please be through.", "zh": "be+through。"}
+{"id": 60297, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "through", "replaces": "through", "sentence": "Be through now.", "zh": "be+through。"}
+{"id": 60298, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "about", "replaces": "about", "sentence": "Be about.", "zh": "be+about。"}
+{"id": 60299, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "about", "replaces": "about", "sentence": "Please be about.", "zh": "be+about。"}
+{"id": 60300, "step": 1, "type": "op_dir_combo", "operator": "be", "direction": "about", "replaces": "about", "sentence": "Be about now.", "zh": "be+about。"}
+{"id": 60301, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "She works in an office.", "zh": "她在办公室工作。"}
+{"id": 60302, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "He does his work well.", "zh": "他工作做得好。"}
+{"id": 60303, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "We do our work together.", "zh": "我们一起工作。"}
+{"id": 60304, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "They keep on with the work.", "zh": "他们继续工作。"}
+{"id": 60305, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "I make a great effort at work.", "zh": "我在工作中付出了很大的努力。"}
+{"id": 60306, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "She gives her time to the work.", "zh": "她把时间投入工作。"}
+{"id": 60307, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "He has responsibility for the work.", "zh": "他对工作有责任。"}
+{"id": 60308, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "We make decisions together at work.", "zh": "我们在工作中一起做决定。"}
+{"id": 60309, "step": 3, "type": "scene_sentence", "scene": "Work", "sentence": "They see the work through.", "zh": "他们把工作做到底。"}
+{"id": 60310, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "I go to the store.", "zh": "我去商店。"}
+{"id": 60311, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "She takes a book from the shelf.", "zh": "她从书架上拿了一本书。"}
+{"id": 60312, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "He gives money for the book.", "zh": "他付了书的钱。"}
+{"id": 60313, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "We have a good time shopping.", "zh": "我们购物很开心。"}
+{"id": 60314, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "They make a request for help.", "zh": "他们请求帮助。"}
+{"id": 60315, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "I do my shopping in the morning.", "zh": "我早上购物。"}
+{"id": 60316, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "She keeps the money in her pocket.", "zh": "她把钱放在口袋里。"}
+{"id": 60317, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "He sees to the business.", "zh": "他处理了事务。"}
+{"id": 60318, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "We give back the change.", "zh": "我们找回了零钱。"}
+{"id": 60319, "step": 3, "type": "scene_sentence", "scene": "Shopping", "sentence": "They take the things home.", "zh": "他们把东西带回家。"}
+{"id": 60320, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "I go to the doctor.", "zh": "我去看医生。"}
+{"id": 60321, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "She has a pain in her head.", "zh": "她头疼。"}
+{"id": 60322, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "He gives me some medicine.", "zh": "他给了我一些药。"}
+{"id": 60323, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "We keep warm and rest.", "zh": "我们保持温暖和休息。"}
+{"id": 60324, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "They make a request for help.", "zh": "他们请求帮助。"}
+{"id": 60325, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "She sees to the baby.", "zh": "她照顾婴儿。"}
+{"id": 60326, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "We do no harm to ourselves.", "zh": "我们不伤害自己。"}
+{"id": 60327, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "They get over the cold.", "zh": "他们克服了感冒。"}
