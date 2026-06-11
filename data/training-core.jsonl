@@ -1797,3 +1797,101 @@
 {"id": 80004, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "off", "replaces": "disembark", "sentence": "Get off at the next station.", "zh": "在下一站下车。"}
 {"id": 80005, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "on", "replaces": "board", "sentence": "Get on with your work.", "zh": "继续你的工作。"}
 {"id": 80006, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "maintain", "sentence": "Keep up with them.", "zh": "跟上他们。"}
+{"id": 30001, "step": 3, "type": "scene_sentence", "scene": "Waking Up", "sentence": "I get up at six every morning.", "zh": "我每天早上六点起床。"}
+{"id": 30002, "step": 3, "type": "scene_sentence", "scene": "Waking Up", "sentence": "She gets up early in the morning.", "zh": "她早上起得早。"}
+{"id": 30004, "step": 3, "type": "scene_sentence", "scene": "Waking Up", "sentence": "He got up from his bed.", "zh": "他从床上起来了。"}
+{"id": 30005, "step": 3, "type": "scene_sentence", "scene": "Getting Dressed", "sentence": "I put on my coat.", "zh": "我穿上外套。"}
+{"id": 30006, "step": 3, "type": "scene_sentence", "scene": "Getting Dressed", "sentence": "She puts on her dress.", "zh": "她穿上裙子。"}
+{"id": 30007, "step": 3, "type": "scene_sentence", "scene": "Getting Dressed", "sentence": "Put your gloves on.", "zh": "戴上手套。"}
+{"id": 30009, "step": 3, "type": "scene_sentence", "scene": "Breakfast", "sentence": "I have bread and butter for breakfast.", "zh": "我早餐吃面包和黄油。"}
+{"id": 30010, "step": 3, "type": "scene_sentence", "scene": "Breakfast", "sentence": "She puts butter on the bread.", "zh": "她在面包上涂黄油。"}
+{"id": 30011, "step": 3, "type": "scene_sentence", "scene": "Breakfast", "sentence": "He drinks milk every morning.", "zh": "他每天早上喝牛奶。"}
+{"id": 30013, "step": 3, "type": "scene_sentence", "scene": "Going to Work", "sentence": "He went to work early.", "zh": "他很早就去上班了。"}
+{"id": 30014, "step": 3, "type": "scene_sentence", "scene": "Going to Work", "sentence": "They go to work together.", "zh": "他们一起去上班。"}
+{"id": 30015, "step": 3, "type": "scene_sentence", "scene": "At the Office", "sentence": "I do my work at the office.", "zh": "我在办公室工作。"}
+{"id": 30016, "step": 3, "type": "scene_sentence", "scene": "At the Office", "sentence": "She puts her paper on the table.", "zh": "她把文件放在桌子上。"}
+{"id": 30018, "step": 3, "type": "scene_sentence", "scene": "Cooking Dinner", "sentence": "I make a meal at home.", "zh": "我在家做饭。"}
+{"id": 30019, "step": 3, "type": "scene_sentence", "scene": "Cooking Dinner", "sentence": "She puts the pot on the fire.", "zh": "她把锅放在火上。"}
+{"id": 30020, "step": 3, "type": "scene_sentence", "scene": "Cooking Dinner", "sentence": "Put some water in the pot.", "zh": "把一些水放进锅里。"}
+{"id": 30021, "step": 3, "type": "scene_sentence", "scene": "Eating Dinner", "sentence": "Come to the table.", "zh": "来桌子这边。"}
+{"id": 30022, "step": 3, "type": "scene_sentence", "scene": "Eating Dinner", "sentence": "Give me the bread.", "zh": "给我面包。"}
+{"id": 30023, "step": 3, "type": "scene_sentence", "scene": "Eating Dinner", "sentence": "Put some salt on the meat.", "zh": "在肉上放些盐。"}
+{"id": 30024, "step": 3, "type": "scene_sentence", "scene": "Eating Dinner", "sentence": "The meal is good.", "zh": "饭很好。"}
+{"id": 30025, "step": 3, "type": "scene_sentence", "scene": "Washing Dishes", "sentence": "I put the plates in the water.", "zh": "我把盘子放进水里。"}
+{"id": 30026, "step": 3, "type": "scene_sentence", "scene": "Washing Dishes", "sentence": "She takes the cloth and makes the plates clean.", "zh": "她拿起布把盘子擦干净。"}
+{"id": 30027, "step": 3, "type": "scene_sentence", "scene": "Washing Dishes", "sentence": "He put the dishes away.", "zh": "他把碗碟收起来了。"}
+{"id": 30028, "step": 3, "type": "scene_sentence", "scene": "Watching TV", "sentence": "I see a picture on the television.", "zh": "我在电视上看到一幅画面。"}
+{"id": 30029, "step": 3, "type": "scene_sentence", "scene": "Watching TV", "sentence": "Put the light on.", "zh": "把灯打开。"}
+{"id": 30030, "step": 3, "type": "scene_sentence", "scene": "Watching TV", "sentence": "Come and see this.", "zh": "过来看看这个。"}
+{"id": 30031, "step": 3, "type": "scene_sentence", "scene": "Going to Bed", "sentence": "I go to bed at night.", "zh": "我晚上去睡觉。"}
+{"id": 30032, "step": 3, "type": "scene_sentence", "scene": "Going to Bed", "sentence": "She puts her dress off.", "zh": "她脱掉裙子。"}
+{"id": 30033, "step": 3, "type": "scene_sentence", "scene": "Going to Bed", "sentence": "He put down the book.", "zh": "他放下了书。"}
+{"id": 30035, "step": 3, "type": "scene_sentence", "scene": "Brushing Teeth", "sentence": "I make my teeth clean every morning.", "zh": "我每天早上刷牙。"}
+{"id": 30036, "step": 3, "type": "scene_sentence", "scene": "Brushing Teeth", "sentence": "She puts some water on the brush.", "zh": "她在刷子上放些水。"}
+{"id": 30037, "step": 3, "type": "scene_sentence", "scene": "Brushing Teeth", "sentence": "Put the brush away.", "zh": "把刷子收起来。"}
+{"id": 30038, "step": 3, "type": "scene_sentence", "scene": "Taking a Bath", "sentence": "I take a bath in the morning.", "zh": "我早上洗澡。"}
+{"id": 30039, "step": 3, "type": "scene_sentence", "scene": "Taking a Bath", "sentence": "She puts hot water in the bath.", "zh": "她把热水放进浴缸。"}
+{"id": 30040, "step": 3, "type": "scene_sentence", "scene": "Taking a Bath", "sentence": "The water is warm.", "zh": "水是温暖的。"}
+{"id": 30041, "step": 3, "type": "scene_sentence", "scene": "Cleaning the House", "sentence": "I make my house clean.", "zh": "我把房子打扫干净。"}
+{"id": 30042, "step": 3, "type": "scene_sentence", "scene": "Cleaning the House", "sentence": "She puts things in the box.", "zh": "她把东西放进盒子里。"}
+{"id": 30043, "step": 3, "type": "scene_sentence", "scene": "Cleaning the House", "sentence": "He took the dirt away.", "zh": "他把灰尘扫走了。"}
+{"id": 30044, "step": 3, "type": "scene_sentence", "scene": "Doing Laundry", "sentence": "I make my clothes clean.", "zh": "我把衣服洗干净。"}
+{"id": 30045, "step": 3, "type": "scene_sentence", "scene": "Doing Laundry", "sentence": "She puts the cloth in the water.", "zh": "她把布放进水里。"}
+{"id": 30046, "step": 3, "type": "scene_sentence", "scene": "Doing Laundry", "sentence": "The cloth is clean now.", "zh": "布现在干净了。"}
+{"id": 30047, "step": 3, "type": "scene_sentence", "scene": "Watering Plants", "sentence": "I put water on the plants.", "zh": "我给植物浇水。"}
+{"id": 30048, "step": 3, "type": "scene_sentence", "scene": "Watering Plants", "sentence": "The flower comes out in spring.", "zh": "花在春天开。"}
+{"id": 30050, "step": 3, "type": "scene_sentence", "scene": "Feeding Pets", "sentence": "I give food to my dog.", "zh": "我给我的狗食物。"}
+{"id": 30051, "step": 3, "type": "scene_sentence", "scene": "Feeding Pets", "sentence": "She puts water out for the cat.", "zh": "她给猫准备了水。"}
+{"id": 30052, "step": 3, "type": "scene_sentence", "scene": "Feeding Pets", "sentence": "Give some milk to the cat.", "zh": "给猫一些牛奶。"}
+{"id": 30053, "step": 3, "type": "scene_sentence", "scene": "Greeting Someone", "sentence": "I say hello to my friend.", "zh": "我对朋友说你好。"}
+{"id": 30054, "step": 3, "type": "scene_sentence", "scene": "Greeting Someone", "sentence": "She gives me a smile.", "zh": "她对我微笑。"}
+{"id": 30055, "step": 3, "type": "scene_sentence", "scene": "Greeting Someone", "sentence": "He says good morning.", "zh": "他说早上好。"}
+{"id": 30057, "step": 3, "type": "scene_sentence", "scene": "Saying Goodbye", "sentence": "I say goodbye to my friend.", "zh": "我对朋友说再见。"}
+{"id": 30058, "step": 3, "type": "scene_sentence", "scene": "Saying Goodbye", "sentence": "Come back soon.", "zh": "快点回来。"}
+{"id": 30059, "step": 3, "type": "scene_sentence", "scene": "Saying Goodbye", "sentence": "He went off without a word.", "zh": "他一句话没说就走了。"}
+{"id": 30060, "step": 3, "type": "scene_sentence", "scene": "Thanking Someone", "sentence": "I give thanks to my friend.", "zh": "我感谢我的朋友。"}
+{"id": 30061, "step": 3, "type": "scene_sentence", "scene": "Thanking Someone", "sentence": "She says thank you.", "zh": "她说谢谢。"}
+{"id": 30062, "step": 3, "type": "scene_sentence", "scene": "Thanking Someone", "sentence": "I give my thanks to the teacher.", "zh": "我感谢老师。"}
+{"id": 30063, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I say sorry to my friend.", "zh": "我对朋友说对不起。"}
+{"id": 30064, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "He let me down.", "zh": "他让我失望了。"}
+{"id": 30067, "step": 3, "type": "scene_sentence", "scene": "Asking for Help", "sentence": "I make a request for help.", "zh": "我请求帮助。"}
+{"id": 30068, "step": 3, "type": "scene_sentence", "scene": "Asking for Help", "sentence": "She gives help to the old man.", "zh": "她帮助了老人。"}
+{"id": 30069, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I go to the office for an interview.", "zh": "我去办公室面试。"}
+{"id": 30070, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I give the answer to all questions.", "zh": "我回答了所有问题。"}
+{"id": 30071, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "He makes a good impression.", "zh": "他给人留下了好印象。"}
+{"id": 30072, "step": 3, "type": "scene_sentence", "scene": "Giving a Presentation", "sentence": "I give a talk to the group.", "zh": "我给团队做了一次演讲。"}
+{"id": 30073, "step": 3, "type": "scene_sentence", "scene": "Giving a Presentation", "sentence": "He keeps on talking.", "zh": "他继续说着。"}
+{"id": 30076, "step": 3, "type": "scene_sentence", "scene": "In a Meeting", "sentence": "She puts up a new idea.", "zh": "她提出了一个新想法。"}
+{"id": 30078, "step": 3, "type": "scene_sentence", "scene": "Booking a Hotel", "sentence": "I make a request for a room.", "zh": "我请求一个房间。"}
+{"id": 30079, "step": 3, "type": "scene_sentence", "scene": "Booking a Hotel", "sentence": "Give your name and address.", "zh": "给出你的名字和地址。"}
+{"id": 30081, "step": 3, "type": "scene_sentence", "scene": "Checking into a Hotel", "sentence": "I come in through the front door.", "zh": "我从前门进来。"}
+{"id": 30082, "step": 3, "type": "scene_sentence", "scene": "Checking into a Hotel", "sentence": "Put your name on the paper.", "zh": "在纸上写下你的名字。"}
+{"id": 30083, "step": 3, "type": "scene_sentence", "scene": "Checking into a Hotel", "sentence": "Give me the key to my room.", "zh": "给我房间的钥匙。"}
+{"id": 30085, "step": 3, "type": "scene_sentence", "scene": "At a Restaurant", "sentence": "Give me some bread and water.", "zh": "给我一些面包和水。"}
+{"id": 30087, "step": 3, "type": "scene_sentence", "scene": "Asking for Directions", "sentence": "Where is the station?", "zh": "车站在哪里？"}
+{"id": 30088, "step": 3, "type": "scene_sentence", "scene": "Asking for Directions", "sentence": "I give you my thanks.", "zh": "我感谢你。"}
+{"id": 30090, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "The plane takes off at six.", "zh": "飞机六点起飞。"}
+{"id": 30091, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "Get on the plane.", "zh": "上飞机。"}
+{"id": 30093, "step": 3, "type": "scene_sentence", "scene": "Fire Emergency", "sentence": "Put out the fire with water.", "zh": "用水灭火。"}
+{"id": 30096, "step": 3, "type": "scene_sentence", "scene": "Medical Emergency", "sentence": "Keep the person warm.", "zh": "保持那个人温暖。"}
+{"id": 30097, "step": 3, "type": "scene_sentence", "scene": "Medical Emergency", "sentence": "See to the person.", "zh": "照顾那个人。"}
+{"id": 30098, "step": 3, "type": "scene_sentence", "scene": "Calling the Police", "sentence": "Send for the police.", "zh": "派人去叫警察。"}
+{"id": 30100, "step": 3, "type": "scene_sentence", "scene": "Calling the Police", "sentence": "Keep out of danger.", "zh": "远离危险。"}
+{"id": 30101, "step": 3, "type": "scene_sentence", "scene": "Lost Wallet", "sentence": "I cannot find my money.", "zh": "我找不到我的钱。"}
+{"id": 30102, "step": 3, "type": "scene_sentence", "scene": "Lost Wallet", "sentence": "Get back what you lost.", "zh": "找回你丢失的东西。"}
+{"id": 30103, "step": 3, "type": "scene_sentence", "scene": "Lost Wallet", "sentence": "See about the problem.", "zh": "处理这个问题。"}
+{"id": 30104, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "The light went off.", "zh": "灯灭了。"}
+{"id": 30105, "step": 3, "type": "scene_sentence", "scene": "Power Outage", "sentence": "Put the fire on.", "zh": "生火。"}
+{"id": 30107, "step": 3, "type": "scene_sentence", "scene": "Car Breakdown", "sentence": "The car is not going.", "zh": "车不走了。"}
+{"id": 30108, "step": 3, "type": "scene_sentence", "scene": "Car Breakdown", "sentence": "Send for help.", "zh": "去求助。"}
+{"id": 30109, "step": 3, "type": "scene_sentence", "scene": "Car Breakdown", "sentence": "Put the car in a safe place.", "zh": "把车放在安全的地方。"}
+{"id": 30110, "step": 3, "type": "scene_sentence", "scene": "At the Beach", "sentence": "The sea is beautiful.", "zh": "大海很美。"}
+{"id": 30111, "step": 3, "type": "scene_sentence", "scene": "At the Beach", "sentence": "Put on your swimming clothing.", "zh": "穿上你的泳装。"}
+{"id": 30112, "step": 3, "type": "scene_sentence", "scene": "At the Beach", "sentence": "The sand is warm.", "zh": "沙子是温暖的。"}
+{"id": 30113, "step": 3, "type": "scene_sentence", "scene": "Hiking", "sentence": "We go up the mountain.", "zh": "我们上山。"}
+{"id": 30114, "step": 3, "type": "scene_sentence", "scene": "Hiking", "sentence": "Keep on going.", "zh": "继续走。"}
+{"id": 30115, "step": 3, "type": "scene_sentence", "scene": "Hiking", "sentence": "The view from the top is beautiful.", "zh": "从顶上看风景很美。"}
+{"id": 30116, "step": 3, "type": "scene_sentence", "scene": "Sightseeing", "sentence": "The building is beautiful.", "zh": "建筑很美。"}
+{"id": 30117, "step": 3, "type": "scene_sentence", "scene": "Sightseeing", "sentence": "Go up and see the view.", "zh": "上去看看景色。"}
+{"id": 30119, "step": 3, "type": "scene_sentence", "scene": "Taking Photos", "sentence": "I take a picture of the family.", "zh": "我给家人拍了一张照片。"}
+{"id": 30121, "step": 3, "type": "scene_sentence", "scene": "Taking Photos", "sentence": "The picture is beautiful.", "zh": "照片很美。"}
