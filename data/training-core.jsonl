@@ -1791,3 +1791,9 @@
 {"id": 60325, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "She sees to the baby.", "zh": "她照顾婴儿。"}
 {"id": 60326, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "We do no harm to ourselves.", "zh": "我们不伤害自己。"}
 {"id": 60327, "step": 3, "type": "scene_sentence", "scene": "At the Doctor", "sentence": "They get over the cold.", "zh": "他们克服了感冒。"}
+{"id": 80001, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "through", "replaces": "survive", "sentence": "He came through the war.", "zh": "他经历了战争。"}
+{"id": 80002, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "out", "replaces": "exit", "sentence": "Get out and see the air.", "zh": "出去透透气。"}
+{"id": 80003, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "in", "replaces": "enter", "sentence": "Get in and be quick.", "zh": "进来快点。"}
+{"id": 80004, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "off", "replaces": "disembark", "sentence": "Get off at the next station.", "zh": "在下一站下车。"}
+{"id": 80005, "step": 1, "type": "op_dir_combo", "operator": "get", "direction": "on", "replaces": "board", "sentence": "Get on with your work.", "zh": "继续你的工作。"}
+{"id": 80006, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "maintain", "sentence": "Keep up with them.", "zh": "跟上他们。"}
