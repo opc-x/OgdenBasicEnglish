@@ -19,213 +19,109 @@ const TABS: { id: Tab; label: string; desc: string }[] = [
   { id: "scene", label: "场景挑战", desc: "课文场景 → 你说出来" },
 ];
 
-// ── Training Tab: group sentences by operator ──
+// ── Training Tab: numbered list with speaker icon + English + Chinese ──
 function TrainingTab() {
-  // Group Step 1 sentences by operator
   const step1ByOp = useMemo(() => {
     const map = new Map<string, TrainingSentence[]>();
-    for (const s of TRAINING_SENTENCES) {
-      if (s.step === 1 && s.operator) {
-        if (!map.has(s.operator)) map.set(s.operator, []);
-        map.get(s.operator)!.push(s);
-      }
+    for (const s of TRAINING_SENTENCES) if (s.step === 1 && s.operator) {
+      if (!map.has(s.operator)) map.set(s.operator, []);
+      map.get(s.operator)!.push(s);
     }
     return map;
   }, []);
 
-  // Step 2: op+noun combos
   const step2Groups = useMemo(() => {
-    const groups: { label: string; sentences: TrainingSentence[] }[] = [];
-    let current: TrainingSentence[] = [];
-    let currentLabel = "";
+    const groups: { label: string; replaces: string; sentences: TrainingSentence[] }[] = [];
+    let cur: TrainingSentence[] = []; let cl = ""; let cr = "";
     for (const s of TRAINING_SENTENCES) {
       if (s.step !== 2) continue;
-      const label = `${s.operator} + ${s.noun} = ${s.replaces}`;
-      if (label !== currentLabel) {
-        if (current.length > 0) groups.push({ label: currentLabel, sentences: current });
-        current = [];
-        currentLabel = label;
-      }
-      current.push(s);
+      const k = `${s.operator}+${s.noun}`;
+      if (k !== cl) { if (cur.length) groups.push({label:cl,replaces:cr,sentences:cur}); cur=[]; cl=k; cr=s.replaces||""; }
+      cur.push(s);
     }
-    if (current.length > 0) groups.push({ label: currentLabel, sentences: current });
+    if (cur.length) groups.push({label:cl,replaces:cr,sentences:cur});
     return groups;
   }, []);
 
-  // Step 3: scene sentences
   const step3ByScene = useMemo(() => {
     const map = new Map<string, TrainingSentence[]>();
-    for (const s of TRAINING_SENTENCES) {
-      if (s.step === 3 && s.scene) {
-        if (!map.has(s.scene)) map.set(s.scene, []);
-        map.get(s.scene)!.push(s);
-      }
+    for (const s of TRAINING_SENTENCES) if (s.step === 3 && s.scene) {
+      if (!map.has(s.scene)) map.set(s.scene, []);
+      map.get(s.scene)!.push(s);
     }
     return map;
   }, []);
 
-  const [activeStep, setActiveStep] = useState<1 | 2 | 3>(1);
-  const [expandedOps, setExpandedOps] = useState<Set<string>>(new Set(["put", "take", "go"]));
-  const [expandedCombos, setExpandedCombos] = useState<Set<string>>(new Set());
-  const [showTranslation, setShowTranslation] = useState(true);
+  const [activeStep, setActiveStep] = useState<1|2|3>(1);
+  const [expandedOps, setExpandedOps] = useState<Set<string>>(new Set(["put","take","go"]));
 
-  const toggleOp = (op: string) => {
-    const next = new Set(expandedOps);
-    if (next.has(op)) next.delete(op); else next.add(op);
-    setExpandedOps(next);
+  const toggleOp = (op:string) => {
+    const n = new Set(expandedOps); n.has(op)?n.delete(op):n.add(op); setExpandedOps(n);
   };
 
-  const toggleCombo = (combo: string) => {
-    const next = new Set(expandedCombos);
-    if (next.has(combo)) next.delete(combo); else next.add(combo);
-    setExpandedCombos(next);
-  };
+  const renderRow = (s:TrainingSentence, idx:number) => (
+    <li key={s.id} className="training-row">
+      <span className="training-row-num">{idx+1}</span>
+      <button className="training-row-speaker" onClick={() => speakText(s.sentence)} title="Sonia 英式女声朗读" aria-label="朗读">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+      </button>
+      <span className="training-row-en">{s.sentence}</span>
+      {s.zh && <span className="training-row-zh">{s.zh}</span>}
+    </li>
+  );
 
   return (
     <div className="training-tab">
-      <div className="training-controls">
-        <div className="training-step-tabs">
-          <button className={`training-step-btn${activeStep === 1 ? " active" : ""}`} onClick={() => setActiveStep(1)}>
-            Step 1 · Operator×方向词 <span className="training-step-count">{TRAINING_SENTENCES.filter(s => s.step === 1).length}句</span>
-          </button>
-          <button className={`training-step-btn${activeStep === 2 ? " active" : ""}`} onClick={() => setActiveStep(2)}>
-            Step 2 · Operator+名词 <span className="training-step-count">{TRAINING_SENTENCES.filter(s => s.step === 2).length}句</span>
-          </button>
-          <button className={`training-step-btn${activeStep === 3 ? " active" : ""}`} onClick={() => setActiveStep(3)}>
-            Step 3 · 场景句 <span className="training-step-count">{TRAINING_SENTENCES.filter(s => s.step === 3).length}句</span>
-          </button>
-        </div>
-        <label className="training-toggle">
-          <input type="checkbox" checked={showTranslation} onChange={() => setShowTranslation(!showTranslation)} />
-          显示替换动词
-        </label>
+      <div className="training-step-tabs">
+        <button className={`training-step-btn${activeStep===1?" active":""}`} onClick={()=>setActiveStep(1)}>Step 1 · 动作替换 <em>{step1ByOp.size}operator{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===1).length}句</em></button>
+        <button className={`training-step-btn${activeStep===2?" active":""}`} onClick={()=>setActiveStep(2)}>Step 2 · 抽象替换 <em>{step2Groups.length}组合{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===2).length}句</em></button>
+        <button className={`training-step-btn${activeStep===3?" active":""}`} onClick={()=>setActiveStep(3)}>Step 3 · 场景句 <em>{step3ByScene.size}场景{'\u00b7'}{TRAINING_SENTENCES.filter(s=>s.step===3).length}句</em></button>
       </div>
 
-      {/* Step 1: Op × Direction */}
-      {activeStep === 1 && (
-        <div className="training-step1">
-          <p className="practice-hint">
-            18 operator × 方向词 = 短语动词，替代 4000+ 普通动词。点喇叭朗读，跟着说。
-          </p>
-          {Array.from(step1ByOp.entries()).sort().map(([op, sentences]) => {
-            // Get unique direction combos
-            const combos = Array.from(new Map(sentences.map(s => [`${op}+${s.direction}`, s.replaces])).entries());
-            const isExpanded = expandedOps.has(op);
+      {activeStep===1 && (
+        <div>
+          {Array.from(step1ByOp.entries()).sort().map(([op,sentences])=>{
+            const dirs = new Map<string,TrainingSentence[]>();
+            for (const s of sentences) { const d=s.direction||""; if(!dirs.has(d)) dirs.set(d,[]); dirs.get(d)!.push(s); }
+            const open = expandedOps.has(op);
             return (
-              <div key={op} className="training-operator-group">
-                <button className="training-operator-header" onClick={() => toggleOp(op)}>
-                  <span className="training-op-name">{op}</span>
-                  <span className="training-op-meta">{combos.length} 个组合 · {sentences.length} 句</span>
-                  <span className={`training-op-arrow${isExpanded ? " open" : ""}`}>▼</span>
+              <div key={op} className="training-op-block">
+                <button className="training-op-header" onClick={()=>toggleOp(op)}>
+                  <strong className="training-op-name">{op}</strong>
+                  <span className="training-op-meta">{dirs.size}个方向词{'\u00b7'}{sentences.length}句{'\u00b7'}{Array.from(dirs.keys()).sort().join(', ')}</span>
+                  <span className={`training-op-arrow${open?" open":""}`}>▼</span>
                 </button>
-                {isExpanded && (
-                  <div className="training-operator-body">
-                    {combos.map(([combo, replaces]) => {
-                      const comboDir = combo.split("+")[1] || "";
-                      const comboSentences = sentences.filter(s => s.direction === comboDir);
-                      return (
-                        <div key={combo} className="training-combo-row">
-                          <div className="training-combo-label">
-                            <code>{combo}</code>
-                            {showTranslation && <span className="training-replaces"> = {replaces}</span>}
-                          </div>
-                          <div className="training-combo-sentences">
-                            {(() => {
-                              const isExpanded = expandedCombos.has(combo);
-                              const displaySentences = isExpanded ? comboSentences : comboSentences.slice(0, 6);
-                              return (
-                                <>
-                                  {displaySentences.map((s, i) => (
-                                    <button key={i} className="training-sentence-btn" onClick={() => speakText(s.sentence)} title="点击朗读">
-                                      {s.sentence}
-                                    </button>
-                                  ))}
-                                  {comboSentences.length > 6 && (
-                                    <button
-                                      className="training-more-btn"
-                                      onClick={() => toggleCombo(combo)}
-                                      style={{
-                                        background: "none",
-                                        border: "1px dashed var(--border-color, #ccc)",
-                                        borderRadius: "6px",
-                                        padding: "4px 12px",
-                                        fontSize: "0.85em",
-                                        color: "var(--text-secondary, #666)",
-                                        cursor: "pointer",
-                                        marginTop: "4px",
-                                        display: "block",
-                                        width: "100%",
-                                        textAlign: "center",
-                                      }}
-                                    >
-                                      {isExpanded ? "收起" : `+${comboSentences.length - 6} more`}
-                                    </button>
-                                  )}
-                                </>
-                              );
-                            })()}
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
+                {open && <div className="training-op-body">
+                  {Array.from(dirs.entries()).sort().map(([dir,ds])=>(
+                    <div key={dir} className="training-dir-group">
+                      <div className="training-dir-label"><code>{op} + {dir}</code>{ds[0]?.replaces&&<span className="training-replaces"> = {ds[0].replaces}</span>}</div>
+                      <ol className="training-sentence-list">{ds.map((s,i)=>renderRow(s,i))}</ol>
+                    </div>
+                  ))}
+                </div>}
               </div>
             );
           })}
         </div>
       )}
 
-      {/* Step 2: Op + Noun */}
-      {activeStep === 2 && (
-        <div className="training-step2">
-          <p className="practice-hint">
-            operator + 名词 = 替代抽象动词。decide → make a decision。跟读每句。
-          </p>
-          {step2Groups.map((group, gi) => (
-            <div key={gi} className="training-opnoun-group">
-              <div className="training-opnoun-label">{group.label}</div>
-              <div className="training-opnoun-sentences">
-                {group.sentences.map((s, i) => (
-                  <button key={i} className="training-sentence-btn" onClick={() => speakText(s.sentence)} title="点击朗读">
-                    {s.sentence}
-                  </button>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+      {activeStep===2 && (
+        <div>{step2Groups.map((g,i)=>(
+          <div key={i} className="training-opnoun-block">
+            <div className="training-opnoun-label"><code>{g.label}</code> = {g.replaces}<span className="training-opnoun-count">{g.sentences.length}句</span></div>
+            <ol className="training-sentence-list">{g.sentences.map((s,i)=>renderRow(s,i))}</ol>
+          </div>
+        ))}</div>
       )}
 
-      {/* Step 3: Scene Sentences */}
-      {activeStep === 3 && (
-        <div className="training-step3">
-          <p className="practice-hint">
-            全场景只用 850 词。阅读整段，感受 850 词的表达能力。
-          </p>
-          {Array.from(step3ByScene.entries()).map(([scene, sentences]) => (
-            <div key={scene} className="training-scene-group">
-              <h3 className="training-scene-title">{scene}</h3>
-              <div className="training-scene-text">
-                {sentences.map((s, i) => (
-                  <p key={i}>
-                    <button className="training-scene-sentence" onClick={() => speakText(s.sentence)} title="点击朗读整段">
-                      {s.sentence}
-                    </button>
-                  </p>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+      {activeStep===3 && (
+        <div>{Array.from(step3ByScene.entries()).map(([scene,sentences])=>(
+          <div key={scene} className="training-scene-block">
+            <h3 className="training-scene-title">{scene}</h3>
+            <ol className="training-sentence-list">{sentences.map((s,i)=>renderRow(s,i))}</ol>
+          </div>
+        ))}</div>
       )}
-
-      <footer className="lab-more">
-        <span>跟课深化：</span>
-        <Link to="/practice/step-by-step/body">示范句跟读</Link>
-        <Link to="/practice/basic-teacher/bt1">Basic Teacher</Link>
-        <Link to="/doc/operators">18 Operators</Link>
-      </footer>
     </div>
   );
 }
