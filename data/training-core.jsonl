@@ -1,7 +1,7 @@
 {"id": 1, "step": 1, "type": "op_direction", "sentence": "Put the coat on.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "把外套穿上。"}
 {"id": 2, "step": 1, "type": "op_direction", "sentence": "I put my coat on.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "我穿上我的外套。"}
 {"id": 3, "step": 1, "type": "op_direction", "sentence": "She put her hat on.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "她戴上她的帽子。"}
-{"id": 4, "step": 1, "type": "op_direction", "sentence": "He is putting his shoes on.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "他正在穿鞋。"}
+{"id": 4, "step": 1, "type": "op_direction", "sentence": "He put his shoes on.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "他把鞋子穿上。"}
 {"id": 5, "step": 1, "type": "op_direction", "sentence": "Put your gloves on before you go out.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "出去前戴上手套。"}
 {"id": 6, "step": 1, "type": "op_direction", "sentence": "I will put on my new dress.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "我会穿上我的新裙子。"}
 {"id": 7, "step": 1, "type": "op_direction", "sentence": "She put some color on the paper.", "operator": "put", "direction": "on", "replaces": "wear", "zh": "她在纸上涂了些颜色。"}
@@ -20,7 +20,7 @@
 {"id": 20, "step": 1, "type": "op_direction", "sentence": "I put off my work till tomorrow.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "我把工作推迟到明天。"}
 {"id": 21, "step": 1, "type": "op_direction", "sentence": "She put off her journey.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "她推迟了她的旅行。"}
 {"id": 22, "step": 1, "type": "op_direction", "sentence": "They put the decision off.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "他们推迟了决定。"}
-{"id": 23, "step": 1, "type": "op_direction", "sentence": "He is putting off the talk.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "他正在推迟谈话。"}
+{"id": 23, "step": 1, "type": "op_direction", "sentence": "He put off the talk.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "他推迟了谈话。"}
 {"id": 24, "step": 1, "type": "op_direction", "sentence": "We put off the meal.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "我们推迟了吃饭。"}
 {"id": 25, "step": 1, "type": "op_direction", "sentence": "Do not put off your learning.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "不要推迟你的学习。"}
 {"id": 27, "step": 1, "type": "op_direction", "sentence": "She put off the payment.", "operator": "put", "direction": "off", "replaces": "postpone", "zh": "她推迟了付款。"}
@@ -86,7 +86,7 @@
 {"id": 90, "step": 1, "type": "op_direction", "sentence": "Take your coat off.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "把外套脱掉。"}
 {"id": 91, "step": 1, "type": "op_direction", "sentence": "I took off my shoes.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "我脱掉了鞋子。"}
 {"id": 92, "step": 1, "type": "op_direction", "sentence": "She took the ring off her finger.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "她把戒指从手指上取下。"}
-{"id": 93, "step": 1, "type": "op_direction", "sentence": "He is taking off his hat.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "他正在脱帽子。"}
+{"id": 93, "step": 1, "type": "op_direction", "sentence": "He took his hat off.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "他脱下帽子。"}
 {"id": 94, "step": 1, "type": "op_direction", "sentence": "Take the cover off the bed.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "把床罩拿掉。"}
 {"id": 95, "step": 1, "type": "op_direction", "sentence": "I took the book off the shelf.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "我从书架上拿走了书。"}
 {"id": 96, "step": 1, "type": "op_direction", "sentence": "She took the skin off the orange.", "operator": "take", "direction": "off", "replaces": "remove", "zh": "她剥了橘子的皮。"}
@@ -284,7 +284,7 @@
 {"id": 293, "step": 1, "type": "op_direction", "sentence": "Get up from the bed.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "从床上起来。"}
 {"id": 294, "step": 1, "type": "op_direction", "sentence": "I get up every morning.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "我每天早上起床。"}
 {"id": 295, "step": 1, "type": "op_direction", "sentence": "She got up early.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "她起得早。"}
-{"id": 296, "step": 1, "type": "op_direction", "sentence": "He is getting up now.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "他正在起来。"}
+{"id": 296, "step": 1, "type": "op_direction", "sentence": "He got up now.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "他现在起床了。"}
 {"id": 297, "step": 1, "type": "op_direction", "sentence": "Get up and go to the door.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "起来，走到门口。"}
 {"id": 298, "step": 1, "type": "op_direction", "sentence": "They got up from the table.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "他们从桌子旁站起来了。"}
 {"id": 299, "step": 1, "type": "op_direction", "sentence": "I got up the steps.", "operator": "get", "direction": "up", "replaces": "rise", "zh": "我走上了台阶。"}
@@ -312,10 +312,10 @@
 {"id": 325, "step": 1, "type": "op_direction", "sentence": "Get on the train.", "operator": "get", "direction": "on", "replaces": "board", "zh": "上火车。"}
 {"id": 326, "step": 1, "type": "op_direction", "sentence": "I got on the seat.", "operator": "get", "direction": "on", "replaces": "board", "zh": "我坐在座位上。"}
 {"id": 327, "step": 1, "type": "op_direction", "sentence": "She got on with her work.", "operator": "get", "direction": "on", "replaces": "board", "zh": "她继续做她的工作。"}
-{"id": 329, "step": 1, "type": "op_direction", "sentence": "He is getting on well.", "operator": "get", "direction": "on", "replaces": "board", "zh": "他进展得很好。"}
+{"id": 329, "step": 1, "type": "op_direction", "sentence": "He is doing well.", "operator": "get", "direction": "on", "replaces": "board", "zh": "他做得很好。"}
 {"id": 330, "step": 1, "type": "op_direction", "sentence": "They got on together.", "operator": "get", "direction": "on", "replaces": "board", "zh": "他们相处得很好。"}
 {"id": 331, "step": 1, "type": "op_direction", "sentence": "Get on with it.", "operator": "get", "direction": "on", "replaces": "board", "zh": "继续做。"}
-{"id": 332, "step": 1, "type": "op_direction", "sentence": "How are you getting on?", "operator": "get", "direction": "on", "replaces": "board", "zh": "你怎么样了？"}
+{"id": 332, "step": 1, "type": "op_direction", "sentence": "How are you doing?", "operator": "get", "direction": "on", "replaces": "board", "zh": "你好吗？"}
 {"id": 333, "step": 1, "type": "op_direction", "sentence": "Get back to the house.", "operator": "get", "direction": "back", "replaces": "return", "zh": "回到房子。"}
 {"id": 334, "step": 1, "type": "op_direction", "sentence": "I got back from the station.", "operator": "get", "direction": "back", "replaces": "return", "zh": "我从车站回来了。"}
 {"id": 335, "step": 1, "type": "op_direction", "sentence": "She got back the ring.", "operator": "get", "direction": "back", "replaces": "return", "zh": "她拿回了戒指。"}
@@ -394,7 +394,7 @@
 {"id": 412, "step": 1, "type": "op_direction", "sentence": "I keep on reading.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "我继续阅读。"}
 {"id": 413, "step": 1, "type": "op_direction", "sentence": "She kept on talking.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "她继续说着。"}
 {"id": 414, "step": 1, "type": "op_direction", "sentence": "Keep on with your work.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "继续你的工作。"}
-{"id": 415, "step": 1, "type": "op_direction", "sentence": "He keeps on coming back.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "他不断回来。"}
+{"id": 415, "step": 1, "type": "op_direction", "sentence": "He came back again and again.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "他一次又一次地回来。"}
 {"id": 416, "step": 1, "type": "op_direction", "sentence": "They kept on through the night.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "他们整夜继续着。"}
 {"id": 417, "step": 1, "type": "op_direction", "sentence": "Keep your coat on.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "穿着你的外套。"}
 {"id": 418, "step": 1, "type": "op_direction", "sentence": "She kept the light on.", "operator": "keep", "direction": "on", "replaces": "continue", "zh": "她让灯开着。"}
@@ -758,7 +758,7 @@
 {"id": 20, "step": 2, "type": "op_noun", "replaces": "want", "sentence": "She has a desire to see the film.", "zh": "想要"}
 {"id": 21, "step": 2, "type": "op_noun", "replaces": "want", "sentence": "Do you have a desire to go with us?", "zh": "想要"}
 {"id": 22, "step": 2, "type": "op_noun", "replaces": "answer", "sentence": "Give me an answer.", "zh": "回答"}
-{"id": 23, "step": 2, "type": "op_noun", "replaces": "answer", "sentence": "He gave a short answer.", "zh": "回答"}
+{"id": 23, "step": 2, "type": "op_noun", "replaces": "answer", "sentence": "He put off the talk.", "zh": "他推迟了谈话。"}
 {"id": 24, "step": 2, "type": "op_noun", "replaces": "answer", "sentence": "I will give you an answer tomorrow.", "zh": "回答"}
 {"id": 25, "step": 2, "type": "op_noun", "replaces": "request", "sentence": "Make a request for help.", "zh": "请求"}
 {"id": 26, "step": 2, "type": "op_noun", "replaces": "request", "sentence": "She made a request for more time.", "zh": "请求"}
@@ -913,7 +913,7 @@
 {"id": 10156, "step": 3, "type": "scene_sentence", "scene": "Emergency", "sentence": "The fire is put out.", "zh": "火被扑灭了"}
 {"id": 20001, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I go to a restaurant and sit down.", "zh": "我去餐厅坐下"}
 {"id": 20002, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The man gives me a list of food.", "zh": "那人给我一份菜单"}
-{"id": 20003, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I say I want some meat and bread.", "zh": "我说我要一些肉和面包"}
+{"id": 20003, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "He came in now.", "zh": "他现在进来了。"}
 {"id": 20004, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The man brings the food to the table.", "zh": "那人把食物端到桌上"}
 {"id": 20005, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "I put some salt on the meat.", "zh": "我在肉上放些盐"}
 {"id": 20006, "step": 3, "type": "scene_sentence", "scene": "Ordering Food", "sentence": "The food is very good.", "zh": "食物很好吃"}
@@ -921,7 +921,7 @@
 {"id": 20010, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I see a coat in the shop.", "zh": "我在商店看见一件外套"}
 {"id": 20011, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "The price is very high.", "zh": "价钱很高"}
 {"id": 20012, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I say the price is too much.", "zh": "我说价钱太贵了"}
-{"id": 20013, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "The man says he will make the price low.", "zh": "那人说他会降价"}
+{"id": 20013, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "He came back again and again.", "zh": "他一次又一次地回来。"}
 {"id": 20014, "step": 3, "type": "scene_sentence", "scene": "Bargaining", "sentence": "I give him the money and take the coat.", "zh": "我付了钱，拿了外套"}
 {"id": 20020, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "I go to a house and ask about a room.", "zh": "我去一个房子问有没有房间"}
 {"id": 20021, "step": 3, "type": "scene_sentence", "scene": "Renting a Room", "sentence": "The woman takes me to a room.", "zh": "那女士带我去看一个房间"}
@@ -956,7 +956,7 @@
 {"id": 20074, "step": 3, "type": "scene_sentence", "scene": "Apologizing", "sentence": "I keep our meeting in my mind for next time.", "zh": "下次我会记住我们的约定时间"}
 {"id": 20080, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I go to the airport.", "zh": "我去机场"}
 {"id": 20081, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I give my ticket to the man at the gate.", "zh": "我把票给门口的人"}
-{"id": 20082, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I put my bag on the table for checking.", "zh": "我把包放上检查台"}
+{"id": 20082, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I put my bag on the table for a look.", "zh": "我把包放在桌子上检查。"}
 {"id": 20083, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I get on the plane.", "zh": "我上了飞机"}
 {"id": 20084, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "The plane takes off after an hour.", "zh": "飞机一个小时后起飞了"}
 {"id": 20085, "step": 3, "type": "scene_sentence", "scene": "At the Airport", "sentence": "I see the city from above through the window.", "zh": "我从上面透过窗户看见城市"}
@@ -968,7 +968,7 @@
 {"id": 20094, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I give money to the man at the desk.", "zh": "我付钱给前台的人"}
 {"id": 20095, "step": 3, "type": "scene_sentence", "scene": "At the Hotel", "sentence": "I sleep well at the hotel.", "zh": "我在酒店睡得很好"}
 {"id": 20100, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I go to the office for a job interview.", "zh": "我去办公室面试"}
-{"id": 20101, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "The man asks me some questions.", "zh": "那人问了我一些问题"}
+{"id": 20101, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "The man put some questions to me.", "zh": "那个人问了我一些问题。"}
 {"id": 20102, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I say I have some experience in this work.", "zh": "说我在这个工作有一些经验"}
 {"id": 20103, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "The man says he will send me a message.", "zh": "那人说他会给我发消息"}
 {"id": 20104, "step": 3, "type": "scene_sentence", "scene": "Job Interview", "sentence": "I say thank you and go home.", "zh": "我说谢谢，回了家"}
@@ -978,7 +978,7 @@
 {"id": 20112, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "My friend comes to help me.", "zh": "朋友来帮我"}
 {"id": 20113, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "We take the box to the new house.", "zh": "我们把盒子搬到新房子"}
 {"id": 20114, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "I put the box in the new room.", "zh": "我把盒子放进新房间"}
-{"id": 20115, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "The new house is bigger than the old one.", "zh": "新房子比旧的大"}
+{"id": 20115, "step": 3, "type": "scene_sentence", "scene": "Moving House", "sentence": "The new house is greater than the old one.", "zh": "新房子比旧房子大。"}
 {"id": 20120, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "My friend has a party at his house.", "zh": "朋友在他家办了一个聚会"}
 {"id": 20121, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "I go to the party with a gift.", "zh": "我带着礼物去聚会"}
 {"id": 20122, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "There is food and music at the party.", "zh": "聚会上有食物和音乐"}
@@ -986,7 +986,7 @@
 {"id": 20124, "step": 3, "type": "scene_sentence", "scene": "At a Party", "sentence": "I say thank you to my friend and go home.", "zh": "我对朋友说谢谢，回了家"}
 {"id": 20001, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "enter", "sentence": "She came in through the window.", "zh": "她从窗户进来。"}
 {"id": 20002, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "enter", "sentence": "Come in and sit down.", "zh": "进来坐下。"}
-{"id": 20003, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "enter", "sentence": "He is coming in now.", "zh": "他正在进来。"}
+{"id": 20003, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "enter", "sentence": "He came in now.", "zh": "他现在进来了。"}
 {"id": 20004, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "in", "replaces": "enter", "sentence": "I came in from the rain.", "zh": "我从雨里进来。"}
 {"id": 20005, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "out", "replaces": "exit", "sentence": "She came out of the room.", "zh": "她从房间出来。"}
 {"id": 20006, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "out", "replaces": "exit", "sentence": "Come out and see the sun.", "zh": "出来看看太阳。"}
@@ -996,7 +996,7 @@
 {"id": 20010, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "over", "replaces": "visit", "sentence": "She came over to see me.", "zh": "她过来看我。"}
 {"id": 20011, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "over", "replaces": "visit", "sentence": "Come over and see.", "zh": "过来看看。"}
 {"id": 20012, "step": 1, "type": "op_dir_combo", "operator": "come", "direction": "across", "replaces": "encounter", "sentence": "He came across the book in the store.", "zh": "他在商店里偶然发现了那本书。"}
-{"id": 20013, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "on", "replaces": "persist", "sentence": "He kept on coming back.", "zh": "他不断回来。"}
+{"id": 20013, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "on", "replaces": "persist", "sentence": "He came back again and again.", "zh": "他一次又一次地回来。"}
 {"id": 20014, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "up", "replaces": "maintain", "sentence": "She kept up her learning.", "zh": "她保持了学习。"}
 {"id": 20015, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "off", "replaces": "avoid", "sentence": "She kept off the topic.", "zh": "她避开了话题。"}
 {"id": 20016, "step": 1, "type": "op_dir_combo", "operator": "keep", "direction": "out", "replaces": "exclude", "sentence": "I kept out of the fight.", "zh": "我避开了打斗。"}
