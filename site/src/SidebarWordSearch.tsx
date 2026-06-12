@@ -63,16 +63,9 @@ export default function SidebarWordSearch() {
   if (!isWordsPage) {
     return (
       <div className="sidebar-word-bar">
-        <button type="button" className="sidebar-word-bar__list" onClick={() => openWords()}>
-          词表
-        </button>
-        <button
-          type="button"
-          className="sidebar-word-bar__search"
-          aria-label="搜索 850 词"
-          onClick={() => openWords({ focus: true })}
-        >
+        <button type="button" className="sidebar-word-bar__list" onClick={() => openWords({ focus: true })}>
           <SearchIcon />
+          <span>查词 / 850 词表</span>
         </button>
       </div>
     );

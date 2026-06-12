@@ -305,12 +305,15 @@ a:hover { color: var(--accent-deep); }
 
 .sidebar-word-bar__list {
   flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   border: none;
   background: transparent;
   font-family: var(--sans);
   font-size: 0.84rem;
-  font-weight: 600;
-  color: var(--ink);
+  font-weight: 500;
+  color: var(--ink-muted);
   padding: 0.58rem 0.8rem;
   text-align: left;
   cursor: pointer;
