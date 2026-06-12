@@ -33,7 +33,7 @@
 
 | 资源 | 说明 | 链接 |
 |------|------|------|
-| Bible in Basic English | 美公域；词汇约扩展到 1000 | [Archive.org](https://archive.org/details/BBEFreePDFBibleinBasicEnglish) |
+| Bible in Basic English | 美国公有领域；词汇在 850 基础上约扩展到 1000 | [Archive.org](https://archive.org/details/BBEFreePDFBibleinBasicEnglish) |
 | Simple English Wikipedia | 非严格 BE850，但词汇接近 | [simple.wikipedia.org](https://simple.wikipedia.org/wiki/Basic_English) |
 
 ## 镜像站（原 ogden.basic-english.org 已下线）
@@ -43,7 +43,7 @@
 
 ## 本仓库「自编」内容（非 Ogden 原文）
 
-以下文件为基于原始材料的**整理、摘要、学习路径**，可能有误，请对照上表原文：
+以下文件为基于原始材料的**整理、摘要与学习路径设计**，可能存在疏漏，请以上表原文为准：
 
 - `00-START-HERE.md` 及 `01-foundations/` · `03-composition/` 全部
 - `02-vocabulary/tier-guide.md`（学习顺序为我们归纳）

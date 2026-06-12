@@ -765,6 +765,39 @@ a:hover { color: var(--accent-deep); }
   animation: fadeInUp 0.6s var(--ease-out) both;
 }
 
+.doc-header-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.doc-header-nav {
+  display: flex;
+  gap: 0.5rem;
+  animation: fadeInUp 0.6s var(--ease-out) both;
+}
+.doc-nav-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--border-soft);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  transition: background 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.doc-nav-btn:hover {
+  background: var(--bg-card);
+  border-color: var(--accent);
+}
+.doc-nav-btn.disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
 .hero h1 {
   font-family: var(--serif);
   font-size: clamp(3rem, 7vw, 5rem);

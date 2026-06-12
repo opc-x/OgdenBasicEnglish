@@ -13,13 +13,13 @@ import DirectionsVisual from "./DirectionsVisual";
 import GrammarVisual from "./GrammarVisual";
 import RoadmapVisual from "./RoadmapVisual";
 import {
-  NAV,
   PATH_TO_ASSET,
   PATH_TO_SLUG,
+  READING_NAV,
   getMarkdown,
   getNavBySlug,
   getPhase,
-  getStepIndex,
+  getReadingIndex,
 } from "./content";
 
 function rewriteLinks(md: string): string {
@@ -55,10 +55,15 @@ export default function DocPage() {
   const item = getNavBySlug(slug);
   const raw = item ? getMarkdown(item.path) : null;
   const body = useMemo(() => (raw ? rewriteLinks(raw) : null), [raw]);
-  const idx = item ? getStepIndex(item.slug) : -1;
-  const prev = idx > 0 ? NAV[idx - 1] : null;
-  const next = idx >= 0 && idx < NAV.length - 1 ? NAV[idx + 1] : null;
+  const idx = item ? getReadingIndex(item.slug) : -1;
+  const prev = idx > 0 ? READING_NAV[idx - 1] : null;
+  const next = idx >= 0 && idx < READING_NAV.length - 1 ? READING_NAV[idx + 1] : null;
   const phase = item ? getPhase(item.phaseId) : null;
+  const phaseLabel = phase
+    ? /^\d+$/.test(phase.step)
+      ? `第 ${phase.step} 步 · ${phase.title}`
+      : `${phase.step} ${phase.title}`
+    : "";
 
   if (!item || !body) {
     return (<div className="doc-empty"><h1>页面不存在</h1><Link to="/">回首页</Link></div>);
@@ -67,10 +72,24 @@ export default function DocPage() {
   return (
     <article className="doc">
       <header className="doc-header">
-        <p className="doc-eyebrow">
-          {phase ? `${phase.step} ${phase.title}` : ""}
-          {idx >= 0 ? ` · 第 ${idx + 1} / ${NAV.length} 步` : ""}
-        </p>
+        <div className="doc-header-top">
+          <p className="doc-eyebrow">
+            {phaseLabel}
+            {idx >= 0 ? ` · 第 ${idx + 1} / ${READING_NAV.length} 篇` : ""}
+          </p>
+          <div className="doc-header-nav">
+            {prev ? (
+              <Link className="doc-nav-btn" to={`/doc/${prev.slug}`} title={`上一篇：${prev.title}`}>← 上一篇</Link>
+            ) : (
+              <span className="doc-nav-btn disabled">← 上一篇</span>
+            )}
+            {next ? (
+              <Link className="doc-nav-btn" to={`/doc/${next.slug}`} title={`下一篇：${next.title}`}>下一篇 →</Link>
+            ) : (
+              <span className="doc-nav-btn disabled">下一篇 →</span>
+            )}
+          </div>
+        </div>
         <h1>{item.title}</h1>
         {phase?.subtitle && <p className="doc-phase-sub">{phase.subtitle}</p>}
       </header>
@@ -126,8 +145,8 @@ export default function DocPage() {
         <SourcesPanel slug={slug} />
       </div>
       <nav className="doc-pager">
-        {prev ? <Link className="pager prev" to={`/doc/${prev.slug}`}><span>上一章</span><strong>{prev.title}</strong></Link> : <span />}
-        {next ? <Link className="pager next" to={`/doc/${next.slug}`}><span>下一章</span><strong>{next.title}</strong></Link> : <span />}
+        {prev ? <Link className="pager prev" to={`/doc/${prev.slug}`}><span>上一篇</span><strong>{prev.title}</strong></Link> : <span />}
+        {next ? <Link className="pager next" to={`/doc/${next.slug}`}><span>下一篇</span><strong>{next.title}</strong></Link> : <span />}
       </nav>
     </article>
   );

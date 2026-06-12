@@ -91,7 +91,7 @@ export const LEARNING_PHASES: NavPhase[] = [
 
 /** 主学习路径 + 附录，顺序即推荐阅读/翻页顺序 */
 export const NAV: NavItem[] = [
-  { phaseId: "map", title: "从这里开始", path: "00-START-HERE.md", slug: "start", badge: "第 1 步" },
+  { phaseId: "map", title: "从这里开始", path: "00-START-HERE.md", slug: "start", badge: "入口" },
   { phaseId: "map", title: "原始材料出处", path: "reference/sources.md", slug: "sources", badge: "核对" },
   { phaseId: "core", title: "18 个 Operator（必背）", path: "01-foundations/operators-18.md", slug: "operators", badge: "重点" },
   { phaseId: "core", title: "850 词随时查", path: "", slug: "words-search", href: "/doc/words", badge: "查询" },
