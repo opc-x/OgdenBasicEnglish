@@ -197,33 +197,39 @@ function VectorGraphic({ type }: { type: string }) {
   const strokeColor = "var(--accent)";
   const mainColor = "var(--ink)";
   const faintColor = "var(--border)";
-  
+
   switch (type) {
     case "come":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
+          <circle cx="70" cy="50" r="16" stroke={strokeColor} strokeWidth="2" strokeDasharray="4 4" fill="none" className="anim-pulse-ring" />
           <circle cx="70" cy="50" r="8" fill={mainColor} />
-          <path d="M15 50 H60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M50 40 L60 50 L50 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          <circle cx="70" cy="50" r="16" stroke={strokeColor} strokeWidth="2" strokeDasharray="4 4" fill="none" />
+          <g className="anim-drift-in-r">
+            <path d="M15 50 H60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M50 40 L60 50 L50 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
         </svg>
       );
     case "go":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           <circle cx="30" cy="50" r="8" fill={mainColor} />
-          <path d="M30 50 H85" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M75 40 L85 50 L75 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <g className="anim-drift-out-r">
+            <path d="M30 50 H85" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M75 40 L85 50 L75 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
         </svg>
       );
     case "put":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Box outline */}
-          <path d="M30 65 H70 V85 H30 Z" stroke={faintColor} strokeWidth="3" fill="none" />
+          <path d="M30 65 H70 V85 H30 Z" stroke={faintColor} strokeWidth="3" fill="none" className="anim-glow-box" />
           {/* Arrow pointing down */}
-          <path d="M50 20 V60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M42 52 L50 60 L58 52" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <g className="anim-drop">
+            <path d="M50 20 V60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M42 52 L50 60 L58 52" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
           {/* Hand abstract */}
           <path d="M35 15 H50" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
         </svg>
@@ -234,8 +240,10 @@ function VectorGraphic({ type }: { type: string }) {
           {/* Box outline */}
           <path d="M30 65 H70 V85 H30 Z" stroke={faintColor} strokeWidth="3" fill="none" />
           {/* Arrow pointing up */}
-          <path d="M50 70 V30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M42 38 L50 30 L58 38" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <g className="anim-lift">
+            <path d="M50 70 V30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M42 38 L50 30 L58 38" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
           {/* Hand grasping */}
           <path d="M40 20 C40 20, 50 15, 60 20" stroke={mainColor} strokeWidth="4" strokeLinecap="round" fill="none" />
         </svg>
@@ -246,46 +254,54 @@ function VectorGraphic({ type }: { type: string }) {
           {/* Sender */}
           <circle cx="25" cy="55" r="8" fill={mainColor} />
           {/* Receiver */}
-          <circle cx="75" cy="55" r="8" fill={faintColor} />
-          {/* Transfer Arrow */}
-          <path d="M35 50 C45 40, 55 40, 65 50" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" fill="none" />
-          <path d="M58 42 L65 50 L57 53" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <circle cx="75" cy="55" r="8" fill={faintColor} className="anim-pulse-receive" />
+          {/* Transfer path */}
+          <path d="M35 50 C45 40, 55 40, 65 50" stroke={strokeColor} strokeWidth="2" strokeDasharray="3 3" fill="none" opacity="0.4" />
+          {/* Travelling parcel */}
+          <circle cx="0" cy="0" r="5" fill={strokeColor} className="anim-travel-r" />
         </svg>
       );
     case "get":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
-          {/* Target */}
-          <circle cx="75" cy="55" r="8" fill={mainColor} />
+          {/* Target (self) */}
+          <circle cx="75" cy="55" r="8" fill={mainColor} className="anim-pulse-receive" />
           {/* Source */}
           <circle cx="25" cy="55" r="8" fill={faintColor} />
-          {/* Receiver Arrow */}
-          <path d="M35 50 C45 40, 55 40, 65 50" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" fill="none" />
-          <path d="M42 42 L35 50 L43 53" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          {/* Transfer path */}
+          <path d="M35 50 C45 40, 55 40, 65 50" stroke={strokeColor} strokeWidth="2" strokeDasharray="3 3" fill="none" opacity="0.4" />
+          {/* Travelling parcel moving toward self */}
+          <circle cx="0" cy="0" r="5" fill={strokeColor} className="anim-travel-l" />
         </svg>
       );
     case "send":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           <circle cx="30" cy="50" r="10" fill={mainColor} />
-          {/* Multi-arrows pointing away */}
-          <path d="M45 40 L75 25" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
-          <path d="M68 23 L75 25 L72 32" stroke={strokeColor} strokeWidth="3" fill="none" />
-          
-          <path d="M48 50 L80 50" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M72 44 L80 50 L72 56" stroke={strokeColor} strokeWidth="4" fill="none" />
-          
-          <path d="M45 60 L75 75" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
-          <path d="M72 68 L75 75 L68 77" stroke={strokeColor} strokeWidth="3" fill="none" />
+          {/* Multi-arrows pointing away, firing in sequence */}
+          <g className="anim-launch anim-delay-0">
+            <path d="M45 40 L75 25" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
+            <path d="M68 23 L75 25 L72 32" stroke={strokeColor} strokeWidth="3" fill="none" />
+          </g>
+          <g className="anim-launch anim-delay-1">
+            <path d="M48 50 L80 50" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M72 44 L80 50 L72 56" stroke={strokeColor} strokeWidth="4" fill="none" />
+          </g>
+          <g className="anim-launch anim-delay-2">
+            <path d="M45 60 L75 75" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
+            <path d="M72 68 L75 75 L68 77" stroke={strokeColor} strokeWidth="3" fill="none" />
+          </g>
         </svg>
       );
     case "keep":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
-          <circle cx="50" cy="50" r="12" fill={mainColor} />
-          {/* Circular bounding arrow */}
-          <path d="M50 25 A25 25 0 1 1 49.9 25" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeDasharray="140 20" fill="none" />
-          <path d="M45 20 L55 25 L45 30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <circle cx="50" cy="50" r="12" fill={mainColor} className="anim-breathe" />
+          {/* Circular bounding arrow, slowly orbiting */}
+          <g className="anim-spin-slow">
+            <path d="M50 25 A25 25 0 1 1 49.9 25" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeDasharray="140 20" fill="none" />
+            <path d="M45 20 L55 25 L45 30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
         </svg>
       );
     case "let":
@@ -294,9 +310,11 @@ function VectorGraphic({ type }: { type: string }) {
           {/* Barrier with a gap */}
           <path d="M50 15 V40" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
           <path d="M50 60 V85" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
-          {/* Arrow passing through gap */}
-          <path d="M20 50 H80" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeDasharray="8 4" />
-          <path d="M70 42 L80 50 L70 58" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          {/* Flow passing through gap */}
+          <path d="M20 50 H80" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeDasharray="8 6" className="anim-dash-flow" />
+          <g className="anim-drift-out-r">
+            <path d="M70 42 L80 50 L70 58" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
         </svg>
       );
     case "make":
@@ -304,19 +322,25 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Blocks stacking up */}
           <rect x="25" y="65" width="50" height="15" rx="3" fill={faintColor} stroke={mainColor} strokeWidth="2" />
-          <rect x="35" y="45" width="30" height="15" rx="3" fill="none" stroke={strokeColor} strokeWidth="3" />
-          <path d="M50 15 V35" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
-          <path d="M45 25 L50 35 L55 25" stroke={strokeColor} strokeWidth="3" fill="none" />
+          <rect x="35" y="45" width="30" height="15" rx="3" fill="none" stroke={strokeColor} strokeWidth="3" className="anim-build" />
+          <g className="anim-lift">
+            <path d="M50 15 V35" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
+            <path d="M45 25 L50 35 L55 25" stroke={strokeColor} strokeWidth="3" fill="none" />
+          </g>
         </svg>
       );
     case "do":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
-          {/* Rotating gears concept */}
-          <circle cx="40" cy="40" r="16" stroke={mainColor} strokeWidth="3" strokeDasharray="6 4" fill="none" />
-          <circle cx="64" cy="64" r="12" stroke={strokeColor} strokeWidth="3" strokeDasharray="4 4" fill="none" />
-          <circle cx="40" cy="40" r="4" fill={mainColor} />
-          <circle cx="64" cy="64" r="3" fill={strokeColor} />
+          {/* Counter-rotating gears */}
+          <g className="anim-spin-slow" style={{ transformOrigin: "40px 40px" }}>
+            <circle cx="40" cy="40" r="16" stroke={mainColor} strokeWidth="3" strokeDasharray="6 4" fill="none" />
+            <circle cx="40" cy="40" r="4" fill={mainColor} />
+          </g>
+          <g className="anim-spin-reverse" style={{ transformOrigin: "64px 64px" }}>
+            <circle cx="64" cy="64" r="12" stroke={strokeColor} strokeWidth="3" strokeDasharray="4 4" fill="none" />
+            <circle cx="64" cy="64" r="3" fill={strokeColor} />
+          </g>
         </svg>
       );
     case "see":
@@ -324,10 +348,12 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Eye outline */}
           <path d="M15 50 C30 25, 70 25, 85 50 C70 75, 30 75, 15 50 Z" stroke={mainColor} strokeWidth="4" strokeLinejoin="round" fill="none" />
-          <circle cx="50" cy="50" r="10" fill={strokeColor} />
+          <g className="anim-look">
+            <circle cx="50" cy="50" r="10" fill={strokeColor} />
+          </g>
           {/* Vision rays */}
-          <path d="M65 35 L80 25" stroke={strokeColor} strokeWidth="2" strokeLinecap="round" />
-          <path d="M65 65 L80 75" stroke={strokeColor} strokeWidth="2" strokeLinecap="round" />
+          <path d="M65 35 L80 25" stroke={strokeColor} strokeWidth="2" strokeLinecap="round" className="anim-blink anim-delay-0" />
+          <path d="M65 65 L80 75" stroke={strokeColor} strokeWidth="2" strokeLinecap="round" className="anim-blink anim-delay-1" />
         </svg>
       );
     case "say":
@@ -335,9 +361,11 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Speech bubble */}
           <path d="M20 25 H80 V65 H45 L25 80 V65 H20 Z" stroke={mainColor} strokeWidth="4" strokeLinejoin="round" fill="none" />
-          {/* Audio lines */}
-          <path d="M35 45 H65" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
-          <path d="M40 37 H60" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" />
+          {/* Audio bars */}
+          <path d="M35 50 V40" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" className="anim-eq anim-delay-0" />
+          <path d="M45 50 V35" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" className="anim-eq anim-delay-1" />
+          <path d="M55 50 V38" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" className="anim-eq anim-delay-2" />
+          <path d="M65 50 V44" stroke={strokeColor} strokeWidth="3" strokeLinecap="round" className="anim-eq anim-delay-0" />
         </svg>
       );
     case "be":
@@ -345,6 +373,7 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Anchor solid state */}
           <circle cx="50" cy="50" r="20" fill="none" stroke={strokeColor} strokeWidth="5" />
+          <circle cx="50" cy="50" r="20" fill="none" stroke={strokeColor} strokeWidth="2" className="anim-ripple" />
           <circle cx="50" cy="50" r="8" fill={mainColor} />
           <path d="M20 50 H80" stroke={faintColor} strokeWidth="2" strokeDasharray="4 4" />
           <path d="M50 20 V80" stroke={faintColor} strokeWidth="2" strokeDasharray="4 4" />
@@ -354,8 +383,8 @@ function VectorGraphic({ type }: { type: string }) {
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Closed possession frame */}
-          <rect x="25" y="25" width="50" height="50" rx="6" stroke={mainColor} strokeWidth="4" fill="none" />
-          <circle cx="50" cy="50" r="10" fill={strokeColor} />
+          <rect x="25" y="25" width="50" height="50" rx="6" stroke={mainColor} strokeWidth="4" fill="none" className="anim-glow-box" />
+          <circle cx="50" cy="50" r="10" fill={strokeColor} className="anim-breathe" />
         </svg>
       );
     case "seem":
@@ -363,9 +392,9 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Mirror / refraction line */}
           <path d="M50 15 V85" stroke={mainColor} strokeWidth="3" strokeDasharray="6 4" />
-          {/* Real object vs reflected */}
+          {/* Real object vs wavering reflection */}
           <circle cx="28" cy="50" r="10" fill={mainColor} />
-          <circle cx="72" cy="50" r="10" stroke={strokeColor} strokeWidth="3" fill="none" strokeDasharray="3 3" />
+          <circle cx="72" cy="50" r="10" stroke={strokeColor} strokeWidth="3" fill="none" strokeDasharray="3 3" className="anim-flicker" />
         </svg>
       );
     case "may":
@@ -373,19 +402,23 @@ function VectorGraphic({ type }: { type: string }) {
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Branching possibilities */}
           <path d="M15 50 H45" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M45 50 C55 35, 65 30, 80 30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" fill="none" />
-          <path d="M45 50 C55 65, 65 70, 80 70" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" fill="none" strokeDasharray="4 2" />
-          <path d="M72 23 L80 30 L72 35" stroke={strokeColor} strokeWidth="4" strokeLinejoin="round" fill="none" />
+          <circle cx="15" cy="50" r="5" fill={mainColor} />
+          <path d="M45 50 C55 35, 65 30, 80 30" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" fill="none" className="anim-dash-flow-soft" strokeDasharray="6 5" />
+          <path d="M72 23 L80 30 L72 35" stroke={strokeColor} strokeWidth="4" strokeLinejoin="round" fill="none" className="anim-flicker" />
+          <path d="M45 50 C55 65, 65 70, 80 70" stroke={faintColor} strokeWidth="3" strokeLinecap="round" fill="none" strokeDasharray="4 4" opacity="0.5" />
         </svg>
       );
     case "will":
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
-          {/* Arrow pointing forward/right with velocity lines */}
-          <path d="M15 50 H80" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M70 40 L80 50 L70 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          <path d="M20 40 L10 50 L20 60" stroke={faintColor} strokeWidth="2" fill="none" />
-          <path d="M30 40 L20 50 L30 60" stroke={faintColor} strokeWidth="2" fill="none" />
+          {/* Velocity lines streaming past */}
+          <path d="M20 40 L8 50 L20 60" stroke={faintColor} strokeWidth="2" fill="none" className="anim-streak anim-delay-0" />
+          <path d="M32 40 L20 50 L32 60" stroke={faintColor} strokeWidth="2" fill="none" className="anim-streak anim-delay-1" />
+          {/* Forward arrow */}
+          <g className="anim-nudge">
+            <path d="M15 50 H80" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" />
+            <path d="M70 40 L80 50 L70 60" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          </g>
         </svg>
       );
     default:

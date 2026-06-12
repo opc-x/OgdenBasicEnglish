@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { speakText } from "./speak";
 
 type Combo = {
   result: string;
@@ -124,16 +125,6 @@ const DIRECTIONS = [
   "about", "across", "after", "against", "among", "at", "before", "between", "by", "down",
   "from", "in", "off", "on", "over", "through", "to", "under", "up", "with"
 ];
-
-function playSpeech(text: string) {
-  if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.85;
-    window.speechSynthesis.speak(utterance);
-  }
-}
 
 function MachineGraphic({ word }: { word: string }) {
   const strokeColor = "var(--accent)";
@@ -1472,7 +1463,7 @@ export default function WordMachine() {
   const validCombo = VALID_COMBOS[comboKey];
 
   const handleSpeak = () => {
-    playSpeech(validCombo ? validCombo.result : comboKey);
+    void speakText(validCombo ? validCombo.result : comboKey);
   };
 
   const getInvalidComboExplanation = (op: string, dir: string) => {

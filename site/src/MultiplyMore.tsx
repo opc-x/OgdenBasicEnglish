@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { speakText } from "./speak";
 
 type AffixResult = {
   result: string;
@@ -96,16 +97,6 @@ const BYPASS_CASES: BypassingCase[] = [
   { suffix: "-less", replaces: "homeless", rootWord: "home", formula: "without + home", allowed: "without a home", cn: "无家可归" },
   { suffix: "-ize", replaces: "memorize", rootWord: "memory", formula: "keep in + memory", allowed: "keep in memory", cn: "记住 / 熟记" },
 ];
-
-function playSpeech(text: string) {
-  if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.85;
-    window.speechSynthesis.speak(utterance);
-  }
-}
 
 // Visual SVG generator for Affixes and Compounds
 function VectorGraphic({ word }: { word: string }) {
@@ -544,7 +535,7 @@ export default function MultiplyMore({ mode = "affixes" }: { mode?: "affixes" | 
   const selectedCompound = COMPOUNDS_DB.find(c => c.a === activeA && c.b === activeB);
 
   const handleSpeak = (text: string) => {
-    playSpeech(text);
+    void speakText(text);
   };
 
   const getInvalidAffixDetails = (root: string, affix: string) => {

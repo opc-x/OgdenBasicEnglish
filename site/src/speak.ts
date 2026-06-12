@@ -60,7 +60,24 @@ async function speakWithBrowser(text: string): Promise<void> {
   u.rate = 0.92;
   const voice = pickBritishVoice(voices);
   if (voice) u.voice = voice;
-  window.speechSynthesis.speak(u);
+  await new Promise<void>((resolve) => {
+    // Chrome 在长句朗读 ~15s 后会静默暂停，周期性 pause/resume 保活
+    const keepAlive = window.setInterval(() => {
+      if (!window.speechSynthesis.speaking) {
+        window.clearInterval(keepAlive);
+        return;
+      }
+      window.speechSynthesis.pause();
+      window.speechSynthesis.resume();
+    }, 12000);
+    const finish = () => {
+      window.clearInterval(keepAlive);
+      resolve();
+    };
+    u.onend = finish;
+    u.onerror = finish;
+    window.speechSynthesis.speak(u);
+  });
 }
 
 function playMp3(url: string): Promise<void> {
@@ -145,19 +162,11 @@ export async function speakText(text: string, sentenceId?: number): Promise<void
   if (await hasSentenceAudio(text, sentenceId)) {
     try { await playMp3(`/audio/sentences/${key}.mp3`); return; } catch { /* fall through */ }
   }
-  // 拆词逐个播 MP3（比浏览器 TTS 音质好）
+  // 单个词优先 Sonia 单词 MP3；句子整句走浏览器英式 TTS（禁止拆词拼读）
   const words = text.split(/\s+/).filter(Boolean);
-  if (words.length <= 10) {
-    for (const w of words) {
-      if (await hasSoniaAudio(w)) {
-        try { await playMp3(audioUrl(w)); continue; } catch { /* fall through */ }
-      }
-      // 最后一个词 fallback 浏览器
-      await speakWithBrowser(w);
-    }
-    return;
+  if (words.length === 1 && (await hasSoniaAudio(text))) {
+    try { await playMp3(audioUrl(text)); return; } catch { /* fall through */ }
   }
-  // 长句直接浏览器 TTS
   await speakWithBrowser(text);
 }
 
