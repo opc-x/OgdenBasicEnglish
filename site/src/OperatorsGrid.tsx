@@ -333,11 +333,11 @@ function VectorGraphic({ type }: { type: string }) {
       return (
         <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg">
           {/* Counter-rotating gears */}
-          <g className="anim-spin-slow" style={{ transformOrigin: "40px 40px" }}>
+          <g className="anim-spin-slow">
             <circle cx="40" cy="40" r="16" stroke={mainColor} strokeWidth="3" strokeDasharray="6 4" fill="none" />
             <circle cx="40" cy="40" r="4" fill={mainColor} />
           </g>
-          <g className="anim-spin-reverse" style={{ transformOrigin: "64px 64px" }}>
+          <g className="anim-spin-reverse">
             <circle cx="64" cy="64" r="12" stroke={strokeColor} strokeWidth="3" strokeDasharray="4 4" fill="none" />
             <circle cx="64" cy="64" r="3" fill={strokeColor} />
           </g>

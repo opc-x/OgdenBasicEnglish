@@ -20,7 +20,6 @@ export default function Layout() {
   const isHome = pathname === "/";
   const isWide =
     pathname.startsWith("/word/") ||
-    pathname.includes("/doc/words") ||
     pathname.startsWith("/practice");
   const activeSlug = pathname.startsWith("/doc/")
     ? pathname.replace("/doc/", "")
