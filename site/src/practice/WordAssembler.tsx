@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { speakText, isSpeechSupported } from "../speak";
 import { getOperatorEntry } from "../operatorData";
+import { WORDS } from "../words850";
 import OperatorVisual from "../OperatorVisual";
 import { TRAINING_SENTENCES, type TrainingSentence } from "./trainingData";
 
@@ -21,58 +22,117 @@ const OP_FORMS = new Set<string>([
   "seems", "seemed", "says", "said", "saying", "would", "might",
 ]);
 
+// 运作词·方向/介词（Ogden OPERATIONS 100 的子集）
+const DIRECTIVES = new Set<string>([
+  "about", "across", "after", "against", "among", "at", "before", "between",
+  "by", "down", "from", "in", "off", "on", "over", "through", "to", "under",
+  "up", "with", "as", "for", "of", "till", "than", "out", "forward", "back",
+  "away", "apart", "aside", "along", "together", "without", "round", "near",
+]);
+
+const PRONOUNS = new Set<string>([
+  "i", "he", "she", "it", "we", "you", "they", "who",
+  "him", "her", "them", "his", "my", "your", "our", "their", "its", "me", "us",
+]);
+
+// 内容词角色：名词(things/pic) → n，性质(qual/opp) → adj
+const TIER_ROLE: Record<string, "n" | "adj"> = {};
+for (const w of WORDS) {
+  if (w.t === "pic" || w.t === "things") TIER_ROLE[w.w] = "n";
+  else if (w.t === "qual" || w.t === "opp") TIER_ROLE[w.w] = "adj";
+}
+
 const NO_DIR = "—";
+
+type Role = "op" | "dir" | "n" | "adj" | "pron" | "misc";
+type Mode = "dir" | "noun"; // 配方向 / 配抽象名词
 
 type DirMap = Map<string, TrainingSentence[]>;
 
+function roleOf(bare: string): Role {
+  if (OP_FORMS.has(bare)) return "op";
+  if (DIRECTIVES.has(bare)) return "dir";
+  if (PRONOUNS.has(bare)) return "pron";
+  const t = TIER_ROLE[bare] ?? TIER_ROLE[bare.replace(/s$/, "")];
+  if (t) return t;
+  return "misc";
+}
+
 export default function WordAssembler() {
-  // index: operator -> direction -> sentences（覆盖所有含 operator 的训练句）
-  const index = useMemo(() => {
+  // op -> direction -> 句（step1：物理短语动词）
+  const dirIndex = useMemo(() => {
     const map = new Map<string, DirMap>();
-    const dirSet = new Set<string>();
     for (const s of TRAINING_SENTENCES) {
-      if (!s.operator) continue;
-      const op = s.operator;
+      if (s.step !== 1 || !s.operator) continue;
       const dir = s.direction || NO_DIR;
-      if (dir !== NO_DIR) dirSet.add(dir);
-      if (!map.has(op)) map.set(op, new Map());
-      const dm = map.get(op)!;
+      if (!map.has(s.operator)) map.set(s.operator, new Map());
+      const dm = map.get(s.operator)!;
       if (!dm.has(dir)) dm.set(dir, []);
       dm.get(dir)!.push(s);
     }
-    return { map, dirSet };
+    return map;
   }, []);
 
-  const [op, setOp] = useState<string>("put");
-  const [dir, setDir] = useState<string>("on");
+  // op -> noun -> 句（step2：抽象搭配 make a decision）
+  const nounIndex = useMemo(() => {
+    const map = new Map<string, DirMap>();
+    for (const s of TRAINING_SENTENCES) {
+      if (s.step !== 2 || !s.operator || !s.noun) continue;
+      if (!map.has(s.operator)) map.set(s.operator, new Map());
+      const dm = map.get(s.operator)!;
+      if (!dm.has(s.noun)) dm.set(s.noun, []);
+      dm.get(s.noun)!.push(s);
+    }
+    return map;
+  }, []);
 
-  const dirMap = index.map.get(op);
-  const dirs = useMemo(() => {
-    if (!dirMap) return [] as string[];
-    return Array.from(dirMap.keys()).sort((a, b) => (a === NO_DIR ? -1 : b === NO_DIR ? 1 : a.localeCompare(b)));
-  }, [dirMap]);
+  const [op, setOp] = useState("put");
+  const [mode, setMode] = useState<Mode>("dir");
+  const [dir, setDir] = useState("on");
+  const [noun, setNoun] = useState("");
 
-  // 切 operator 时把 direction 落到该 op 的第一个有效方向
-  const activeDir = dirMap?.has(dir) ? dir : dirs[0] ?? NO_DIR;
-  const sentences = dirMap?.get(activeDir) ?? [];
+  const activeIndex = mode === "dir" ? dirIndex : nounIndex;
+  const keyMap = activeIndex.get(op);
+  const keys = useMemo(() => {
+    if (!keyMap) return [] as string[];
+    return Array.from(keyMap.keys()).sort((a, b) =>
+      a === NO_DIR ? -1 : b === NO_DIR ? 1 : a.localeCompare(b),
+    );
+  }, [keyMap]);
+
+  const sel = mode === "dir" ? dir : noun;
+  const activeKey = keyMap?.has(sel) ? sel : keys[0] ?? "";
+  const sentences = keyMap?.get(activeKey) ?? [];
   const opEntry = getOperatorEntry(op);
 
-  // 该 op+dir 最常见的 replaces（被替代的普通动词）
+  // 该组合最常见的 replaces（被替代的普通动词）
   const replaces = useMemo(() => {
-    const count = new Map<string, number>();
-    for (const s of sentences) if (s.replaces) count.set(s.replaces, (count.get(s.replaces) ?? 0) + 1);
+    const c = new Map<string, number>();
+    for (const s of sentences) if (s.replaces) c.set(s.replaces, (c.get(s.replaces) ?? 0) + 1);
     let best = ""; let n = 0;
-    for (const [k, v] of count) if (v > n) { best = k; n = v; }
+    for (const [k, v] of c) if (v > n) { best = k; n = v; }
     return best;
   }, [sentences]);
 
+  const pickOp = (o: string) => {
+    setOp(o);
+    const dm = (mode === "dir" ? dirIndex : nounIndex).get(o);
+    const first = dm ? Array.from(dm.keys())[0] : "";
+    if (mode === "dir") setDir(first ?? ""); else setNoun(first ?? "");
+  };
+
+  const switchMode = (m: Mode) => {
+    setMode(m);
+    const dm = (m === "dir" ? dirIndex : nounIndex).get(op);
+    const first = dm ? Array.from(dm.keys())[0] : "";
+    if (m === "dir") setDir(first ?? ""); else setNoun(first ?? "");
+  };
+
   const renderChunks = (sentence: string) =>
     sentence.split(/(\s+)/).map((tok, i) => {
-      if (/^\s+$/.test(tok)) return tok;
+      if (/^\s+$/.test(tok)) return <span key={i}>{tok}</span>;
       const bare = tok.toLowerCase().replace(/^[("'[]+|[)"'\],.!?;:]+$/g, "");
-      let role: "op" | "dir" | "misc" = "misc";
-      if (OP_FORMS.has(bare)) role = "op";
-      else if (bare === activeDir || index.dirSet.has(bare)) role = "dir";
+      const role = roleOf(bare);
       return (
         <span key={i} className={`asm-chunk asm-chunk--${role}`}>
           {tok}
@@ -83,19 +143,19 @@ export default function WordAssembler() {
   return (
     <div className="assembler">
       <p className="asm-intro">
-        Ogden 拼词造句：选一个 <strong>动作 operator</strong>，配一个 <strong>物理方向</strong>，立刻看见它替代了哪个普通动词，以及真实例句。
+        Ogden 拼词造句 = <strong>三层叠加</strong>：先选 1 个<strong>动作引擎</strong>，配 1 个<strong>运作词</strong>拼出短语动作，再挂<strong>内容词</strong>说完整句——18 × 运作词 × 850 词，覆盖日常九成场景。
       </p>
 
-      {/* Step 1 · 18 Operator */}
+      {/* STEP 1 · Operator */}
       <div className="asm-step">
-        <span className="asm-step-label"><em>01</em> 选动作 · Operator</span>
+        <span className="asm-step-label"><em>01</em> 选动作引擎 · 18 Operator</span>
         <div className="asm-op-grid">
           {OP_ORDER.map((o) => (
             <button
               key={o}
               type="button"
               className={`asm-op-chip${o === op ? " asm-op-chip--active" : ""}`}
-              onClick={() => setOp(o)}
+              onClick={() => pickOp(o)}
             >
               <span className="asm-op-visual"><OperatorVisual type={o} /></span>
               <span className="asm-op-word">{o}</span>
@@ -104,46 +164,57 @@ export default function WordAssembler() {
         </div>
       </div>
 
-      {/* Step 2 · 方向 */}
+      {/* STEP 2 · 配运作词（方向/介词 或 抽象名词） */}
       <div className="asm-step">
-        <span className="asm-step-label"><em>02</em> 选方向 · Direction</span>
+        <span className="asm-step-label"><em>02</em> 配运作词 → 拼出短语动作</span>
+        <div className="asm-mode-toggle">
+          <button type="button" className={`asm-mode-btn${mode === "dir" ? " active" : ""}`} onClick={() => switchMode("dir")}>
+            + 方向/介词<small>put + on = 穿</small>
+          </button>
+          <button type="button" className={`asm-mode-btn${mode === "noun" ? " active" : ""}`} onClick={() => switchMode("noun")} disabled={!nounIndex.get(op)}>
+            + 抽象名词<small>make + decision = 决定</small>
+          </button>
+        </div>
         <div className="asm-dir-row">
-          {dirs.map((d) => (
+          {keys.length === 0 && <span className="asm-empty">该 operator 暂无此类组合，换一个试试</span>}
+          {keys.map((k) => (
             <button
-              key={d}
+              key={k}
               type="button"
-              className={`asm-dir-chip${d === activeDir ? " asm-dir-chip--active" : ""}`}
-              onClick={() => setDir(d)}
+              className={`asm-dir-chip${k === activeKey ? " asm-dir-chip--active" : ""}`}
+              onClick={() => (mode === "dir" ? setDir(k) : setNoun(k))}
             >
-              {d === NO_DIR ? "直接造句" : d}
+              {k === NO_DIR ? "直接" : k}
             </button>
           ))}
         </div>
       </div>
 
-      {/* 公式条：operator + direction = 普通动词 */}
-      <div className="asm-formula">
-        <code className="asm-formula-op">{op}</code>
-        {activeDir !== NO_DIR && (
-          <>
-            <span className="asm-formula-plus">+</span>
-            <code className="asm-formula-dir">{activeDir}</code>
-          </>
-        )}
-        <span className="asm-formula-eq">=</span>
-        <span className="asm-formula-result">{replaces || "（基础动作）"}</span>
-        {opEntry?.vector && <span className="asm-formula-vector">{opEntry.vector}</span>}
-      </div>
+      {/* 公式条 */}
+      {activeKey && (
+        <div className="asm-formula">
+          <code className="asm-formula-op">{op}</code>
+          {activeKey !== NO_DIR && (
+            <>
+              <span className="asm-formula-plus">+</span>
+              <code className={mode === "dir" ? "asm-formula-dir" : "asm-formula-noun"}>{activeKey}</code>
+            </>
+          )}
+          <span className="asm-formula-eq">=</span>
+          <span className="asm-formula-result">{replaces || "（基础动作）"}</span>
+          {opEntry?.vector && <span className="asm-formula-vector">{opEntry.vector}</span>}
+        </div>
+      )}
 
-      {/* 着色图例 */}
-      <div className="asm-legend">
-        <span className="asm-legend-chip asm-legend-chip--op">Operator 动作</span>
-        <span className="asm-legend-chip asm-legend-chip--dir">方向</span>
-        <span className="asm-legend-chip asm-legend-chip--misc">850 词</span>
-      </div>
-
-      {/* Step 3 · 例句 */}
-      <div className="asm-result">
+      {/* STEP 3 · 真实例句（全程语义着色 + 发音） */}
+      <div className="asm-step">
+        <span className="asm-step-label"><em>03</em> 挂内容词 → 真实例句</span>
+        <div className="asm-legend">
+          <span className="asm-legend-chip asm-legend-chip--op">动作 operator</span>
+          <span className="asm-legend-chip asm-legend-chip--dir">运作词·方向</span>
+          <span className="asm-legend-chip asm-legend-chip--n">名词 things</span>
+          <span className="asm-legend-chip asm-legend-chip--adj">性质 qualities</span>
+        </div>
         <div className="asm-result-head">
           <span className="asm-result-count">{sentences.length} 句</span>
           <span className="asm-result-hint">点「听」放 Sonia 英式女声（已配真人音频）</span>
@@ -152,7 +223,7 @@ export default function WordAssembler() {
           {sentences.map((s) => (
             <li key={s.id} className="asm-sentence">
               <div className="asm-sentence-body">
-                <div className="asm-sentence-en">
+                <p className="asm-sentence-en">
                   {renderChunks(s.sentence)}
                   <button
                     type="button"
@@ -163,7 +234,7 @@ export default function WordAssembler() {
                   >
                     听
                   </button>
-                </div>
+                </p>
                 {s.zh && <p className="asm-sentence-zh">{s.zh}</p>}
               </div>
             </li>
