@@ -15,7 +15,7 @@ export default function SidebarWordSearch() {
   const { pathname } = useLocation();
   const [params, setParams] = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
-  const isWordsPage = pathname === "/words";
+  const isWordsPage = pathname === "/doc/words";
   const [focusSearch, setFocusSearch] = useState(false);
 
   const q = params.get("q") ?? "";
@@ -33,7 +33,7 @@ export default function SidebarWordSearch() {
   }, [isWordsPage, focusSearch]);
 
   const openWords = (opts?: { focus?: boolean }) => {
-    navigate("/words");
+    navigate("/doc/words");
     if (opts?.focus) setFocusSearch(true);
   };
 
@@ -49,7 +49,7 @@ export default function SidebarWordSearch() {
     e?.preventDefault();
     const query = draft.trim();
     if (!isWordsPage) {
-      navigate(query ? `/words?q=${encodeURIComponent(query)}` : "/words");
+      navigate(query ? `/doc/words?q=${encodeURIComponent(query)}` : "/doc/words");
       return;
     }
     syncQuery(draft);

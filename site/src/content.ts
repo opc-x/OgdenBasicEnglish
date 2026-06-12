@@ -4,8 +4,10 @@ export type NavItem = {
   slug: string;
   phaseId: string;
   badge?: string;
-  /** 非文档页路由，如 /words */
+  /** 非文档页路由，如 /doc/words */
   href?: string;
+  /** 不在侧边栏展示，但仍可通过 href/slug 访问（用于避免重复入口） */
+  hidden?: boolean;
 };
 
 export type NavPhase = {
@@ -15,6 +17,8 @@ export type NavPhase = {
   subtitle: string;
   formula?: string;
   collapsed?: boolean;
+  /** 仅隐藏左侧导航栏入口，代码与内容保留 */
+  hiddenFromNav?: boolean;
 };
 
 export type AssetLink = {
@@ -67,6 +71,7 @@ export const LEARNING_PHASES: NavPhase[] = [
     title: "练输出",
     subtitle: "站内跟读 + 问答，直接开练",
     formula: "官方课文 · 示范句 · 填空",
+    hiddenFromNav: true,
   },
   {
     id: "reference",
@@ -89,11 +94,11 @@ export const NAV: NavItem[] = [
   { phaseId: "map", title: "从这里开始", path: "00-START-HERE.md", slug: "start", badge: "第 1 步" },
   { phaseId: "map", title: "原始材料出处", path: "reference/sources.md", slug: "sources", badge: "核对" },
   { phaseId: "core", title: "18 个 Operator（必背）", path: "01-foundations/operators-18.md", slug: "operators", badge: "重点" },
-  { phaseId: "core", title: "850 词随时查", path: "", slug: "words-search", href: "/words", badge: "查询" },
+  { phaseId: "core", title: "850 词随时查", path: "", slug: "words-search", href: "/doc/words", badge: "查询" },
   { phaseId: "skeleton", title: "方向词与介词", path: "01-foundations/directions-prepositions.md", slug: "directions" },
   { phaseId: "skeleton", title: "语法规则卡", path: "01-foundations/grammar-rules.md", slug: "grammar" },
   { phaseId: "roots", title: "分层学习指南", path: "02-vocabulary/tier-guide.md", slug: "tier-guide" },
-  { phaseId: "roots", title: "850 词（Ogden 序）", path: "02-vocabulary/words-ogden-order.md", slug: "words" },
+  { phaseId: "roots", title: "850 词（Ogden 序）", path: "02-vocabulary/words-ogden-order.md", slug: "words", hidden: true },
   { phaseId: "multiply", title: "短语动词", path: "03-composition/phrasal-verbs.md", slug: "phrasal" },
   { phaseId: "multiply", title: "词缀扩展", path: "03-composition/derivation-affixes.md", slug: "affixes" },
   { phaseId: "multiply", title: "复合词", path: "03-composition/compounds.md", slug: "compounds" },
@@ -139,7 +144,7 @@ export function getPhase(phaseId: string): NavPhase | undefined {
 }
 
 export function getPhaseItems(phaseId: string): NavItem[] {
-  return NAV.filter((n) => n.phaseId === phaseId);
+  return NAV.filter((n) => n.phaseId === phaseId && !n.hidden);
 }
 
 export function getStepIndex(slug: string): number {

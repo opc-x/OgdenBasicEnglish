@@ -8,7 +8,7 @@ type RoadmapStep = {
   color: string;
   bgLight: string;
   borderCol: string;
-  todo: { text: string; link: string; isWords?: boolean }[];
+  todo: { text: string; link: string }[];
   svgIcon: React.ReactNode;
 };
 
@@ -53,7 +53,7 @@ export default function RoadmapVisual() {
       ),
       todo: [
         { text: "阅读分层掌握指南", link: "/doc/tier-guide" },
-        { text: "850词表随时查询", link: "/words", isWords: true },
+        { text: "850词表随时查询", link: "/doc/words" },
         { text: "掌握 200 个可画图词", link: "/doc/words" }
       ]
     },

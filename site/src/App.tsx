@@ -2,7 +2,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import DocPage from "./DocPage";
 import Home from "./Home";
-import WordsPage from "./WordsPage";
 import WordDetailPage from "./WordDetailPage";
 import StepByStepPage from "./practice/StepByStepPage";
 import BasicTeacherPage from "./practice/BasicTeacherPage";
@@ -13,7 +12,7 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="words" element={<WordsPage />} />
+        <Route path="words" element={<Navigate to="/doc/words" replace />} />
         <Route path="word/:word" element={<WordDetailPage />} />
         <Route path="practice" element={<Navigate to="/practice/lab" replace />} />
         <Route path="practice/lab" element={<OutputLabPage />} />

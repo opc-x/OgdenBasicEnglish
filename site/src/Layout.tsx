@@ -19,9 +19,7 @@ export default function Layout() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
   const isWide =
-    pathname === "/words" ||
     pathname.startsWith("/word/") ||
-    pathname.endsWith("/doc/words") ||
     pathname.includes("/doc/words") ||
     pathname.startsWith("/practice");
   const activeSlug = pathname.startsWith("/doc/")
@@ -32,8 +30,6 @@ export default function Layout() {
         ? "practice-bt"
         : pathname.startsWith("/practice/")
           ? "practice-sbs"
-        : pathname === "/words"
-          ? "words-search"
           : null;
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>(() => {
     const init: Record<string, boolean> = {};
@@ -76,6 +72,7 @@ export default function Layout() {
 
         <nav className="side-nav" aria-label="学习路径">
           {LEARNING_PHASES.map((phase) => {
+            if (phase.hiddenFromNav) return null;
             const items = getPhaseItems(phase.id);
             if (items.length === 0) return null;
 
