@@ -7,7 +7,6 @@ import WordMachine from "./WordMachine";
 import TierBreakdown from "./TierBreakdown";
 import MultiplyMore from "./MultiplyMore";
 import WordExplorer from "./WordExplorer";
-import WordAssembler from "./practice/WordAssembler";
 import OperatorsGrid from "./OperatorsGrid";
 import PlaybookPlay from "./PlaybookPlay";
 import DirectionsVisual from "./DirectionsVisual";
@@ -83,16 +82,6 @@ export default function DocPage() {
               <span className="doc-visual-hint">先看图，再读细节 ↓</span>
               {DOC_VISUALS[slug]}
             </div>
-          )}
-          {slug === "words" && (
-            <section className="doc-assembler">
-              <div className="doc-assembler-head">
-                <span className="doc-assembler-kicker">动手 · 拼词造句</span>
-                <h2>把上面这些词，拼成句子</h2>
-                <p>18 个 operator × 运作词 × 850 词——选一个动作，配一个方向，立刻看见它替代了哪个普通动词，以及真实例句。</p>
-              </div>
-              <WordAssembler />
-            </section>
           )}
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
             a: ({ href, children, ...props }) => {

@@ -3,8 +3,10 @@ import { Link, useSearchParams } from "react-router-dom";
 import { WORDS, TIER_META, ANNOTATED_COUNT, isOperator, type Tier, type Word } from "./words850";
 import { speak, isSpeechSupported } from "./speak";
 import { fixImageUrl } from "./wordSources";
+import WordAssembler from "./practice/WordAssembler";
 
 type Filter = Tier | "all" | "op18";
+type ViewMode = "cards" | "assemble";
 
 const TABS: { id: Filter; label: string }[] = [
   { id: "op18", label: "18 Operator" },
@@ -88,6 +90,7 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
   const [filter, setFilter] = useState<Filter>(
     (params.get("tab") as Filter) || defaultFilter
   );
+  const [view, setView] = useState<ViewMode>("cards");
   const [q, setQ] = useState(qParam);
 
   useEffect(() => {
@@ -155,31 +158,43 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
         ))}
       </div>
 
-      <div className="explorer-search">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden>
-          <path
-            fill="currentColor"
-            d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 1 0-.7.7l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"
-          />
-        </svg>
-        <input
-          type="search"
-          value={q}
-          onChange={(e) => onSearch(e.target.value)}
-          placeholder="搜单词或中文，如 come / 来 / dog"
-          aria-label="搜索单词"
-        />
-        <span className="explorer-count">{list.length} 个</span>
+      {/* 二级 tab：词卡 / 拼词造句 */}
+      <div className="explorer-subtabs">
+        <button type="button" className={`explorer-subtab${view === "cards" ? " active" : ""}`} onClick={() => setView("cards")}>📇 词卡</button>
+        <button type="button" className={`explorer-subtab${view === "assemble" ? " active" : ""}`} onClick={() => setView("assemble")}>🔧 拼词造句</button>
       </div>
 
-      {list.length ? (
-        <div className="word-grid">
-          {list.map((word) => (
-            <WordCard key={`${word.t}-${word.w}`} word={word} tab={filter} />
-          ))}
-        </div>
+      {view === "cards" ? (
+        <>
+          <div className="explorer-search">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden>
+              <path
+                fill="currentColor"
+                d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 1 0-.7.7l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"
+              />
+            </svg>
+            <input
+              type="search"
+              value={q}
+              onChange={(e) => onSearch(e.target.value)}
+              placeholder="搜单词或中文，如 come / 来 / dog"
+              aria-label="搜索单词"
+            />
+            <span className="explorer-count">{list.length} 个</span>
+          </div>
+
+          {list.length ? (
+            <div className="word-grid">
+              {list.map((word) => (
+                <WordCard key={`${word.t}-${word.w}`} word={word} tab={filter} />
+              ))}
+            </div>
+          ) : (
+            <p className="explorer-empty">没找到「{q}」，换个词试试。</p>
+          )}
+        </>
       ) : (
-        <p className="explorer-empty">没找到「{q}」，换个词试试。</p>
+        <WordAssembler tier={filter} />
       )}
     </div>
   );
