@@ -10,6 +10,7 @@ const copies = [
   ["02-vocabulary/basic-english-850.txt", "basic-english-850.txt"],
   ["04-practice/english-through-pictures-book1.pdf", "english-through-pictures-book1.pdf"],
   ["reference/begr-1937.html", "begr-1937.html"],
+  ["reference/mirrors/books-catalog.html", "books-catalog.html"],
   ["01-foundations/operators_spatial_concept.png", "operators_spatial_concept.png"],
   ["01-foundations/playbook_roadmap.png", "playbook_roadmap.png"],
 ];

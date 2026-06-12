@@ -2945,7 +2945,7 @@ a:hover { color: var(--accent-deep); }
   margin: 1.25rem 0;
 }
 .table-wrapper table {
-  width: 100%;
+  min-width: 100%;
   border-collapse: collapse;
   font-size: 0.9rem;
   margin: 0;
@@ -2954,6 +2954,11 @@ a:hover { color: var(--accent-deep); }
   border: 1px solid var(--border);
   padding: 0.55rem 0.8rem;
   text-align: left;
+}
+@media (max-width: 640px) {
+  .table-wrapper table { font-size: 0.85rem; }
+  .table-wrapper th, .table-wrapper td { white-space: nowrap; }
+  .table-wrapper th:first-child, .table-wrapper td:first-child { white-space: normal; min-width: 11rem; }
 }
 .prose th {
   background: rgba(26, 24, 20, 0.04);

@@ -151,6 +151,13 @@ export function getStepIndex(slug: string): number {
   return NAV.findIndex((n) => n.slug === slug);
 }
 
+/** 站内文档阅读顺序：剔除隐藏项与跳转到其他模块的入口，供页码与翻页使用 */
+export const READING_NAV = NAV.filter((n) => !n.hidden && !n.href);
+
+export function getReadingIndex(slug: string): number {
+  return READING_NAV.findIndex((n) => n.slug === slug);
+}
+
 /** @deprecated use getPhase */
 export const GROUPS = LEARNING_PHASES.map((p) => p.title);
 
@@ -165,8 +172,10 @@ export const PATH_TO_ASSET: Record<string, string> = {
   "../02-vocabulary/basic-english-850.txt": "/assets/basic-english-850.txt",
   "../04-practice/english-through-pictures-book1.pdf": "/assets/english-through-pictures-book1.pdf",
   "../reference/begr-1937.html": "/assets/begr-1937.html",
+  "../reference/mirrors/books-catalog.html": "/assets/books-catalog.html",
   "ogdens-basic-english-850.pdf": "/assets/ogdens-basic-english-850.pdf",
   "basic-english-850.txt": "/assets/basic-english-850.txt",
   "english-through-pictures-book1.pdf": "/assets/english-through-pictures-book1.pdf",
   "begr-1937.html": "/assets/begr-1937.html",
+  "reference/mirrors/books-catalog.html": "/assets/books-catalog.html",
 };
