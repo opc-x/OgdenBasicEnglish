@@ -151,8 +151,8 @@ export function getStepIndex(slug: string): number {
   return NAV.findIndex((n) => n.slug === slug);
 }
 
-/** 站内文档阅读顺序：剔除隐藏项与跳转到其他模块的入口，供页码与翻页使用 */
-export const READING_NAV = NAV.filter((n) => !n.hidden && !n.href);
+/** 站内文档阅读顺序：剔除跳转到其他模块的入口，供前后翻页使用 */
+export const READING_NAV = NAV.filter((n) => !n.href);
 
 export function getReadingIndex(slug: string): number {
   return READING_NAV.findIndex((n) => n.slug === slug);

@@ -59,11 +59,6 @@ export default function DocPage() {
   const prev = idx > 0 ? READING_NAV[idx - 1] : null;
   const next = idx >= 0 && idx < READING_NAV.length - 1 ? READING_NAV[idx + 1] : null;
   const phase = item ? getPhase(item.phaseId) : null;
-  const phaseLabel = phase
-    ? /^\d+$/.test(phase.step)
-      ? `第 ${phase.step} 步 · ${phase.title}`
-      : `${phase.step} ${phase.title}`
-    : "";
 
   if (!item || !body) {
     return (<div className="doc-empty"><h1>页面不存在</h1><Link to="/">回首页</Link></div>);
@@ -73,10 +68,6 @@ export default function DocPage() {
     <article className="doc">
       <header className="doc-header">
         <div className="doc-header-top">
-          <p className="doc-eyebrow">
-            {phaseLabel}
-            {idx >= 0 ? ` · 第 ${idx + 1} / ${READING_NAV.length} 篇` : ""}
-          </p>
           <div className="doc-header-nav">
             {prev ? (
               <Link className="doc-nav-btn" to={`/doc/${prev.slug}`} title={`上一篇：${prev.title}`}>← 上一篇</Link>

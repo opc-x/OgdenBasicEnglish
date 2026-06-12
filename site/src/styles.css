@@ -745,7 +745,7 @@ a:hover { color: var(--accent-deep); }
 }
 .main-home { max-width: min(1000px, 100%); }
 .main-wide {
-  max-width: none;
+  max-width: min(1440px, 100%);
   padding: 1.5rem clamp(1rem, 2vw, 1.75rem) 3.5rem;
 }
 
@@ -770,10 +770,10 @@ a:hover { color: var(--accent-deep); }
 
 .doc-header-top {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  margin: 0 0 1.25rem;
 }
 .doc-header-nav {
   display: flex;
@@ -3324,7 +3324,7 @@ a:hover { color: var(--accent-deep); }
 @media (min-width: 1440px) {
   :root { --sidebar-w: 272px; }
   .main-home { max-width: min(1040px, 100%); }
-  .main:not(.main-wide) { max-width: min(960px, 100%); }
+  .main:not(.main-wide) { max-width: min(1080px, 100%); }
   .journey-map-home { grid-template-columns: repeat(4, 1fr); }
   .word-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .practice-page { max-width: min(1200px, 100%); }
