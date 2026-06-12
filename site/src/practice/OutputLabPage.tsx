@@ -6,14 +6,14 @@ import { checkAnswer } from "./checkAnswer";
 import { REWRITE_CHALLENGES } from "./rewriteChallenges";
 import { SCENARIO_CHALLENGES } from "./scenarioChallenges";
 import SentenceAuditor from "./SentenceAuditor";
-import SentenceBuilder from "./SentenceBuilder";
+import WordAssembler from "./WordAssembler";
 import { TRAINING_SENTENCES, type TrainingSentence } from "./trainingData";
 
-type Tab = "build" | "write" | "rewrite" | "scene" | "train";
+type Tab = "assemble" | "write" | "rewrite" | "scene" | "train";
 
 const TABS: { id: Tab; label: string; desc: string }[] = [
-  { id: "train", label: "训练", desc: "842句-Ogden三步走" },
-  { id: "build", label: "拼句器", desc: "点词块 → 立刻出句" },
+  { id: "assemble", label: "拼词造句", desc: "operator × 方向 → 出句" },
+  { id: "train", label: "训练", desc: "2797句·Ogden三步走" },
   { id: "write", label: "自由造句", desc: "打字 → 逐词变绿/变红" },
   { id: "rewrite", label: "降维改写", desc: "难句 → 你的 BE850" },
   { id: "scene", label: "场景挑战", desc: "课文场景 → 你说出来" },
@@ -129,7 +129,7 @@ function TrainingTab() {
 // ── Main Output Lab ──
 
 export default function OutputLabPage() {
-  const [tab, setTab] = useState<Tab>("train");  // Default to training tab
+  const [tab, setTab] = useState<Tab>("assemble");  // Default to assembler tab
   const [freeText, setFreeText] = useState("");
   const [rewriteIdx, setRewriteIdx] = useState(0);
   const [rewriteInput, setRewriteInput] = useState("");
@@ -151,11 +151,13 @@ export default function OutputLabPage() {
 
   return (
     <div className="output-lab">
-      <header className="practice-header">
-        <p className="practice-kicker">第 4 步 · 练输出 · 看见效果</p>
-        <h1>造句实战</h1>
-        <p className="practice-sub">
-          学了词和规则不是终点——<strong>在这里拼句、造句、改写、训练</strong>，每个词当场标色，立刻看见你能不能说出来。
+      <header className="word-detail-header lab-header">
+        <p className="word-detail-eyebrow">Ogden Basic English · 第 4 步 · 练输出 · 看见效果</p>
+        <div className="word-detail-title-row">
+          <h1>造句实战</h1>
+        </div>
+        <p className="word-detail-cn">
+          学了词和规则不是终点——<strong>拼词、造句、改写、训练</strong>，每个词当场标色，立刻看见你能不能说出来。
         </p>
       </header>
 
@@ -175,14 +177,13 @@ export default function OutputLabPage() {
         ))}
       </div>
 
-      {tab === "train" && <TrainingTab />}
-
-      {tab === "build" && (
+      {tab === "assemble" && (
         <section className="practice-section lab-panel">
-          <h2>拼句器</h2>
-          <SentenceBuilder />
+          <WordAssembler />
         </section>
       )}
+
+      {tab === "train" && <TrainingTab />}
 
       {tab === "write" && (
         <section className="practice-section lab-panel">
