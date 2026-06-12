@@ -149,7 +149,6 @@ export async function speakText(text: string, sentenceId?: number): Promise<void
   const words = text.split(/\s+/).filter(Boolean);
   if (words.length <= 10) {
     for (const w of words) {
-      const wSlug = slug(w);
       if (await hasSoniaAudio(w)) {
         try { await playMp3(audioUrl(w)); continue; } catch { /* fall through */ }
       }

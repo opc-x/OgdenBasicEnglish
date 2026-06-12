@@ -32,7 +32,7 @@ export const ROLE_META: Record<SentenceRole, { label: string; color: string }> =
   misc: { label: "", color: "#6b6258" },
 };
 
-const MAP = guides as Record<string, WordGuide>;
+const MAP = (guides as any) as Record<string, WordGuide>;
 
 export function getWordGuide(word: string): WordGuide | undefined {
   const key = normalizeWordKey(word);
