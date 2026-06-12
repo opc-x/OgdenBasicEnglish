@@ -5463,31 +5463,40 @@ a:hover { color: var(--accent-deep); }
 }
 .doc-assembler-head p { color: var(--ink-muted); margin: 0; font-size: 0.95rem; }
 
-/* ── WordExplorer 二级 tab：词卡 / 拼词造句 ── */
 .explorer-subtabs {
   display: flex;
-  gap: 0.5rem;
-  margin: 0.6rem 0 1rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.6rem;
+  gap: 0.25rem;
+  margin: 1.2rem 0 0 0;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 .explorer-subtab {
-  padding: 0.4rem 1rem;
+  padding: 0.5rem 1.2rem;
   border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--bg-card);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  background: var(--bg-elevated);
   font-size: 0.92rem;
   font-weight: 700;
   color: var(--ink-muted);
   cursor: pointer;
   transition: all 0.15s;
+  position: relative;
+  top: 1px;
+  z-index: 2;
 }
-.explorer-subtab:hover { border-color: #b45309; color: var(--ink); }
+.explorer-subtab:hover {
+  border-color: var(--border);
+  color: var(--accent);
+  background: var(--bg-card);
+}
 .explorer-subtab.active {
-  border-color: #b45309;
-  background: #b45309;
-  color: #fff;
+  border-color: var(--border);
+  border-bottom-color: var(--bg-card);
+  background: var(--bg-card);
+  color: var(--accent);
 }
+
 
 /* 量化统计小标 */
 .asm-stat {
@@ -5631,9 +5640,146 @@ a:hover { color: var(--accent-deep); }
   padding: 0;
   display: inline-grid;
   place-items: center;
+  background: color-mix(in srgb, var(--accent) 10%, transparent) !important;
+  color: var(--accent) !important;
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent) !important;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.word-speak--sm:hover {
+  background: var(--accent) !important;
+  color: #fff !important;
 }
 .word-speak--sm svg {
   width: 10px;
   height: 10px;
 }
+
+.explorer-content-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* 拼词造句规则分栏与量化 */
+.asm-rules-split {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+@media (max-width: 900px) {
+  .asm-rules-split {
+    flex-direction: column;
+  }
+}
+.asm-rules-left {
+  flex: 1.8;
+  min-width: 0;
+}
+.asm-rules-right {
+  flex: 1.2;
+  min-width: 0;
+  border-left: 1px dashed var(--border);
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 900px) {
+  .asm-rules-right {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px dashed var(--border);
+    padding-top: 1.5rem;
+  }
+}
+.asm-section-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.8rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent-soft);
+}
+.asm-quote-card {
+  background: var(--bg-elevated);
+  padding: 0.85rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
+.asm-quote-text {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.82rem;
+  color: var(--ink);
+  font-weight: 600;
+  line-height: 1.4;
+}
+.asm-quote-subtext {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+}
+.asm-stats-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.asm-stat-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: center;
+}
+.asm-stat-num {
+  display: block;
+  font-family: var(--mono);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.asm-stat-desc {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+}
+.asm-category-stats-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem;
+  flex-grow: 1;
+}
+.asm-category-stats-card h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.8rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+.asm-cat-stats-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.asm-cat-stats-list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+}
+.asm-cat-stats-list .label {
+  color: var(--ink-muted);
+}
+.asm-cat-stats-list .val {
+  font-weight: 600;
+  color: var(--ink);
+}
+.asm-cat-stats-list .text-success {
+  color: #15803d;
+}
+
 

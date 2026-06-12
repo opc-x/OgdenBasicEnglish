@@ -99,7 +99,17 @@ const Legend = () => (
   </div>
 );
 
-function RulesGuide() {
+interface RulesGuideProps {
+  mode: "operator" | "content";
+  categoryLabel: string;
+  categoryStats: {
+    wordsCount?: string;
+    combosCount?: string;
+    sentencesCount: number;
+  };
+}
+
+function RulesGuide({ mode, categoryLabel, categoryStats }: RulesGuideProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -111,56 +121,122 @@ function RulesGuide() {
         aria-expanded={isOpen}
       >
         <span className="asm-rules-toggle-icon">{isOpen ? "▼" : "▶"}</span>
-        <span>💡 Ogden 拼词造句五大倍增规则（点击折叠/展开）</span>
+        <div style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", paddingRight: "1rem" }}>
+          <span>💡 Ogden 拼词造句规则与效果量化统计说明</span>
+          <span style={{ fontSize: "0.78rem", opacity: 0.8, fontWeight: "normal" }}>
+            {isOpen ? "点击折叠" : "点击查看拼词倍增公式与量化效果"}
+          </span>
+        </div>
       </button>
 
       {isOpen && (
         <div className="asm-rules-content">
-          <div className="asm-rules-grid">
-            <div className="asm-rule-card">
-              <h4>1. 动作 + 方向 = 短语动词</h4>
-              <p>消灭普通动词，用 18个动作引擎与方向/介词组合，替代 4000+ 传统词汇。</p>
-              <div className="asm-rule-example">
-                <code>put</code> + <code>on</code> = <strong>穿 (wear)</strong> <br />
-                <code>take</code> + <code>off</code> = <strong>脱 (undress)</strong>
+          <div className="asm-rules-split">
+            {/* 左侧：五大规则 */}
+            <div className="asm-rules-left">
+              <h3 className="asm-section-title">💡 Ogden 拼词造句五大倍增规则</h3>
+              <div className="asm-rules-grid">
+                <div className="asm-rule-card">
+                  <h4>1. 动作 + 方向 = 短语动词</h4>
+                  <p>消灭普通动词，用 18个动作引擎与方向/介词组合，替代 4000+ 传统动词。</p>
+                  <div className="asm-rule-example">
+                    <code>put</code> + <code>on</code> = <strong>穿 (wear)</strong> <br />
+                    <code>take</code> + <code>off</code> = <strong>脱 (undress)</strong>
+                  </div>
+                </div>
+
+                <div className="asm-rule-card">
+                  <h4>2. 名词派生词后缀 (-er/-ing/-ed)</h4>
+                  <p>约 300 个名词可派生人/动作/状态，不增加词根负担。</p>
+                  <div className="asm-rule-example">
+                    <code>work</code> + <code>-er</code> = <strong>worker (工人)</strong> <br />
+                    <code>work</code> + <code>-ing</code> = <strong>working (工作着)</strong> <br />
+                    <code>work</code> + <code>-ed</code> = <strong>worked (已工作)</strong>
+                  </div>
+                </div>
+
+                <div className="asm-rule-card">
+                  <h4>3. 性质词 + -ly = 副词</h4>
+                  <p>性质词加上 <code>-ly</code> 后缀变副词修饰动作。</p>
+                  <div className="asm-rule-example">
+                    <code>quick</code> + <code>-ly</code> = <strong>quickly (快地)</strong> <br />
+                    <code>slow</code> + <code>-ly</code> = <strong>slowly (慢地)</strong>
+                  </div>
+                </div>
+
+                <div className="asm-rule-card">
+                  <h4>4. 前缀 un- = 反义词</h4>
+                  <p>性质词前加 <code>un-</code> 直接表达相反意思。</p>
+                  <div className="asm-rule-example">
+                    <code>happy</code> + <code>un-</code> = <strong>unhappy (不快乐)</strong> <br />
+                    <code>clean</code> + <code>un-</code> = <strong>unclean (不干净)</strong>
+                  </div>
+                </div>
+
+                <div className="asm-rule-card">
+                  <h4>5. 两个核心词合成 = 复合词</h4>
+                  <p>将两个基础词拼在一起，构成新的名词或代词。</p>
+                  <div className="asm-rule-example">
+                    <code>sun</code> + <code>light</code> = <strong>sunlight (阳光)</strong> <br />
+                    <code>rain</code> + <code>coat</code> = <strong>raincoat (雨衣)</strong>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="asm-rule-card">
-              <h4>2. 名词派生词后缀 (-er/-ing/-ed)</h4>
-              <p>约 300 个核心名词可以派生人/动作/状态，且不增加新词根负担。</p>
-              <div className="asm-rule-example">
-                <code>work</code> + <code>-er</code> = <strong>worker (工人)</strong> <br />
-                <code>work</code> + <code>-ing</code> = <strong>working (工作着)</strong> <br />
-                <code>work</code> + <code>-ed</code> = <strong>worked (已工作)</strong>
+            {/* 右侧：效果量化 */}
+            <div className="asm-rules-right">
+              <h3 className="asm-section-title">📊 拼词造句 · 效果量化统计</h3>
+              
+              <div className="asm-quote-card">
+                <p className="asm-quote-text">
+                  “英语有 2 万多个词，太多背不完。Ogden 的办法：只记 850 个词根，再学几条「拼词规则」，就能说出日常 90% 的内容。”
+                </p>
+                <p className="asm-quote-subtext">
+                  —— 消灭普通动词，用 18 个动作引擎与方向/介词组合，替代 4000+ 传统动词。
+                </p>
               </div>
-            </div>
 
-            <div className="asm-rule-card">
-              <h4>3. 性质词 + -ly = 副词</h4>
-              <p>性质词（形容词）加上 <code>-ly</code> 后缀，变为副词修饰动作。</p>
-              <div className="asm-rule-example">
-                <code>quick</code> + <code>-ly</code> = <strong>quickly (快地)</strong> <br />
-                <code>slow</code> + <code>-ly</code> = <strong>slowly (慢地)</strong>
+              <div className="asm-stats-group">
+                <div className="asm-stat-box">
+                  <span className="asm-stat-num">850 词</span>
+                  <span className="asm-stat-desc">Ogden 核心词根总数</span>
+                </div>
+                <div className="asm-stat-box">
+                  <span className="asm-stat-num">4,263 句</span>
+                  <span className="asm-stat-desc">已配 Sonia 英式声训练句</span>
+                </div>
               </div>
-            </div>
 
-            <div className="asm-rule-card">
-              <h4>4. 前缀 un- = 反义词</h4>
-              <p>在性质词前加上 <code>un-</code>，可直接表达相反的意思。</p>
-              <div className="asm-rule-example">
-                <code>happy</code> + <code>un-</code> = <strong>unhappy (不快乐)</strong> <br />
-                <code>clean</code> + <code>un-</code> = <strong>unclean (不干净)</strong>
-              </div>
-            </div>
-
-            <div className="asm-rule-card">
-              <h4>5. 两个核心词合成 = 复合词</h4>
-              <p>将两个基础词拼在一起，构成新的名词或代词。</p>
-              <div className="asm-rule-example">
-                <code>sun</code> + <code>light</code> = <strong>sunlight (阳光)</strong> <br />
-                <code>rain</code> + <code>coat</code> = <strong>raincoat (雨衣)</strong> <br />
-                <code>some</code> + <code>one</code> = <strong>someone (某人)</strong>
+              <div className="asm-category-stats-card">
+                <h4>当前分类：{categoryLabel}</h4>
+                <ul className="asm-cat-stats-list">
+                  {categoryStats.wordsCount && (
+                    <li>
+                      <span className="label">包含词汇数：</span>
+                      <span className="val">{categoryStats.wordsCount}</span>
+                    </li>
+                  )}
+                  {categoryStats.combosCount && (
+                    <li>
+                      <span className="label">已覆盖动作组合数：</span>
+                      <span className="val">{categoryStats.combosCount}</span>
+                    </li>
+                  )}
+                  <li>
+                    <span className="label">配套训练例句数：</span>
+                    <span className="val">{categoryStats.sentencesCount} 句</span>
+                  </li>
+                  <li>
+                    <span className="label">拼词倍增效益：</span>
+                    <span className="val text-success">
+                      {mode === "operator" 
+                        ? "替代 4,000+ 动词变形" 
+                        : "核心词 × 动作引擎派生"
+                      }
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -239,7 +315,15 @@ function OperatorMode() {
       <p className="asm-intro">
         Ogden 拼词造句 = <strong>三层叠加</strong>：选 1 个<strong>动作引擎</strong>，配 1 个<strong>运作词</strong>拼出短语，再挂内容词成句。
       </p>
-      <RulesGuide />
+      <RulesGuide
+        mode="operator"
+        categoryLabel="18个 Operator 动作引擎"
+        categoryStats={{
+          wordsCount: "18 个",
+          combosCount: `${opCombos} 组`,
+          sentencesCount: opSentences,
+        }}
+      />
 
       <div className="asm-step">
         <span className="asm-step-label"><em>01</em> 选动作引擎 · 18 Operator</span>
@@ -314,12 +398,33 @@ function ContentMode({ tier }: { tier: "pic" | "things" | "qual" | "opp" }) {
   const activeWord = sel || coveredWords[0]?.w || "";
   const sentences = wordSentences.get(activeWord) ?? [];
 
+  const catSentencesCount = useMemo(() => {
+    let sum = 0;
+    for (const sents of wordSentences.values()) {
+      sum += sents.length;
+    }
+    return sum;
+  }, [wordSentences]);
+
+  const catLabel =
+    tier === "pic" ? "看得见的物 (Picturable)" :
+    tier === "things" ? "抽象的物 (General Things)" :
+    tier === "qual" ? "性质词 (Qualities)" :
+    "反义词 (Opposites)";
+
   return (
     <div className="assembler">
       <p className="asm-intro">
         用<strong>这一类词</strong>造句：点一个词，看它在 BE850 真实句子里怎么用——operator 当动作、它当内容词。
       </p>
-      <RulesGuide />
+      <RulesGuide
+        mode="content"
+        categoryLabel={catLabel}
+        categoryStats={{
+          wordsCount: `${covered} / ${total} 词 (${pct}%)`,
+          sentencesCount: catSentencesCount,
+        }}
+      />
 
       <div className="asm-coverage">
         <div className="asm-coverage-bar"><span style={{ width: `${pct}%` }} /></div>

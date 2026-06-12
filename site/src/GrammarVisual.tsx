@@ -14,35 +14,37 @@ const RULES: GrammarRule[] = [
     id: 1,
     title: "Plural: -S / -ES / -IES",
     cn: "复数变化规则",
-    concept: "与普通英语完全一致。一般名词加 -s；以 s/sh/ch/x 结尾加 -es；辅音字母 + y 结尾变 y 为 -ies。",
+    concept: "与普通英语一致：一般名词加 -s；以咝音（s/sh/ch/x/o）结尾加 -es；辅音 + y 结尾变 y 为 -ies；另有 knife/leaf/shelf 变 -ves，以及 men/feet 等不规则词。",
     examples: [
-      { en: "dog → dogs", cn: "狗 → 狗（复数）" },
-      { en: "glass → glasses", cn: "玻璃杯 → 玻璃杯（复数）" },
-      { en: "story → stories", cn: "故事 → 故事（复数）" }
+      { en: "dog → dogs", cn: "狗 → 狗（复数，直接加 -s）" },
+      { en: "glass → glasses", cn: "玻璃杯 → 玻璃杯（复数，以咝音结尾加 -es）" },
+      { en: "story → stories", cn: "故事 → 故事（复数，辅音+y 变 -ies）" },
+      { en: "leaf → leaves / foot → feet", cn: "叶子 → 叶子 / 脚 → 脚（特殊变形）" }
     ],
     svgType: "plural"
   },
   {
     id: 2,
     title: "Noun Derivation: -ER / -ING / -ED",
-    cn: "名词长尾巴（派生）",
-    concept: "约 300 个核心名词可以通过添加 -er（人/工具）、-ing（正在进行/动名词）或 -ed（已完成/被动状态）来派生新词，而不需要背诵新词根。",
+    cn: "名词派生四种形式",
+    concept: "允许在 300 个核心名词（表示动作/过程）后添加后缀派生出：-er（动作执行者/工具）、-ing（动名词）、-ing（形容词，表示主动/进行）、-ed（形容词，表示被动/完成），这些词不占 850 词限额。",
     examples: [
-      { en: "work → worker", cn: "工作 → 工人 / 工作者" },
-      { en: "work → working", cn: "工作 → 正在工作" },
-      { en: "work → worked", cn: "工作 → 已工作过" }
+      { en: "work → worker", cn: "工作 → 工人 / 劳动者 (-er 派生)" },
+      { en: "work → working (noun)", cn: "工作 → 劳动 / 运作行为 (-ing 名词)" },
+      { en: "work → working (adj)", cn: "工作 → 工作中的 (a working man，-ing 形容词)" },
+      { en: "work → worked (adj)", cn: "工作 → 经过加工的 (worked metal，-ed 形容词)" }
     ],
     svgType: "derivation"
   },
   {
     id: 3,
-    title: "Adverbs: + -LY",
+    title: "Adverbs: Qualifier + -LY",
     cn: "性质词变副词",
-    concept: "在性质词（形容词）后面加上 -ly，即可以变成副词，表示做事的状态或方式。",
+    concept: "性质词（形容词）加 -ly 即可变成修饰状态的副词。拼写注意：以 y 结尾变 y 为 i 再加 -ly；以 le 结尾去 e 变 y（即变整个词尾为 -ly）。",
     examples: [
-      { en: "quick → quickly", cn: "快的 → 快地" },
-      { en: "slow → slowly", cn: "慢的 → 慢地" },
-      { en: "clear → clearly", cn: "清晰的 → 清晰地" }
+      { en: "quick → quickly", cn: "快的 → 快地 (直接加 -ly)" },
+      { en: "happy → happily", cn: "快乐的 → 快乐地 (y 变 i 加 -ly)" },
+      { en: "simple → simply", cn: "简单的 → 简单地 (le 去 e 变 y)" }
     ],
     svgType: "adverb"
   },
@@ -50,11 +52,11 @@ const RULES: GrammarRule[] = [
     id: 4,
     title: "Comparison: MORE / MOST",
     cn: "比较级与最高级",
-    concept: "BE850 默认不用 -er/-est 词尾（如 taller），而是统一使用 more (更...) 和 most (最...) 来表示比较，语法结构更稳定简单。",
+    concept: "BE850 默认使用 more (更...) 和 most (最...) 来统一进行比较，避免繁琐词尾。单音节短词口语中也可用 -er/-est，好/坏保留不规则变化 (better/best, worse/worst)。",
     examples: [
-      { en: "more complex", cn: "更复杂的 (比...更)" },
-      { en: "most complex", cn: "最复杂的" },
-      { en: "more sharp / most sharp", cn: "更锋利的 / 最锋利的" }
+      { en: "more complex / most complex", cn: "更复杂 / 最复杂 (标准 degree 表达)" },
+      { en: "longer / longest (nearer / nearest)", cn: "更长 / 最长 (短词口语常用例外)" },
+      { en: "good → better → best", cn: "好 → 更好 → 最好 (不规则变化例外)" }
     ],
     svgType: "comparison"
   },
@@ -62,11 +64,11 @@ const RULES: GrammarRule[] = [
     id: 5,
     title: "Opposite: UN- / Antonyms",
     cn: "反义词与 UN- 前缀",
-    concept: "形容词前加上 un- 表示否定/相反；或者直接使用词表里成对出现的主力反义词（如 good/bad, big/little）。",
+    concept: "可在性质词前加 un- 表示相反概念。若词表里已有成对的反义词（如 good/bad，clean/dirty），应优先使用已有的词以保证纯正。",
     examples: [
-      { en: "happy → unhappy", cn: "快乐的 → 不快乐的" },
-      { en: "clean → unclean", cn: "干净的 → 不干净的" },
-      { en: "good / bad", cn: "好 / 坏 (使用对应词)" }
+      { en: "happy → unhappy", cn: "快乐的 → 不快乐的 (加 un- 反义)" },
+      { en: "wise → unwise", cn: "聪明的 → 愚蠢的" },
+      { en: "good / bad (clean / dirty)", cn: "好 / 坏 (优先使用词表本身自带的反义词)" }
     ],
     svgType: "opposite"
   },
@@ -74,21 +76,21 @@ const RULES: GrammarRule[] = [
     id: 6,
     title: "Questions & Negatives: DO",
     cn: "疑问与否定句式",
-    concept: "采用标准英语句式：疑问句将助动词/动词提前，或使用 do 倒装引导；否定句使用 do not / did not 插入动作前。",
+    concept: "疑问句将 be 动词/情态动词倒装，或插入助动词 do/does/did 引导；否定句在 be 动词后加 not，或在动作词前插入 do not / does not / did not。",
     examples: [
-      { en: "Do you see it?", cn: "你看见它了吗？ (疑问句倒装)" },
-      { en: "I do not see it.", cn: "我看不见它。 (否定句插入 do not)" }
+      { en: "Do you see the dog? / Did he go?", cn: "你看见这只狗了吗？ / 他走了吗？(助动词 do 引导疑问)" },
+      { en: "I do not see it. / He is not here.", cn: "我看不见它。 / 他不在这里。(否定句结构)" }
     ],
     svgType: "questions"
   },
   {
     id: 7,
     title: "Operator Conjugation",
-    cn: "18 个动作词与代词变位",
-    concept: "18 个 Operator（如 be, have, do, go, come）随主语进行标准的人称和时态变位。助动词仅保留 may (可能) 和 will (将要)。",
+    cn: "动作词与代词变位",
+    concept: "18 个核心 Operator（be, have, do, go 等）随人称和时态标准变位（详见语法表）。Pronouns（代词）拥有标准英语的格变化（I/me/my/mine/myself）。",
     examples: [
-      { en: "I go / He goes / They went", cn: "我往 / 他往 / 他们曾往 (go 变位)" },
-      { en: "I am / He is / You are", cn: "我是 / 他是 / 你是 (be 变位)" }
+      { en: "I go / He goes / They went / She has gone", cn: "我走 / 他走 / 他们走了 / 她已经走了 (go 的人称与时态变位)" },
+      { en: "I (主格) → me (宾格) → my (所有格)", cn: "我 → 我 → 我的 (代词格变化)" }
     ],
     svgType: "conjugation"
   },
@@ -96,11 +98,11 @@ const RULES: GrammarRule[] = [
     id: 8,
     title: "Compound Words",
     cn: "复合词组合规则",
-    concept: "允许将两个 BE850 词拼接成一个复合词，如：名词+名词、名词+方向、代词结合。这极大地扩充了表达范围。",
+    concept: "允许组合两个已有的 850 词来表达新概念。常见有：名词+名词（milkman）、名词+方向（sundown）、不定代词（someone、anything）。",
     examples: [
-      { en: "milk + man → milkman", cn: "牛奶 + 人 → 送奶工" },
+      { en: "milk + man → milkman", cn: "牛奶 + 男人 → 送奶工" },
       { en: "sun + down → sundown", cn: "太阳 + 向下 → 日落" },
-      { en: "some + one → someone", cn: "一些 + 一 → 某人" }
+      { en: "any + thing → anything", cn: "任何 + 东西 → 任何事" }
     ],
     svgType: "compounds"
   },
@@ -108,11 +110,11 @@ const RULES: GrammarRule[] = [
     id: 9,
     title: "Numbers, Dates & Measures",
     cn: "数字、度量与日期",
-    concept: "数字、星期、月份、数学符号以及标准度量单位直接采用国际通用英语，不需要用 850 词去繁琐拼接。",
+    concept: "数字（one, second...）、星期月份（Monday, June...）、货币（dollar...）、度量单位（mile, gram, hour...）直接使用标准英语形式，不占 850 词额度。",
     examples: [
-      { en: "One, Two, Three, 100", cn: "一、二、三、百" },
+      { en: "One, Two, Three, 100th", cn: "一、二、三、第一百" },
       { en: "Monday, June, 2026", cn: "星期一、六月、2026年" },
-      { en: "Mile, Foot, Inch, Pound", cn: "英里、英尺、英寸、磅" }
+      { en: "Mile, Foot, Pound, Dollar", cn: "英里、英尺、磅、美元" }
     ],
     svgType: "measures"
   },
@@ -120,10 +122,11 @@ const RULES: GrammarRule[] = [
     id: 10,
     title: "International Words",
     cn: "国际通用词与专有名词",
-    concept: "约 50 个国际通用词（如 radio, taxi, hotel）、科学专业术语以及人名地名（如 London）直接使用，不占用 850 词限额。",
+    concept: "包含约 50 个国际通用词（radio, hotel, taxi...）、专有名词（London, George, China...）以及必要行业专业词汇（如医学 penicillin），均直接采用英语常见形式。",
     examples: [
-      { en: "hotel, taxi, telephone, radio", cn: "旅馆、出租车、电话、收音机" },
-      { en: "London, George, China", cn: "伦敦、乔治、中国 (专有名词)" }
+      { en: "hotel, taxi, telephone, radio, police", cn: "旅馆、出租车、电话、收音机、警察 (国际通用词)" },
+      { en: "London, George, China", cn: "伦敦、乔治、中国 (专有名词)" },
+      { en: "penicillin, bacteria", cn: "青霉素、细菌 (行业/特定任务专业词)" }
     ],
     svgType: "international"
   }
@@ -137,38 +140,38 @@ function RuleGraphic({ type }: { type: string }) {
   const fillAccentSoft = "var(--accent-soft)";
 
   const styleTag = `
-    .stroke-main { stroke: ${mainColor}; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-    .stroke-accent { stroke: ${strokeColor}; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-    .stroke-warm { stroke: ${strokeWarm}; fill: none; stroke-width: 2; }
+    .stroke-main { stroke: ${mainColor}; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .stroke-accent { stroke: ${strokeColor}; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .stroke-warm { stroke: ${strokeWarm}; fill: none; stroke-width: 1.8; stroke-linecap: round; }
     .fill-accent { fill: ${strokeColor}; }
-    .fill-soft { fill: ${fillAccentSoft}; fill-opacity: 0.35; }
+    .fill-soft { fill: ${fillAccentSoft}; fill-opacity: 0.45; }
+    .text-mono { font-family: var(--mono); font-size: 6.5px; fill: ${mainColor}; text-anchor: middle; }
+    .text-mono-accent { font-family: var(--mono); font-size: 6.5px; fill: ${strokeColor}; font-weight: bold; text-anchor: middle; }
+    .text-mono-warm { font-family: var(--mono); font-size: 6px; fill: ${strokeWarm}; text-anchor: middle; }
 
-    /* 1. Plural animation */
+    /* Keyframes */
     @keyframes plural-pulse {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
+      50% { transform: scale(1.06); }
     }
     .ani-plural-s {
-      transform-origin: 75px 45px;
+      transform-origin: 160px 40px;
       animation: plural-pulse 2.2s infinite ease-in-out;
     }
 
-    /* 2. Derivation arrows */
-    @keyframes arrow-grow {
+    @keyframes branch-grow {
       0% { stroke-dashoffset: 40; opacity: 0; }
-      20% { opacity: 1; }
-      80% { stroke-dashoffset: 0; opacity: 1; }
-      100% { stroke-dashoffset: 0; opacity: 0; }
+      30% { opacity: 1; }
+      70%, 100% { stroke-dashoffset: 0; opacity: 1; }
     }
-    .ani-arrow {
+    .ani-branch {
       stroke-dasharray: 40;
       stroke-dashoffset: 40;
-      animation: arrow-grow 3s infinite ease-in-out;
+      animation: branch-grow 3s infinite ease-in-out;
     }
 
-    /* 3. Adverb ly drop */
     @keyframes ly-drop {
-      0% { transform: translateY(-30px); opacity: 0; }
+      0% { transform: translateY(-20px); opacity: 0; }
       20% { opacity: 1; }
       50%, 80% { transform: translateY(0); opacity: 1; }
       100% { opacity: 0; }
@@ -177,9 +180,8 @@ function RuleGraphic({ type }: { type: string }) {
       animation: ly-drop 2.5s infinite ease-in-out;
     }
 
-    /* 4. Comparison scale */
     @keyframes bar-grow {
-      0% { transform: scaleY(0.1); }
+      0% { transform: scaleY(0.15); }
       70%, 100% { transform: scaleY(1); }
     }
     .ani-bar {
@@ -187,9 +189,8 @@ function RuleGraphic({ type }: { type: string }) {
       animation: bar-grow 2.5s infinite cubic-bezier(0.16, 1, 0.3, 1);
     }
 
-    /* 5. Opposite morph */
     @keyframes un-slide {
-      0% { transform: translateX(-25px); opacity: 0; }
+      0% { transform: translateX(-20px); opacity: 0; }
       20% { opacity: 1; }
       70%, 100% { transform: translateX(0); opacity: 1; }
     }
@@ -197,18 +198,15 @@ function RuleGraphic({ type }: { type: string }) {
       animation: un-slide 2.8s infinite ease-in-out;
     }
 
-    /* 6. Do helper jump */
-    @keyframes do-jump {
-      0% { transform: translateY(25px) scale(0.7); opacity: 0; }
-      20% { opacity: 1; }
-      50%, 80% { transform: translateY(0) scale(1); opacity: 1; }
-      100% { opacity: 0; }
+    @keyframes block-slide-q {
+      0% { transform: translateX(-40px); opacity: 0; }
+      15% { opacity: 1; }
+      60%, 100% { transform: translateX(0); opacity: 1; }
     }
-    .ani-do {
-      animation: do-jump 3s infinite cubic-bezier(0.34, 1.56, 0.64, 1);
+    .ani-slide-q {
+      animation: block-slide-q 3s infinite ease-in-out;
     }
 
-    /* 7. Conjugation link */
     @keyframes link-dash {
       0% { stroke-dashoffset: 24; }
       100% { stroke-dashoffset: 0; }
@@ -218,32 +216,29 @@ function RuleGraphic({ type }: { type: string }) {
       animation: link-dash 1.5s infinite linear;
     }
 
-    /* 8. Compound merge */
     @keyframes merge-left {
-      0% { transform: translateX(-15px); }
-      50%, 100% { transform: translateX(10px); }
+      0% { transform: translateX(-10px); }
+      50%, 100% { transform: translateX(12px); }
     }
     @keyframes merge-right {
-      0% { transform: translateX(15px); }
-      50%, 100% { transform: translateX(-10px); }
+      0% { transform: translateX(10px); }
+      50%, 100% { transform: translateX(-12px); }
     }
     .ani-merge-l { animation: merge-left 3s infinite ease-in-out; }
     .ani-merge-r { animation: merge-right 3s infinite ease-in-out; }
 
-    /* 9. Measures spin */
     @keyframes clock-spin {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
     .ani-clock-hand {
-      transform-origin: 75px 50px;
-      animation: clock-spin 10s infinite linear;
+      transform-origin: 165px 40px;
+      animation: clock-spin 12s infinite linear;
     }
 
-    /* 10. Globe float */
     @keyframes float {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
+      50% { transform: translateY(-4px); }
     }
     .ani-float {
       animation: float 4s infinite ease-in-out;
@@ -251,10 +246,11 @@ function RuleGraphic({ type }: { type: string }) {
   `;
 
   const baseSvgProps = {
-    viewBox: "0 0 100 100",
+    viewBox: "0 0 220 100",
     width: "100%",
     height: "100%",
-    className: "vector-svg"
+    className: "vector-svg",
+    style: { maxWidth: "280px", maxHeight: "130px" }
   };
 
   switch (type) {
@@ -262,25 +258,59 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Left: One Box (dog) */}
-          <rect x="12" y="38" width="22" height="22" rx="4" className="stroke-main fill-soft" />
-          <circle cx="23" cy="49" r="3" fill={mainColor} />
-          <text x="18" y="74" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>dog</text>
+          
+          {/* Column 1: -S (dog -> dogs) */}
+          <g transform="translate(10, 5)">
+            <rect x="5" y="25" width="18" height="18" rx="3" className="stroke-main fill-soft" />
+            <circle cx="14" cy="34" r="2.5" fill={mainColor} />
+            <text x="14" y="54" className="text-mono">dog</text>
 
-          {/* Arrow */}
-          <path d="M42 49 H52" stroke={faintColor} strokeWidth="2" strokeLinecap="round" />
-          <path d="M48 45 L53 49 L48 53" stroke={faintColor} strokeWidth="2" fill="none" />
+            <path d="M28 34 H36" stroke={faintColor} strokeWidth="1.2" />
+            <path d="M33 31 L37 34 L33 37" stroke={faintColor} strokeWidth="1.2" fill="none" />
 
-          {/* Right: Three Boxes (dogs) */}
-          <g className="ani-plural-s">
-            <rect x="58" y="32" width="20" height="20" rx="3" stroke={faintColor} strokeWidth="1.5" fill="none" />
-            <rect x="64" y="38" width="20" height="20" rx="3" stroke={faintColor} strokeWidth="1.5" fill="none" />
-            <rect x="70" y="44" width="20" height="20" rx="3" className="stroke-accent fill-soft" />
-            {/* Plural marker bubble */}
-            <circle cx="86" cy="38" r="8" fill={strokeWarm} />
-            <text x="83" y="41" fontSize="9" fontFamily="var(--mono)" fontWeight="bold" fill="#fff">s</text>
+            <g className="ani-plural-s">
+              <rect x="42" y="25" width="18" height="18" rx="3" className="stroke-accent fill-soft" />
+              <circle cx="49" cy="31" r="2" fill={strokeColor} />
+              <circle cx="53" cy="37" r="2" fill={strokeColor} />
+              <circle cx="9" cy="-9" r="6.5" fill={strokeWarm} transform="translate(48, 25)" />
+              <text x="57" y="20" fontSize="7px" fontFamily="var(--mono)" fill="#fff" fontWeight="bold" textAnchor="middle">s</text>
+            </g>
+            <text x="52" y="54" className="text-mono-accent">dogs</text>
           </g>
-          <text x="66" y="74" fontSize="7" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">dogs</text>
+
+          {/* Divider */}
+          <line x1="82" y1="10" x2="82" y2="90" stroke={faintColor} strokeWidth="1" strokeDasharray="3 3" />
+
+          {/* Column 2: -ES (glass -> glasses) */}
+          <g transform="translate(80, 5)">
+            <rect x="10" y="25" width="18" height="18" rx="3" className="stroke-main fill-soft" />
+            <path d="M14 29 L24 29 L22 40 L16 40 Z" fill="none" stroke={mainColor} strokeWidth="1.5" />
+            <text x="19" y="54" className="text-mono">glass</text>
+
+            <path d="M33 34 H41" stroke={faintColor} strokeWidth="1.2" />
+            <g className="ani-plural-s" style={{ animationDelay: "0.4s" }}>
+              <rect x="46" y="25" width="18" height="18" rx="3" className="stroke-accent fill-soft" />
+              <circle cx="9" cy="-9" r="7.5" fill={strokeWarm} transform="translate(51, 25)" />
+              <text x="60" y="20.5" fontSize="6.5px" fontFamily="var(--mono)" fill="#fff" fontWeight="bold" textAnchor="middle">es</text>
+            </g>
+            <text x="56" y="54" className="text-mono-accent">glasses</text>
+          </g>
+
+          {/* Divider */}
+          <line x1="148" y1="10" x2="148" y2="90" stroke={faintColor} strokeWidth="1" strokeDasharray="3 3" />
+
+          {/* Column 3: -IES (story -> stories) */}
+          <g transform="translate(145, 5)">
+            <text x="18" y="36" className="text-mono">stor<tspan fill={strokeColor} fontWeight="bold">y</tspan></text>
+            <text x="18" y="54" className="text-mono">story</text>
+
+            <path d="M33 34 H41" stroke={faintColor} strokeWidth="1.2" />
+            <g className="ani-plural-s" style={{ animationDelay: "0.8s" }}>
+              <circle cx="9" cy="-9" r="8.5" fill={strokeWarm} transform="translate(43, 30)" />
+              <text x="52" y="25.5" fontSize="6px" fontFamily="var(--mono)" fill="#fff" fontWeight="bold" textAnchor="middle">ies</text>
+            </g>
+            <text x="52" y="54" className="text-mono-accent">stories</text>
+          </g>
         </svg>
       );
 
@@ -288,24 +318,34 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
+          
           {/* Central Root: work */}
-          <rect x="12" y="38" width="24" height="24" rx="6" className="stroke-main fill-soft" />
-          <text x="17" y="52" fontSize="7" fontFamily="var(--mono)" fill={mainColor} fontWeight="bold">work</text>
+          <rect x="96" y="38" width="28" height="24" rx="5" className="stroke-main fill-soft" />
+          <text x="110" y="53" className="text-mono" fontWeight="bold">work</text>
 
-          {/* Branch 1 to -ER */}
-          <path d="M36 44 C45 35, 52 30, 62 30" className="stroke-warm ani-arrow" />
-          <rect x="64" y="18" width="26" height="18" rx="4" className="stroke-accent" />
-          <text x="68" y="29" fontSize="7" fontFamily="var(--mono)" fill={strokeColor}>-er</text>
+          {/* Top-Left Branch: -ER (Noun) */}
+          <path d="M96 46 C80 34, 65 30, 48 30" className="stroke-warm ani-branch" />
+          <rect x="16" y="20" width="30" height="16" rx="3" className="stroke-accent" />
+          <text x="31" y="30" className="text-mono-accent">-er</text>
+          <text x="31" y="44" fontSize="5px" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">worker (名词)</text>
 
-          {/* Branch 2 to -ING */}
-          <path d="M36 50 H60" className="stroke-warm ani-arrow" style={{ animationDelay: "0.5s" }} />
-          <rect x="64" y="41" width="26" height="18" rx="4" className="stroke-accent" />
-          <text x="68" y="52" fontSize="7" fontFamily="var(--mono)" fill={strokeColor}>-ing</text>
+          {/* Bottom-Left Branch: -ING (Noun) */}
+          <path d="M96 54 C80 66, 65 70, 48 70" className="stroke-warm ani-branch" style={{ animationDelay: "0.5s" }} />
+          <rect x="16" y="62" width="30" height="16" rx="3" className="stroke-accent" />
+          <text x="31" y="72" className="text-mono-accent">-ing</text>
+          <text x="31" y="86" fontSize="5px" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">working (行为/名)</text>
 
-          {/* Branch 3 to -ED */}
-          <path d="M36 56 C45 65, 52 70, 62 70" className="stroke-warm ani-arrow" style={{ animationDelay: "1s" }} />
-          <rect x="64" y="61" width="26" height="18" rx="4" className="stroke-accent" />
-          <text x="70" y="72" fontSize="7" fontFamily="var(--mono)" fill={strokeColor}>-ed</text>
+          {/* Top-Right Branch: -ING (Adj) */}
+          <path d="M124 46 C140 34, 155 30, 172 30" className="stroke-warm ani-branch" style={{ animationDelay: "1s" }} />
+          <rect x="174" y="20" width="30" height="16" rx="3" className="stroke-accent" />
+          <text x="189" y="30" className="text-mono-accent">-ing</text>
+          <text x="189" y="44" fontSize="5px" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">working (进行/形)</text>
+
+          {/* Bottom-Right Branch: -ED (Adj) */}
+          <path d="M124 54 C140 66, 155 70, 172 70" className="stroke-warm ani-branch" style={{ animationDelay: "1.5s" }} />
+          <rect x="174" y="62" width="30" height="16" rx="3" className="stroke-accent" />
+          <text x="189" y="72" className="text-mono-accent">-ed</text>
+          <text x="189" y="86" fontSize="5px" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">worked (完成/形)</text>
         </svg>
       );
 
@@ -313,21 +353,38 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Adjective: quick */}
-          <rect x="10" y="40" width="30" height="22" rx="4" className="stroke-main fill-soft" />
-          <text x="15" y="53" fontSize="8" fontFamily="var(--mono)" fill={mainColor}>quick</text>
+          
+          {/* Example 1: quick + ly -> quickly */}
+          <g transform="translate(10, 0)">
+            <rect x="5" y="15" width="28" height="18" rx="3" className="stroke-main fill-soft" />
+            <text x="19" y="26" className="text-mono">quick</text>
+            <text x="39" y="27" fontSize="10px" fill={faintColor} fontWeight="bold" textAnchor="middle">+</text>
+            
+            <g className="ani-ly">
+              <rect x="47" y="15" width="16" height="18" rx="3" className="stroke-accent" />
+              <text x="55" y="26" className="text-mono-accent" fill="#fff">ly</text>
+            </g>
 
-          {/* Add sign */}
-          <text x="45" y="54" fontSize="12" fontFamily="var(--mono)" fill={faintColor} fontWeight="bold">+</text>
-
-          {/* Falling -LY */}
-          <g className="ani-ly">
-            <rect x="54" y="40" width="22" height="22" rx="4" className="stroke-accent" />
-            <text x="61" y="54" fontSize="9" fontFamily="var(--mono)" fontWeight="bold" fill={strokeColor}>ly</text>
+            <path d="M68 24 H76" stroke={faintColor} strokeWidth="1.2" />
+            <text x="88" y="26" className="text-mono-accent" textAnchor="start">quickly</text>
           </g>
 
-          {/* Speed line vectors */}
-          <path d="M12 74 H88" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="4 4" />
+          {/* Example 2: happy -> happily (y -> i + ly) */}
+          <g transform="translate(10, 42)">
+            <rect x="5" y="15" width="28" height="18" rx="3" className="stroke-main fill-soft" />
+            <text x="19" y="26" className="text-mono">happ<tspan fill={strokeColor} fontWeight="bold">y</tspan></text>
+            <text x="39" y="27" fontSize="10px" fill={faintColor} fontWeight="bold" textAnchor="middle">→</text>
+            
+            <g className="ani-ly" style={{ animationDelay: "0.8s" }}>
+              <text x="56" y="26" className="text-mono-accent">happ<tspan fill={strokeWarm} fontWeight="bold">i</tspan> + ly</text>
+            </g>
+
+            <path d="M82 24 H88" stroke={faintColor} strokeWidth="1.2" />
+            <text x="96" y="26" className="text-mono-accent" textAnchor="start">happily</text>
+          </g>
+
+          {/* Speed line vectors on bottom */}
+          <path d="M15 90 H205" stroke={strokeWarm} strokeWidth="1" strokeDasharray="3 3" />
         </svg>
       );
 
@@ -335,26 +392,38 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
+          
           {/* Bar 1: Base */}
           <g className="ani-bar">
-            <rect x="15" y="65" width="16" height="15" rx="2" className="stroke-main fill-soft" />
-            <text x="13" y="90" fontSize="6" fontFamily="var(--mono)" fill={mainColor}>base</text>
+            <rect x="25" y="45" width="18" height="35" rx="2" className="stroke-main fill-soft" />
+            <text x="34" y="92" className="text-mono">sharp</text>
+            <text x="34" y="40" fontSize="5.5px" fill={mainColor} textAnchor="middle">原级</text>
           </g>
 
           {/* Bar 2: More */}
           <g className="ani-bar" style={{ animationDelay: "0.3s" }}>
-            <rect x="42" y="45" width="16" height="35" rx="2" className="stroke-accent" />
-            <text x="38" y="90" fontSize="6" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">MORE</text>
+            <rect x="65" y="25" width="18" height="55" rx="2" className="stroke-accent" />
+            <text x="74" y="92" className="text-mono-accent">more sharp</text>
+            <text x="74" y="20" fontSize="5.5px" fill={strokeColor} fontWeight="bold" textAnchor="middle">比较级</text>
           </g>
 
           {/* Bar 3: Most */}
           <g className="ani-bar" style={{ animationDelay: "0.6s" }}>
-            <rect x="69" y="20" width="16" height="60" rx="2" stroke={strokeWarm} strokeWidth="2" fill="none" />
-            <text x="65" y="90" fontSize="6" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">MOST</text>
+            <rect x="115" y="10" width="18" height="70" rx="2" stroke={strokeWarm} strokeWidth="1.8" fill="none" />
+            <text x="124" y="92" className="text-mono-warm">most sharp</text>
+            <text x="124" y="5" fontSize="5.5px" fill={strokeWarm} fontWeight="bold" textAnchor="middle">最高级</text>
           </g>
 
-          {/* Crown/Star above most */}
-          <polygon points="77,5 80,11 87,11 81,15 83,21 77,17 71,21 73,15 67,11 74,11" fill={strokeWarm} className="ani-plural-s" />
+          {/* Note Box for Exceptions on the right */}
+          <g transform="translate(150, 10)">
+            <rect x="0" y="0" width="60" height="70" rx="4" fill="var(--bg)" stroke={faintColor} strokeWidth="1" />
+            <text x="30" y="12" fontSize="5.5px" fontWeight="bold" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">例外 (Exceptions)</text>
+            <text x="30" y="24" fontSize="5px" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">longer / longest</text>
+            <text x="30" y="34" fontSize="5px" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">nearer / nearest</text>
+            <text x="30" y="44" stroke={strokeWarm} strokeWidth="0.3" fontSize="5px" fill={strokeWarm} textAnchor="middle" fontFamily="var(--mono)">--- 不规则 ---</text>
+            <text x="30" y="54" fontSize="5px" fontWeight="bold" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">good → better → best</text>
+            <text x="30" y="64" fontSize="5px" fontWeight="bold" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">bad → worse → worst</text>
+          </g>
         </svg>
       );
 
@@ -362,25 +431,48 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Smiley happy face on left */}
-          <circle cx="28" cy="50" r="14" className="stroke-main fill-soft" />
-          <circle cx="24" cy="46" r="2" fill={mainColor} />
-          <circle cx="32" cy="46" r="2" fill={mainColor} />
-          <path d="M22 53 Q28 60 34 53" stroke={mainColor} strokeWidth="2" strokeLinecap="round" fill="none" />
-          <text x="18" y="78" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>happy</text>
+          
+          {/* Part A: UN- prefix morphing */}
+          <g transform="translate(10, 5)">
+            <rect x="5" y="15" width="30" height="20" rx="3" className="stroke-main fill-soft" />
+            <text x="20" y="27" className="text-mono">happy</text>
+            
+            <g className="ani-un">
+              <rect x="42" y="15" width="16" height="20" rx="3" className="stroke-accent" />
+              <text x="50" y="27" className="text-mono-accent" fill="#fff">un-</text>
+            </g>
 
-          {/* Sliding UN- puzzle piece */}
-          <g className="ani-un">
-            <rect x="50" y="36" width="16" height="28" rx="4" className="stroke-accent" />
-            <text x="53" y="53" fontSize="8" fontFamily="var(--mono)" fontWeight="bold" fill={strokeColor}>un-</text>
+            <path d="M64 25 H72" stroke={faintColor} strokeWidth="1.2" />
+            <text x="76" y="27" className="text-mono-accent" textAnchor="start">unhappy</text>
           </g>
 
-          {/* Sad face on right */}
-          <circle cx="78" cy="50" r="14" className="stroke-main" />
-          <circle cx="74" cy="46" r="2" fill={mainColor} />
-          <circle cx="82" cy="46" r="2" fill={mainColor} />
-          <path d="M74 57 Q78 50 82 57" stroke={mainColor} strokeWidth="2" strokeLinecap="round" fill="none" />
-          <text x="68" y="78" fontSize="7" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">unhappy</text>
+          {/* Part B: Existing Antonym Pairs */}
+          <g transform="translate(10, 48)">
+            <rect x="5" y="10" width="32" height="18" rx="3" className="stroke-main fill-soft" />
+            <text x="21" y="21" className="text-mono">good</text>
+
+            {/* Bidirectional Arrow */}
+            <path d="M44 19 H58" stroke={strokeWarm} strokeWidth="1.5" />
+            <path d="M48 15 L43 19 L48 23" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+            <path d="M54 15 L59 19 L54 23" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+            <text x="51" y="12" fontSize="5px" fill={strokeWarm} textAnchor="middle" fontFamily="var(--sans)">反义</text>
+
+            <rect x="65" y="10" width="32" height="18" rx="3" className="stroke-accent fill-soft" />
+            <text x="81" y="21" className="text-mono-accent">bad</text>
+          </g>
+
+          {/* Antonym Clean/Dirty */}
+          <g transform="translate(118, 48)">
+            <rect x="5" y="10" width="32" height="18" rx="3" className="stroke-main fill-soft" />
+            <text x="21" y="21" className="text-mono">clean</text>
+
+            <path d="M44 19 H58" stroke={strokeWarm} strokeWidth="1.5" />
+            <path d="M48 15 L43 19 L48 23" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+            <path d="M54 15 L59 19 L54 23" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+
+            <rect x="65" y="10" width="32" height="18" rx="3" className="stroke-accent fill-soft" />
+            <text x="81" y="21" className="text-mono-accent">dirty</text>
+          </g>
         </svg>
       );
 
@@ -388,26 +480,58 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Question structure illustration */}
-          {/* DO block jumping to front */}
-          <g className="ani-do">
-            <rect x="12" y="38" width="18" height="24" rx="4" className="stroke-accent" />
-            <text x="17" y="53" fontSize="8" fontFamily="var(--mono)" fontWeight="bold" fill={strokeColor}>Do</text>
+          
+          {/* Question structure */}
+          <g transform="translate(5, 5)">
+            <text x="10" y="14" fontSize="6px" fontWeight="bold" fill={strokeWarm} fontFamily="var(--sans)">疑问句 (Interrogative):</text>
+            
+            {/* Sliding Do block */}
+            <g className="ani-slide-q">
+              <rect x="10" y="20" width="16" height="20" rx="3" className="stroke-accent" />
+              <text x="18" y="32" className="text-mono-accent" fill="#fff">Do</text>
+            </g>
+
+            <g transform="translate(30, 0)">
+              <rect x="0" y="20" width="16" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="8" y="32" className="text-mono">you</text>
+            </g>
+
+            <g transform="translate(50, 0)">
+              <rect x="0" y="20" width="16" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="8" y="32" className="text-mono">see</text>
+            </g>
+
+            <g transform="translate(70, 0)">
+              <rect x="0" y="20" width="18" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="9" y="32" className="text-mono">the dog?</text>
+            </g>
           </g>
 
-          {/* Main sentence blocks */}
-          <rect x="34" y="38" width="18" height="24" rx="4" className="stroke-main fill-soft" />
-          <text x="39" y="52" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>you</text>
+          {/* Negative structure */}
+          <g transform="translate(5, 50)">
+            <text x="10" y="14" fontSize="6px" fontWeight="bold" fill={strokeWarm} fontFamily="var(--sans)">否定句 (Negative):</text>
 
-          <rect x="56" y="38" width="18" height="24" rx="4" className="stroke-main fill-soft" />
-          <text x="61" y="52" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>see</text>
+            <g transform="translate(10, 0)">
+              <rect x="0" y="20" width="14" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="7" y="32" className="text-mono">I</text>
+            </g>
 
-          <rect x="78" y="38" width="14" height="24" rx="4" className="stroke-main fill-soft" />
-          <text x="81" y="52" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>it?</text>
+            {/* Helper do not inserted */}
+            <g transform="translate(28, 0)" className="ani-slide-q" style={{ animationDelay: "0.6s" }}>
+              <rect x="0" y="20" width="28" height="20" rx="3" className="stroke-accent" />
+              <text x="14" y="32" className="text-mono-accent" fill="#fff">do not</text>
+            </g>
 
-          {/* Question mark bubble */}
-          <circle cx="88" cy="26" r="5" fill={strokeWarm} />
-          <text x="86" y="29" fontSize="8" fontFamily="var(--serif)" fontWeight="bold" fill="#fff">?</text>
+            <g transform="translate(60, 0)">
+              <rect x="0" y="20" width="16" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="8" y="32" className="text-mono">see</text>
+            </g>
+
+            <g transform="translate(80, 0)">
+              <rect x="0" y="20" width="14" height="20" rx="3" className="stroke-main fill-soft" />
+              <text x="7" y="32" className="text-mono">it.</text>
+            </g>
+          </g>
         </svg>
       );
 
@@ -415,20 +539,32 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Pronouns list */}
-          <text x="12" y="32" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>I / You</text>
-          <text x="12" y="68" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>He / She</text>
+          
+          {/* Verb conjugations (go) */}
+          <g transform="translate(10, 5)">
+            <text x="15" y="12" fontSize="5.5px" fontWeight="bold" fill={strokeColor} fontFamily="var(--sans)">Operators 变位 (e.g. go)</text>
+            <text x="15" y="26" className="text-mono" textAnchor="start">I / You / We → <tspan fill={strokeColor} fontWeight="bold">go</tspan></text>
+            <text x="15" y="38" className="text-mono" textAnchor="start">He / She / It → <tspan fill={strokeColor} fontWeight="bold">goes</tspan></text>
+            <text x="15" y="50" className="text-mono" textAnchor="start">过去 (Past) → <tspan fill={strokeWarm} fontWeight="bold">went</tspan></text>
+            <text x="15" y="62" className="text-mono" textAnchor="start">分词 (Participle) → <tspan fill={strokeWarm} fontWeight="bold">gone / going</tspan></text>
+          </g>
 
-          {/* Connector links */}
-          <path d="M40 30 H60" stroke={faintColor} strokeWidth="1.5" className="ani-link" />
-          <path d="M40 66 H60" stroke={strokeWarm} strokeWidth="1.5" className="ani-link" />
+          {/* Divider */}
+          <line x1="120" y1="10" x2="120" y2="90" stroke={faintColor} strokeWidth="1" strokeDasharray="3 3" />
 
-          {/* Verbs */}
-          <rect x="63" y="18" width="25" height="20" rx="4" className="stroke-main fill-soft" />
-          <text x="70" y="31" fontSize="8" fontFamily="var(--mono)" fill={mainColor}>go</text>
-
-          <rect x="63" y="54" width="25" height="20" rx="4" className="stroke-accent" />
-          <text x="66" y="67" fontSize="8" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">goes</text>
+          {/* Pronoun Cases */}
+          <g transform="translate(130, 5)">
+            <text x="40" y="12" fontSize="5.5px" fontWeight="bold" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">代词格变化 (Pronouns)</text>
+            
+            <rect x="5" y="20" width="70" height="12" rx="2" className="stroke-main fill-soft" />
+            <text x="40" y="28" fontSize="5.5px" fontFamily="var(--mono)" fill={mainColor} textAnchor="middle">I (主) → me (宾)</text>
+            
+            <rect x="5" y="38" width="70" height="12" rx="2" className="stroke-main fill-soft" />
+            <text x="40" y="46" fontSize="5.5px" fontFamily="var(--mono)" fill={mainColor} textAnchor="middle">my (形容词主) → mine (代)</text>
+            
+            <rect x="5" y="56" width="70" height="12" rx="2" className="stroke-accent fill-soft" />
+            <text x="40" y="64" fontSize="5.5px" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold" textAnchor="middle">myself (反身)</text>
+          </g>
         </svg>
       );
 
@@ -436,27 +572,54 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
-          {/* Word A */}
-          <g className="ani-merge-l">
-            <rect x="8" y="38" width="22" height="24" rx="4" className="stroke-main fill-soft" />
-            <text x="13" y="53" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>milk</text>
+          
+          {/* Compound Example 1 */}
+          <g transform="translate(5, 5)">
+            <g className="ani-merge-l">
+              <rect x="10" y="10" width="22" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="21" y="21" className="text-mono">milk</text>
+            </g>
+            <text x="39" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">+</text>
+            <g className="ani-merge-r">
+              <rect x="47" y="10" width="20" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="57" y="21" className="text-mono">man</text>
+            </g>
+            <text x="73" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">=</text>
+            <rect x="80" y="10" width="34" height="18" rx="3" className="stroke-accent fill-soft" />
+            <text x="97" y="21" className="text-mono-accent">milkman</text>
           </g>
 
-          {/* Plus */}
-          <text x="38" y="54" fontSize="10" fontFamily="var(--mono)" fill={faintColor}>+</text>
-
-          {/* Word B */}
-          <g className="ani-merge-r">
-            <rect x="48" y="38" width="20" height="24" rx="4" className="stroke-main fill-soft" />
-            <text x="53" y="53" fontSize="7" fontFamily="var(--mono)" fill={mainColor}>man</text>
+          {/* Compound Example 2 */}
+          <g transform="translate(5, 36)">
+            <g className="ani-merge-l" style={{ animationDelay: "0.5s" }}>
+              <rect x="10" y="10" width="22" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="21" y="21" className="text-mono">sun</text>
+            </g>
+            <text x="39" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">+</text>
+            <g className="ani-merge-r" style={{ animationDelay: "0.5s" }}>
+              <rect x="47" y="10" width="20" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="57" y="21" className="text-mono">down</text>
+            </g>
+            <text x="73" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">=</text>
+            <rect x="80" y="10" width="34" height="18" rx="3" className="stroke-accent fill-soft" />
+            <text x="97" y="21" className="text-mono-accent">sundown</text>
           </g>
 
-          {/* Equal */}
-          <text x="73" y="54" fontSize="10" fontFamily="var(--mono)" fill={faintColor}>=</text>
-
-          {/* Merged Word */}
-          <rect x="70" y="38" width="28" height="24" rx="4" className="stroke-accent" style={{ opacity: 0.85 }} />
-          <text x="71" y="52" fontSize="5.5" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">milkman</text>
+          {/* Compound Example 3 */}
+          <g transform="translate(5, 67)">
+            <g className="ani-merge-l" style={{ animationDelay: "1s" }}>
+              <rect x="10" y="10" width="22" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="21" y="21" className="text-mono">some</text>
+            </g>
+            <text x="39" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">+</text>
+            <g className="ani-merge-r" style={{ animationDelay: "1s" }}>
+              <rect x="47" y="10" width="20" height="18" rx="3" className="stroke-main fill-soft" />
+              <text x="57" y="21" className="text-mono">one</text>
+            </g>
+            <text x="73" y="22" fontSize="8px" fill={faintColor} textAnchor="middle">=</text>
+            <rect x="80" y="10" width="34" height="18" rx="3" className="stroke-accent fill-soft" />
+            <text x="97" y="21" className="text-mono-accent">someone</text>
+          </g>
         </svg>
       );
 
@@ -464,21 +627,41 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
+          
           {/* Ruler on bottom */}
-          <path d="M15 75 H85 V85 H15 Z" stroke={mainColor} strokeWidth="2" fill="none" />
-          <path d="M25 75 V80 M35 75 V80 M45 75 V80 M55 75 V80 M65 75 V80 M75 75 V80" stroke={mainColor} strokeWidth="1.5" />
-          <text x="44" y="70" fontSize="6" fontFamily="var(--mono)" fill={mainColor}>1 inch</text>
+          <g transform="translate(10, 65)">
+            <path d="M0 10 H130 V18 H0 Z" stroke={mainColor} strokeWidth="1.5" fill="none" />
+            <path d="M10 10 V14 M20 10 V14 M30 10 V14 M40 10 V14 M50 10 V14 M60 10 V14 M70 10 V14 M80 10 V14 M90 10 V14 M100 10 V14 M110 10 V14 M120 10 V14" stroke={mainColor} strokeWidth="1" />
+            <text x="65" y="6" fontSize="5.5px" fontFamily="var(--mono)" fill={mainColor} textAnchor="middle">1 inch / 1 mile</text>
+          </g>
 
           {/* Calendar page on left */}
-          <rect x="15" y="20" width="24" height="28" rx="2" stroke={faintColor} strokeWidth="1.5" fill="none" />
-          <path d="M15 28 H39" stroke={faintColor} strokeWidth="1.5" />
-          <rect x="15" y="20" width="24" height="8" fill={strokeWarm} />
-          <text x="21" y="42" fontSize="10" fontFamily="var(--serif)" fill={strokeColor} fontWeight="bold">7</text>
+          <g transform="translate(15, 10)">
+            <rect x="0" y="0" width="30" height="34" rx="2" stroke={faintColor} strokeWidth="1.2" fill="none" />
+            <path d="M0 10 H30" stroke={faintColor} strokeWidth="1.2" />
+            <rect x="0" y="0" width="30" height="10" fill={strokeWarm} />
+            <text x="15" y="28" fontSize="13px" fontFamily="var(--serif)" fill={strokeColor} fontWeight="bold" textAnchor="middle">7</text>
+            <text x="15" y="7" fontSize="5px" fontFamily="var(--sans)" fill="#fff" textAnchor="middle">JUNE</text>
+          </g>
 
-          {/* Clock on right */}
-          <circle cx="75" cy="34" r="14" stroke={faintColor} strokeWidth="2" fill="none" />
-          <line x1="75" y1="34" x2="75" y2="24" stroke={strokeColor} strokeWidth="2" strokeLinecap="round" className="ani-clock-hand" />
-          <line x1="75" y1="34" x2="83" y2="34" stroke={strokeColor} strokeWidth="1.5" strokeLinecap="round" />
+          {/* Clock in center */}
+          <g transform="translate(70, 0)">
+            <circle cx="15" cy="24" r="14" stroke={faintColor} strokeWidth="1.5" fill="none" />
+            <line x1="15" y1="24" x2="15" y2="15" stroke={strokeColor} strokeWidth="1.8" strokeLinecap="round" className="ani-clock-hand" transform="translate(-150, -16)" />
+            <line x1="15" y1="24" x2="21" y2="24" stroke={strokeColor} strokeWidth="1.2" strokeLinecap="round" />
+            <circle cx="15" cy="24" r="1.5" fill={strokeColor} />
+            <text x="15" y="44" fontSize="5px" fontFamily="var(--mono)" fill={mainColor} textAnchor="middle">12:15 PM</text>
+          </g>
+
+          {/* Currency / Numbers on the right */}
+          <g transform="translate(145, 12)">
+            <rect x="0" y="0" width="55" height="63" rx="3" fill="var(--bg)" stroke={faintColor} strokeWidth="1" />
+            <text x="27.5" y="12" fontSize="5.5px" fontWeight="bold" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">数字与货币</text>
+            <text x="27.5" y="24" fontSize="5px" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">1, 2, 3, 100</text>
+            <text x="27.5" y="34" fontSize="5px" fill={mainColor} textAnchor="middle" fontFamily="var(--mono)">first, second</text>
+            <text x="27.5" y="46" stroke={strokeWarm} strokeWidth="0.3" fontSize="5px" fill={strokeWarm} textAnchor="middle" fontFamily="var(--mono)">--- 钱币 ---</text>
+            <text x="27.5" y="56" fontSize="6px" fontWeight="bold" fill={strokeColor} textAnchor="middle" fontFamily="var(--mono)">$ 10.50 / £ 5</text>
+          </g>
         </svg>
       );
 
@@ -486,32 +669,44 @@ function RuleGraphic({ type }: { type: string }) {
       return (
         <svg {...baseSvgProps}>
           <style>{styleTag}</style>
+          
           {/* Central Globe */}
-          <g className="ani-float">
-            <circle cx="50" cy="50" r="20" className="stroke-main fill-soft" />
-            <path d="M50 30 C42 35, 42 65, 50 70 C58 65, 58 35, 50 30" stroke={mainColor} strokeWidth="1.5" fill="none" />
-            <path d="M30 50 H70" stroke={mainColor} strokeWidth="1.5" fill="none" />
+          <g className="ani-float" transform="translate(90, 42)">
+            <circle cx="20" cy="20" r="18" className="stroke-main fill-soft" />
+            <path d="M20 2 C10 8, 10 32, 20 38 C30 32, 30 8, 20 2" stroke={mainColor} strokeWidth="1.2" fill="none" />
+            <path d="M2 20 H38" stroke={mainColor} strokeWidth="1.2" fill="none" />
+            <text x="20" y="22" fontSize="4.5px" fontWeight="bold" fill={strokeColor} textAnchor="middle" fontFamily="var(--sans)">GLOBAL</text>
           </g>
 
-          {/* Surrounding word bubbles */}
-          <g className="ani-plural-s">
-            <rect x="8" y="15" width="24" height="14" rx="4" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
-            <text x="13" y="24" fontSize="6.5" fontFamily="var(--mono)" fill={strokeColor}>taxi</text>
+          {/* Surrounding word bubbles with orbit links */}
+          {/* Bubble 1: taxi (International) */}
+          <g className="ani-plural-s" style={{ transformOrigin: "40px 20px" }}>
+            <rect x="15" y="10" width="22" height="12" rx="3" stroke={strokeWarm} strokeWidth="1.2" fill="none" />
+            <text x="26" y="18" fontSize="5.5px" fontFamily="var(--mono)" fill={strokeColor} textAnchor="middle">taxi</text>
           </g>
 
-          <g className="ani-plural-s" style={{ animationDelay: "0.5s" }}>
-            <rect x="68" y="12" width="24" height="14" rx="4" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
-            <text x="71" y="21" fontSize="6.5" fontFamily="var(--mono)" fill={strokeColor}>hotel</text>
+          {/* Bubble 2: hotel (International) */}
+          <g className="ani-plural-s" style={{ animationDelay: "0.5s", transformOrigin: "185px 15px" }}>
+            <rect x="160" y="8" width="24" height="12" rx="3" stroke={strokeWarm} strokeWidth="1.2" fill="none" />
+            <text x="172" y="16" fontSize="5.5px" fontFamily="var(--mono)" fill={strokeColor} textAnchor="middle">hotel</text>
           </g>
 
-          <g className="ani-plural-s" style={{ animationDelay: "1s" }}>
-            <rect x="68" y="72" width="26" height="14" rx="4" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
-            <text x="71" y="81" fontSize="6.5" fontFamily="var(--mono)" fill={strokeColor}>radio</text>
+          {/* Bubble 3: radio (International) */}
+          <g className="ani-plural-s" style={{ animationDelay: "1s", transformOrigin: "180px 75px" }}>
+            <rect x="155" y="68" width="24" height="12" rx="3" stroke={strokeWarm} strokeWidth="1.2" fill="none" />
+            <text x="167" y="76" fontSize="5.5px" fontFamily="var(--mono)" fill={strokeColor} textAnchor="middle">radio</text>
           </g>
 
-          <g className="ani-plural-s" style={{ animationDelay: "1.5s" }}>
-            <rect x="8" y="72" width="28" height="14" rx="4" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
-            <text x="10" y="81" fontSize="6.5" fontFamily="var(--mono)" fill={strokeColor}>London</text>
+          {/* Bubble 4: London (Proper Name) */}
+          <g className="ani-plural-s" style={{ animationDelay: "1.5s", transformOrigin: "35px 75px" }}>
+            <rect x="10" y="68" width="28" height="12" rx="3" stroke={strokeColor} strokeWidth="1.2" fill="none" />
+            <text x="24" y="76" fontSize="5.5px" fontFamily="var(--mono)" fill={strokeColor} textAnchor="middle">London</text>
+          </g>
+
+          {/* Bubble 5: penicillin (Technical Word) */}
+          <g className="ani-plural-s" style={{ animationDelay: "0.8s", transformOrigin: "110px 10px" }}>
+            <rect x="85" y="2" width="36" height="12" rx="3" stroke={strokeColor} strokeWidth="1.2" fill="none" strokeDasharray="2 2" />
+            <text x="103" y="10" fontSize="5px" fontFamily="var(--mono)" fill={mainColor} textAnchor="middle">penicillin</text>
           </g>
         </svg>
       );
@@ -567,7 +762,7 @@ export default function GrammarVisual() {
         <div className="operator-vector-card" key={selectedRule.id}>
           <div className="vector-card-head">
             <div className="vector-card-title-row">
-              <span className="card-op-en" style={{ fontSize: "1.6rem", fontFamily: "var(--sans)", fontWeight: "bold" }}>
+              <span className="card-op-en" style={{ fontSize: "1.4rem", fontFamily: "var(--sans)", fontWeight: "bold" }}>
                 {selectedRule.title}
               </span>
             </div>

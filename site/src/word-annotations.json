@@ -831,7 +831,7 @@
   },
   "boot": {
     "ipa": "buːt",
-    "cn": "启动",
+    "cn": "靴子",
     "img": "/assets/word-img/boot.jpg"
   },
   "bottle": {
@@ -861,7 +861,7 @@
   },
   "branch": {
     "ipa": "bɹɑːntʃ",
-    "cn": "分支",
+    "cn": "树枝",
     "img": "/assets/word-img/branch.jpg"
   },
   "brick": {
@@ -891,7 +891,7 @@
   },
   "button": {
     "ipa": "ˈbʌtn̩",
-    "cn": "按钮",
+    "cn": "纽扣",
     "img": "/assets/word-img/button.jpg"
   },
   "cake": {
@@ -916,7 +916,7 @@
   },
   "carriage": {
     "ipa": "ˈkæɹɪdʒ",
-    "cn": "运输",
+    "cn": "马车",
     "img": "/assets/word-img/carriage.jpg"
   },
   "cat": {
@@ -981,7 +981,7 @@
   },
   "cord": {
     "ipa": "kɔːd",
-    "cn": "绳索",
+    "cn": "细绳/电线",
     "img": "/assets/word-img/cord.jpg"
   },
   "cow": {
@@ -1161,7 +1161,7 @@
   },
   "screw": {
     "ipa": "skɹuː",
-    "cn": "拧紧",
+    "cn": "螺丝钉",
     "img": "/assets/word-img/screw.jpg"
   },
   "seed": {
@@ -2601,7 +2601,7 @@
   },
   "fly": {
     "ipa": "flaɪ",
-    "cn": "飞",
+    "cn": "苍蝇",
     "img": "/assets/word-img/fly.jpg"
   },
   "foot": {
@@ -3721,7 +3721,7 @@
     "img": "/assets/word-img/band.jpg"
   },
   "basin": {
-    "cn": "盆地",
+    "cn": "脸盆",
     "ipa": "ˈbeɪsɪn",
     "img": "/assets/word-img/basin.jpg"
   },
@@ -3731,7 +3731,7 @@
     "img": "/assets/word-img/basket.jpg"
   },
   "bath": {
-    "cn": "洗澡",
+    "cn": "浴缸",
     "ipa": "bɐːθ",
     "img": "/assets/word-img/bath.jpg"
   },
@@ -3796,7 +3796,7 @@
     "img": "/assets/word-img/door.jpg"
   },
   "drain": {
-    "cn": "流走",
+    "cn": "排水沟",
     "ipa": "dɹeɪn",
     "img": "/assets/word-img/drain.jpg"
   },
@@ -3811,7 +3811,7 @@
     "img": "/assets/word-img/dress.jpg"
   },
   "drop": {
-    "cn": "降低",
+    "cn": "水滴",
     "ipa": "dɹɒp",
     "img": "/assets/word-img/drop.jpg"
   },
@@ -3891,7 +3891,7 @@
     "img": "/assets/word-img/map.jpg"
   },
   "match": {
-    "cn": "匹配",
+    "cn": "火柴",
     "ipa": "mæt͡ʃ",
     "img": "/assets/word-img/match.jpg"
   },
@@ -3916,7 +3916,7 @@
     "img": "/assets/word-img/muscle.jpg"
   },
   "nail": {
-    "cn": "指甲",
+    "cn": "钉子",
     "ipa": "neɪl",
     "img": "/assets/word-img/nail.svg"
   },
@@ -3951,7 +3951,7 @@
     "img": "/assets/word-img/spoon.jpg"
   },
   "spring": {
-    "cn": "春天",
+    "cn": "弹簧",
     "ipa": "spɹɪŋ",
     "img": "/assets/word-img/spring.jpg"
   },
@@ -3981,7 +3981,7 @@
     "img": "/assets/word-img/stem.jpg"
   },
   "stick": {
-    "cn": "戳",
+    "cn": "木棍",
     "ipa": "stɪk",
     "img": "/assets/word-img/stick.jpg"
   },
