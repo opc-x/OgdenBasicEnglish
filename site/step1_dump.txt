@@ -1,0 +1,874 @@
+1	put+on	Put the coat on.	把外套穿上。	穿
+2	put+on	I put my coat on.	我穿上我的外套。	穿
+3	put+on	She put her hat on.	她戴上她的帽子。	穿
+4	put+on	He put his shoes on.	他把鞋子穿上。	穿
+5	put+on	Put your gloves on before you go out.	出去前戴上手套。	穿
+6	put+on	I will put on my new dress.	我会穿上我的新裙子。	穿
+7	put+on	She put some color on the paper.	她在纸上涂了些颜色。	穿
+8	put+on	Put the book on the table.	把书放在桌子上。	穿
+9	put+on	I put the plate on the shelf.	我把盘子放在架子上。	穿
+10	put+on	He put his hand on my arm.	他把手放在我的胳膊上。	穿
+11	put+on	She put the key on the hook.	她把钥匙挂在钩子上。	穿
+12	put+on	Put the picture on the wall.	把画挂在墙上。	穿
+13	put+on	I put my foot on the step.	我把脚放在台阶上。	穿
+14	put+on	He and she put a cover on the bed.	他们把罩子盖在床上。	穿
+15	put+on	We put the cloth on the table.	我们把布放在桌子上。	穿
+16	put+on	Put the butter on the bread.	把黄油涂在面包上。	穿
+17	put+on	I put the stamp on the letter.	我把邮票贴在信上。	穿
+18	put+on	He put a ring on her finger.	他把戒指戴在她手指上。	穿
+19	put+off	Put off the meeting.	把会议推迟。	推迟
+20	put+off	I put off my work till tomorrow.	我把工作推迟到明天。	推迟
+21	put+off	She put off her journey.	她推迟了她的旅行。	推迟
+22	put+off	He and she put the decision off.	他们推迟了决定。	推迟
+23	put+off	He put off the talk.	他推迟了谈话。	推迟
+24	put+off	We put off the meal.	我们推迟了吃饭。	推迟
+25	put+off	Do not put off your learning.	不要推迟你的学习。	推迟
+27	put+off	She put off the payment.	她推迟了付款。	推迟
+28	put+off	Put the light off.	把灯关掉。	推迟
+29	put+off	I put the fire off.	我把火关了。	推迟
+30	put+off	He put off his coat.	他脱掉了外套。	推迟
+31	put+off	She put off her shoes.	她脱掉了鞋子。	推迟
+32	put+off	He and she put off the event.	他们推迟了活动。	推迟
+33	put+out	Put out the fire.	把火熄灭。	熄灭
+34	put+out	I put out the light.	我把灯关了。	熄灭
+36	put+out	He put the flame out.	他把火焰熄灭了。	熄灭
+38	put+out	He and she put out the burn.	他们把烧伤处理了。	熄灭
+39	put+out	I put the cat out of the room.	我把猫弄出房间。	熄灭
+40	put+out	She put her hand out.	她伸出手。	熄灭
+41	put+out	He put out a new book.	他出版了一本新书。	熄灭
+42	put+out	He and she put out the statement.	他们发表了声明。	熄灭
+43	put+up	Put up the picture.	把画挂起来。	举起
+44	put+up	I put my hand up.	我举起手。	举起
+45	put+up	She put up the flag.	她升起了旗子。	举起
+46	put+up	He put up a new building.	他建了一栋新楼。	举起
+47	put+up	Put your arm up.	把你的胳膊举起来。	举起
+48	put+up	He and she put up the shelf.	他们架上了架子。	举起
+49	put+up	I put up the curtain.	我挂上了窗帘。	举起
+50	put+up	She put up the price.	她提高了价格。	举起
+51	put+up	We put our friend up for the night.	我们让朋友过夜。	举起
+52	put+up	He put up a fight.	他进行了一场战斗。	举起
+53	put+down	Put the book down.	把书放下。	降低
+54	put+down	I put down the knife.	我放下刀。	降低
+55	put+down	She put her foot down.	她踩下了脚。	降低
+56	put+down	He put the box down on the floor.	他把箱子放在地板上。	降低
+57	put+down	Put your pen down.	把你的笔放下。	降低
+58	put+down	He and she put down the gun.	他们放下了枪。	降低
+59	put+down	I put my name down on the paper.	我在纸上写下了我的名字。	降低
+60	put+down	She put the baby down.	她把婴儿放下了。	降低
+61	put+down	He put down the noise.	他制止了噪音。	降低
+62	put+down	We put the money down.	我们付了钱。	降低
+63	put+in	Put the key in the lock.	把钥匙放进锁里。	插入
+64	put+in	I put the letter in the box.	我把信放进盒子里。	插入
+65	put+in	She put the milk in the cup.	她把牛奶放进杯子里。	插入
+66	put+in	He put his hand in his pocket.	他把手放进口袋里。	插入
+67	put+in	Put the flower in the pot.	把花放进花盆里。	插入
+68	put+in	He and she put the money in the money place.	他们把钱存进银行。	插入
+69	put+in	I put in a request.	我提出了一个请求。	插入
+70	put+in	She put in a good word for me.	她说了一句好话替我。	插入
+71	put+in	He put the wire in the hole.	他把电线放进孔里。	插入
+72	put+through	Put the wire through the hole.	把电线穿过孔。	连接
+73	put+through	I put the thread through the needle.	我把线穿过针眼。	连接
+74	put+through	She put the telephone through.	她接通了电话。	连接
+75	put+through	He put the design through.	他执行了这个计划。	连接
+76	put+through	Put me through to the office.	帮我接通办公室。	连接
+77	put+through	He and she put the work through quickly.	他们快速完成了工作。	连接
+78	put+together	Put the table together.	把桌子组装起来。	组装
+79	put+together	I put the parts together.	我把零件组装在一起。	组装
+80	put+together	She put the engine together.	她把机器组装好了。	组装
+81	put+together	Put your things together.	把你的东西整理好。	组装
+82	put+together	We put our ideas together.	我们把想法汇总在一起。	组装
+84	put+over	Put the cover over the pot.	把盖子盖上锅。	覆盖
+85	put+over	I put my coat over the seat.	我把外套放在座位上。	覆盖
+86	put+over	She put an umbrella over her head.	她把伞撑在头上。	覆盖
+87	put+over	He put a cloth over the table.	他在桌子上铺了一块布。	覆盖
+88	put+over	Put your hand over your mouth.	用手捂住嘴巴。	覆盖
+89	put+over	He and she put a roof over the house.	他们给房子盖了屋顶。	覆盖
+90	take+off	Take your coat off.	把外套脱掉。	移除
+91	take+off	I took off my shoes.	我脱掉了鞋子。	移除
+92	take+off	She took the ring off her finger.	她把戒指从手指上取下。	移除
+93	take+off	He took his hat off.	他脱下帽子。	移除
+94	take+off	Take the cover off the bed.	把床罩拿掉。	移除
+95	take+off	I took the book off the shelf.	我从书架上拿走了书。	移除
+96	take+off	She took the skin off the orange.	她剥了橘子的皮。	移除
+97	take+off	He took a day off.	他请了一天假。	移除
+98	take+off	The design took off.	飞机起飞了。	移除
+99	take+off	I took the picture off the wall.	我把画从墙上取下来。	移除
+100	take+off	She took off her dress.	她脱掉了裙子。	移除
+101	take+off	Take your hand off the table.	把手从桌子上拿开。	移除
+102	take+out	Take the book out of the box.	把书从盒子里拿出来。	提取
+103	take+out	I took the key out of my pocket.	我从口袋里掏出钥匙。	提取
+104	take+out	She took the letter out.	她把信拿了出来。	提取
+105	take+out	He took out his pen.	他拿出了他的笔。	提取
+106	take+out	Take the milk out of the cup.	把牛奶从杯子里取出来。	提取
+107	take+out	I took her out for a meal.	我带她出去吃饭。	提取
+108	take+out	She took out the nail.	她把钉子拔了出来。	提取
+109	take+out	He and she took the money out of the money place.	他们从银行取出了钱。	提取
+110	take+out	Take the seed out of the fruit.	把种子从水果里取出来。	提取
+112	take+in	I took in the view.	我欣赏了风景。	吸收
+113	take+in	She took in the story.	她听进了这个故事。	吸收
+114	take+in	He took in the knowledge.	他吸收了知识。	吸收
+115	take+in	Take in what I am saying.	听进去我说的话。	吸收
+117	take+in	I took the cat in.	我收留了猫。	吸收
+118	take+in	He and she took in a friend for the night.	他们收留了一个朋友过夜。	吸收
+119	take+up	Take up a new interest.	培养一个新的兴趣。	开始
+120	take+up	I took up the offer.	我接受了提议。	开始
+121	take+up	She took up the work.	她开始了工作。	开始
+122	take+up	He took up the pen.	他拿起了笔。	开始
+123	take+up	Take up your book.	拿起你的书。	开始
+124	take+up	We took up the question.	我们提出了这个问题。	开始
+126	take+up	She took up the floor.	她占据了地板。	开始
+127	take+down	Take down the picture.	把画取下来。	降低
+128	take+down	I took the curtain down.	我把窗帘取下来了。	降低
+129	take+down	She took down the numbers.	她记下了数字。	降低
+130	take+down	He took the shelf down.	他把架子取下来了。	降低
+131	take+down	Take down this note.	把这个笔记下来。	降低
+132	take+down	He and she took down the flag.	他们把旗子降下来了。	降低
+133	take+over	Take over the business.	接管生意。	假设
+134	take+over	I took over the work.	我接管了工作。	假设
+135	take+over	She took over the meeting.	她接管了会议。	假设
+136	take+over	He took over my room.	他占用了我的房间。	假设
+137	take+over	Take over from me now.	现在从我这里接过去。	假设
+138	take+over	He and she took over the town.	他们占领了城镇。	假设
+139	take+back	Take back the book.	把书还回去。	返回
+140	take+back	I took back what I said.	我收回了我所说的话。	返回
+141	take+back	She took the ring back.	她把戒指拿回来了。	返回
+142	take+back	He took back his offer.	他收回了他的提议。	返回
+143	take+back	Take this key back to the office.	把这把钥匙拿回办公室。	返回
+144	take+back	He and she took the animal back.	他们把动物带回了。	返回
+145	take+away	Take from the place the plate.	把盘子拿走。	移除
+146	take+away	I took the food from the place.	我把食物拿走了。	移除
+147	take+away	She took the key from the place from him.	她把钥匙从他那里拿走了。	移除
+148	take+away	He took from the place my hope.	他拿走了我的希望。	移除
+149	take+away	Take the box from the place.	把盒子拿走。	移除
+150	take+away	He and she took the pain from the place.	他们消除了疼痛。	移除
+151	go+in	Go in through the door.	从门进去。	进入
+152	go+in	I went in the room.	我进了房间。	进入
+153	go+in	She went in the house.	她进了房子。	进入
+154	go+in	He is going in now.	他现在正在进去。	进入
+155	go+in	Go in and see.	进去看看。	进入
+156	go+in	He and she went in together.	他们一起进去了。	进入
+157	go+in	I went in the wrong way.	我走错了路。	进入
+158	go+in	She went in without a key.	她没有钥匙就进去了。	进入
+159	go+in	The key goes in the lock.	钥匙插进锁里。	进入
+160	go+in	Go in the other door.	从另一个门进去。	进入
+161	go+out	Go out of the room.	从房间出去。	退出
+162	go+out	I went out to the street.	我走到了街上。	退出
+163	go+out	She went out for a walk.	她出去散步了。	退出
+164	go+out	He goes out every night.	他每晚都出去。	退出
+165	go+out	Go out and get some air.	出去透透气。	退出
+166	go+out	He and she went out of the town.	他们出了城。	退出
+167	go+out	The light went out.	灯灭了。	退出
+168	go+out	I went out with a friend.	我和朋友出去了。	退出
+169	go+out	The fire went out.	火灭了。	退出
+170	go+out	She went out the back door.	她从后门出去了。	退出
+171	go+on	Go on with your work.	继续你的工作。	继续
+172	go+on	I went on reading.	我继续阅读了。	继续
+173	go+on	She went on with the story.	她继续讲故事。	继续
+174	go+on	He goes on talking.	他继续说着。	继续
+175	go+on	Go on, I am hearing you.	继续，我在听。	继续
+176	go+on	He and she went on with the journey.	他们继续旅行。	继续
+177	go+on	The meeting went on for hours.	会议开了几个小时。	继续
+178	go+on	Go on with what you were saying.	继续你刚才说的。	继续
+179	go+on	The war went on.	战争继续。	继续
+180	go+on	The train went on through the night.	火车在夜间继续行驶。	继续
+181	go+off	He went off to the station.	他去车站了。	出发
+182	go+off	I go off to work every morning.	我每天早上都去上班。	出发
+183	go+off	She went off without a word.	她一句话没说就走了。	出发
+184	go+off	The gun went off.	枪响了。	出发
+185	go+off	The light went off suddenly.	灯突然灭了。	出发
+186	go+off	Go off to bed now.	现在去睡觉。	出发
+187	go+off	The train goes off at six.	火车六点开。	出发
+188	go+off	The milk has gone off.	牛奶坏了。	出发
+189	go+up	Go up the street.	沿着街走上去。	上升
+190	go+up	I went up to the door.	我走到门前。	上升
+191	go+up	She went up the steps.	她走上了台阶。	上升
+192	go+up	The price went up.	价格上涨了。	上升
+193	go+up	Go up and see the room.	上去看看房间。	上升
+194	go+up	He went up in the lift.	他乘电梯上去了。	上升
+195	go+up	The sun goes up early.	太阳升得早。	上升
+196	go+up	Smoke went up from the fire.	烟从火里升起来了。	上升
+197	go+down	Go down the street.	沿着街走下去。	下降
+198	go+down	I went down to the station.	我走到了车站。	下降
+199	go+down	She went down the steps.	她走下了台阶。	下降
+200	go+down	The sun went down.	太阳落下了。	下降
+201	go+down	Go down and get the key.	下去拿钥匙。	下降
+202	go+down	The price went down.	价格下降了。	下降
+203	go+down	He went down on his knees.	他跪了下来。	下降
+204	go+down	The ship went down.	船沉了。	下降
+205	go+back	Go back to your room.	回你的房间。	返回
+206	go+back	I went back house.	我回了家。	返回
+207	go+back	She went back to the store.	她回到了商店。	返回
+208	go+back	He goes back every year.	他每年都回去。	返回
+209	go+back	Go back and get the key.	回去拿钥匙。	返回
+210	go+back	He and she went back together.	他们一起回去了。	返回
+211	go+back	Go back to the start.	回到起点。	返回
+212	go+back	I went back to my work.	我回去工作了。	返回
+213	go+through	Go through the door.	穿过门。	忍受
+214	go+through	I went through the room.	我穿过了房间。	忍受
+215	go+through	She went through a hard time.	她经历了一段艰难的时光。	忍受
+216	go+through	He went through the book.	他翻了那本书。	忍受
+217	go+through	Go through the papers.	翻阅文件。	忍受
+218	go+through	He and she went through the town.	他们穿过了城镇。	忍受
+219	go+through	I went through all my money.	我花光了所有的钱。	忍受
+220	go+through	Go through the hole.	穿过洞。	忍受
+221	go+over	Go over the road.	过马路。	复习
+222	go+over	I went over the bridge.	我过了桥。	复习
+223	go+over	She went over the work.	她检查了工作。	复习
+224	go+over	Go over your notes.	复习你的笔记。	复习
+225	go+over	He went over the wall.	他翻过了墙。	复习
+226	go+over	He and she went over the book.	他们检查了账目。	复习
+227	go+over	Go over the details again.	再仔细看一遍细节。	复习
+228	go+over	I went over to see her.	我走过去看她。	复习
+229	go+with	Go with me to the store.	和我一起去商店。	陪伴
+230	go+with	I went with a friend.	我和朋友一起去了。	陪伴
+231	go+with	She goes with him to work.	她去和他一起工作。	陪伴
+232	go+with	Go with the boy.	和男孩一起去。	陪伴
+233	go+with	This color goes with that.	这个颜色和那个相配。	陪伴
+234	go+with	He and she went with the group.	他们和团队一起走的。	陪伴
+235	go+without	Go without food for a day.	一天不吃东西。	放弃
+236	go+without	I went without sleep.	我不睡觉。	放弃
+237	go+without	She went without money.	她没有带钱。	放弃
+238	go+without	He went without help.	他没有寻求帮助就去了。	放弃
+239	go+without	Go without your coat.	不穿外套。	放弃
+240	go+without	He and she went without water.	他们没带水就去了。	放弃
+241	come+in	Come in through the door.	从门进来。	进入
+242	come+in	I came in the room.	我进了房间。	进入
+243	come+in	She came in quietly.	她安静地进来了。	进入
+244	come+in	Come in and have a seat.	进来坐。	进入
+245	come+in	He came in late.	他迟到了。	进入
+246	come+in	He and she came in together.	他们一起进来了。	进入
+247	come+in	Come in from the rain.	从雨里进来。	进入
+248	come+in	The train came in.	火车进站了。	进入
+249	come+out	Come out of the room.	从房间出来。	出现
+250	come+out	I came out of the house.	我从房子里出来。	出现
+251	come+out	She came out to see me.	她出来看我。	出现
+252	come+out	The sun came out.	太阳出来了。	出现
+253	come+out	Come out and play.	出来玩。	出现
+255	come+out	The book came out last year.	这本书去年出版的。	出现
+256	come+out	He came out of the water.	他从水里出来了。	出现
+257	come+back	Come back to the house.	回到房子。	返回
+258	come+back	I came back from the station.	我从车站回来了。	返回
+259	come+back	She came back soon.	她很快就回来了。	返回
+260	come+back	Come back here.	回到这里。	返回
+261	come+back	He came back with the key.	他带着钥匙回来了。	返回
+262	come+back	He and she came back together.	他们一起回来了。	返回
+263	come+back	The pain came back.	疼痛又回来了。	返回
+264	come+back	Come back to me.	回到我身边。	返回
+265	come+up	Come up to the window.	走到窗户前。	接近
+266	come+up	I came up the street.	我沿着街走上来了。	接近
+267	come+up	She came up to me.	她走到我面前。	接近
+268	come+up	Come up and see the room.	上来看看房间。	接近
+269	come+up	A question came up.	出现了一个问题。	接近
+270	come+up	The sun came up.	太阳升起来了。	接近
+271	come+up	He came up with an idea.	他想出了一个主意。	接近
+272	come+up	Come up the steps.	走上台阶。	接近
+273	come+down	Come down from the seat.	从座位上下来。	下降
+274	come+down	I came down the steps.	我走下了台阶。	下降
+276	come+down	The rain came down.	雨落了下来。	下降
+277	come+down	Come down and help me.	下来帮我。	下降
+278	come+down	The price came down.	价格下降了。	下降
+279	come+down	He came down from the tree.	他从树上下来了。	下降
+280	come+down	Come down to earth.	回到现实。	下降
+281	come+through	Come through the door.	从门进来。	存活
+282	come+through	I came through the war.	我经历了战争。	存活
+283	come+through	She came through the operation.	她通过了手术。	存活
+284	come+through	Come through the town.	穿过城镇。	存活
+285	come+through	He came through a hard time.	他经历了一段艰难的时光。	存活
+286	come+through	The light came through the window.	光线从窗户照进来。	存活
+287	come+across	Come across the street.	横穿马路。	遭遇
+288	come+across	I came across an old friend.	我偶遇了一个老朋友。	遭遇
+289	come+across	She came across a new idea.	她有了一个新想法。	遭遇
+290	come+across	Come across the bridge.	过桥。	遭遇
+291	come+across	He came across a strange thing.	他遇到了一件奇怪的事。	遭遇
+292	come+across	I came across the book in the store.	我在商店里偶然发现了那本书。	遭遇
+293	get+up	Get up from the bed.	从床上起来。	上升
+294	get+up	I get up every morning.	我每天早上起床。	上升
+295	get+up	She got up early.	她起得早。	上升
+296	get+up	He got up now.	他现在起床了。	上升
+297	get+up	Get up and go to the door.	起来，走到门口。	上升
+298	get+up	He and she got up from the table.	他们从桌子旁站起来了。	上升
+299	get+up	I got up the steps.	我走上了台阶。	上升
+300	get+up	Get up the tree.	爬到树上去。	上升
+301	get+in	Get in the train.	上火车。	进入
+302	get+in	I got in the room.	我进了房间。	进入
+303	get+in	She got in through the window.	她从窗户进来了。	进入
+305	get+in	He got in late.	他很晚才到。	进入
+306	get+in	He and she got in together.	他们一起进去了。	进入
+307	get+in	The train gets in at six.	火车六点到站。	进入
+308	get+in	I got in trouble.	我遇到了麻烦。	进入
+309	get+out	Get out of the room.	从房间出去。	退出
+310	get+out	I got out of the train.	我下了火车。	退出
+311	get+out	She got out at the station.	她在车站下车了。	退出
+312	get+out	Get out of the way.	让开。	退出
+313	get+out	He got out of bed.	他起了床。	退出
+314	get+out	He and she got out of the house.	他们从房子里出来了。	退出
+316	get+out	The secret got out.	秘密泄露了。	退出
+317	get+off	Get off the train.	下火车。	下马
+318	get+off	I got off the seat.	我从座位上下来了。	下马
+320	get+off	Get off my foot.	从我的脚上移开。	下马
+322	get+off	He and she got off the horse.	他们下了马。	下马
+323	get+off	Get off the table.	从桌子上下来。	下马
+324	get+off	I got off work early.	我很早就下班了。	下马
+325	get+on	Get on the train.	上火车。	登机
+326	get+on	I got on the seat.	我坐在座位上。	登机
+327	get+on	She got on with her work.	她继续做她的工作。	登机
+329	get+on	He is doing well.	他做得很好。	登机
+330	get+on	He and she got on together.	他们相处得很好。	登机
+331	get+on	Get on with it.	继续做。	登机
+332	get+on	How are you doing?	你好吗？	登机
+333	get+back	Get back to the house.	回到房子。	返回
+334	get+back	I got back from the station.	我从车站回来了。	返回
+335	get+back	She got back the ring.	她拿回了戒指。	返回
+336	get+back	Get back here soon.	快点回来。	返回
+337	get+back	He got back his money.	他拿回了他的钱。	返回
+338	get+back	He and she got back together.	他们又和好了。	返回
+339	get+back	Get the book back from her.	从她那里把书拿回来。	返回
+340	get+back	I got back to work.	我回去工作了。	返回
+341	get+through	Get through the work.	完成工作。	完成
+342	get+through	I got through the book.	我看完了这本书。	完成
+343	get+through	She got through the test.	她通过了考试。	完成
+344	get+through	Get through the door.	穿过门。	完成
+345	get+through	He got through the winter.	他熬过了冬天。	完成
+346	get+through	He and she got through the day.	他们熬过了这一天。	完成
+347	get+over	Get over the wall.	翻过墙。	恢复
+349	get+over	She got over her fear.	她克服了她的恐惧。	恢复
+350	get+over	Get over it.	克服它。	恢复
+351	get+over	He got over the shock.	他克服了震惊。	恢复
+352	get+over	He and she got over the river.	他们过了河。	恢复
+353	get+over	I cannot get over this.	我无法克服这个。	恢复
+354	get+over	Get over here.	过来。	恢复
+355	give+up	Give up the fight.	放弃战斗。	投降
+356	give+up	I gave up smoking.	我戒烟了。	投降
+357	give+up	She gave up her seat.	她让出了座位。	投降
+358	give+up	He gave up hope.	他放弃了希望。	投降
+359	give+up	Do not give up.	不要放弃。	投降
+360	give+up	He and she gave up the town.	他们放弃了城镇。	投降
+361	give+up	I give up.	我放弃。	投降
+362	give+up	She gave up the key.	她交出了钥匙。	投降
+363	give+out	Give out the books.	分发书籍。	分发
+364	give+out	I gave out the food.	我分发了食物。	分发
+365	give+out	She gave out the papers.	她分发了文件。	分发
+366	give+out	He gave out the money.	他分发了钱。	分发
+367	give+out	Give out the news.	发布消息。	分发
+368	give+out	He and she gave out the tickets.	他们分发了票。	分发
+369	give+back	Give back the book.	把书还回去。	返回
+370	give+back	I gave the key back.	我把钥匙还了。	返回
+371	give+back	She gave back the ring.	她把戒指还了。	返回
+372	give+back	Give me back my pen.	把我的笔还给我。	返回
+373	give+back	He gave back what he took.	他归还了他拿走的东西。	返回
+374	give+back	He and she gave back the land.	他们归还了土地。	返回
+375	give+off	The fire gives off heat.	火散发热量。	发出
+376	give+off	The flower gives off a sweet smell.	花散发出甜美的气味。	发出
+377	give+off	The lamp gives off light.	灯发出光。	发出
+378	give+off	The engine gives off smoke.	机器冒烟。	发出
+379	give+off	The meat gives off a bad smell.	肉散发出难闻的气味。	发出
+380	give+in	The wall gave in.	墙塌了。	屈服
+381	give+in	I gave in to her request.	我屈服了她的请求。	屈服
+382	give+in	She gave in at last.	她最终屈服了。	屈服
+383	give+in	He will give in.	他会屈服的。	屈服
+384	give+in	Do not give in to fear.	不要向恐惧屈服。	屈服
+385	give+in	He and she gave in to the force.	他们屈服于武力。	屈服
+386	make+up	Make up a story.	编一个故事。	发明
+387	make+up	I made up my mind.	我下定了决心。	发明
+388	make+up	She made up the bed.	她整理了床铺。	发明
+390	make+up	Make up the fire.	把火生起来。	发明
+391	make+up	He and she made up after the fight.	打完后他们和好了。	发明
+392	make+up	I made up the loss.	我弥补了损失。	发明
+393	make+up	She made up her face.	她化了妆。	发明
+394	make+out	Make out the words.	辨认出词。	辨别
+395	make+out	I cannot make out the writing.	我看不清字迹。	辨别
+397	make+out	Can you make out the picture?	你能看清这幅画吗？	辨别
+398	make+out	He made out a list.	他列了一个清单。	辨别
+400	make+for	Make for the door.	朝门口走去。	前往
+401	make+for	I made for the station.	我朝车站走去。	前往
+402	make+for	She made for house.	她朝家走去。	前往
+403	make+for	He made for the river.	他朝河边走去。	前往
+404	make+for	He and she made for the sea.	他们朝大海走去。	前往
+405	make+for	Make for the light.	朝光亮的地方走去。	前往
+406	make+off	Make off with the money.	带着钱跑掉。	逃跑
+407	make+off	He made off quickly.	他迅速离开了。	逃跑
+408	make+off	She made off into the night.	她在夜里溜走了。	逃跑
+409	make+off	The boy made off with the cake.	男孩带着蛋糕跑了。	逃跑
+410	make+off	He and she made off before I saw him and her.	他们在我看到之前就跑了。	逃跑
+411	keep+on	Keep on working.	继续工作。	继续
+412	keep+on	I keep on reading.	我继续阅读。	继续
+413	keep+on	She kept on talking.	她继续说着。	继续
+414	keep+on	Keep on with your work.	继续你的工作。	继续
+415	keep+on	He came back again and again.	他一次又一次地回来。	继续
+416	keep+on	He and she kept on through the night.	他们整夜继续着。	继续
+417	keep+on	Keep your coat on.	穿着你的外套。	继续
+418	keep+on	She kept the light on.	她让灯开着。	继续
+419	keep+off	Keep off the grass.	不要踩草地。	避免
+420	keep+off	I keep off the street at night.	我晚上不去街上。	避免
+421	keep+off	She kept the dog off.	她把狗挡住了。	避免
+422	keep+off	Keep your hands off.	不要碰。	避免
+423	keep+off	He keeps off drink.	他不喝酒。	避免
+424	keep+off	He and she kept the water off.	他们挡住了水。	避免
+425	keep+up	Keep up the good work.	保持良好的工作。	维护
+426	keep+up	I keep up with the news.	我跟进新闻。	维护
+429	keep+up	He cannot keep up.	他跟不上。	维护
+430	keep+up	He and she kept up the house.	他们维护了房子。	维护
+431	keep+down	Keep down the noise.	降低噪音。	控制
+432	keep+down	I kept my head down.	我低着头。	控制
+433	keep+down	She kept the price down.	她压低了价格。	控制
+434	keep+down	Keep the fire down.	把火关小。	控制
+437	keep+in	Keep the dog in.	把狗关在屋里。	限制
+438	keep+in	I kept the baby in the room.	我把婴儿留在房间里。	限制
+439	keep+in	She kept her have a feelings in.	她隐藏了自己的感受。	限制
+440	keep+in	Keep the heat in.	保持热量。	限制
+441	keep+in	He was kept in after school.	他放学后被留校了。	限制
+442	keep+in	Keep the secret in.	保守秘密。	限制
+443	keep+out	Keep out of the room.	不要进房间。	排除
+444	keep+out	I kept the cold out.	我把寒冷挡在外面。	排除
+445	keep+out	She kept out of the fight.	她避开了打斗。	排除
+446	keep+out	Keep the dog out.	把狗挡在外面。	排除
+447	keep+out	He kept out of trouble.	他避开了麻烦。	排除
+448	keep+out	He and she kept the water out.	他们挡住了水。	排除
+449	send+out	Send out the letters.	发出信件。	分发
+450	send+out	I sent out the news.	我发出了消息。	分发
+451	send+out	She sent out for food.	她派人去买食物了。	分发
+453	send+out	He sent out a telephone for help.	他发出了求助信号。	分发
+454	send+out	He and she sent the boy out.	他们把男孩送走了。	分发
+455	send+off	Send off the parcel.	寄出包裹。	派遣
+456	send+off	I sent the letter off.	我把信寄出去了。	派遣
+457	send+off	She sent him off to school.	她送他去上学。	派遣
+459	send+off	He and she sent off the ship.	他们派出了船。	派遣
+460	send+off	I sent off for the book.	我订了那本书。	派遣
+461	send+back	Send back the book.	把书退回。	返回
+462	send+back	I sent the letter back.	我把信退回了。	返回
+463	send+back	She sent the food back.	她退回了食物。	返回
+464	send+back	Send him back to his room.	把他送回他的房间。	返回
+465	send+back	He and she sent back the goods.	他们退回了货物。	返回
+466	send+back	Send back an answer.	发回一个答案。	返回
+467	let+out	Let the dog out.	把狗放出去。	释放
+468	let+out	I let out a cry.	我发出了一声叫喊。	释放
+469	let+out	She let out the secret.	她泄露了秘密。	释放
+470	let+out	Let the air out.	放出空气。	释放
+471	let+out	He let the room out.	他把房间出租了。	释放
+472	let+out	He and she let the prisoner out.	他们释放了囚犯。	释放
+473	let+down	Do not let me down.	不要让我失望。	失望
+474	let+down	I let my friend down.	我让朋友失望了。	失望
+475	let+down	She let down her hair.	她放下了头发。	失望
+476	let+down	Let the window down.	把窗户放下来。	失望
+479	let+in	Let me in.	让我进去。	承认
+480	let+in	I let the cat in.	我让猫进来了。	承认
+481	let+in	She let in the light.	她让光线进来。	承认
+482	let+in	Let some air in.	让一些空气进来。	承认
+483	let+in	He let the water in.	他让水进来了。	承认
+485	let+off	Let him off.	放过他。	原谅
+486	let+off	I let the boy off.	我放走了男孩。	原谅
+487	let+off	She let off the gun.	她开了枪。	原谅
+488	let+off	Let me off this time.	这次放过我吧。	原谅
+489	let+off	He was let off lightly.	他被从轻发落了。	原谅
+491	see+through	See through the glass.	透过玻璃看。	辨别
+492	see+through	I saw through his trick.	我看穿了他的把戏。	辨别
+494	see+through	See through the window.	透过窗户看。	辨别
+495	see+through	He saw the work through.	他看到了工作完成。	辨别
+496	see+through	He and she saw through the design.	他们看穿了这个计划。	辨别
+497	see+to	See to the door.	处理一下门的事。	参加
+498	see+to	I will see to it.	我会照料的。	参加
+499	see+to	She saw to the food.	她处理了食物。	参加
+500	see+to	See to the baby.	照顾婴儿。	参加
+501	see+to	He saw to the business.	他处理了事务。	参加
+502	see+to	See to the fire.	照看火。	参加
+503	see+off	See him off at the station.	在车站送他。	说
+504	see+off	I saw my friend off.	我送别了我的朋友。	说
+505	see+off	She saw the boy off to school.	她送男孩去上学。	说
+506	see+off	See me off at the door.	在门口送我。	说
+507	see+off	He and she saw the ship off.	他们送别了船。	说
+508	see+off	We went to see her off.	我们去送别她。	说
+509	have+on	I have on a coat.	我穿着外套。	穿
+510	have+on	She has on a new dress.	她穿着一条新裙子。	穿
+511	have+on	He had on a hat.	他戴着帽子。	穿
+512	have+on	What do you have on?	你穿了什么？	穿
+514	have+on	She has red shoes on.	她穿着红色的鞋。	穿
+515	have+out	Have it out with him.	和他把话说清楚。	解决
+516	have+out	I had the tooth out.	我拔了牙。	解决
+517	have+out	She had the argument out.	她把争论说清楚了。	解决
+518	have+out	Have the secret out.	把秘密说出来。	解决
+519	have+out	Let us have it out.	我们来把话说清楚。	解决
+520	have+out	He and she had the fight out.	他们把架打完了。	解决
+521	have+in	Have him and her in for a meal.	请他们来家里吃饭。	邀请
+522	have+in	I had friends in.	我请了朋友来家里。	邀请
+524	have+in	Have the cat in.	把猫放进来。	邀请
+527	do+up	Do up your coat.	把你的外套扣好。	系紧
+528	do+up	I did up the parcel.	我包扎好了包裹。	系紧
+529	do+up	She did up her hair.	她整理了头发。	系紧
+530	do+up	Do up the buttons.	扣好扣子。	系紧
+531	do+up	He did up the room.	他整理了房间。	系紧
+532	do+up	He and she did up the old house.	他们翻新了老房子。	系紧
+533	do+with	I could do with a drink.	我需要喝点什么。	需要
+534	do+with	She could do with some help.	她需要一些帮助。	需要
+535	do+with	He could do with a rest.	他需要休息一下。	需要
+536	do+with	I cannot do with this noise.	我受不了这噪音。	需要
+538	do+with	What do you do with this?	你用这个做什么？	需要
+539	do+without	Do without food for a day.	一天不吃东西。	放弃
+540	do+without	I can do without it.	我没有它也行。	放弃
+541	do+without	She did without sleep.	她不睡觉。	放弃
+542	do+without	He did without help.	他没有帮助也做了。	放弃
+543	do+without	We did without a fire.	我们没有火也能过。	放弃
+544	do+without	He and she cannot do without water.	他们离不开水。	放弃
+545	do+over	Do the work over.	把工作重做一遍。	重复
+546	do+over	I did the room over.	我重新整理了房间。	重复
+547	do+over	She did the letter over.	她重写了信。	重复
+548	do+over	Do it over again.	再做一遍。	重复
+549	do+over	He did the test over.	他重新做了测试。	重复
+550	do+over	He and she did the house over.	他们翻新了房子。	重复
+20008	come+out	He and she came out of the motor-car.	他们从车里出来。	退出
+20009	come+over	Come over to my house.	来我家。	访问
+20015	keep+off	She kept off the topic.	她避开了话题。	避免
+20016	keep+out	I kept out of the fight.	我避开了打斗。	排除
+20017	keep+out	She kept out of danger.	她避开了危险。	排除
+20018	let+in	Let the cat in.	让猫进去。	允许
+20019	let+in	Let in the air.	让空气进来。	允许
+20026	make+up	She made up with her friend.	她和朋友和好了。	和解
+20027	make+up	Make up the bed.	把床整理好。	和解
+20028	make+out	Make out the word.	辨认出这个词。	破译
+20029	make+out	I can make out the form.	我能辨认出形状。	破译
+20035	see+off	See off your friend.	送别你的朋友。	告别
+20036	see+off	I saw him off at the station.	我在车站送别了他。	告别
+20037	see+to	See to the work.	照料工作。	参加
+20038	send+out	I sent out the books.	我发出了书。	分发
+20039	send+out	She sent out the news.	她发出了消息。	分发
+20045	send+for	Send for the medical man.	派人去叫医生。	召唤
+20046	send+for	I sent for help.	我派人去求助。	召唤
+20047	send+for	She sent for her friend.	她派人去叫朋友。	召唤
+20048	be+in	Be in the room.	在房间里。	是
+20049	be+in	I was in the house.	我在房子里。	是
+20055	be+back	Be back tomorrow.	明天回来。	返回
+20056	be+back	I was back at noon.	我中午回来了。	返回
+20057	be+back	She will be back soon.	她很快会回来。	返回
+20058	be+up	Be up early.	早点起来。	是
+20059	be+up	I was up at six.	我六点起来了。	是
+40001	get+back	Get back here.	回来。	返回
+40002	get+back	I got back my money.	我拿回了我的钱。	返回
+40003	go+about	He goes about the town.	他在城里走来走去。	去
+40004	go+after	He went after her.	他追了她。	追求
+40005	go+without	She went without sleep.	她不睡觉。	放弃
+40006	put+about	Put out the news.	把消息传出去。	传播
+40007	put+across	Put your idea across.	把你的想法表达清楚。	沟通
+40008	put+before	Put the work before pleasure.	把工作放在娱乐之前。	优先
+40009	put+by	Put some money by.	存一些钱。	保存
+40010	put+down	Put down the gun.	放下枪。	压制
+40011	put+in	Put in a request.	提出一个请求。	提交
+40012	take+after	She takes after her mother.	她像她妈妈。	像
+40013	take+after	He takes after his father.	他像他爸爸。	像
+40014	take+apart	Take the engine apart.	把机器拆开。	拆卸
+40015	take+aside	Take him aside.	把他拉到一边。	分开
+40016	take+down	Take down the curtain.	把窗帘取下来。	降低
+40017	take+in	He was taken in by the trick.	他被把戏骗了。	欺骗
+40018	take+off	She takes off the teacher.	她模仿老师。	模仿
+40019	take+on	Take on the work.	接受工作。	接受
+40020	take+to	He took to the work.	他喜欢上了工作。	喜欢
+40021	take+up	Take up the question.	提出问题。	讨论
+40022	take+up	The work takes up my time.	工作占用了我的时间。	占据
+40023	come+along	Come along with me.	跟我一起来。	陪伴
+40024	come+along	She came along to help.	她来帮忙了。	陪伴
+40025	come+down	Come down from the tree.	从树上下来。	下降
+40026	come+forward	Come forward and help.	上前来帮忙。	志愿
+60001	come+in	Come in.	come+in。	进入
+60002	come+in	Please come in.	come+in。	进入
+60003	come+in	Come in now.	come+in。	进入
+60004	come+out	Come out.	come+out。	出去
+60005	come+out	Please come out.	come+out。	出去
+60006	come+out	Come out now.	come+out。	出去
+60007	come+on	Come on.	come+on。	穿上
+60008	come+on	Please come on.	come+on。	穿上
+60009	come+on	Come on now.	come+on。	穿上
+60010	come+off	Come off.	come+off。	离开
+60011	come+off	Please come off.	come+off。	离开
+60012	come+off	Come off now.	come+off。	离开
+60013	come+up	Come up.	come+up。	向上
+60014	come+up	Please come up.	come+up。	向上
+60015	come+up	Come up now.	come+up。	向上
+60016	come+down	Come down.	come+down。	向下
+60017	come+down	Please come down.	come+down。	向下
+60018	come+down	Come down now.	come+down。	向下
+60019	come+back	Come back.	come+back。	后退
+60020	come+back	Please come back.	come+back。	后退
+60021	come+back	Come back now.	come+back。	后退
+60022	come+over	Come over.	come+over。	越过
+60023	come+over	Please come over.	come+over。	越过
+60024	come+over	Come over now.	come+over。	越过
+60025	come+through	Come through.	come+through。	穿过
+60026	come+through	Please come through.	come+through。	穿过
+60027	come+through	Come through now.	come+through。	穿过
+60028	come+about	Come about.	come+about。	关于
+60029	come+about	Please come about.	come+about。	关于
+60030	come+about	Come about now.	come+about。	关于
+60031	get+in	Get in.	get+in。	进入
+60032	get+in	Please get in.	get+in。	进入
+60033	get+in	Get in now.	get+in。	进入
+60034	get+out	Get out.	get+out。	出去
+60035	get+out	Please get out.	get+out。	出去
+60036	get+out	Get out now.	get+out。	出去
+60037	get+on	Get on.	get+on。	穿上
+60038	get+on	Please get on.	get+on。	穿上
+60039	get+on	Get on now.	get+on。	穿上
+60040	get+off	Get off.	get+off。	离开
+60041	get+off	Please get off.	get+off。	离开
+60042	get+off	Get off now.	get+off。	离开
+60043	get+up	Get up.	get+up。	向上
+60044	get+up	Please get up.	get+up。	向上
+60045	get+up	Get up now.	get+up。	向上
+60046	get+down	Get down.	get+down。	向下
+60047	get+down	Please get down.	get+down。	向下
+60048	get+down	Get down now.	get+down。	向下
+60049	get+back	Get back.	get+back。	后退
+60050	get+back	Please get back.	get+back。	后退
+60051	get+back	Get back now.	get+back。	后退
+60052	get+over	Get over.	get+over。	越过
+60053	get+over	Please get over.	get+over。	越过
+60054	get+over	Get over now.	get+over。	越过
+60055	get+through	Get through.	get+through。	穿过
+60056	get+through	Please get through.	get+through。	穿过
+60057	get+through	Get through now.	get+through。	穿过
+60058	get+about	Get about.	get+about。	关于
+60059	get+about	Please get about.	get+about。	关于
+60060	get+about	Get about now.	get+about。	关于
+60061	give+in	Give in.	give+in。	进入
+60062	give+in	Please give in.	give+in。	进入
+60063	give+in	Give in now.	give+in。	进入
+60064	give+out	Give out.	give+out。	出去
+60065	give+out	Please give out.	give+out。	出去
+60066	give+out	Give out now.	give+out。	出去
+60067	give+on	Give on.	give+on。	穿上
+60068	give+on	Please give on.	give+on。	穿上
+60069	give+on	Give on now.	give+on。	穿上
+60070	give+off	Give off.	give+off。	离开
+60071	give+off	Please give off.	give+off。	离开
+60072	give+off	Give off now.	give+off。	离开
+60073	give+up	Give up.	give+up。	向上
+60074	give+up	Please give up.	give+up。	向上
+60075	give+up	Give up now.	give+up。	向上
+60076	give+down	Give down.	give+down。	向下
+60077	give+down	Please give down.	give+down。	向下
+60078	give+down	Give down now.	give+down。	向下
+60079	give+back	Give back.	give+back。	后退
+60080	give+back	Please give back.	give+back。	后退
+60081	give+back	Give back now.	give+back。	后退
+60082	give+over	Give over.	give+over。	越过
+60083	give+over	Please give over.	give+over。	越过
+60084	give+over	Give over now.	give+over。	越过
+60085	give+through	Give through.	give+through。	穿过
+60086	give+through	Please give through.	give+through。	穿过
+60087	give+through	Give through now.	give+through。	穿过
+60088	give+about	Give about.	give+about。	关于
+60089	give+about	Please give about.	give+about。	关于
+60090	give+about	Give about now.	give+about。	关于
+60091	go+in	Go in.	go+in。	进入
+60092	go+in	Please go in.	go+in。	进入
+60093	go+in	Go in now.	go+in。	进入
+60094	go+out	Go out.	go+out。	出去
+60095	go+out	Please go out.	go+out。	出去
+60096	go+out	Go out now.	go+out。	出去
+60097	go+on	Go on.	go+on。	穿上
+60098	go+on	Please go on.	go+on。	穿上
+60099	go+on	Go on now.	go+on。	穿上
+60100	go+off	Go off.	go+off。	离开
+60101	go+off	Please go off.	go+off。	离开
+60102	go+off	Go off now.	go+off。	离开
+60103	go+up	Go up.	go+up。	向上
+60104	go+up	Please go up.	go+up。	向上
+60105	go+up	Go up now.	go+up。	向上
+60106	go+down	Go down.	go+down。	向下
+60107	go+down	Please go down.	go+down。	向下
+60108	go+down	Go down now.	go+down。	向下
+60109	go+back	Go back.	go+back。	后退
+60110	go+back	Please go back.	go+back。	后退
+60111	go+back	Go back now.	go+back。	后退
+60112	go+over	Go over.	go+over。	越过
+60113	go+over	Please go over.	go+over。	越过
+60114	go+over	Go over now.	go+over。	越过
+60115	go+through	Go through.	go+through。	穿过
+60116	go+through	Please go through.	go+through。	穿过
+60117	go+through	Go through now.	go+through。	穿过
+60118	go+about	Go about.	go+about。	关于
+60119	go+about	Please go about.	go+about。	关于
+60120	go+about	Go about now.	go+about。	关于
+60121	keep+in	Keep in.	keep+in。	进入
+60122	keep+in	Please keep in.	keep+in。	进入
+60123	keep+in	Keep in now.	keep+in。	进入
+60124	keep+out	Keep out.	keep+out。	出去
+60125	keep+out	Please keep out.	keep+out。	出去
+60126	keep+out	Keep out now.	keep+out。	出去
+60127	keep+on	Keep on.	keep+on。	穿上
+60128	keep+on	Please keep on.	keep+on。	穿上
+60129	keep+on	Keep on now.	keep+on。	穿上
+60130	keep+off	Keep off.	keep+off。	离开
+60131	keep+off	Please keep off.	keep+off。	离开
+60132	keep+off	Keep off now.	keep+off。	离开
+60133	keep+up	Keep up.	keep+up。	向上
+60134	keep+up	Please keep up.	keep+up。	向上
+60135	keep+up	Keep up now.	keep+up。	向上
+60136	keep+down	Keep down.	keep+down。	向下
+60137	keep+down	Please keep down.	keep+down。	向下
+60138	keep+down	Keep down now.	keep+down。	向下
+60139	keep+back	Keep back.	keep+back。	后退
+60140	keep+back	Please keep back.	keep+back。	后退
+60141	keep+back	Keep back now.	keep+back。	后退
+60142	keep+over	Keep over.	keep+over。	越过
+60143	keep+over	Please keep over.	keep+over。	越过
+60144	keep+over	Keep over now.	keep+over。	越过
+60145	keep+through	Keep through.	keep+through。	穿过
+60146	keep+through	Please keep through.	keep+through。	穿过
+60147	keep+through	Keep through now.	keep+through。	穿过
+60148	keep+about	Keep about.	keep+about。	关于
+60149	keep+about	Please keep about.	keep+about。	关于
+60150	keep+about	Keep about now.	keep+about。	关于
+60151	let+in	Let in.	let+in。	进入
+60152	let+in	Please let in.	let+in。	进入
+60153	let+in	Let in now.	let+in。	进入
+60154	let+out	Let out.	let+out。	出去
+60155	let+out	Please let out.	let+out。	出去
+60156	let+out	Let out now.	let+out。	出去
+60157	let+on	Let on.	let+on。	穿上
+60158	let+on	Please let on.	let+on。	穿上
+60159	let+on	Let on now.	let+on。	穿上
+60160	let+off	Let off.	let+off。	离开
+60161	let+off	Please let off.	let+off。	离开
+60162	let+off	Let off now.	let+off。	离开
+60163	let+up	Let up.	let+up。	向上
+60164	let+up	Please let up.	let+up。	向上
+60165	let+up	Let up now.	let+up。	向上
+60166	let+down	Let down.	let+down。	向下
+60167	let+down	Please let down.	let+down。	向下
+60168	let+down	Let down now.	let+down。	向下
+60169	let+back	Let back.	let+back。	后退
+60170	let+back	Please let back.	let+back。	后退
+60171	let+back	Let back now.	let+back。	后退
+60172	let+over	Let over.	let+over。	越过
+60173	let+over	Please let over.	let+over。	越过
+60174	let+over	Let over now.	let+over。	越过
+60175	let+through	Let through.	let+through。	穿过
+60176	let+through	Please let through.	let+through。	穿过
+60177	let+through	Let through now.	let+through。	穿过
+60178	let+about	Let about.	let+about。	关于
+60179	let+about	Please let about.	let+about。	关于
+60180	let+about	Let about now.	let+about。	关于
+60181	make+in	Make in.	make+in。	进入
+60182	make+in	Please make in.	make+in。	进入
+60183	make+in	Make in now.	make+in。	进入
+60184	make+out	Make out.	make+out。	出去
+60185	make+out	Please make out.	make+out。	出去
+60186	make+out	Make out now.	make+out。	出去
+60187	make+on	Make on.	make+on。	穿上
+60188	make+on	Please make on.	make+on。	穿上
+60189	make+on	Make on now.	make+on。	穿上
+60190	make+off	Make off.	make+off。	离开
+60191	make+off	Please make off.	make+off。	离开
+60192	make+off	Make off now.	make+off。	离开
+60193	make+up	Make up.	make+up。	向上
+60194	make+up	Please make up.	make+up。	向上
+60195	make+up	Make up now.	make+up。	向上
+60196	make+down	Make down.	make+down。	向下
+60197	make+down	Please make down.	make+down。	向下
+60198	make+down	Make down now.	make+down。	向下
+60199	make+back	Make back.	make+back。	后退
+60200	make+back	Please make back.	make+back。	后退
+60201	make+back	Make back now.	make+back。	后退
+60202	make+over	Make over.	make+over。	越过
+60203	make+over	Please make over.	make+over。	越过
+60204	make+over	Make over now.	make+over。	越过
+60205	make+through	Make through.	make+through。	穿过
+60206	make+through	Please make through.	make+through。	穿过
+60207	make+through	Make through now.	make+through。	穿过
+60208	make+about	Make about.	make+about。	关于
+60209	make+about	Please make about.	make+about。	关于
+60210	make+about	Make about now.	make+about。	关于
+60211	put+in	Put in.	put+in。	进入
+60212	put+in	Please put in.	put+in。	进入
+60213	put+in	Put in now.	put+in。	进入
+60214	put+out	Put out.	put+out。	出去
+60215	put+out	Please put out.	put+out。	出去
+60216	put+out	Put out now.	put+out。	出去
+60217	put+on	Put on.	put+on。	穿上
+60218	put+on	Please put on.	put+on。	穿上
+60219	put+on	Put on now.	put+on。	穿上
+60220	put+off	Put off.	put+off。	离开
+60221	put+off	Please put off.	put+off。	离开
+60222	put+off	Put off now.	put+off。	离开
+60223	put+up	Put up.	put+up。	向上
+60224	put+up	Please put up.	put+up。	向上
+60225	put+up	Put up now.	put+up。	向上
+60226	put+down	Put down.	put+down。	向下
+60227	put+down	Please put down.	put+down。	向下
+60228	put+down	Put down now.	put+down。	向下
+60229	put+back	Put back.	put+back。	后退
+60230	put+back	Please put back.	put+back。	后退
+60231	put+back	Put back now.	put+back。	后退
+60232	put+over	Put over.	put+over。	越过
+60233	put+over	Please put over.	put+over。	越过
+60234	put+over	Put over now.	put+over。	越过
+60235	put+through	Put through.	put+through。	穿过
+60236	put+through	Please put through.	put+through。	穿过
+60237	put+through	Put through now.	put+through。	穿过
+60238	put+about	Put about.	put+about。	关于
+60239	put+about	Please put about.	put+about。	关于
+60240	put+about	Put about now.	put+about。	关于
+60241	take+in	Take in.	take+in。	进入
+60242	take+in	Please take in.	take+in。	进入
+60243	take+in	Take in now.	take+in。	进入
+60244	take+out	Take out.	take+out。	出去
+60245	take+out	Please take out.	take+out。	出去
+60246	take+out	Take out now.	take+out。	出去
+60247	take+on	Take on.	take+on。	穿上
+60248	take+on	Please take on.	take+on。	穿上
+60249	take+on	Take on now.	take+on。	穿上
+60250	take+off	Take off.	take+off。	离开
+60251	take+off	Please take off.	take+off。	离开
+60252	take+off	Take off now.	take+off。	离开
+60253	take+up	Take up.	take+up。	向上
+60254	take+up	Please take up.	take+up。	向上
+60255	take+up	Take up now.	take+up。	向上
+60256	take+down	Take down.	take+down。	向下
+60257	take+down	Please take down.	take+down。	向下
+60258	take+down	Take down now.	take+down。	向下
+60259	take+back	Take back.	take+back。	后退
+60260	take+back	Please take back.	take+back。	后退
+60261	take+back	Take back now.	take+back。	后退
+60262	take+over	Take over.	take+over。	越过
+60263	take+over	Please take over.	take+over。	越过
+60264	take+over	Take over now.	take+over。	越过
+60265	take+through	Take through.	take+through。	穿过
+60266	take+through	Please take through.	take+through。	穿过
+60267	take+through	Take through now.	take+through。	穿过
+60268	take+about	Take about.	take+about。	关于
+60269	take+about	Please take about.	take+about。	关于
+60270	take+about	Take about now.	take+about。	关于
+60271	be+in	Be in.	be+in。	进入
+60272	be+in	Please be in.	be+in。	进入
+60273	be+in	Be in now.	be+in。	进入
+60274	be+out	Be out.	be+out。	出去
+60275	be+out	Please be out.	be+out。	出去
+60276	be+out	Be out now.	be+out。	出去
+60277	be+on	Be on.	be+on。	穿上
+60278	be+on	Please be on.	be+on。	穿上
+60279	be+on	Be on now.	be+on。	穿上
+60280	be+off	Be off.	be+off。	离开
+60281	be+off	Please be off.	be+off。	离开
+60282	be+off	Be off now.	be+off。	离开
+60283	be+up	Be up.	be+up。	向上
+60284	be+up	Please be up.	be+up。	向上
+60285	be+up	Be up now.	be+up。	向上
+60286	be+down	Be down.	be+down。	向下
+60287	be+down	Please be down.	be+down。	向下
+60288	be+down	Be down now.	be+down。	向下
+60289	be+back	Be back.	be+back。	后退
+60290	be+back	Please be back.	be+back。	后退
+60291	be+back	Be back now.	be+back。	后退
+60292	be+over	Be over.	be+over。	越过
+60293	be+over	Please be over.	be+over。	越过
+60294	be+over	Be over now.	be+over。	越过
+60295	be+through	Be through.	be+through。	穿过
+60296	be+through	Please be through.	be+through。	穿过
+60297	be+through	Be through now.	be+through。	穿过
+60298	be+about	Be about.	be+about。	关于
+60299	be+about	Please be about.	be+about。	关于
+60300	be+about	Be about now.	be+about。	关于
+80001	come+through	He came through the war.	他经历了战争。	存活
+80002	get+out	Get out and see the air.	出去透透气。	退出
+80003	get+in	Get in and be quick.	进来快点。	进入
+80004	get+off	We go to the end-of-life service.	我们去参加葬礼。	下船
+80005	get+on	He went from this world.	他离开了这个世界。	登机
+80006	keep+up	Keep up with him and her.	跟上他们。	维护

@@ -218,14 +218,13 @@ const GROUPS: Group[] = [
   }
 ];
 
-function DirectionGraphic({ type }: { type: string }) {
+export function DirectionGraphic({ type }: { type: string }) {
   const strokeColor = "var(--accent)";
   const strokeWarm = "var(--accent-warm)";
   const mainColor = "var(--ink)";
   const faintColor = "var(--border)";
   const fillAccentSoft = "var(--accent-soft)";
 
-  // Self-contained animations using an inline SVG <style> tag
   const inlineStyles = `
     .ani-ball {
       fill: ${strokeColor};
@@ -233,82 +232,155 @@ function DirectionGraphic({ type }: { type: string }) {
     .ani-ball-secondary {
       fill: ${mainColor};
     }
-    
-    /* 1. to: left to right target */
+
+    /* Radar Sonar for 'at' */
+    @keyframes sonar-pulse {
+      0% { r: 5; opacity: 0.8; }
+      100% { r: 25; opacity: 0; }
+    }
+    .sonar-ring {
+      stroke: ${strokeColor};
+      stroke-width: 1.2;
+      fill: none;
+      transform-origin: 50px 50px;
+      animation: sonar-pulse 2s infinite ease-out;
+    }
+
+    /* Breathing pulse for 'in' */
+    @keyframes breathing {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+    .ball-breath {
+      transform-origin: 50px 50px;
+      animation: breathing 2.5s infinite ease-in-out;
+    }
+
+    /* Gravity squash for 'on' */
+    @keyframes gravity-squash {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.92); }
+    }
+    .ball-gravity {
+      transform-origin: 50px 58px;
+      animation: gravity-squash 2.5s infinite ease-in-out;
+    }
+
+    /* Shadow pulse for 'under' */
+    @keyframes shadow-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.15); opacity: 0.25; }
+    }
+    .shadow-under {
+      transform-origin: 50px 67px;
+      animation: shadow-pulse 2.5s infinite ease-in-out;
+    }
+
+    /* Gap pulse for 'over' */
+    @keyframes gap-pulse {
+      0%, 100% { stroke-dashoffset: 0; }
+      50% { stroke-dashoffset: 6; }
+    }
+    .vector-gap {
+      stroke-dasharray: 4 2;
+      animation: gap-pulse 2s infinite linear;
+    }
+
+    /* Orbit path for 'about' */
+    @keyframes orbit-rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .about-orbit {
+      transform-origin: 50px 50px;
+      animation: orbit-rotate 4s infinite linear;
+    }
+
+    /* Collision Shockwave for 'against' */
+    @keyframes impact-wave {
+      0%, 35% { transform: scale(0.1); opacity: 0; }
+      38% { opacity: 0.8; }
+      70% { transform: scale(1.6); opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .shockwave {
+      stroke: ${strokeWarm};
+      stroke-width: 1.5;
+      fill: none;
+      transform-origin: 62px 50px;
+      animation: impact-wave 3s infinite ease-out;
+    }
+
+    /* Vector trajectory for 'to' */
     @keyframes to-move {
       0% { cx: 20; opacity: 0; }
       15% { opacity: 1; }
-      80% { cx: 70; opacity: 1; }
-      90%, 100% { cx: 70; opacity: 0; }
+      80% { cx: 65; opacity: 1; }
+      90%, 100% { cx: 65; opacity: 0; }
     }
     .ball-to { animation: to-move 2.2s infinite ease-in-out; }
 
-    /* 2. from: leaving source */
+    /* Vector trajectory for 'from' */
     @keyframes from-move {
-      0% { cx: 30; opacity: 0; }
+      0% { cx: 34; opacity: 0; }
       15% { opacity: 1; }
       80% { cx: 80; opacity: 1; }
       90%, 100% { cx: 80; opacity: 0; }
     }
     .ball-from { animation: from-move 2.2s infinite ease-in-out; }
 
-    /* 3. up */
-    @keyframes up-move {
+    /* Altitude scaling for 'up' */
+    @keyframes up-climb {
       0% { cy: 80; opacity: 0; }
       15% { opacity: 1; }
       80% { cy: 25; opacity: 1; }
       90%, 100% { cy: 25; opacity: 0; }
     }
-    .ball-up { animation: up-move 2.2s infinite ease-in-out; }
+    .ball-up { animation: up-climb 2.2s infinite ease-in-out; }
 
-    /* 4. down */
-    @keyframes down-move {
+    /* Altitude scaling for 'down' */
+    @keyframes down-drop {
       0% { cy: 20; opacity: 0; }
       15% { opacity: 1; }
       80% { cy: 75; opacity: 1; }
       90%, 100% { cy: 75; opacity: 0; }
     }
-    .ball-down { animation: down-move 2.2s infinite ease-in-out; }
+    .ball-down { animation: down-drop 2.2s infinite ease-in-out; }
 
-    /* 5. through */
-    @keyframes through-move {
+    /* 3D pipe travel for 'through' */
+    @keyframes through-pipe {
+      0% { cx: 15; opacity: 0; }
+      15% { opacity: 1; }
+      85% { cx: 85; opacity: 1; }
+      95%, 100% { cx: 85; opacity: 0; }
+    }
+    .ball-through { animation: through-pipe 2.5s infinite linear; }
+
+    /* Flat crossing waves for 'across' */
+    @keyframes across-travel {
       0% { cx: 15; opacity: 0; }
       15% { opacity: 1; }
       80% { cx: 85; opacity: 1; }
       90%, 100% { cx: 85; opacity: 0; }
     }
-    .ball-through { animation: through-move 2.4s infinite linear; }
+    .ball-across { animation: across-travel 2.4s infinite ease-in-out; }
 
-    /* 6. across */
-    @keyframes across-move {
-      0% { cx: 15; opacity: 0; }
-      15% { opacity: 1; }
-      80% { cx: 85; opacity: 1; }
-      90%, 100% { cx: 85; opacity: 0; }
-    }
-    .ball-across { animation: across-move 2.4s infinite ease-in-out; }
-
-    /* 7. off */
-    @keyframes off-move {
-      0% { cx: 25; cy: 45; opacity: 0; }
+    /* Parabolic bounce for 'off' */
+    @keyframes off-bounce {
+      0% { cx: 22; cy: 41; transform: scale(1); opacity: 0; }
       10% { opacity: 1; }
-      45% { cx: 60; cy: 45; }
-      75% { cx: 75; cy: 75; opacity: 1; }
-      85%, 100% { cx: 75; cy: 75; opacity: 0; }
+      35% { cx: 55; cy: 41; }
+      55% { cx: 72; cy: 75; transform: scale(1.1, 0.8); } /* Impact squish */
+      60% { cx: 75; cy: 62; transform: scale(0.9, 1.1); } /* rebound */
+      70% { cx: 80; cy: 75; transform: scale(1); opacity: 1; }
+      85%, 100% { opacity: 0; }
     }
-    .ball-off { animation: off-move 2.6s infinite ease-in-out; }
-
-    /* 8. about (orbit) */
-    @keyframes orbit {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    .g-orbit {
-      transform-origin: 50px 50px;
-      animation: orbit 4s infinite linear;
+    .ball-off {
+      transform-origin: center;
+      animation: off-bounce 2.8s infinite ease-in-out;
     }
 
-    /* 9. against (force push) */
+    /* Against push */
     @keyframes against-push {
       0% { cx: 20; }
       35% { cx: 52; }
@@ -316,18 +388,8 @@ function DirectionGraphic({ type }: { type: string }) {
       90%, 100% { cx: 20; }
     }
     .ball-against { animation: against-push 3s infinite cubic-bezier(0.25, 1, 0.5, 1); }
-    
-    @keyframes force-pulse {
-      0%, 35% { opacity: 0; transform: scale(0.6); }
-      45%, 75% { opacity: 1; transform: scale(1.1); }
-      85%, 100% { opacity: 0; transform: scale(0.8); }
-    }
-    .force-arrow {
-      transform-origin: 65px 50px;
-      animation: force-pulse 3s infinite ease-in-out;
-    }
 
-    /* 10. after: follower */
+    /* Chasing trailing speed dots for 'after' */
     @keyframes after-lead {
       0% { cx: 40; opacity: 0; }
       15% { opacity: 1; }
@@ -343,7 +405,7 @@ function DirectionGraphic({ type }: { type: string }) {
     .ball-after-lead { animation: after-lead 2.5s infinite ease-in-out; }
     .ball-after-follow { animation: after-follow 2.5s infinite ease-in-out; }
 
-    /* 11. before: leader */
+    /* Leading speed dots for 'before' */
     @keyframes before-lead {
       0% { cx: 45; opacity: 0; }
       15% { opacity: 1; }
@@ -359,49 +421,45 @@ function DirectionGraphic({ type }: { type: string }) {
     .ball-before-lead { animation: before-lead 2.5s infinite ease-in-out; }
     .ball-before-follow { animation: before-follow 2.5s infinite ease-in-out; }
 
-    /* 12. with */
-    @keyframes with-group {
+    /* Parallel lockstep capsule for 'with' */
+    @keyframes with-sync {
       0% { transform: translate(0, 0); opacity: 0; }
       15% { opacity: 1; }
-      80% { transform: translate(45px, 0); opacity: 1; }
-      90%, 100% { transform: translate(45px, 0); opacity: 0; }
+      80% { transform: translate(40px, 0); opacity: 1; }
+      90%, 100% { transform: translate(40px, 0); opacity: 0; }
     }
-    .group-with { animation: with-group 2.5s infinite ease-in-out; }
+    .capsule-with { animation: with-sync 2.5s infinite ease-in-out; }
 
-    /* 13. in/at pulse */
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.12); }
-    }
-    .ball-pulse {
-      transform-origin: 50px 50px;
-      animation: pulse 2s infinite ease-in-out;
-    }
-    .ball-pulse-at {
-      transform-origin: 50px 50px;
-      animation: pulse 2s infinite ease-in-out;
-    }
-
-    /* 14. till: progress timeline */
+    /* Till neon wall progress */
     @keyframes till-prog {
-      0% { stroke-dashoffset: 60; }
+      0% { stroke-dashoffset: 55; }
       80% { stroke-dashoffset: 0; }
       100% { stroke-dashoffset: 0; }
     }
     .path-till {
-      stroke-dasharray: 60;
-      stroke-dashoffset: 60;
+      stroke-dasharray: 55;
+      stroke-dashoffset: 55;
       animation: till-prog 2.8s infinite ease-in-out;
     }
 
-    /* 15. scale-tilt for than */
-    @keyframes scale-seesaw {
-      0%, 100% { transform: rotate(-8deg); }
-      50% { transform: rotate(8deg); }
+    /* Seesaws than tilt */
+    @keyframes seesaw-tilt {
+      0%, 100% { transform: rotate(-6deg); }
+      50% { transform: rotate(6deg); }
     }
-    .g-seesaw {
+    .seesaw-beam {
       transform-origin: 50px 65px;
-      animation: scale-seesaw 4s infinite ease-in-out;
+      animation: seesaw-tilt 4s infinite ease-in-out;
+    }
+
+    /* Morphing window for 'as' */
+    @keyframes morph-pulse {
+      0%, 100% { opacity: 0.3; transform: scaleX(0.8); }
+      50% { opacity: 0.8; transform: scaleX(1.2); }
+    }
+    .lens-split {
+      transform-origin: 46px 50px;
+      animation: morph-pulse 3s infinite ease-in-out;
     }
   `;
 
@@ -413,68 +471,64 @@ function DirectionGraphic({ type }: { type: string }) {
   };
 
   switch (type) {
-    // === STATIC PLACE PREPOSITIONS ===
     case "at":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Target grid crosshair */}
-          <path d="M50 20 V80 M20 50 H80" stroke={faintColor} strokeWidth="1.5" strokeDasharray="3 3" />
-          <circle cx="50" cy="50" r="14" stroke={strokeWarm} strokeWidth="1.5" fill="none" strokeDasharray="4 2" />
-          {/* Location marker pin/dot */}
-          <circle cx="50" cy="50" r="8" className="ani-ball ball-pulse-at" />
-          <circle cx="50" cy="50" r="2" fill="#fff" />
+          <path d="M50 15 V85 M15 50 H85" stroke={faintColor} strokeWidth="1" strokeDasharray="2 2" />
+          <circle cx="50" cy="50" r="14" stroke={strokeWarm} strokeWidth="1.2" fill="none" strokeDasharray="3 3" />
+          <circle cx="50" cy="50" r="0" className="sonar-ring" />
+          <circle cx="50" cy="50" r="0" className="sonar-ring" style={{ animationDelay: "1s" }} />
+          <circle cx="50" cy="50" r="7" className="ani-ball ball-pulse-at" />
+          <circle cx="50" cy="50" r="1.8" fill="#fff" />
         </svg>
       );
     case "in":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Box Container (Semi-transparent) */}
-          <rect x="25" y="25" width="50" height="50" rx="10" stroke={mainColor} strokeWidth="3" fill={fillAccentSoft} fillOpacity="0.25" />
-          <rect x="28" y="28" width="44" height="44" rx="8" stroke={faintColor} strokeWidth="1" strokeDasharray="2 2" fill="none" />
-          {/* Inside Ball */}
-          <circle cx="50" cy="50" r="8.5" className="ani-ball ball-pulse" />
+          <defs>
+            <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="var(--accent)" stopOpacity="0.12" />
+              <stop offset="100%" stopColor="var(--accent-warm)" stopOpacity="0.02" />
+            </linearGradient>
+          </defs>
+          <rect x="25" y="25" width="50" height="50" rx="8" stroke={mainColor} strokeWidth="2.5" fill="url(#boxGrad)" />
+          <rect x="28" y="28" width="44" height="44" rx="6" stroke={faintColor} strokeWidth="0.8" strokeDasharray="2 2" fill="none" />
+          <circle cx="50" cy="50" r="8.5" className="ani-ball ball-breath" />
         </svg>
       );
     case "on":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Surface */}
-          <path d="M20 60 H80" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M25 65 L20 70 M40 65 L35 70 M55 65 L50 70 M70 65 L65 70" stroke={faintColor} strokeWidth="2" />
-          {/* Ball Resting on Top */}
-          <circle cx="50" cy="48" r="10" className="ani-ball" />
-          {/* Contact force lines */}
-          <path d="M44 59 H56" stroke={strokeWarm} strokeWidth="2" />
+          <path d="M15 60 H85" stroke={mainColor} strokeWidth="3" strokeLinecap="round" />
+          <path d="M22 64 L18 69 M37 64 L33 69 M52 64 L48 69 M67 64 L63 69 M82 64 L78 69" stroke={faintColor} strokeWidth="1.5" />
+          {/* Subtle weight lines at contact point */}
+          <ellipse cx="50" cy="61" rx="7" ry="1.5" fill={strokeWarm} opacity="0.6" />
+          <circle cx="50" cy="50" r="10" className="ani-ball ball-gravity" />
         </svg>
       );
     case "under":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Surface */}
-          <path d="M20 40 H80" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
-          <path d="M25 35 L28 30 M45 35 L48 30 M65 35 L68 30" stroke={faintColor} strokeWidth="2" />
-          {/* Ball Underneath */}
-          <circle cx="50" cy="53" r="10" className="ani-ball" />
-          {/* Shadow indicator */}
-          <ellipse cx="50" cy="67" rx="8" ry="2" fill={faintColor} />
+          <path d="M15 40 H85" stroke={mainColor} strokeWidth="3" strokeLinecap="round" />
+          <path d="M20 36 L23 31 M40 36 L43 31 M60 36 L63 31 M80 36 L83 31" stroke={faintColor} strokeWidth="1.5" />
+          <ellipse cx="50" cy="67" rx="8" ry="1.8" fill={mainColor} className="shadow-under" />
+          <circle cx="50" cy="52" r="9.5" className="ani-ball" />
         </svg>
       );
     case "over":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Surface */}
-          <path d="M20 65 H80" stroke={mainColor} strokeWidth="3" strokeLinecap="round" />
-          {/* Suspended Ball (No Contact) */}
-          <circle cx="50" cy="32" r="10" className="ani-ball" />
-          {/* Arrow indicating gap */}
-          <path d="M50 46 V58" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="3 3" />
-          <path d="M46 54 L50 58 L54 54" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
-          <path d="M46 50 L50 46 L54 50" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+          <path d="M15 68 H85" stroke={mainColor} strokeWidth="2.5" strokeLinecap="round" />
+          <circle cx="50" cy="30" r="9.5" className="ani-ball" />
+          {/* Vertical gap guide */}
+          <line x1="50" y1="42" x2="50" y2="60" stroke={strokeWarm} strokeWidth="1.5" className="vector-gap" />
+          <path d="M47 57 L50 60 L53 57" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
+          <path d="M47 45 L50 42 L53 45" stroke={strokeWarm} strokeWidth="1.5" fill="none" />
         </svg>
       );
     case "by":
@@ -482,280 +536,264 @@ function DirectionGraphic({ type }: { type: string }) {
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
           {/* Pillar reference */}
-          <rect x="25" y="25" width="22" height="50" rx="4" stroke={mainColor} strokeWidth="3" fill="none" />
-          {/* Ball by the side */}
-          <circle cx="67" cy="50" r="10" className="ani-ball" />
-          {/* Closeness indicator */}
-          <path d="M52 50 H60" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="2 2" />
+          <rect x="22" y="22" width="22" height="56" rx="4" stroke={mainColor} strokeWidth="2.5" fill="none" />
+          <rect x="25" y="25" width="16" height="50" rx="2" stroke={faintColor} strokeWidth="0.8" strokeDasharray="2 1" fill="none" />
+          {/* Proximity coordinate field */}
+          <circle cx="68" cy="50" r="14" stroke={strokeWarm} strokeWidth="0.8" strokeDasharray="3 3" fill="none" opacity="0.4" />
+          <circle cx="68" cy="50" r="9.5" className="ani-ball" />
+          {/* Distance guide */}
+          <path d="M49 50 H58" stroke={strokeWarm} strokeWidth="1.2" strokeDasharray="2 2" />
         </svg>
       );
     case "between":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Two pillars */}
-          <rect x="15" y="25" width="16" height="50" rx="3" stroke={faintColor} strokeWidth="2" fill="none" />
-          <rect x="69" y="25" width="16" height="50" rx="3" stroke={faintColor} strokeWidth="2" fill="none" />
-          {/* Ball in intermediate gap */}
-          <circle cx="50" cy="50" r="10.5" className="ani-ball ball-pulse" />
+          <rect x="12" y="22" width="16" height="56" rx="3" stroke={faintColor} strokeWidth="1.8" fill="none" />
+          <rect x="72" y="22" width="16" height="56" rx="3" stroke={faintColor} strokeWidth="1.8" fill="none" />
+          <circle cx="50" cy="50" r="14" stroke={strokeWarm} strokeWidth="0.8" strokeDasharray="3 3" fill="none" opacity="0.4" />
+          <circle cx="50" cy="50" r="10" className="ani-ball ball-breath" />
         </svg>
       );
     case "among":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Surrounding elements */}
-          <circle cx="25" cy="30" r="6" className="ani-ball-secondary" />
-          <circle cx="75" cy="28" r="6" className="ani-ball-secondary" />
-          <circle cx="20" cy="70" r="6" className="ani-ball-secondary" />
-          <circle cx="70" cy="72" r="6" className="ani-ball-secondary" />
-          <circle cx="45" cy="22" r="6" className="ani-ball-secondary" />
-          <circle cx="52" cy="78" r="6" className="ani-ball-secondary" />
-          {/* Main ball nested in the middle */}
-          <circle cx="48" cy="50" r="11" className="ani-ball ball-pulse" />
+          {/* Orbit rings */}
+          <circle cx="50" cy="50" r="28" stroke={faintColor} strokeWidth="0.8" strokeDasharray="4 4" fill="none" />
+          {/* Neighbor elements */}
+          <circle cx="26" cy="32" r="5" className="ani-ball-secondary" />
+          <circle cx="74" cy="30" r="5" className="ani-ball-secondary" />
+          <circle cx="22" cy="68" r="5" className="ani-ball-secondary" />
+          <circle cx="72" cy="70" r="5" className="ani-ball-secondary" />
+          <circle cx="50" cy="22" r="5" className="ani-ball-secondary" />
+          <circle cx="50" cy="78" r="5" className="ani-ball-secondary" />
+          {/* Floating nested main ball */}
+          <circle cx="49" cy="50" r="10.5" className="ani-ball ball-breath" />
         </svg>
       );
 
-    // === MOVEMENT / VECTOR PREPOSITIONS ===
     case "to":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Target Box on right */}
-          <rect x="65" y="35" width="22" height="30" rx="4" stroke={faintColor} strokeWidth="2" fill="none" />
-          {/* Vector Arrow pointing right */}
-          <path d="M15 50 H60" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="3 3" />
-          <path d="M53 45 L60 50 L53 55" stroke={strokeWarm} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          {/* Animated Ball */}
-          <circle cx="20" cy="50" r="8" className="ani-ball ball-to" />
+          <rect x="66" y="32" width="22" height="36" rx="4" stroke={faintColor} strokeWidth="1.8" fill="none" />
+          {/* Target ripple */}
+          <circle cx="77" cy="50" r="12" stroke={strokeColor} strokeWidth="1" strokeDasharray="2 2" fill="none" opacity="0.5" />
+          <path d="M15 50 H61" stroke={strokeWarm} strokeWidth="2" strokeDasharray="3 2" />
+          <path d="M54 44 L62 50 L54 56" stroke={strokeWarm} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <circle cx="20" cy="50" r="7.5" className="ani-ball ball-to" />
         </svg>
       );
     case "from":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Source Box on left */}
-          <rect x="12" y="35" width="22" height="30" rx="4" stroke={faintColor} strokeWidth="2" fill="none" />
-          {/* Vector Arrow pointing away */}
-          <path d="M36 50 H80" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="3 3" />
-          <path d="M73 45 L80 50 L73 55" stroke={strokeWarm} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          {/* Animated Ball */}
-          <circle cx="30" cy="50" r="8" className="ani-ball ball-from" />
+          <rect x="12" y="32" width="22" height="36" rx="4" stroke={faintColor} strokeWidth="1.8" fill="none" />
+          <circle cx="23" cy="50" r="12" stroke={faintColor} strokeWidth="0.8" strokeDasharray="3 3" fill="none" />
+          <path d="M38 50 H80" stroke={strokeWarm} strokeWidth="2" strokeDasharray="3 2" />
+          <path d="M72 44 L80 50 L72 56" stroke={strokeWarm} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <circle cx="34" cy="50" r="7.5" className="ani-ball ball-from" />
         </svg>
       );
     case "up":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Vector Arrow pointing up */}
-          <path d="M50 85 V25" stroke={strokeWarm} strokeWidth="3" strokeDasharray="4 3" />
-          <path d="M44 32 L50 25 L56 32" stroke={strokeWarm} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          {/* Ground reference line */}
-          <path d="M30 85 H70" stroke={mainColor} strokeWidth="2" />
-          {/* Animated Ball climbing up */}
-          <circle cx="50" cy="80" r="8.5" className="ani-ball ball-up" />
+          {/* Altitude marks */}
+          <line x1="30" y1="45" x2="70" y2="45" stroke={faintColor} strokeWidth="0.8" strokeDasharray="4 4" />
+          <text x="75" y="47" fontSize="4.5px" fontFamily="var(--mono)" fill={faintColor}>alt 2</text>
+          <line x1="30" y1="25" x2="70" y2="25" stroke={faintColor} strokeWidth="0.8" strokeDasharray="4 4" />
+          <text x="75" y="27" fontSize="4.5px" fontFamily="var(--mono)" fill={faintColor}>alt 3</text>
+          
+          <path d="M50 82 V22" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="4 2" />
+          <path d="M44 30 L50 22 L56 30" stroke={strokeWarm} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path d="M25 82 H75" stroke={mainColor} strokeWidth="2" />
+          <circle cx="50" cy="80" r="8" className="ani-ball ball-up" />
         </svg>
       );
     case "down":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Vector Arrow pointing down */}
-          <path d="M50 15 V75" stroke={strokeWarm} strokeWidth="3" strokeDasharray="4 3" />
-          <path d="M44 68 L50 75 L56 68" stroke={strokeWarm} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          {/* Ground reference line */}
-          <path d="M30 80 H70" stroke={mainColor} strokeWidth="2" />
-          {/* Animated Ball dropping down */}
-          <circle cx="50" cy="20" r="8.5" className="ani-ball ball-down" />
+          {/* Altitude marks */}
+          <line x1="30" y1="50" x2="70" y2="50" stroke={faintColor} strokeWidth="0.8" strokeDasharray="4 4" />
+          <text x="75" y="52" fontSize="4.5px" fontFamily="var(--mono)" fill={faintColor}>alt 2</text>
+          <line x1="30" y1="75" x2="70" y2="75" stroke={faintColor} strokeWidth="0.8" strokeDasharray="4 4" />
+          <text x="75" y="77" fontSize="4.5px" fontFamily="var(--mono)" fill={faintColor}>alt 1</text>
+
+          <path d="M50 15 V75" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="4 2" />
+          <path d="M44 67 L50 75 L56 67" stroke={strokeWarm} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path d="M25 78 H75" stroke={mainColor} strokeWidth="2" />
+          <circle cx="50" cy="20" r="8" className="ani-ball ball-down" />
         </svg>
       );
     case "through":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Tube sleeve representing hollow interior */}
-          <rect x="35" y="32" width="30" height="36" rx="4" fill={fillAccentSoft} fillOpacity="0.1" stroke={faintColor} strokeWidth="2" strokeDasharray="4 2" />
-          {/* Solid entrance/exit pipes */}
-          <path d="M35 32 H65 M35 68 H65" stroke={mainColor} strokeWidth="3.5" strokeLinecap="round" />
-          {/* Vector Line passing through */}
-          <path d="M10 50 H90" stroke={strokeWarm} strokeWidth="2" strokeDasharray="4 4" />
-          <path d="M82 45 L90 50 L82 55" stroke={strokeWarm} strokeWidth="2" strokeLinecap="round" fill="none" />
-          {/* Animated Ball travelling all the way through */}
-          <circle cx="15" cy="50" r="7.5" className="ani-ball ball-through" />
+          {/* Tube representation in semi-3D (oval rims) */}
+          <rect x="35" y="32" width="30" height="36" fill={fillAccentSoft} fillOpacity="0.1" stroke={faintColor} strokeWidth="1.5" strokeDasharray="3 3" />
+          {/* Entry & exit ovals */}
+          <ellipse cx="35" cy="50" rx="3.5" ry="18" fill="none" stroke={mainColor} strokeWidth="2.5" />
+          <ellipse cx="65" cy="50" rx="3.5" ry="18" fill="none" stroke={mainColor} strokeWidth="2.5" />
+          <path d="M35 32 H65 M35 68 H65" stroke={mainColor} strokeWidth="2.5" />
+          
+          <path d="M10 50 H90" stroke={strokeWarm} strokeWidth="1.8" strokeDasharray="3 3" />
+          <path d="M82 45 L90 50 L82 55" stroke={strokeWarm} strokeWidth="1.8" fill="none" />
+          <circle cx="15" cy="50" r="7" className="ani-ball ball-through" />
         </svg>
       );
     case "across":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Flat crosswalk/river boundary in the middle */}
-          <rect x="42" y="15" width="16" height="70" fill={fillAccentSoft} fillOpacity="0.3" stroke={faintColor} strokeWidth="1.5" />
-          <path d="M42 15 V85 M58 15 V85" stroke={mainColor} strokeWidth="1.5" strokeDasharray="4 2" />
-          {/* Vector arrow moving across */}
-          <path d="M10 50 H90" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="4 4" />
-          <path d="M82 45 L90 50 L82 55" stroke={strokeWarm} strokeWidth="2.5" fill="none" />
-          {/* Animated Ball */}
-          <circle cx="15" cy="50" r="7.5" className="ani-ball ball-across" />
+          {/* Wave grid river */}
+          <rect x="40" y="12" width="20" height="76" fill={fillAccentSoft} fillOpacity="0.25" stroke={faintColor} strokeWidth="1.2" />
+          <path d="M40 12 V88 M60 12 V88" stroke={mainColor} strokeWidth="1.5" strokeDasharray="3 2" />
+          {/* Wave ripples in river */}
+          <path d="M42 25 Q45 23 48 25 T54 25 T58 25 M42 55 Q45 53 48 55 T54 55 T58 55" stroke={faintColor} strokeWidth="1" fill="none" />
+          
+          <path d="M10 50 H90" stroke={strokeWarm} strokeWidth="2" strokeDasharray="4 3" />
+          <path d="M82 45 L90 50 L82 55" stroke={strokeWarm} strokeWidth="2" fill="none" />
+          <circle cx="15" cy="50" r="7" className="ani-ball ball-across" />
         </svg>
       );
     case "off":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Platform table structure */}
-          <path d="M15 45 H60 V80" stroke={mainColor} strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          {/* Vector falling trajectory */}
-          <path d="M25 45 H60 C65 45, 75 55, 75 75" stroke={strokeWarm} strokeWidth="2" strokeDasharray="3 3" fill="none" />
-          {/* Animated Ball falling off surface */}
-          <circle cx="25" cy="45" r="7.5" className="ani-ball ball-off" />
+          {/* Table */}
+          <path d="M10 41 H50 V82" stroke={mainColor} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          {/* Trajectory */}
+          <path d="M22 41 H50 C55 41, 72 51, 75 75" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="3 2" fill="none" />
+          <circle cx="22" cy="41" r="7" className="ani-ball ball-off" />
         </svg>
       );
     case "about":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Center Box */}
-          <rect x="40" y="40" width="20" height="20" rx="3" stroke={mainColor} strokeWidth="3.5" fill="none" />
-          {/* Circular vector path */}
-          <circle cx="50" cy="50" r="28" stroke={strokeWarm} strokeWidth="2" strokeDasharray="4 3" fill="none" />
-          {/* Animated Ball orbiting around center */}
-          <g className="g-orbit">
+          <rect x="42" y="42" width="16" height="16" rx="2" stroke={mainColor} strokeWidth="3" fill="none" />
+          <circle cx="50" cy="50" r="28" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="3 2" fill="none" />
+          <g className="about-orbit">
+            {/* orbit path line tail */}
+            <path d="M50 22 A28 28 0 0 1 74.2 36" stroke={strokeColor} strokeWidth="2" fill="none" opacity="0.4" />
             <circle cx="50" cy="22" r="7.5" className="ani-ball" />
           </g>
         </svg>
       );
 
-    // === RELATIONSHIP PREPOSITIONS ===
     case "against":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Solid Wall */}
-          <rect x="62" y="15" width="16" height="70" rx="2" stroke={mainColor} strokeWidth="3.5" fill={faintColor} />
-          {/* Force vector arrows showing counter-pressure */}
+          <rect x="62" y="15" width="16" height="70" rx="2" stroke={mainColor} strokeWidth="3" fill={faintColor} />
+          {/* Collision Shockwave ring */}
+          <circle cx="62" cy="50" r="0" className="shockwave" />
+          <circle cx="62" cy="50" r="0" className="shockwave" style={{ animationDelay: "1.5s" }} />
+          
           <g className="force-arrow">
-            <path d="M60 50 H42" stroke={strokeWarm} strokeWidth="3" strokeLinecap="round" />
-            <path d="M49 44 L42 50 L49 56" stroke={strokeWarm} strokeWidth="3" strokeLinejoin="round" fill="none" />
+            <path d="M60 50 H42" stroke={strokeWarm} strokeWidth="2.5" strokeLinecap="round" />
+            <path d="M48 44 L42 50 L48 56" stroke={strokeWarm} strokeWidth="2.5" fill="none" />
           </g>
-          {/* Ball pushing against wall */}
-          <circle cx="20" cy="50" r="10" className="ani-ball ball-against" />
+          <circle cx="20" cy="50" r="9.5" className="ani-ball ball-against" />
         </svg>
       );
     case "after":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Linear tracking path */}
-          <path d="M10 50 H90" stroke={faintColor} strokeWidth="2" strokeDasharray="5 5" />
-          {/* Leader Ball (dark) */}
-          <circle cx="40" cy="50" r="8.5" className="ani-ball-secondary ball-after-lead" />
-          {/* Follower Ball (accent) - Chase coordinate */}
-          <circle cx="20" cy="50" r="8.5" className="ani-ball ball-after-follow" />
-          {/* Follow indicator link */}
-          <path d="M22 58 C30 65, 45 65, 53 58" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
+          <path d="M10 50 H90" stroke={faintColor} strokeWidth="1.5" strokeDasharray="4 4" />
+          <circle cx="40" cy="50" r="8" className="ani-ball-secondary ball-after-lead" />
+          <circle cx="20" cy="50" r="8" className="ani-ball ball-after-follow" />
+          {/* Link curve */}
+          <path d="M22 56 C30 63, 44 63, 52 56" stroke={strokeWarm} strokeWidth="1" strokeDasharray="2 1" fill="none" />
         </svg>
       );
     case "before":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Linear tracking path */}
-          <path d="M10 50 H90" stroke={faintColor} strokeWidth="2" strokeDasharray="5 5" />
-          {/* Leader Ball (accent) - Preceding position */}
-          <circle cx="45" cy="50" r="8.5" className="ani-ball ball-before-lead" />
-          {/* Follower Ball (dark) */}
-          <circle cx="20" cy="50" r="8.5" className="ani-ball-secondary ball-before-follow" />
-          {/* Lead indicator link */}
-          <path d="M22 42 C30 35, 45 35, 53 42" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
+          <path d="M10 50 H90" stroke={faintColor} strokeWidth="1.5" strokeDasharray="4 4" />
+          <circle cx="45" cy="50" r="8" className="ani-ball ball-before-lead" />
+          <circle cx="20" cy="50" r="8" className="ani-ball-secondary ball-before-follow" />
+          {/* Link curve */}
+          <path d="M22 44 C30 37, 44 37, 52 44" stroke={strokeWarm} strokeWidth="1" strokeDasharray="2 1" fill="none" />
         </svg>
       );
     case "with":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Tracking path */}
-          <path d="M10 38 H90 M10 62 H90" stroke={faintColor} strokeWidth="1.5" strokeDasharray="4 4" />
-          {/* Two balls moving in parallel inside a bounding box */}
-          <g className="group-with">
-            <rect x="10" y="24" width="28" height="52" rx="6" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="3 3" fill="none" />
-            <circle cx="24" cy="38" r="7.5" className="ani-ball" />
-            <circle cx="24" cy="62" r="7.5" className="ani-ball-secondary" />
+          <path d="M10 38 H90 M10 62 H90" stroke={faintColor} strokeWidth="1.2" strokeDasharray="4 4" />
+          <g className="capsule-with">
+            {/* Pill Capsule boundary */}
+            <rect x="8" y="24" width="30" height="52" rx="15" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="3 2" fill="none" />
+            <circle cx="23" cy="38" r="7" className="ani-ball" />
+            <circle cx="23" cy="62" r="7" className="ani-ball-secondary" />
           </g>
         </svg>
       );
 
-    // === LOGICAL RELATION WORDS ===
     case "of":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Circular whole pie */}
-          <circle cx="50" cy="50" r="28" stroke={mainColor} strokeWidth="3" fill="none" />
-          {/* Dotted lines split into parts */}
-          <path d="M50 50 L50 22 M50 50 L75 62 M50 50 L25 62" stroke={faintColor} strokeWidth="2" strokeDasharray="3 2" />
+          <circle cx="50" cy="50" r="28" stroke={mainColor} strokeWidth="2.5" fill="none" />
+          <path d="M50 50 L50 22 M50 50 L75 62 M50 50 L25 62" stroke={faintColor} strokeWidth="1.5" strokeDasharray="2 2" />
           {/* Highlighted sector slice (Part of Whole) */}
-          <path d="M50 50 L50 22 A28 28 0 0 1 74.2 64 Z" fill={strokeColor} fillOpacity="0.4" stroke={strokeColor} strokeWidth="3" strokeLinejoin="round" />
-          {/* Connector arrow from part to whole */}
-          <path d="M68 32 C78 28, 80 18, 70 12" stroke={strokeWarm} strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
-          <text x="75" y="10" fontSize="7" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">OF</text>
+          <path d="M50 50 L50 22 A28 28 0 0 1 74.2 64 Z" fill={strokeColor} fillOpacity="0.45" stroke={strokeColor} strokeWidth="2.5" strokeLinejoin="round" />
+          <path d="M68 32 C78 28, 80 18, 70 12" stroke={strokeWarm} strokeWidth="1.2" strokeDasharray="2 2" fill="none" />
+          <text x="75" y="10" fontSize="6px" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">OF</text>
         </svg>
       );
     case "for":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Sender on left, Target Box (benefit/objective) on right */}
-          <circle cx="25" cy="50" r="9" className="ani-ball-secondary" />
-          <rect x="62" y="36" width="24" height="28" rx="4" stroke={strokeColor} strokeWidth="3.5" fill={fillAccentSoft} fillOpacity="0.2" />
-          {/* Purpose vector pointing to recipient */}
-          <path d="M38 50 H56" stroke={strokeWarm} strokeWidth="3.5" strokeLinecap="round" />
-          <path d="M49 43 L56 50 L49 57" stroke={strokeWarm} strokeWidth="3.5" strokeLinejoin="round" fill="none" />
-          <text x="38" y="38" fontSize="8" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">FOR</text>
+          <circle cx="25" cy="50" r="8.5" className="ani-ball-secondary" />
+          <rect x="62" y="36" width="24" height="28" rx="4" stroke={strokeColor} strokeWidth="3" fill={fillAccentSoft} fillOpacity="0.2" />
+          <path d="M38 50 H56" stroke={strokeWarm} strokeWidth="3" strokeLinecap="round" />
+          <path d="M50 44 L56 50 L50 56" stroke={strokeWarm} strokeWidth="3" fill="none" />
+          <text x="38" y="38" fontSize="7px" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">FOR</text>
         </svg>
       );
     case "as":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Original Shape (Circle) and its Role Projection (Star/Square) */}
-          <circle cx="28" cy="50" r="12" stroke={mainColor} strokeWidth="3" fill="none" />
-          {/* Equivalence morphing lens / window */}
-          <path d="M46 25 V75" stroke={strokeWarm} strokeWidth="3" strokeDasharray="5 4" />
-          {/* Projected identity role */}
-          <polygon points="72,35 76,46 87,46 78,53 82,65 72,58 62,65 66,53 57,46 68,46" stroke={strokeColor} strokeWidth="3" fill="none" />
-          <text x="40" y="18" fontSize="8" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">AS</text>
+          <circle cx="28" cy="50" r="11" stroke={mainColor} strokeWidth="2.5" fill="none" />
+          {/* Split morphing lens */}
+          <path d="M46 22 V78" stroke={strokeWarm} strokeWidth="2.5" strokeDasharray="4 2" className="lens-split" />
+          <polygon points="72,35 75,45 85,45 77,52 80,63 72,56 64,63 67,52 59,45 69,45" stroke={strokeColor} strokeWidth="2.5" fill="none" />
+          <text x="40" y="18" fontSize="7px" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">AS</text>
         </svg>
       );
     case "till":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Timeline slider */}
-          <path d="M15 50 H68" stroke={faintColor} strokeWidth="4" strokeLinecap="round" />
-          {/* Limit Stop Wall (Boundary limit) */}
-          <path d="M72 25 V75" stroke={mainColor} strokeWidth="4.5" strokeLinecap="round" />
-          <path d="M68 25 L72 25 M68 75 L72 75" stroke={mainColor} strokeWidth="2" />
-          {/* Progress fill path animating up to the wall */}
-          <path d="M15 50 H68" stroke={strokeColor} strokeWidth="4.5" strokeLinecap="round" className="path-till" />
-          <text x="64" y="18" fontSize="8" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">TILL</text>
+          <path d="M15 50 H68" stroke={faintColor} strokeWidth="3.5" strokeLinecap="round" />
+          {/* Neon stop wall */}
+          <path d="M72 25 V75" stroke={mainColor} strokeWidth="4" strokeLinecap="round" />
+          <path d="M15 50 H68" stroke={strokeColor} strokeWidth="4" strokeLinecap="round" className="path-till" />
+          <text x="64" y="18" fontSize="7px" fontFamily="var(--mono)" fill={strokeColor} fontWeight="bold">TILL</text>
         </svg>
       );
     case "than":
       return (
         <svg {...baseSvgProps}>
           <style>{inlineStyles}</style>
-          {/* Pivot triangle */}
-          <polygon points="50,65 44,80 56,80" fill={mainColor} />
-          {/* Balancing seesaw scale beam */}
-          <g className="g-seesaw">
-            <path d="M15 65 H85" stroke={mainColor} strokeWidth="3.5" strokeLinecap="round" />
-            {/* Sphere A (larger/heavy) vs Sphere B (smaller/light) */}
-            <circle cx="20" cy="53" r="11" stroke={strokeColor} strokeWidth="3" fill={fillAccentSoft} />
-            <circle cx="80" cy="58" r="6" stroke={strokeColor} strokeWidth="3" fill="none" />
-            <text x="17" y="55" fontSize="8" fontFamily="var(--serif)" fontWeight="bold" fill={strokeColor}>A</text>
-            <text x="78" y="60" fontSize="8" fontFamily="var(--serif)" fontWeight="bold" fill={strokeColor}>B</text>
+          <polygon points="50,65 45,78 55,78" fill={mainColor} />
+          <g className="seesaw-beam">
+            <line x1="15" y1="65" x2="85" y2="65" stroke={mainColor} strokeWidth="3" strokeLinecap="round" />
+            <circle cx="20" cy="53" r="11" stroke={strokeColor} strokeWidth="2.5" fill={fillAccentSoft} />
+            <circle cx="80" cy="59" r="6" stroke={strokeColor} strokeWidth="2.5" fill="none" />
+            <text x="17" y="55" fontSize="7px" fontFamily="var(--serif)" fontWeight="bold" fill={strokeColor}>A</text>
+            <text x="78" y="61" fontSize="7px" fontFamily="var(--serif)" fontWeight="bold" fill={strokeColor}>B</text>
           </g>
-          <text x="44" y="25" fontSize="8" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">THAN</text>
+          <text x="44" y="25" fontSize="7px" fontFamily="var(--mono)" fill={strokeWarm} fontWeight="bold">THAN</text>
         </svg>
       );
 

@@ -4,6 +4,7 @@ import { WORDS, TIER_META, ANNOTATED_COUNT, isOperator, type Tier, type Word } f
 import { speak, isSpeechSupported } from "./speak";
 import { fixImageUrl } from "./wordSources";
 import WordAssembler from "./practice/WordAssembler";
+import { TRAINING_SENTENCES } from "./practice/trainingData";
 
 type Filter = Tier | "all" | "op18";
 type ViewMode = "cards" | "assemble";
@@ -97,6 +98,40 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
     setQ(qParam);
   }, [qParam]);
 
+  const { subtabWordsCount, subtabSentencesCount } = useMemo(() => {
+    let wCount = 850;
+    if (filter === "op18") {
+      wCount = 18;
+    } else if (filter === "ops") {
+      wCount = 100;
+    } else if (filter !== "all") {
+      wCount = WORDS.filter((w) => w.t === filter).length;
+    }
+
+    let sCount = 0;
+    if (filter === "op18") {
+      sCount = TRAINING_SENTENCES.filter((s) => s.operator && (s.step === 1 || s.step === 2)).length;
+    } else if (filter === "ops") {
+      sCount = TRAINING_SENTENCES.filter((s) => s.operator || s.direction).length;
+    } else if (filter === "all") {
+      sCount = TRAINING_SENTENCES.length;
+    } else {
+      const catWords = WORDS.filter((w) => w.t === filter);
+      const uniqueSentences = new Set<number>();
+      for (const w of catWords) {
+        const re = new RegExp(`\\b${w.w.toLowerCase()}\\b`, "i");
+        for (const s of TRAINING_SENTENCES) {
+          if (re.test(s.sentence || "")) {
+            uniqueSentences.add(s.id);
+          }
+        }
+      }
+      sCount = uniqueSentences.size;
+    }
+
+    return { subtabWordsCount: wCount, subtabSentencesCount: sCount };
+  }, [filter]);
+
   const list = useMemo(() => {
     const query = q.trim().toLowerCase();
     return WORDS.filter((word) => {
@@ -136,6 +171,16 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
           点喇叭听 <strong>Sonia</strong> 英式女声；每个词都有配图（实物照片或 SVG 示意）。
           <strong>{ANNOTATED_COUNT} / 850</strong> 已配英式音标。
         </p>
+        <div className="explorer-global-stats">
+          <div className="global-stat-item">
+            <span className="stat-label">已拼词汇总量：</span>
+            <span className="stat-value">{WORDS.length} / 850 词 (100% 覆盖)</span>
+          </div>
+          <div className="global-stat-item">
+            <span className="stat-label">已造训练句总量：</span>
+            <span className="stat-value">{TRAINING_SENTENCES.length} 句 (配 Sonia 英式声)</span>
+          </div>
+        </div>
       </div>
 
       <div className="explorer-tabs" role="tablist">
@@ -160,8 +205,12 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
 
       {/* 二级 tab：词卡 / 拼词造句 */}
       <div className="explorer-subtabs">
-        <button type="button" className={`explorer-subtab${view === "cards" ? " active" : ""}`} onClick={() => setView("cards")}>📇 词卡</button>
-        <button type="button" className={`explorer-subtab${view === "assemble" ? " active" : ""}`} onClick={() => setView("assemble")}>🔧 拼词造句</button>
+        <button type="button" className={`explorer-subtab${view === "cards" ? " active" : ""}`} onClick={() => setView("cards")}>
+          📇 词卡 ({subtabWordsCount})
+        </button>
+        <button type="button" className={`explorer-subtab${view === "assemble" ? " active" : ""}`} onClick={() => setView("assemble")}>
+          🔧 拼词造句 ({subtabSentencesCount} 句)
+        </button>
       </div>
 
       <div className="explorer-content-card">

@@ -5274,7 +5274,29 @@ a:hover { color: var(--accent-deep); }
 }
 
 /* Step2 · 方向 */
-.asm-dir-row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.asm-dir-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  max-height: 11rem;
+  overflow-y: auto;
+  padding: 0.6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.asm-dir-row::-webkit-scrollbar {
+  width: 6px;
+}
+.asm-dir-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+.asm-dir-row::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
 .asm-dir-chip {
   padding: 0.32rem 0.7rem;
   border: 1px solid var(--border);
@@ -5294,36 +5316,147 @@ a:hover { color: var(--accent-deep); }
 }
 
 /* 公式条 */
-.asm-formula {
+/* 公式条 */
+.asm-formula-block {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,247,237,0.4), rgba(240,253,244,0.4));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.05));
+}
+.asm-formula-equation {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1.1rem 0;
-  padding: 0.85rem 1rem;
+  gap: 0.75rem;
+}
+.asm-formula-sym {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink-faint);
+  user-select: none;
+  padding: 0 0.15rem;
+}
+
+/* 单词/运算符卡片 */
+.asm-formula-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.85rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #fff7ed, #f0fdf4);
+  background: var(--bg);
   border: 1px solid var(--border);
+  min-width: 76px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
 }
-.asm-formula code {
-  font-family: var(--mono, ui-monospace, monospace);
+.asm-formula-card-svg {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asm-formula-card-svg svg {
+  width: 100%;
+  height: 100%;
+}
+.asm-formula-card-en {
+  font-family: var(--mono, monospace);
   font-weight: 700;
-  font-size: 1.05rem;
-  padding: 0.15rem 0.5rem;
-  border-radius: 7px;
+  font-size: 0.95rem;
+  line-height: 1.2;
 }
-.asm-formula-op { color: #b45309; background: color-mix(in srgb, #b45309 12%, transparent); }
-.asm-formula-dir { color: #15803d; background: color-mix(in srgb, #15803d 12%, transparent); }
-.asm-formula-plus, .asm-formula-eq { color: var(--ink-faint); font-weight: 700; }
-.asm-formula-result {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #166534;
-}
-.asm-formula-vector {
-  margin-left: auto;
-  font-size: 0.85rem;
+.asm-formula-card-cn {
+  font-size: 0.72rem;
   color: var(--ink-muted);
+  margin-top: 0.1rem;
+}
+
+/* 各自卡片的变体色 */
+.asm-formula-card--op {
+  border-color: color-mix(in srgb, #b45309 30%, transparent);
+  background: color-mix(in srgb, #b45309 4%, var(--bg));
+}
+.asm-formula-card--op .asm-formula-card-en {
+  color: #b45309;
+}
+.asm-formula-card--modifier {
+  border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  background: color-mix(in srgb, var(--accent) 4%, var(--bg));
+}
+.asm-formula-card--modifier .asm-formula-card-en {
+  color: var(--accent);
+}
+
+/* 语义结果卡片 - 核心是SVG */
+.asm-formula-card--result {
+  flex: 1;
+  min-width: 280px;
+  flex-direction: row; /* 横向布局 */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0.8rem 1.25rem;
+  border-color: color-mix(in srgb, #166534 30%, transparent);
+  background: linear-gradient(135deg, color-mix(in srgb, #166534 6%, var(--bg)), color-mix(in srgb, #15803d 4%, var(--bg)));
+  box-shadow: inset 0 0 0 1px rgba(22, 101, 52, 0.05);
+}
+
+/* 核心SVG区 */
+.asm-result-graphics {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255,255,255,0.7);
+  padding: 0.4rem 0.6rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+.asm-result-svg {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asm-result-svg svg {
+  width: 100%;
+  height: 100%;
+}
+.asm-result-plus {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink-faint);
+}
+
+/* 辅助文字区 */
+.asm-result-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.asm-result-meaning {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #15803d;
+  line-height: 1.25;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+.asm-result-vector {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 0.25rem;
+  background: rgba(255,255,255,0.5);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  border: 1px dashed color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 /* 图例 */
@@ -5349,7 +5482,27 @@ a:hover { color: var(--accent-deep); }
   color: var(--ink);
 }
 .asm-result-hint { font-size: 0.78rem; color: var(--ink-faint); }
-.asm-sentence-list { list-style: none; margin: 0; padding: 0; }
+.asm-sentence-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 380px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+.asm-sentence-list::-webkit-scrollbar {
+  width: 6px;
+}
+.asm-sentence-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.asm-sentence-list::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  border-radius: 999px;
+}
+.asm-sentence-list::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
 .asm-sentence {
   display: flex;
   align-items: flex-start;
@@ -5529,7 +5682,29 @@ a:hover { color: var(--accent-deep); }
 .asm-coverage-text i { color: var(--ink-faint); font-style: normal; margin-left: 0.5rem; }
 
 /* 内容词 chips */
-.asm-word-row { display: flex; flex-wrap: wrap; gap: 0.4rem; max-height: 13rem; overflow-y: auto; }
+.asm-word-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  max-height: 13rem;
+  overflow-y: auto;
+  padding: 0.6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.asm-word-row::-webkit-scrollbar {
+  width: 6px;
+}
+.asm-word-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+.asm-word-row::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
 .asm-word-chip {
   display: inline-flex;
   align-items: center;
@@ -5781,5 +5956,227 @@ a:hover { color: var(--accent-deep); }
 .asm-cat-stats-list .text-success {
   color: #15803d;
 }
+
+/* ── 运作词 100 分类卡片与乘法器 ── */
+.asm-ops-cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.asm-ops-cat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+.asm-ops-cat-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.asm-ops-cat-card.active {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+.asm-ops-cat-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.asm-ops-cat-count {
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+  margin-top: 0.18rem;
+}
+.asm-ops-cat-desc-box {
+  margin-bottom: 1.1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  background: var(--bg-elevated);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  border-left: 3px solid var(--accent-soft);
+}
+.asm-ops-cat-desc-box .desc-label {
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+.asm-ops-cat-desc-box .desc-text {
+  color: var(--ink);
+}
+.asm-word-chip--empty {
+  opacity: 0.55;
+  border-style: dashed;
+}
+.asm-ops-detail {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  animation: fadeIn 0.3s ease;
+}
+.asm-ops-detail-header {
+  margin-bottom: 1.25rem;
+  background: var(--bg-elevated);
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.asm-ops-detail-header .word-primary {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+.asm-ops-detail-header .word-title-text {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.asm-ops-detail-header .word-ipa-text {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+.asm-ops-detail-header .word-translation {
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+}
+.asm-ops-detail-header .word-translation strong {
+  color: var(--ink);
+}
+.asm-ops-combos-section,
+.asm-ops-general-section {
+  margin-bottom: 1.5rem;
+}
+.asm-ops-combos-section .section-title,
+.asm-ops-general-section .section-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.3rem 0;
+}
+.asm-ops-combos-section .section-desc {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin: 0 0 0.85rem 0;
+}
+.combos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.combo-item-card {
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.combo-item-card:hover {
+  border-color: var(--accent-soft);
+  background-color: var(--bg-elevated);
+}
+.combo-item-card.expanded {
+  padding: 0.85rem 1rem;
+  border-color: var(--accent-soft);
+}
+.combo-header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: padding 0.15s ease;
+}
+.combo-item-card.expanded .combo-header-line {
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.combo-toggle-arrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  margin-right: 0.3rem;
+  transition: color 0.15s ease;
+}
+.combo-item-card.expanded .combo-toggle-arrow {
+  color: var(--accent);
+}
+.combo-header-line:hover .combo-toggle-arrow {
+  color: var(--accent);
+}
+.combo-formula-code {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.combo-formula-code code {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+.combo-eq-symbol {
+  color: var(--ink-faint);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.combo-replaces-text {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #166534;
+}
+.combo-sentences-badge {
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  background: var(--bg-elevated);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+/* ── 全局总量统计样式 ── */
+.explorer-global-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: fit-content;
+}
+.global-stat-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.88rem;
+}
+.global-stat-item .stat-label {
+  color: var(--ink-muted);
+}
+.global-stat-item .stat-value {
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--mono, ui-monospace, monospace);
+  margin-left: 0.2rem;
+}
+@media (max-width: 600px) {
+  .explorer-global-stats {
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+  }
+}
+
 
 

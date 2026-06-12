@@ -1,0 +1,2762 @@
+[
+  {
+    "word": "against",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "among",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "as",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "till",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "than",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "any",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "little",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "such",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "who",
+    "needed": 1,
+    "tier": "ops"
+  },
+  {
+    "word": "because",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "but",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "or",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "though",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "while",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "how",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "where",
+    "needed": 1,
+    "tier": "ops"
+  },
+  {
+    "word": "why",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "ever",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "far",
+    "needed": 1,
+    "tier": "ops"
+  },
+  {
+    "word": "near",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "still",
+    "needed": 2,
+    "tier": "ops"
+  },
+  {
+    "word": "then",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "almost",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "enough",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "even",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "only",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "quite",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "so",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "yesterday",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "south",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "east",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "west",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "yes",
+    "needed": 3,
+    "tier": "ops"
+  },
+  {
+    "word": "angle",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "ant",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "apple",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "arch",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "arm",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "army",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "band",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "basin",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "basket",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "bath",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "bee",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "bell",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "berry",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "blade",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "board",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "boat",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "bone",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "boot",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "bottle",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "brain",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "brake",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "branch",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "brick",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "brush",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "bucket",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "bulb",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "button",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "camera",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "card",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "cart",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "carriage",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "chain",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "cheese",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "chest",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "chin",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "church",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "circle",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "clock",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "cloud",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "collar",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "comb",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "cord",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "cow",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "cushion",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "drain",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "drawer",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "drop",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "ear",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "egg",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "farm",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "feather",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "flag",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "fly",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "fork",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "fowl",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "frame",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "girl",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "glove",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "goat",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "hammer",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "hook",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "horn",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "horse",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "hospital",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "island",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "jewel",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "kettle",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "knee",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "knife",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "knot",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "leaf",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "leg",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "library",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "line",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "lip",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "lock",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "map",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "match",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "monkey",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "moon",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "muscle",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "nail",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "neck",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "nerve",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "nose",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "nut",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "orange",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "oven",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "parcel",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "pencil",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "pig",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "pin",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "pipe",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "plane",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "plough",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "potato",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "prison",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "pump",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "rail",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "rat",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "receipt",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "rod",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "roof",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "root",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "sail",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "scissors",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "screw",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "seed",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "sheep",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "shirt",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "shoe",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "skin",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "skirt",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "snake",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "sock",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "spade",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "sponge",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "spoon",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "spring",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "square",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "stamp",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "star",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "stem",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "stick",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "stocking",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "stomach",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "tail",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "thread",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "throat",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "thumb",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "toe",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "tongue",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "tooth",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "tray",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "trousers",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "umbrella",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "watch",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "wheel",
+    "needed": 2,
+    "tier": "pic"
+  },
+  {
+    "word": "whip",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "whistle",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "wing",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "wire",
+    "needed": 1,
+    "tier": "pic"
+  },
+  {
+    "word": "worm",
+    "needed": 3,
+    "tier": "pic"
+  },
+  {
+    "word": "account",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "act",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "addition",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "adjustment",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "advertisement",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "amusement",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "apparatus",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "approval",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "argument",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "art",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "attack",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "attraction",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "authority",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "balance",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "base",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "behavior",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "birth",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "bit",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "bite",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "blood",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "blow",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "brass",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "breath",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "burn",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "burst",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "canvas",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "care",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "cause",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "chalk",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "coal",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "comfort",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "committee",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "company",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "competition",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "condition",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "connection",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "control",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "cook",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "copper",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "copy",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "cork",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "cotton",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "cough",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "crack",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "credit",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "crime",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "crush",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "cry",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "current",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "curve",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "damage",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "danger",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "daughter",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "death",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "debt",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "degree",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "destruction",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "detail",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "development",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "digestion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "direction",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "discussion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "disease",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "disgust",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "distance",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "distribution",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "division",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "doubt",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "driving",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "dust",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "earth",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "edge",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "education",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "error",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "example",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "exchange",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "existence",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "expansion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "experience",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "expert",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "fact",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "fall",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "fiction",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "field",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "flame",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "flower",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "fold",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "force",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "form",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "gold",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "government",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "grain",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "grass",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "grip",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "guide",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "harbor",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "harmony",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "hate",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "hearing",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "history",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "hour",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "humor",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "ice",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "impulse",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "increase",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "industry",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "ink",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "insect",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "instrument",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "insurance",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "interest",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "invention",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "iron",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "jelly",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "join",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "judge",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "jump",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "kick",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "kiss",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "land",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "language",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "laugh",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "lead",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "leather",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "level",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "lift",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "limit",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "linen",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "liquid",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "list",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "machine",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "manager",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "mark",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "market",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "mass",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "measure",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "memory",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "metal",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "middle",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "mine",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "minute",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "mist",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "motion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "mountain",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "nation",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "need",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "note",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "observation",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "oil",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "operation",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "opinion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "organization",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "ornament",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "owner",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "page",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "paint",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "part",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "paste",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "peace",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "plant",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "pleasure",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "poison",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "polish",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "porter",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "position",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "powder",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "print",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "process",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "produce",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "profit",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "property",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "prose",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "protest",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "pull",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "punishment",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "purpose",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "quality",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "range",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "rate",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "ray",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "reaction",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "reason",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "record",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "regret",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "relation",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "religion",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "representative",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "respect",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "reward",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "rhythm",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "rice",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "roll",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "rub",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "rule",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "run",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "salt",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "sand",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "scale",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "science",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "sea",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "secretary",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "selection",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "self",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "sense",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "servant",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "sex",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "shade",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "shake",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "shame",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "side",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "sign",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "silk",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "silver",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "sister",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "slip",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "slope",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "smash",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "smell",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "smoke",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "sneeze",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "soap",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "society",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "son",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "sort",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "sound",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "soup",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "stage",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "statement",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "steam",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "steel",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "stitch",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "stone",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "stretch",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "structure",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "substance",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "sugar",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "suggestion",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "summer",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "surprise",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "swim",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "system",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "taste",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "tax",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "teaching",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "tendency",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "theory",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "thought",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "thunder",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "tin",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "top",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "touch",
+    "needed": 2,
+    "tier": "things"
+  },
+  {
+    "word": "trade",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "transport",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "trick",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "trouble",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "twist",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "unit",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "value",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "verse",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "vessel",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wash",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "waste",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wave",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wax",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "week",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wine",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "woman",
+    "needed": 1,
+    "tier": "things"
+  },
+  {
+    "word": "wood",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wool",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "wound",
+    "needed": 3,
+    "tier": "things"
+  },
+  {
+    "word": "able",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "acid",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "automatic",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "black",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "boiling",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "broken",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "brown",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "cheap",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "chemical",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "chief",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "common",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "complex",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "conscious",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "cut",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "dependent",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "elastic",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "electric",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "equal",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "fat",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "fertile",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "fixed",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "flat",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "frequent",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "general",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "grey",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "hanging",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "hollow",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "important",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "like",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "living",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "male",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "married",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "material",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "military",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "natural",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "necessary",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "normal",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "open",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "parallel",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "past",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "physical",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "political",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "poor",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "possible",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "present",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "private",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "probable",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "quiet",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "red",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "regular",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "responsible",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "round",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "second",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "separate",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "serious",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "sharp",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "smooth",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "sticky",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "stiff",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "straight",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "sudden",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "sweet",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "tall",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "tight",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "tired",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "true",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "violent",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "waiting",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "wide",
+    "needed": 2,
+    "tier": "qual"
+  },
+  {
+    "word": "wise",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "yellow",
+    "needed": 3,
+    "tier": "qual"
+  },
+  {
+    "word": "young",
+    "needed": 1,
+    "tier": "qual"
+  },
+  {
+    "word": "awake",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "bent",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "bitter",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "blue",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "certain",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "complete",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "cruel",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "dead",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "dear",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "delicate",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "different",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "dirty",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "dry",
+    "needed": 1,
+    "tier": "opp"
+  },
+  {
+    "word": "false",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "feeble",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "female",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "foolish",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "ill",
+    "needed": 1,
+    "tier": "opp"
+  },
+  {
+    "word": "left",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "loose",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "loud",
+    "needed": 1,
+    "tier": "opp"
+  },
+  {
+    "word": "low",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "narrow",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "opposite",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "public",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "rough",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "short",
+    "needed": 2,
+    "tier": "opp"
+  },
+  {
+    "word": "shut",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "simple",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "slow",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "small",
+    "needed": 1,
+    "tier": "opp"
+  },
+  {
+    "word": "soft",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "solid",
+    "needed": 3,
+    "tier": "opp"
+  },
+  {
+    "word": "thin",
+    "needed": 3,
+    "tier": "opp"
+  }
+]

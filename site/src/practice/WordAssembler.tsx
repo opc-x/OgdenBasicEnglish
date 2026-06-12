@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
 import { speakText, isSpeechSupported } from "../speak";
 import { getOperatorEntry } from "../operatorData";
-import { WORDS, isOperator } from "../words850";
+import { WORDS, isOperator, getWord } from "../words850";
 import OperatorVisual from "../OperatorVisual";
+import { DirectionGraphic } from "../DirectionsVisual";
 import { TRAINING_SENTENCES, type TrainingSentence } from "./trainingData";
 
 export type AssemblerTier = "op18" | "ops" | "all" | "pic" | "things" | "qual" | "opp";
@@ -203,7 +204,7 @@ function RulesGuide({ mode, categoryLabel, categoryStats }: RulesGuideProps) {
                   <span className="asm-stat-desc">Ogden 核心词根总数</span>
                 </div>
                 <div className="asm-stat-box">
-                  <span className="asm-stat-num">4,263 句</span>
+                  <span className="asm-stat-num">{TRAINING_SENTENCES.length.toLocaleString()} 句</span>
                   <span className="asm-stat-desc">已配 Sonia 英式声训练句</span>
                 </div>
               </div>
@@ -244,6 +245,31 @@ function RulesGuide({ mode, categoryLabel, categoryStats }: RulesGuideProps) {
       )}
     </div>
   );
+}
+
+const NounIcon = () => (
+  <svg viewBox="0 0 100 100" width="100%" height="100%" className="vector-svg" aria-hidden>
+    {/* 3D wireframe box/cube representing objects */}
+    <path d="M50 20 L80 35 L80 65 L50 80 L20 65 L20 35 Z" stroke="var(--accent)" strokeWidth="3" fill="none" strokeLinejoin="round" />
+    <path d="M50 20 L50 80 M50 50 L80 35 M50 50 L20 35" stroke="var(--accent)" strokeWidth="2.2" fill="none" strokeLinejoin="round" />
+  </svg>
+);
+
+function getComboMeaning(op: string, activeKey: string, mode: "dir" | "noun", replaces?: string) {
+  if (replaces && !replaces.includes("基础动作")) return replaces;
+  
+  const opEntry = getOperatorEntry(op);
+  const opName = opEntry?.cn ? opEntry.cn.split(/[ (]/)[0] : op;
+  
+  if (mode === "dir") {
+    const dirWord = getWord(activeKey);
+    const dirName = dirWord?.cn ? dirWord.cn.split(/[ /(]/)[0] : activeKey;
+    return `${opName}${dirName}`;
+  } else {
+    const nounWord = getWord(activeKey);
+    const nounName = nounWord?.cn ? nounWord.cn.split(/[ /(]/)[0] : activeKey;
+    return `${opName}${nounName}`;
+  }
 }
 
 // ── 模式 A：operator × 运作词（动作类 tab） ──
@@ -343,7 +369,7 @@ function OperatorMode() {
         </span>
         <div className="asm-mode-toggle">
           <button type="button" className={`asm-mode-btn${mode === "dir" ? " active" : ""}`} onClick={() => switchMode("dir")}>+ 方向/介词<small>put + on = 穿</small></button>
-          <button type="button" className={`asm-mode-btn${mode === "noun" ? " active" : ""}`} onClick={() => switchMode("noun")} disabled={!nounIndex.get(op)}>+ 抽象名词<small>make + decision = 决定</small></button>
+          <button type="button" className={`asm-mode-btn${mode === "noun" ? " active" : ""}`} onClick={() => switchMode("noun")} disabled={!nounIndex.get(op)}>+ 宾语名词<small>make + decision = 决定</small></button>
         </div>
         <div className="asm-dir-row">
           {keys.length === 0 && <span className="asm-empty">该 operator 暂无此类组合</span>}
@@ -356,12 +382,74 @@ function OperatorMode() {
       </div>
 
       {activeKey && (
-        <div className="asm-formula">
-          <code className="asm-formula-op">{op}</code>
-          {activeKey !== NO_DIR && (<><span className="asm-formula-plus">+</span><code className={mode === "dir" ? "asm-formula-dir" : "asm-formula-noun"}>{activeKey}</code></>)}
-          <span className="asm-formula-eq">=</span>
-          <span className="asm-formula-result">{replaces || "（基础动作）"}</span>
-          {opEntry?.vector && <span className="asm-formula-vector">{opEntry.vector}</span>}
+        <div className="asm-formula-block">
+          <div className="asm-formula-equation">
+            {/* Operator Card */}
+            <div className="asm-formula-card asm-formula-card--op" title={`动作引擎: ${opEntry?.concept}`}>
+              <div className="asm-formula-card-svg">
+                <OperatorVisual type={op} />
+              </div>
+              <span className="asm-formula-card-en">{op}</span>
+              <span className="asm-formula-card-cn">{opEntry?.cn ? opEntry.cn.split(/[ (]/)[0] : ""}</span>
+            </div>
+
+            {activeKey !== NO_DIR && (
+              <>
+                <div className="asm-formula-sym">+</div>
+
+                {/* Modifier Card (Direction or Noun) */}
+                <div className="asm-formula-card asm-formula-card--modifier">
+                  <div className="asm-formula-card-svg">
+                    {mode === "dir" ? (
+                      <DirectionGraphic type={activeKey} />
+                    ) : (
+                      <NounIcon />
+                    )}
+                  </div>
+                  <span className="asm-formula-card-en">{activeKey}</span>
+                  <span className="asm-formula-card-cn">
+                    {getWord(activeKey)?.cn ? getWord(activeKey)!.cn!.split(/[ /(]/)[0] : ""}
+                  </span>
+                </div>
+              </>
+            )}
+
+            <div className="asm-formula-sym">=</div>
+
+            {/* Semantic Result Card */}
+            <div className="asm-formula-card asm-formula-card--result">
+              {/* SVGs as core */}
+              <div className="asm-result-graphics">
+                <div className="asm-result-svg asm-result-svg--op" title={`${op} 物理动作特征`}>
+                  <OperatorVisual type={op} />
+                </div>
+                {activeKey !== NO_DIR && (
+                  <>
+                    <div className="asm-result-plus">+</div>
+                    <div className="asm-result-svg asm-result-svg--modifier" title={`${activeKey} 空间或物体特征`}>
+                      {mode === "dir" ? (
+                        <DirectionGraphic type={activeKey} />
+                      ) : (
+                        <NounIcon />
+                      )}
+                    </div>
+                  </>
+                )}
+              </div>
+              
+              {/* Text as assistant */}
+              <div className="asm-result-texts">
+                <span className="asm-result-meaning">
+                  {getComboMeaning(op, activeKey, mode, replaces)}
+                </span>
+                {opEntry?.vector && (
+                  <span className="asm-result-vector" title={`动作机理: ${opEntry.concept}`}>
+                    物理特征: {opEntry.vector}
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
       )}
 
@@ -399,11 +487,11 @@ function ContentMode({ tier }: { tier: "pic" | "things" | "qual" | "opp" }) {
   const sentences = wordSentences.get(activeWord) ?? [];
 
   const catSentencesCount = useMemo(() => {
-    let sum = 0;
+    const ids = new Set<number>();
     for (const sents of wordSentences.values()) {
-      sum += sents.length;
+      for (const s of sents) ids.add(s.id);
     }
-    return sum;
+    return ids.size;
   }, [wordSentences]);
 
   const catLabel =

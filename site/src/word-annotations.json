@@ -81,7 +81,7 @@
   },
   "about": {
     "ipa": "əˈbɛʊt",
-    "cn": "关于",
+    "cn": "围绕/在……周围/关于",
     "img": "/assets/word-img/about.svg"
   },
   "across": {
@@ -96,7 +96,7 @@
   },
   "against": {
     "ipa": "əˈɡeɪnst",
-    "cn": "对抗",
+    "cn": "靠着/逆着/顶着",
     "img": "/assets/word-img/against.svg"
   },
   "among": {
@@ -366,7 +366,7 @@
   },
   "drink": {
     "ipa": "dɹɪŋk",
-    "cn": "喝",
+    "cn": "饮料/饮品",
     "img": "/assets/word-img/drink.jpg"
   },
   "driving": {
@@ -426,7 +426,7 @@
   },
   "join": {
     "ipa": "ˈdʒɔɪn",
-    "cn": "加入",
+    "cn": "接合处/联结处",
     "img": "/assets/word-img/join.svg"
   },
   "journey": {
@@ -441,12 +441,12 @@
   },
   "jump": {
     "ipa": "dʒʌmp",
-    "cn": "跳",
+    "cn": "跳跃",
     "img": "/assets/word-img/jump.svg"
   },
   "kick": {
     "ipa": "kɪk",
-    "cn": "踢",
+    "cn": "一脚/踢的动作",
     "img": "/assets/word-img/kick.jpg"
   },
   "kiss": {
@@ -481,7 +481,7 @@
   },
   "lead": {
     "ipa": "lɛd",
-    "cn": "带领",
+    "cn": "铅",
     "img": "/assets/word-img/lead.jpg"
   },
   "learning": {
@@ -506,7 +506,7 @@
   },
   "lift": {
     "ipa": "lɪft",
-    "cn": "举起",
+    "cn": "电梯/举起",
     "img": "/assets/word-img/lift.svg"
   },
   "light": {
@@ -526,7 +526,7 @@
   },
   "play": {
     "ipa": "pleɪ",
-    "cn": "玩",
+    "cn": "游戏/戏剧/娱乐",
     "img": "/assets/word-img/play.svg"
   },
   "pleasure": {
@@ -546,7 +546,7 @@
   },
   "polish": {
     "ipa": "ˈpɒlɪʃ",
-    "cn": "抛光",
+    "cn": "上光剂/鞋油",
     "img": "/assets/word-img/polish.svg"
   },
   "porter": {
@@ -576,7 +576,7 @@
   },
   "print": {
     "ipa": "pɹɪnt",
-    "cn": "打印",
+    "cn": "印刷品/印记",
     "img": "/assets/word-img/print.svg"
   },
   "process": {
@@ -611,7 +611,7 @@
   },
   "pull": {
     "ipa": "pʊl",
-    "cn": "拉",
+    "cn": "拉/拉力",
     "img": "/assets/word-img/pull.svg"
   },
   "punishment": {
@@ -626,7 +626,7 @@
   },
   "push": {
     "ipa": "pʷʊʃ",
-    "cn": "推",
+    "cn": "推/推力",
     "img": "/assets/word-img/push.svg"
   },
   "quality": {
@@ -701,7 +701,7 @@
   },
   "stop": {
     "ipa": "stɒp",
-    "cn": "停止",
+    "cn": "停止/车站/终止",
     "img": "/assets/word-img/stop.svg"
   },
   "story": {
@@ -711,7 +711,7 @@
   },
   "stretch": {
     "ipa": "stɹɛtʃ",
-    "cn": "拉紧",
+    "cn": "伸展/延伸",
     "img": "/assets/word-img/stretch.svg"
   },
   "structure": {
@@ -766,7 +766,7 @@
   },
   "taste": {
     "ipa": "teɪst",
-    "cn": "品尝",
+    "cn": "味道/滋味/味觉",
     "img": "/assets/word-img/taste.svg"
   },
   "tax": {
@@ -857,7 +857,7 @@
   "brake": {
     "ipa": "bɹeɪk",
     "cn": "制动",
-    "img": "/assets/word-img/brake.jpg"
+    "img": "/assets/word-img/brake.png"
   },
   "branch": {
     "ipa": "bɹɑːntʃ",
@@ -926,7 +926,7 @@
   },
   "chain": {
     "ipa": "ˈt͡ʃeɪn",
-    "cn": "链",
+    "cn": "链条/铁链",
     "img": "/assets/word-img/chain.jpg"
   },
   "cheese": {
@@ -936,7 +936,7 @@
   },
   "chest": {
     "ipa": "t͡ʃɛst",
-    "cn": "胸部",
+    "cn": "箱子/大木箱",
     "img": "/assets/word-img/chest.jpg"
   },
   "chin": {
@@ -981,7 +981,7 @@
   },
   "cord": {
     "ipa": "kɔːd",
-    "cn": "细绳/电线",
+    "cn": "细绳/绳索",
     "img": "/assets/word-img/cord.jpg"
   },
   "cow": {
@@ -1001,7 +1001,7 @@
   },
   "needle": {
     "ipa": "ˈniː.dl",
-    "cn": "针",
+    "cn": "缝衣针/针",
     "img": "/assets/word-img/needle.jpg"
   },
   "nerve": {
@@ -1016,7 +1016,7 @@
   },
   "nut": {
     "ipa": "nɐt",
-    "cn": "坚果",
+    "cn": "坚果/螺母",
     "img": "/assets/word-img/nut.jpg"
   },
   "office": {
@@ -1031,7 +1031,7 @@
   },
   "oven": {
     "ipa": "ˈʌ.vn̩",
-    "cn": "烤箱",
+    "cn": "炉灶/烤箱",
     "img": "/assets/word-img/oven.jpg"
   },
   "parcel": {
@@ -1066,12 +1066,12 @@
   },
   "pipe": {
     "ipa": "paɪp",
-    "cn": "管道",
+    "cn": "烟斗/管道",
     "img": "/assets/word-img/pipe.jpg"
   },
   "plane": {
     "ipa": "pleɪn",
-    "cn": "飞机",
+    "cn": "刨子/平面/飞机",
     "img": "/assets/word-img/plane.jpg"
   },
   "plate": {
@@ -1091,7 +1091,7 @@
   },
   "pot": {
     "ipa": "pɒt",
-    "cn": "锅",
+    "cn": "罐/锅/壶",
     "img": "/assets/word-img/pot.jpg"
   },
   "potato": {
@@ -1111,7 +1111,7 @@
   },
   "rail": {
     "ipa": "ɹeɪl",
-    "cn": "轨",
+    "cn": "栏杆/扶手/铁轨",
     "img": "/assets/word-img/rail.jpg"
   },
   "rat": {
@@ -1171,7 +1171,7 @@
   },
   "sheep": {
     "ipa": "ʃiːp",
-    "cn": "羊",
+    "cn": "绵羊",
     "img": "/assets/word-img/sheep.jpg"
   },
   "shelf": {
@@ -1181,7 +1181,7 @@
   },
   "ship": {
     "ipa": "ʃɪp",
-    "cn": "船",
+    "cn": "轮船/大船",
     "img": "/assets/word-img/ship.jpg"
   },
   "shirt": {
@@ -1201,7 +1201,7 @@
   },
   "skirt": {
     "ipa": "skɜːt",
-    "cn": "裙子",
+    "cn": "半身裙/裙子",
     "img": "/assets/word-img/skirt.jpg"
   },
   "snake": {
@@ -1541,7 +1541,7 @@
   },
   "by": {
     "ipa": "baɪ",
-    "cn": "通过",
+    "cn": "在……旁边/靠近",
     "img": "/assets/word-img/by.svg"
   },
   "down": {
@@ -1561,17 +1561,17 @@
   },
   "off": {
     "ipa": "ɒf",
-    "cn": "关闭",
+    "cn": "离开/脱离接触",
     "img": "/assets/word-img/off.svg"
   },
   "on": {
     "ipa": "ɒn",
-    "cn": "开启",
+    "cn": "在……之上 (接触表面)",
     "img": "/assets/word-img/on.svg"
   },
   "over": {
     "ipa": "ˈəʊ.və(ɹ)",
-    "cn": "在...上",
+    "cn": "在……正上方 (无接触)/越过",
     "img": "/assets/word-img/over.svg"
   },
   "through": {
@@ -1586,7 +1586,7 @@
   },
   "under": {
     "ipa": "ˈʊndə",
-    "cn": "在...下",
+    "cn": "在……正下方",
     "img": "/assets/word-img/under.svg"
   },
   "up": {
@@ -1861,7 +1861,7 @@
   },
   "fall": {
     "ipa": "fɔːl",
-    "cn": "落下",
+    "cn": "落下/跌落/秋天",
     "img": "/assets/word-img/fall.svg"
   },
   "family": {
@@ -1981,7 +1981,7 @@
   },
   "grip": {
     "ipa": "ɡɹɪp",
-    "cn": "紧握",
+    "cn": "紧握/抓力",
     "img": "/assets/word-img/grip.svg"
   },
   "group": {
@@ -1996,7 +1996,7 @@
   },
   "guide": {
     "ipa": "ɡaɪd",
-    "cn": "指导",
+    "cn": "向导/指南",
     "img": "/assets/word-img/guide.jpg"
   },
   "harbour": {
@@ -2011,7 +2011,7 @@
   },
   "hate": {
     "ipa": "heɪt",
-    "cn": "恨",
+    "cn": "憎恨/仇恨",
     "img": "/assets/word-img/hate.svg"
   },
   "hearing": {
@@ -2191,7 +2191,7 @@
   },
   "paint": {
     "ipa": "peɪnt",
-    "cn": "画",
+    "cn": "油漆/颜料",
     "img": "/assets/word-img/paint.svg"
   },
   "paper": {
@@ -2206,7 +2206,7 @@
   },
   "paste": {
     "ipa": "peɪst",
-    "cn": "粘贴",
+    "cn": "浆糊/糊状物",
     "img": "/assets/word-img/paste.svg"
   },
   "payment": {
@@ -2236,7 +2236,7 @@
   },
   "regret": {
     "ipa": "ɹiˈɡɹɛt",
-    "cn": "后悔",
+    "cn": "遗憾/后悔",
     "img": "/assets/word-img/regret.svg"
   },
   "relation": {
@@ -2306,7 +2306,7 @@
   },
   "rub": {
     "ipa": "ɹʌb",
-    "cn": "擦",
+    "cn": "摩擦/揉擦",
     "img": "/assets/word-img/rub.svg"
   },
   "rule": {
@@ -2401,12 +2401,12 @@
   },
   "turn": {
     "ipa": "tɜːn",
-    "cn": "转动",
+    "cn": "转动/轮班",
     "img": "/assets/word-img/turn.svg"
   },
   "twist": {
     "ipa": "twɪst",
-    "cn": "捻",
+    "cn": "扭曲/捻",
     "img": "/assets/word-img/twist.svg"
   },
   "unit": {
@@ -2441,7 +2441,7 @@
   },
   "walk": {
     "ipa": "wɔːk",
-    "cn": "走",
+    "cn": "散步/步行",
     "img": "/assets/word-img/walk.svg"
   },
   "war": {
@@ -2451,12 +2451,12 @@
   },
   "wash": {
     "ipa": "wɒʃ",
-    "cn": "洗",
+    "cn": "洗涤/盥洗",
     "img": "/assets/word-img/wash.svg"
   },
   "waste": {
     "ipa": "weɪst",
-    "cn": "浪费",
+    "cn": "废物/浪费",
     "img": "/assets/word-img/waste.jpg"
   },
   "water": {
@@ -2541,7 +2541,7 @@
   },
   "writing": {
     "ipa": "ˈɹaɪtɪŋ",
-    "cn": "写作",
+    "cn": "书写/著作/文字",
     "img": "/assets/word-img/writing.jpg"
   },
   "year": {
@@ -2611,12 +2611,12 @@
   },
   "fork": {
     "ipa": "fɔːk",
-    "cn": "叉",
+    "cn": "餐叉/叉子",
     "img": "/assets/word-img/fork.jpg"
   },
   "fowl": {
     "ipa": "faʊl",
-    "cn": "鸡",
+    "cn": "家禽/鸟禽",
     "img": "/assets/word-img/fowl.jpg"
   },
   "frame": {
@@ -2656,7 +2656,7 @@
   },
   "hammer": {
     "ipa": "ˈhæm.ə(ɹ)",
-    "cn": "锤",
+    "cn": "锤子",
     "img": "/assets/word-img/hammer.jpg"
   },
   "hand": {
@@ -2681,12 +2681,12 @@
   },
   "hook": {
     "ipa": "huːk",
-    "cn": "钩",
+    "cn": "钩子",
     "img": "/assets/word-img/hook.jpg"
   },
   "horn": {
     "ipa": "hɔːn",
-    "cn": "喇叭",
+    "cn": "兽角/喇叭",
     "img": "/assets/word-img/horn.jpg"
   },
   "horse": {
@@ -2716,7 +2716,7 @@
   },
   "kettle": {
     "ipa": "ˈkɛ.təl",
-    "cn": "壶",
+    "cn": "水壶",
     "img": "/assets/word-img/kettle.jpg"
   },
   "key": {
@@ -2751,12 +2751,12 @@
   },
   "thread": {
     "ipa": "θɾ̪̊ɛd",
-    "cn": "线",
+    "cn": "细线/线",
     "img": "/assets/word-img/thread.jpg"
   },
   "throat": {
     "ipa": "ˈθɹəʊt",
-    "cn": "喉",
+    "cn": "喉咙",
     "img": "/assets/word-img/throat.jpg"
   },
   "thumb": {
@@ -2781,7 +2781,7 @@
   },
   "tooth": {
     "ipa": "tuːθ",
-    "cn": "齿",
+    "cn": "牙齿",
     "img": "/assets/word-img/tooth.jpg"
   },
   "town": {
@@ -2831,12 +2831,12 @@
   },
   "whip": {
     "ipa": "wɪp",
-    "cn": "鞭",
+    "cn": "鞭子",
     "img": "/assets/word-img/whip.jpg"
   },
   "whistle": {
     "ipa": "wɪsl̩",
-    "cn": "哨",
+    "cn": "口哨/哨子",
     "img": "/assets/word-img/whistle.jpg"
   },
   "window": {
@@ -2846,12 +2846,12 @@
   },
   "wing": {
     "ipa": "wɪŋ",
-    "cn": "翼",
+    "cn": "翅膀/翼",
     "img": "/assets/word-img/wing.jpg"
   },
   "wire": {
     "ipa": "waɪə(ɹ)",
-    "cn": "金属丝",
+    "cn": "金属丝/铁丝",
     "img": "/assets/word-img/wire.jpg"
   },
   "worm": {
@@ -3331,12 +3331,12 @@
     "img": "/assets/word-img/crime.jpg"
   },
   "crush": {
-    "cn": "压碎",
+    "cn": "压碎/拥挤人群",
     "ipa": "kɹʌʃ",
     "img": "/assets/word-img/crush.svg"
   },
   "cry": {
-    "cn": "哭",
+    "cn": "哭泣/哭声/喊叫",
     "ipa": "kɹaɪ̯",
     "img": "/assets/word-img/cry.svg"
   },
@@ -3376,7 +3376,7 @@
     "img": "/assets/word-img/increase.jpg"
   },
   "look": {
-    "cn": "看",
+    "cn": "看/眼神/外观",
     "ipa": "lʊk",
     "img": "/assets/word-img/look.jpg"
   },
@@ -3511,7 +3511,7 @@
     "img": "/assets/word-img/observation.jpg"
   },
   "offer": {
-    "cn": "提供",
+    "cn": "提议/报价",
     "ipa": "ˈɑfɚ",
     "img": "/assets/word-img/offer.svg"
   },
@@ -3586,7 +3586,7 @@
     "img": "/assets/word-img/shade.svg"
   },
   "shake": {
-    "cn": "摇",
+    "cn": "摇动/握手",
     "ipa": "ˈʃeɪk",
     "img": "/assets/word-img/shake.svg"
   },
@@ -3641,7 +3641,7 @@
     "img": "/assets/word-img/sleep.jpg"
   },
   "slip": {
-    "cn": "滑",
+    "cn": "滑动/滑跤/纸条",
     "ipa": "slɪp",
     "img": "/assets/word-img/slip.svg"
   },
@@ -3651,12 +3651,12 @@
     "img": "/assets/word-img/slope.svg"
   },
   "smash": {
-    "cn": "粉碎",
+    "cn": "粉碎/撞击",
     "ipa": "smæʃ",
     "img": "/assets/word-img/smash.svg"
   },
   "smell": {
-    "cn": "闻",
+    "cn": "气味/嗅觉",
     "ipa": "smɛl",
     "img": "/assets/word-img/smell.svg"
   },
@@ -3666,7 +3666,7 @@
     "img": "/assets/word-img/smile.svg"
   },
   "smoke": {
-    "cn": "抽烟",
+    "cn": "烟/烟雾",
     "ipa": "sməʊk",
     "img": "/assets/word-img/smoke.jpg"
   },
@@ -3681,7 +3681,7 @@
     "img": "/assets/word-img/snow.jpg"
   },
   "touch": {
-    "cn": "触碰",
+    "cn": "触摸/触觉",
     "ipa": "tʌtʃ",
     "img": "/assets/word-img/touch.svg"
   },
@@ -3716,7 +3716,7 @@
     "img": "/assets/word-img/ball.jpg"
   },
   "band": {
-    "cn": "乐队",
+    "cn": "带子/条带",
     "ipa": "bænd",
     "img": "/assets/word-img/band.jpg"
   },
@@ -3771,12 +3771,12 @@
     "img": "/assets/word-img/board.jpg"
   },
   "boat": {
-    "cn": "船",
+    "cn": "小船",
     "ipa": "bəʊt",
     "img": "/assets/word-img/boat.jpg"
   },
   "bone": {
-    "cn": "骨",
+    "cn": "骨头",
     "ipa": "bəʉn",
     "img": "/assets/word-img/bone.jpg"
   },
@@ -3806,7 +3806,7 @@
     "img": "/assets/word-img/drawer.jpg"
   },
   "dress": {
-    "cn": "裙子",
+    "cn": "连衣裙",
     "ipa": "dɹɛs",
     "img": "/assets/word-img/dress.jpg"
   },
@@ -3846,12 +3846,12 @@
     "img": "/assets/word-img/farm.jpg"
   },
   "knife": {
-    "cn": "刀",
+    "cn": "小刀/刀",
     "ipa": "naɪf",
     "img": "/assets/word-img/knife.jpg"
   },
   "knot": {
-    "cn": "结",
+    "cn": "绳结/结",
     "ipa": "nɒt",
     "img": "/assets/word-img/knot.jpg"
   },
@@ -3896,7 +3896,7 @@
     "img": "/assets/word-img/match.jpg"
   },
   "monkey": {
-    "cn": "猴",
+    "cn": "猴子",
     "ipa": "ˈmʌŋki",
     "img": "/assets/word-img/monkey.jpg"
   },
@@ -3906,7 +3906,7 @@
     "img": "/assets/word-img/moon.jpg"
   },
   "mouth": {
-    "cn": "嘴",
+    "cn": "嘴巴",
     "ipa": "mʌʊθ",
     "img": "/assets/word-img/mouth.jpg"
   },
@@ -3916,7 +3916,7 @@
     "img": "/assets/word-img/muscle.jpg"
   },
   "nail": {
-    "cn": "钉子",
+    "cn": "指甲/钉子",
     "ipa": "neɪl",
     "img": "/assets/word-img/nail.svg"
   },
@@ -3936,7 +3936,7 @@
     "img": "/assets/word-img/sock.jpg"
   },
   "spade": {
-    "cn": "铲",
+    "cn": "铁锹/铲子",
     "ipa": "speɪd",
     "img": "/assets/word-img/spade.jpg"
   },
@@ -3976,7 +3976,7 @@
     "img": "/assets/word-img/station.jpg"
   },
   "stem": {
-    "cn": "干",
+    "cn": "茎/茎干",
     "ipa": "stɛm",
     "img": "/assets/word-img/stem.jpg"
   },
@@ -3986,7 +3986,7 @@
     "img": "/assets/word-img/stick.jpg"
   },
   "stocking": {
-    "cn": "袜",
+    "cn": "长筒袜",
     "ipa": "ˈstɒkɪŋ",
     "img": "/assets/word-img/stocking.jpg"
   },
@@ -4263,6 +4263,6 @@
   "I": {
     "ipa": "aɪ",
     "cn": "我",
-    "img": "/assets/word-img/I.jpg"
+    "img": "/assets/word-img/I.svg"
   }
 }

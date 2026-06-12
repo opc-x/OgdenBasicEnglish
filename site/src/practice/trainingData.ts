@@ -4271,4 +4271,11 @@ const JSON_STR = `[
   {"id":92380,"step":2,"type":"op_noun","sentence":"He saw a strange insect on the wall.","zh":"他在墙上看到了一只奇怪的昆虫.","operator":"see","noun":"insect","audio":"/audio/sentences/92380.mp3"}
 ]`;
 
-export const TRAINING_SENTENCES: TrainingSentence[] = JSON.parse(JSON_STR);
+const ALL_SENTENCES: TrainingSentence[] = JSON.parse(JSON_STR);
+export const TRAINING_SENTENCES: TrainingSentence[] = ALL_SENTENCES.filter(d => {
+  // Filter out bad 50k range (bad synthetic combinations like "You come a decision")
+  if (d.id >= 50000 && d.id < 60000) return false;
+  // Filter out bad 60k range of op_dir_combo (bad synthetic combinations like "Come in." with translation "come+in。")
+  if (d.id >= 60000 && d.id < 60300 && d.type === "op_dir_combo") return false;
+  return true;
+});
