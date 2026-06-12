@@ -5537,3 +5537,103 @@ a:hover { color: var(--accent-deep); }
 .asm-word-chip small { font-size: 0.66rem; color: var(--ink-faint); background: color-mix(in srgb, #1d6fa5 12%, transparent); padding: 0 0.3rem; border-radius: 999px; }
 .asm-word-chip:hover { border-color: #1d6fa5; }
 .asm-word-chip--active { border-color: #1d6fa5; background: color-mix(in srgb, #1d6fa5 10%, transparent); font-weight: 700; }
+
+/* 💡 拼词造句规则速查样式 */
+.asm-rules-guide {
+  margin-bottom: 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.asm-rules-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.asm-rules-toggle:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.asm-rules-toggle-icon {
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+}
+.asm-rules-content {
+  padding: 1rem;
+  border-top: 1px dashed var(--border);
+  background: var(--bg-elevated);
+}
+.asm-rules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.asm-rule-card {
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.asm-rule-card:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--accent);
+}
+.asm-rule-card h4 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.85rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+.asm-rule-card p {
+  margin: 0 0 0.6rem 0;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  line-height: 1.4;
+}
+.asm-rule-example {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  background: var(--bg);
+  padding: 0.5rem;
+  border-radius: 4px;
+  border-left: 2px solid var(--accent);
+  color: var(--ink);
+  line-height: 1.5;
+}
+.asm-rule-example code {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.asm-rule-example strong {
+  color: var(--ink);
+}
+
+.word-speak--sm {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+}
+.word-speak--sm svg {
+  width: 10px;
+  height: 10px;
+}
+

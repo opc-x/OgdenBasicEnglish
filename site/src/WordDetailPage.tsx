@@ -152,9 +152,15 @@ export default function WordDetailPage() {
                         className="word-speak word-speak--sm"
                         aria-label={`朗读 ${s.en}`}
                         disabled={!isSpeechSupported()}
-                        onClick={() => void speak(s.en)}
+                        onClick={() => void speakText(s.en)}
+                        title="点喇叭听 Sonia 英式女声"
                       >
-                        听
+                        <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden="true">
+                          <path
+                            fill="currentColor"
+                            d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
+                          />
+                        </svg>
                       </button>
                     </div>
                     <p className="word-sentence-cn">{s.cn}</p>
@@ -241,9 +247,15 @@ export default function WordDetailPage() {
                     type="button"
                     className="word-speak word-speak--sm"
                     aria-label={`朗读 ${s.sentence}`}
-                    onClick={() => void speakText(s.sentence || "")}
+                    onClick={() => void speakText(s.sentence || "", s.id)}
+                    title="点喇叭听 Sonia 英式女声"
                   >
-                    听
+                    <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden="true">
+                      <path
+                        fill="currentColor"
+                        d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
+                      />
+                    </svg>
                   </button>
                   {s.replaces && (
                     <span className="word-training-replaces">= {s.replaces}</span>

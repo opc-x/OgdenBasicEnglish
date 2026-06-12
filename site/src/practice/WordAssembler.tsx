@@ -74,8 +74,14 @@ function SentenceRow({ s }: { s: TrainingSentence }) {
             aria-label={`朗读 ${s.sentence}`}
             disabled={!isSpeechSupported()}
             onClick={() => void speakText(s.sentence, s.id)}
+            title="点喇叭听 Sonia 英式女声"
           >
-            听
+            <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.5 7-8.8s-3-7.8-7-8.8z"
+              />
+            </svg>
           </button>
         </p>
         {s.zh && <p className="asm-sentence-zh">{s.zh}</p>}
@@ -92,6 +98,77 @@ const Legend = () => (
     <span className="asm-legend-chip asm-legend-chip--adj">性质 qualities</span>
   </div>
 );
+
+function RulesGuide() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="asm-rules-guide">
+      <button
+        type="button"
+        className="asm-rules-toggle"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+      >
+        <span className="asm-rules-toggle-icon">{isOpen ? "▼" : "▶"}</span>
+        <span>💡 Ogden 拼词造句五大倍增规则（点击折叠/展开）</span>
+      </button>
+
+      {isOpen && (
+        <div className="asm-rules-content">
+          <div className="asm-rules-grid">
+            <div className="asm-rule-card">
+              <h4>1. 动作 + 方向 = 短语动词</h4>
+              <p>消灭普通动词，用 18个动作引擎与方向/介词组合，替代 4000+ 传统词汇。</p>
+              <div className="asm-rule-example">
+                <code>put</code> + <code>on</code> = <strong>穿 (wear)</strong> <br />
+                <code>take</code> + <code>off</code> = <strong>脱 (undress)</strong>
+              </div>
+            </div>
+
+            <div className="asm-rule-card">
+              <h4>2. 名词派生词后缀 (-er/-ing/-ed)</h4>
+              <p>约 300 个核心名词可以派生人/动作/状态，且不增加新词根负担。</p>
+              <div className="asm-rule-example">
+                <code>work</code> + <code>-er</code> = <strong>worker (工人)</strong> <br />
+                <code>work</code> + <code>-ing</code> = <strong>working (工作着)</strong> <br />
+                <code>work</code> + <code>-ed</code> = <strong>worked (已工作)</strong>
+              </div>
+            </div>
+
+            <div className="asm-rule-card">
+              <h4>3. 性质词 + -ly = 副词</h4>
+              <p>性质词（形容词）加上 <code>-ly</code> 后缀，变为副词修饰动作。</p>
+              <div className="asm-rule-example">
+                <code>quick</code> + <code>-ly</code> = <strong>quickly (快地)</strong> <br />
+                <code>slow</code> + <code>-ly</code> = <strong>slowly (慢地)</strong>
+              </div>
+            </div>
+
+            <div className="asm-rule-card">
+              <h4>4. 前缀 un- = 反义词</h4>
+              <p>在性质词前加上 <code>un-</code>，可直接表达相反的意思。</p>
+              <div className="asm-rule-example">
+                <code>happy</code> + <code>un-</code> = <strong>unhappy (不快乐)</strong> <br />
+                <code>clean</code> + <code>un-</code> = <strong>unclean (不干净)</strong>
+              </div>
+            </div>
+
+            <div className="asm-rule-card">
+              <h4>5. 两个核心词合成 = 复合词</h4>
+              <p>将两个基础词拼在一起，构成新的名词或代词。</p>
+              <div className="asm-rule-example">
+                <code>sun</code> + <code>light</code> = <strong>sunlight (阳光)</strong> <br />
+                <code>rain</code> + <code>coat</code> = <strong>raincoat (雨衣)</strong> <br />
+                <code>some</code> + <code>one</code> = <strong>someone (某人)</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
 
 // ── 模式 A：operator × 运作词（动作类 tab） ──
 function OperatorMode() {
@@ -162,6 +239,7 @@ function OperatorMode() {
       <p className="asm-intro">
         Ogden 拼词造句 = <strong>三层叠加</strong>：选 1 个<strong>动作引擎</strong>，配 1 个<strong>运作词</strong>拼出短语，再挂内容词成句。
       </p>
+      <RulesGuide />
 
       <div className="asm-step">
         <span className="asm-step-label"><em>01</em> 选动作引擎 · 18 Operator</span>
@@ -241,6 +319,7 @@ function ContentMode({ tier }: { tier: "pic" | "things" | "qual" | "opp" }) {
       <p className="asm-intro">
         用<strong>这一类词</strong>造句：点一个词，看它在 BE850 真实句子里怎么用——operator 当动作、它当内容词。
       </p>
+      <RulesGuide />
 
       <div className="asm-coverage">
         <div className="asm-coverage-bar"><span style={{ width: `${pct}%` }} /></div>
