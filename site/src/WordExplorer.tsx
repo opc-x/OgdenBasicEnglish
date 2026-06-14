@@ -75,8 +75,10 @@ function WordCard({ word, tab }: { word: Word; tab: Filter }) {
           ) : (
             <span className="word-ipa word-ipa-todo">音标补全中</span>
           )}
-          <Link className="word-link" to={detailTo} title="Ogden 原文分类与配图讲解">
-            讲解 →
+          <Link className="word-link-circle" to={detailTo} title="Ogden 原文分类与配图讲解" aria-label="讲解">
+            <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden>
+              <path fill="currentColor" d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z" />
+            </svg>
           </Link>
         </div>
         <div className="word-cn">{word.cn ?? "—"}</div>
@@ -170,6 +172,9 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
         <p>
           点喇叭听 <strong>Sonia</strong> 英式女声；每个词都有配图（实物照片或 SVG 示意）。
           <strong>{ANNOTATED_COUNT} / 850</strong> 已配英式音标。
+          <span className="ios-silent-tip" style={{ display: "block", fontSize: "0.75rem", color: "var(--ink-muted)", marginTop: "0.35rem" }}>
+            💡 苹果手机提示：如果您的 iPhone 处于物理静音模式（侧面开关呈橙色），浏览器 TTS（朗读非 850 根词）会没有声音。请关闭静音开关即可恢复。
+          </span>
         </p>
         <div className="explorer-global-stats">
           <div className="global-stat-item">
@@ -183,24 +188,26 @@ export default function WordExplorer({ defaultFilter = "op18" }: { defaultFilter
         </div>
       </div>
 
-      <div className="explorer-tabs" role="tablist">
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            role="tab"
-            aria-selected={filter === t.id}
-            className={`explorer-tab${filter === t.id ? " active" : ""}${t.id === "op18" ? " explorer-tab--hot" : ""}`}
-            style={
-              t.id !== "all" && t.id !== "op18"
-                ? ({ ["--seg" as string]: TIER_META[t.id as Tier].color } as React.CSSProperties)
-                : undefined
-            }
-            onClick={() => onTab(t.id)}
-          >
-            {t.label}
-          </button>
-        ))}
+      <div className="explorer-tabs-wrapper">
+        <div className="explorer-tabs" role="tablist">
+          {TABS.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              role="tab"
+              aria-selected={filter === t.id}
+              className={`explorer-tab${filter === t.id ? " active" : ""}${t.id === "op18" ? " explorer-tab--hot" : ""}`}
+              style={
+                t.id !== "all" && t.id !== "op18"
+                  ? ({ ["--seg" as string]: TIER_META[t.id as Tier].color } as React.CSSProperties)
+                  : undefined
+              }
+              onClick={() => onTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* 二级 tab：词卡 / 拼词造句 */}

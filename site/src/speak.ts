@@ -1,10 +1,12 @@
 /** 发音：edge-tts MP3（en-GB-SoniaNeural）优先；仅无音频时回退英式 TTS */
+import { WORDS } from "./words850";
 
 const AUDIO_BASE = "/assets/audio";
 const VOICE_ID = "en-GB-SoniaNeural";
 
+const CORE_WORDS = new Set(WORDS.map((w) => w.w.toLowerCase()));
+
 let currentAudio: HTMLAudioElement | null = null;
-let voicesReady: Promise<SpeechSynthesisVoice[]> | null = null;
 
 function slug(word: string): string {
   const s = word.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -25,21 +27,13 @@ function stop(): void {
   }
 }
 
-function loadVoices(): Promise<SpeechSynthesisVoice[]> {
-  if (typeof window === "undefined" || !window.speechSynthesis) {
-    return Promise.resolve([]);
-  }
-  if (!voicesReady) {
-    voicesReady = new Promise((resolve) => {
-      const pick = () => resolve(window.speechSynthesis.getVoices());
-      pick();
-      window.speechSynthesis.onvoiceschanged = () => {
-        pick();
-        window.speechSynthesis.onvoiceschanged = null;
-      };
-    });
-  }
-  return voicesReady;
+// Pre-trigger voice loading at bundle load time to avoid async delay on Safari
+if (typeof window !== "undefined" && window.speechSynthesis) {
+  window.speechSynthesis.getVoices();
+  window.speechSynthesis.onvoiceschanged = () => {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = null;
+  };
 }
 
 function pickBritishVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undefined {
@@ -52,32 +46,15 @@ function pickBritishVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice 
   );
 }
 
-async function speakWithBrowser(text: string): Promise<void> {
+function speakWithBrowser(text: string): void {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
-  const voices = await loadVoices();
   const u = new SpeechSynthesisUtterance(text);
   u.lang = "en-GB";
   u.rate = 0.92;
+  const voices = window.speechSynthesis.getVoices();
   const voice = pickBritishVoice(voices);
   if (voice) u.voice = voice;
-  await new Promise<void>((resolve) => {
-    // Chrome 在长句朗读 ~15s 后会静默暂停，周期性 pause/resume 保活
-    const keepAlive = window.setInterval(() => {
-      if (!window.speechSynthesis.speaking) {
-        window.clearInterval(keepAlive);
-        return;
-      }
-      window.speechSynthesis.pause();
-      window.speechSynthesis.resume();
-    }, 12000);
-    const finish = () => {
-      window.clearInterval(keepAlive);
-      resolve();
-    };
-    u.onend = finish;
-    u.onerror = finish;
-    window.speechSynthesis.speak(u);
-  });
+  window.speechSynthesis.speak(u);
 }
 
 function playMp3(url: string): Promise<void> {
@@ -99,75 +76,51 @@ export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && ("Audio" in window || "speechSynthesis" in window);
 }
 
-/** 是否有预生成 Sonia MP3（HEAD 探测，结果缓存） */
-const audioCache = new Map<string, boolean>();
-
-export async function hasSoniaAudio(word: string): Promise<boolean> {
-  const key = slug(word);
-  if (audioCache.has(key)) return audioCache.get(key)!;
-  if (typeof window === "undefined") return false;
-  try {
-    const res = await fetch(audioUrl(word), { method: "HEAD" });
-    const ok = res.ok;
-    audioCache.set(key, ok);
-    return ok;
-  } catch {
-    audioCache.set(key, false);
-    return false;
-  }
+export function hasSoniaAudio(word: string): Promise<boolean> {
+  const normalized = word.trim().toLowerCase();
+  return Promise.resolve(CORE_WORDS.has(normalized));
 }
 
-export async function speak(word: string): Promise<void> {
-  if (typeof window === "undefined") return;
+export function speak(word: string): Promise<void> {
+  if (typeof window === "undefined") return Promise.resolve();
   stop();
-  const url = audioUrl(word);
-  try {
-    if (await hasSoniaAudio(word)) {
-      await playMp3(url);
-      return;
+  const normalized = word.trim().toLowerCase();
+  if (CORE_WORDS.has(normalized)) {
+    return playMp3(audioUrl(normalized)).catch(() => {
+      speakWithBrowser(word);
+    });
+  }
+  speakWithBrowser(word);
+  return Promise.resolve();
+}
+
+export function hasSentenceAudio(text: string, sentenceId?: number): Promise<boolean> {
+  return Promise.resolve(!!sentenceId);
+}
+
+export function speakText(text: string, sentenceId?: number): Promise<void> {
+  if (typeof window === "undefined") return Promise.resolve();
+  stop();
+  
+  if (sentenceId) {
+    return playMp3(`/audio/sentences/${sentenceId}.mp3`).catch(() => {
+      speakWithBrowser(text);
+    });
+  }
+
+  const trimmed = text.trim();
+  const words = trimmed.split(/\s+/).filter(Boolean);
+  if (words.length === 1) {
+    const normalized = words[0].toLowerCase().replace(/^[("'[]+|[)"'\],.!?;:]+$/g, "");
+    if (CORE_WORDS.has(normalized)) {
+      return playMp3(audioUrl(normalized)).catch(() => {
+        speakWithBrowser(trimmed);
+      });
     }
-  } catch {
-    /* fall through */
   }
-  await speakWithBrowser(word);
-}
 
-/** 整句朗读（练习模块用）—— 句子级 MP3 优先，fallback 浏览器 TTS */
-const sentenceAudioCache = new Map<string, boolean>();
-
-function sentenceSlug(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80) || "s";
-}
-
-export async function hasSentenceAudio(text: string, sentenceId?: number): Promise<boolean> {
-  const key = sentenceId ? String(sentenceId) : sentenceSlug(text);
-  if (sentenceAudioCache.has(key)) return sentenceAudioCache.get(key)!;
-  if (typeof window === "undefined") return false;
-  try {
-    const res = await fetch(`/audio/sentences/${key}.mp3`, { method: "HEAD" });
-    const ok = res.ok;
-    sentenceAudioCache.set(key, ok);
-    return ok;
-  } catch {
-    sentenceAudioCache.set(key, false);
-    return false;
-  }
-}
-
-export async function speakText(text: string, sentenceId?: number): Promise<void> {
-  if (typeof window === "undefined") return;
-  stop();
-  // 优先句子级 MP3（用ID查，fallback用slug）
-  const key = sentenceId ? String(sentenceId) : sentenceSlug(text);
-  if (await hasSentenceAudio(text, sentenceId)) {
-    try { await playMp3(`/audio/sentences/${key}.mp3`); return; } catch { /* fall through */ }
-  }
-  // 单个词优先 Sonia 单词 MP3；句子整句走浏览器英式 TTS（禁止拆词拼读）
-  const words = text.split(/\s+/).filter(Boolean);
-  if (words.length === 1 && (await hasSoniaAudio(text))) {
-    try { await playMp3(audioUrl(text)); return; } catch { /* fall through */ }
-  }
-  await speakWithBrowser(text);
+  speakWithBrowser(trimmed);
+  return Promise.resolve();
 }
 
 export { VOICE_ID };

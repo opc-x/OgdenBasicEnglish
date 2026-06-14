@@ -5,12 +5,6 @@
 
 ---
 
-## 核心物理概念图解 (Spatial Movement Model)
-
-![18 Operators Spatial Concept Chart](/assets/operators_spatial_concept.png)
-
----
-
 ## 18 个动词的 8 类物理手势与空间矢量
 
 ### 1. 空间位移 (Movement)

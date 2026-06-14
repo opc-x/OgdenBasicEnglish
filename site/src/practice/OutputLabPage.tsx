@@ -161,6 +161,22 @@ export default function OutputLabPage() {
         </p>
       </header>
 
+      <div style={{
+        background: "rgba(245,158,11,0.06)",
+        border: "1px solid rgba(245,158,11,0.25)",
+        borderRadius: "8px",
+        padding: "0.6rem 0.8rem",
+        fontSize: "0.78rem",
+        color: "var(--accent-warm)",
+        marginBottom: "1rem",
+        display: "flex",
+        alignItems: "center",
+        gap: "0.4rem"
+      }}>
+        <span>💡</span>
+        <span>苹果手机提示：如果您的 iPhone 处于物理静音模式，播放自定义输入或改写句子的浏览器发音（TTS）时可能会无声，请关闭手机侧面的静音开关。</span>
+      </div>
+
       <div className="lab-tabs" role="tablist">
         {TABS.map((t) => (
           <button
